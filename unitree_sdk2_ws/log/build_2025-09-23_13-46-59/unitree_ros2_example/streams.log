@@ -1,0 +1,174 @@
+[0.011s] Invoking command in '/home/jason/projects/unitree_sdk2_ws/build/unitree_ros2_example': AMENT_PREFIX_PATH=/home/jason/projects/unitree_sdk2_ws/install/unitree_hg:/home/jason/projects/unitree_sdk2_ws/install/unitree_go:/home/jason/projects/unitree_sdk2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jason/projects/unitree_sdk2_ws/install/unitree_hg:/home/jason/projects/unitree_sdk2_ws/install/unitree_go:/home/jason/projects/unitree_sdk2_ws/install/unitree_api:/home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2:/home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example:/opt/ros/humble LD_LIBRARY_PATH=/home/jason/projects/unitree_sdk2_ws/install/unitree_hg/lib:/home/jason/projects/unitree_sdk2_ws/install/unitree_go/lib:/home/jason/projects/unitree_sdk2_ws/install/unitree_api/lib:/home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/jason/projects/unitree_sdk2_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/jason/projects/unitree_sdk2_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/jason/projects/unitree_sdk2_ws/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jason/projects/unitree_sdk2_ws/unitree_ros2/example/src -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example
+[0.150s] -- The C compiler identification is GNU 11.4.0
+[0.228s] -- The CXX compiler identification is GNU 11.4.0
+[0.236s] -- Detecting C compiler ABI info
+[0.296s] -- Detecting C compiler ABI info - done
+[0.305s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.305s] -- Detecting C compile features
+[0.306s] -- Detecting C compile features - done
+[0.310s] -- Detecting CXX compiler ABI info
+[0.384s] -- Detecting CXX compiler ABI info - done
+[0.389s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.389s] -- Detecting CXX compile features
+[0.389s] -- Detecting CXX compile features - done
+[0.390s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.516s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.559s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.571s] -- Found unitree_go: 0.0.0 (/home/jason/projects/unitree_sdk2_ws/install/unitree_go/share/unitree_go/cmake)
+[0.588s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.590s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.592s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.597s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.604s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.626s] -- Found unitree_hg: 0.0.0 (/home/jason/projects/unitree_sdk2_ws/install/unitree_hg/share/unitree_hg/cmake)
+[0.632s] -- Found unitree_api: 0.0.0 (/home/jason/projects/unitree_sdk2_ws/install/unitree_api/share/unitree_api/cmake)
+[0.645s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.670s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.672s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.740s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.756s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.775s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.780s] -- Looking for pthread.h
+[0.863s] -- Looking for pthread.h - found
+[0.863s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.943s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.945s] -- Found Threads: TRUE  
+[0.986s] -- Found rosbag2_cpp: 0.15.15 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[1.027s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.106s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.108s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.109s] -- Configured cppcheck include dirs: /home/jason/projects/unitree_sdk2_ws/unitree_ros2/example/src/include;/home/jason/projects/unitree_sdk2_ws/unitree_ros2/example/src/include/common;/home/jason/projects/unitree_sdk2_ws/unitree_ros2/example/src/include/nlohmann
+[1.109s] -- Configured cppcheck exclude dirs and/or files: 
+[1.111s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.111s] -- Configured cpplint exclude dirs and/or files: 
+[1.112s] -- Added test 'lint_cmake' to check CMake code style
+[1.113s] -- Added test 'uncrustify' to check C / C++ code style
+[1.113s] -- Configured uncrustify additional arguments: 
+[1.113s] -- Added test 'xmllint' to check XML markup files
+[1.114s] -- Configuring done
+[1.154s] -- Generating done
+[1.166s] -- Build files have been written to: /home/jason/projects/unitree_sdk2_ws/build/unitree_ros2_example
+[1.173s] Invoked command in '/home/jason/projects/unitree_sdk2_ws/build/unitree_ros2_example' returned '0': AMENT_PREFIX_PATH=/home/jason/projects/unitree_sdk2_ws/install/unitree_hg:/home/jason/projects/unitree_sdk2_ws/install/unitree_go:/home/jason/projects/unitree_sdk2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jason/projects/unitree_sdk2_ws/install/unitree_hg:/home/jason/projects/unitree_sdk2_ws/install/unitree_go:/home/jason/projects/unitree_sdk2_ws/install/unitree_api:/home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2:/home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example:/opt/ros/humble LD_LIBRARY_PATH=/home/jason/projects/unitree_sdk2_ws/install/unitree_hg/lib:/home/jason/projects/unitree_sdk2_ws/install/unitree_go/lib:/home/jason/projects/unitree_sdk2_ws/install/unitree_api/lib:/home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/jason/projects/unitree_sdk2_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/jason/projects/unitree_sdk2_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/jason/projects/unitree_sdk2_ws/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jason/projects/unitree_sdk2_ws/unitree_ros2/example/src -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example
+[1.174s] Invoking command in '/home/jason/projects/unitree_sdk2_ws/build/unitree_ros2_example': AMENT_PREFIX_PATH=/home/jason/projects/unitree_sdk2_ws/install/unitree_hg:/home/jason/projects/unitree_sdk2_ws/install/unitree_go:/home/jason/projects/unitree_sdk2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jason/projects/unitree_sdk2_ws/install/unitree_hg:/home/jason/projects/unitree_sdk2_ws/install/unitree_go:/home/jason/projects/unitree_sdk2_ws/install/unitree_api:/home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2:/home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example:/opt/ros/humble LD_LIBRARY_PATH=/home/jason/projects/unitree_sdk2_ws/install/unitree_hg/lib:/home/jason/projects/unitree_sdk2_ws/install/unitree_go/lib:/home/jason/projects/unitree_sdk2_ws/install/unitree_api/lib:/home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/jason/projects/unitree_sdk2_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/jason/projects/unitree_sdk2_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/jason/projects/unitree_sdk2_ws/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jason/projects/unitree_sdk2_ws/build/unitree_ros2_example -- -j16 -l16
+[1.225s] [  2%] [32mBuilding CXX object CMakeFiles/low_level_ctrl_hg.dir/src/h1-2/lowlevel/low_level_ctrl_hg.cpp.o[0m
+[1.225s] [  4%] [32mBuilding CXX object CMakeFiles/read_wireless_controller.dir/src/read_wireless_controller.cpp.o[0m
+[1.227s] [  6%] [32mBuilding CXX object CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.o[0m
+[1.228s] [  8%] [32mBuilding CXX object CMakeFiles/go2_robot_state_client.dir/src/go2/go2_robot_state_client.cpp.o[0m
+[1.228s] [ 10%] [32mBuilding CXX object CMakeFiles/read_low_state_hg.dir/src/read_low_state_hg.cpp.o[0m
+[1.228s] [ 13%] [32mBuilding CXX object CMakeFiles/go2_stand_example.dir/src/go2/go2_stand_example.cpp.o[0m
+[1.229s] [ 15%] [32mBuilding CXX object CMakeFiles/g1_dual_arm_example.dir/src/g1/lowlevel/g1_dual_arm_example.cpp.o[0m
+[1.229s] [ 17%] [32mBuilding CXX object CMakeFiles/low_level_ctrl.dir/src/low_level_ctrl.cpp.o[0m
+[1.229s] [ 19%] [32mBuilding CXX object CMakeFiles/g1_arm_action_example.dir/src/g1/high_level/g1_arm_action_example.cpp.o[0m
+[1.231s] [ 21%] [32mBuilding CXX object CMakeFiles/g1_loco_client_example.dir/src/g1/high_level/loco_client_example.cpp.o[0m
+[1.234s] [ 23%] [32mBuilding CXX object CMakeFiles/g1_ankle_swing_example.dir/src/g1/lowlevel/g1_ankle_swing_example.cpp.o[0m
+[1.234s] [ 26%] [32mBuilding CXX object CMakeFiles/go2_sport_client.dir/src/go2/go2_sport_client.cpp.o[0m
+[1.234s] [ 28%] [32mBuilding CXX object CMakeFiles/g1_arm_sdk_dds_example.dir/src/g1/high_level/g1_arm_sdk_dds_example.cpp.o[0m
+[1.234s] [ 30%] [32mBuilding CXX object CMakeFiles/read_motion_state.dir/src/read_motion_state.cpp.o[0m
+[1.235s] [ 32%] [32mBuilding CXX object CMakeFiles/g1_dex3_example.dir/src/g1/dex3/g1_dex3_example.cpp.o[0m
+[1.241s] [ 34%] [32mBuilding CXX object CMakeFiles/read_low_state.dir/src/read_low_state.cpp.o[0m
+[1.300s] In file included from [01m[K/home/jason/projects/unitree_sdk2_ws/unitree_ros2/example/src/src/g1/high_level/g1_arm_action_example.cpp:11[m[K:
+[1.300s] [01m[K/home/jason/projects/unitree_sdk2_ws/unitree_ros2/example/src/include/common/ut_errror.hpp:13:59:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+[1.300s]    13 | #define UT_PRINT_ERR(code, error)                         \
+[1.300s]       |                                                            
+[1.440s] In file included from [01m[K/home/jason/projects/unitree_sdk2_ws/unitree_ros2/example/src/include/common/base_client.hpp:11[m[K,
+[1.440s]                  from [01m[K/home/jason/projects/unitree_sdk2_ws/unitree_ros2/example/src/include/g1/g1_loco_client.hpp:10[m[K,
+[1.440s]                  from [01m[K/home/jason/projects/unitree_sdk2_ws/unitree_ros2/example/src/src/g1/high_level/loco_client_example.cpp:3[m[K:
+[1.440s] [01m[K/home/jason/projects/unitree_sdk2_ws/unitree_ros2/example/src/include/common/ut_errror.hpp:13:59:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+[1.440s]    13 | #define UT_PRINT_ERR(code, error)                         \
+[1.440s]       |                                                            
+[1.447s] In file included from [01m[K/home/jason/projects/unitree_sdk2_ws/unitree_ros2/example/src/include/common/base_client.hpp:11[m[K,
+[1.447s]                  from [01m[K/home/jason/projects/unitree_sdk2_ws/unitree_ros2/example/src/include/g1/g1_motion_switch_client.hpp:11[m[K,
+[1.447s]                  from [01m[K/home/jason/projects/unitree_sdk2_ws/unitree_ros2/example/src/src/g1/lowlevel/g1_dual_arm_example.cpp:18[m[K:
+[1.447s] [01m[K/home/jason/projects/unitree_sdk2_ws/unitree_ros2/example/src/include/common/ut_errror.hpp:13:59:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+[1.447s]    13 | #define UT_PRINT_ERR(code, error)                         \
+[1.447s]       |                                                            
+[6.214s] [ 36%] [32m[1mLinking CXX executable read_wireless_controller[0m
+[6.282s] [ 39%] [32m[1mLinking CXX executable read_motion_state[0m
+[6.377s] [ 41%] [32m[1mLinking CXX executable read_low_state[0m
+[6.507s] [ 43%] [32mBuilding CXX object CMakeFiles/low_level_ctrl_hg.dir/src/common/motor_crc_hg.cpp.o[0m
+[6.653s] [ 43%] Built target read_low_state
+[6.670s] [ 45%] [32mBuilding CXX object CMakeFiles/g1_audio_client_example.dir/src/g1/audio_client/g1_audio_client_example.cpp.o[0m
+[6.736s] [ 45%] Built target read_wireless_controller
+[6.750s] [ 47%] [32mBuilding CXX object CMakeFiles/go2_sport_client.dir/src/common/ros2_sport_client.cpp.o[0m
+[6.926s] In file included from [01m[K/home/jason/projects/unitree_sdk2_ws/unitree_ros2/example/src/include/common/base_client.hpp:11[m[K,
+[6.926s]                  from [01m[K/home/jason/projects/unitree_sdk2_ws/unitree_ros2/example/src/include/g1/g1_audio_client.hpp:6[m[K,
+[6.926s]                  from [01m[K/home/jason/projects/unitree_sdk2_ws/unitree_ros2/example/src/src/g1/audio_client/g1_audio_client_example.cpp:11[m[K:
+[6.926s] [01m[K/home/jason/projects/unitree_sdk2_ws/unitree_ros2/example/src/include/common/ut_errror.hpp:13:59:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+[6.926s]    13 | #define UT_PRINT_ERR(code, error)                         \
+[6.926s]       |                                                            
+[6.989s] [ 47%] Built target read_motion_state
+[7.003s] [ 50%] [32mBuilding CXX object CMakeFiles/g1_arm_action_example.dir/src/common/motor_crc.cpp.o[0m
+[7.257s] [ 52%] [32mBuilding CXX object CMakeFiles/low_level_ctrl.dir/src/common/motor_crc.cpp.o[0m
+[7.396s] [ 54%] [32mBuilding CXX object CMakeFiles/g1_loco_client_example.dir/src/common/motor_crc.cpp.o[0m
+[7.622s] [ 56%] [32mBuilding CXX object CMakeFiles/g1_dex3_example.dir/src/common/motor_crc.cpp.o[0m
+[8.008s] [ 58%] [32m[1mLinking CXX executable read_low_state_hg[0m
+[8.057s] [ 60%] [32mBuilding CXX object CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.o[0m
+[8.435s] [ 63%] [32mBuilding CXX object CMakeFiles/g1_arm_sdk_dds_example.dir/src/common/motor_crc.cpp.o[0m
+[8.606s] [ 65%] [32mBuilding CXX object CMakeFiles/go2_stand_example.dir/src/common/motor_crc.cpp.o[0m
+[8.820s] [ 65%] Built target read_low_state_hg
+[8.833s] [ 67%] [32mBuilding CXX object CMakeFiles/g1_ankle_swing_example.dir/src/common/motor_crc_hg.cpp.o[0m
+[8.917s] [ 69%] [32m[1mLinking CXX executable low_level_ctrl_hg[0m
+[9.147s] [ 71%] [32m[1mLinking CXX executable low_level_ctrl[0m
+[9.265s] [ 71%] Built target low_level_ctrl
+[9.274s] [ 73%] [32mBuilding CXX object CMakeFiles/go2_robot_state_client.dir/src/common/motor_crc.cpp.o[0m
+[9.287s] [ 76%] [32mBuilding CXX object CMakeFiles/g1_dual_arm_example.dir/src/common/motor_crc_hg.cpp.o[0m
+[9.601s] [ 78%] [32m[1mLinking CXX executable g1_loco_client_example[0m
+[9.733s] [ 80%] [32m[1mLinking CXX executable g1_dex3_example[0m
+[9.798s] [ 80%] Built target low_level_ctrl_hg
+[9.896s] [ 80%] Built target g1_loco_client_example
+[10.093s] [ 80%] Built target g1_dex3_example
+[10.111s] [ 82%] [32m[1mLinking CXX executable g1_low_level_example[0m
+[10.360s] [ 84%] [32m[1mLinking CXX executable g1_arm_action_example[0m
+[10.423s] [ 84%] Built target g1_low_level_example
+[10.708s] [ 84%] Built target g1_arm_action_example
+[10.730s] [ 86%] [32m[1mLinking CXX executable g1_arm_sdk_dds_example[0m
+[10.931s] [ 89%] [32m[1mLinking CXX executable go2_stand_example[0m
+[10.987s] [ 89%] Built target g1_arm_sdk_dds_example
+[11.190s] [ 91%] [32m[1mLinking CXX executable g1_ankle_swing_example[0m
+[11.190s] [ 91%] Built target go2_stand_example
+[11.297s] [ 93%] [32m[1mLinking CXX executable go2_robot_state_client[0m
+[11.514s] [ 93%] Built target g1_ankle_swing_example
+[11.572s] [ 93%] Built target go2_robot_state_client
+[13.364s] [ 95%] [32m[1mLinking CXX executable g1_dual_arm_example[0m
+[13.364s] [ 97%] [32m[1mLinking CXX executable g1_audio_client_example[0m
+[13.646s] [ 97%] Built target g1_audio_client_example
+[13.749s] [ 97%] Built target g1_dual_arm_example
+[13.853s] [100%] [32m[1mLinking CXX executable go2_sport_client[0m
+[14.201s] [100%] Built target go2_sport_client
+[14.210s] Invoked command in '/home/jason/projects/unitree_sdk2_ws/build/unitree_ros2_example' returned '0': AMENT_PREFIX_PATH=/home/jason/projects/unitree_sdk2_ws/install/unitree_hg:/home/jason/projects/unitree_sdk2_ws/install/unitree_go:/home/jason/projects/unitree_sdk2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jason/projects/unitree_sdk2_ws/install/unitree_hg:/home/jason/projects/unitree_sdk2_ws/install/unitree_go:/home/jason/projects/unitree_sdk2_ws/install/unitree_api:/home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2:/home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example:/opt/ros/humble LD_LIBRARY_PATH=/home/jason/projects/unitree_sdk2_ws/install/unitree_hg/lib:/home/jason/projects/unitree_sdk2_ws/install/unitree_go/lib:/home/jason/projects/unitree_sdk2_ws/install/unitree_api/lib:/home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/jason/projects/unitree_sdk2_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/jason/projects/unitree_sdk2_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/jason/projects/unitree_sdk2_ws/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jason/projects/unitree_sdk2_ws/build/unitree_ros2_example -- -j16 -l16
+[14.211s] Invoking command in '/home/jason/projects/unitree_sdk2_ws/build/unitree_ros2_example': AMENT_PREFIX_PATH=/home/jason/projects/unitree_sdk2_ws/install/unitree_hg:/home/jason/projects/unitree_sdk2_ws/install/unitree_go:/home/jason/projects/unitree_sdk2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jason/projects/unitree_sdk2_ws/install/unitree_hg:/home/jason/projects/unitree_sdk2_ws/install/unitree_go:/home/jason/projects/unitree_sdk2_ws/install/unitree_api:/home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2:/home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example:/opt/ros/humble LD_LIBRARY_PATH=/home/jason/projects/unitree_sdk2_ws/install/unitree_hg/lib:/home/jason/projects/unitree_sdk2_ws/install/unitree_go/lib:/home/jason/projects/unitree_sdk2_ws/install/unitree_api/lib:/home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/jason/projects/unitree_sdk2_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/jason/projects/unitree_sdk2_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/jason/projects/unitree_sdk2_ws/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jason/projects/unitree_sdk2_ws/build/unitree_ros2_example
+[14.217s] -- Install configuration: ""
+[14.217s] -- Execute custom install script
+[14.218s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example//low_level_ctrl
+[14.228s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example//low_level_ctrl_hg
+[14.237s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example//g1_low_level_example
+[14.242s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example//read_low_state
+[14.252s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example//read_low_state_hg
+[14.260s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example//read_motion_state
+[14.269s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example//read_wireless_controller
+[14.277s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example//go2_sport_client
+[14.286s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example//go2_stand_example
+[14.295s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example//go2_robot_state_client
+[14.301s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example//g1_arm_sdk_dds_example
+[14.309s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example//g1_arm_action_example
+[14.317s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example//g1_dex3_example
+[14.329s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example//g1_loco_client_example
+[14.339s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example//g1_ankle_swing_example
+[14.348s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example//g1_dual_arm_example
+[14.353s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example//g1_audio_client_example
+[14.360s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example/share/ament_index/resource_index/package_run_dependencies/unitree_ros2_example
+[14.370s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example/share/ament_index/resource_index/parent_prefix_path/unitree_ros2_example
+[14.379s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example/share/unitree_ros2_example/environment/ament_prefix_path.sh
+[14.387s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example/share/unitree_ros2_example/environment/ament_prefix_path.dsv
+[14.400s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example/share/unitree_ros2_example/environment/path.sh
+[14.412s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example/share/unitree_ros2_example/environment/path.dsv
+[14.425s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.bash
+[14.434s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.sh
+[14.445s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.zsh
+[14.454s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.dsv
+[14.459s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example/share/unitree_ros2_example/package.dsv
+[14.468s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example/share/ament_index/resource_index/packages/unitree_ros2_example
+[14.477s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example/share/unitree_ros2_example/cmake/unitree_ros2_exampleConfig.cmake
+[14.485s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example/share/unitree_ros2_example/cmake/unitree_ros2_exampleConfig-version.cmake
+[14.494s] -- Symlinking: /home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example/share/unitree_ros2_example/package.xml
+[14.503s] Invoked command in '/home/jason/projects/unitree_sdk2_ws/build/unitree_ros2_example' returned '0': AMENT_PREFIX_PATH=/home/jason/projects/unitree_sdk2_ws/install/unitree_hg:/home/jason/projects/unitree_sdk2_ws/install/unitree_go:/home/jason/projects/unitree_sdk2_ws/install/unitree_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jason/projects/unitree_sdk2_ws/install/unitree_hg:/home/jason/projects/unitree_sdk2_ws/install/unitree_go:/home/jason/projects/unitree_sdk2_ws/install/unitree_api:/home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2:/home/jason/projects/unitree_sdk2_ws/install/unitree_ros2_example:/opt/ros/humble LD_LIBRARY_PATH=/home/jason/projects/unitree_sdk2_ws/install/unitree_hg/lib:/home/jason/projects/unitree_sdk2_ws/install/unitree_go/lib:/home/jason/projects/unitree_sdk2_ws/install/unitree_api/lib:/home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/jason/projects/unitree_sdk2_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/jason/projects/unitree_sdk2_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/jason/projects/unitree_sdk2_ws/install/unitree_api/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jason/projects/unitree_sdk2_ws/build/unitree_ros2_example

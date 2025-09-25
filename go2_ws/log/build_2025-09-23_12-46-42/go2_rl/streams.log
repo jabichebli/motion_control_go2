@@ -1,0 +1,33 @@
+[0.442s] Invoking command in '/home/jason/go2_ws/src/go2_rl': PYTHONPATH=/home/jason/go2_ws/build/go2_rl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jason/go2_ws/install/go2_rl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_rl build --build-base /home/jason/go2_ws/build/go2_rl/build install --record /home/jason/go2_ws/build/go2_rl/install.log --single-version-externally-managed install_data
+[0.536s] running egg_info
+[0.537s] creating ../../build/go2_rl/go2_rl.egg-info
+[0.537s] writing ../../build/go2_rl/go2_rl.egg-info/PKG-INFO
+[0.537s] writing dependency_links to ../../build/go2_rl/go2_rl.egg-info/dependency_links.txt
+[0.537s] writing entry points to ../../build/go2_rl/go2_rl.egg-info/entry_points.txt
+[0.537s] writing requirements to ../../build/go2_rl/go2_rl.egg-info/requires.txt
+[0.537s] writing top-level names to ../../build/go2_rl/go2_rl.egg-info/top_level.txt
+[0.537s] writing manifest file '../../build/go2_rl/go2_rl.egg-info/SOURCES.txt'
+[0.537s] reading manifest file '../../build/go2_rl/go2_rl.egg-info/SOURCES.txt'
+[0.538s] writing manifest file '../../build/go2_rl/go2_rl.egg-info/SOURCES.txt'
+[0.538s] running build
+[0.538s] running build_py
+[0.538s] creating /home/jason/go2_ws/build/go2_rl/build
+[0.538s] creating /home/jason/go2_ws/build/go2_rl/build/lib
+[0.538s] creating /home/jason/go2_ws/build/go2_rl/build/lib/go2_rl
+[0.538s] copying go2_rl/__init__.py -> /home/jason/go2_ws/build/go2_rl/build/lib/go2_rl
+[0.538s] running install
+[0.538s] running install_lib
+[0.538s] creating /home/jason/go2_ws/install/go2_rl/lib/python3.10/site-packages/go2_rl
+[0.538s] copying /home/jason/go2_ws/build/go2_rl/build/lib/go2_rl/__init__.py -> /home/jason/go2_ws/install/go2_rl/lib/python3.10/site-packages/go2_rl
+[0.539s] byte-compiling /home/jason/go2_ws/install/go2_rl/lib/python3.10/site-packages/go2_rl/__init__.py to __init__.cpython-310.pyc
+[0.539s] running install_data
+[0.539s] creating /home/jason/go2_ws/install/go2_rl/share/ament_index
+[0.539s] creating /home/jason/go2_ws/install/go2_rl/share/ament_index/resource_index
+[0.539s] creating /home/jason/go2_ws/install/go2_rl/share/ament_index/resource_index/packages
+[0.539s] copying resource/go2_rl -> /home/jason/go2_ws/install/go2_rl/share/ament_index/resource_index/packages
+[0.539s] copying package.xml -> /home/jason/go2_ws/install/go2_rl/share/go2_rl
+[0.539s] running install_egg_info
+[0.540s] Copying ../../build/go2_rl/go2_rl.egg-info to /home/jason/go2_ws/install/go2_rl/lib/python3.10/site-packages/go2_rl-0.0.0-py3.10.egg-info
+[0.540s] running install_scripts
+[0.550s] writing list of installed files to '/home/jason/go2_ws/build/go2_rl/install.log'
+[0.560s] Invoked command in '/home/jason/go2_ws/src/go2_rl' returned '0': PYTHONPATH=/home/jason/go2_ws/build/go2_rl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jason/go2_ws/install/go2_rl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_rl build --build-base /home/jason/go2_ws/build/go2_rl/build install --record /home/jason/go2_ws/build/go2_rl/install.log --single-version-externally-managed install_data

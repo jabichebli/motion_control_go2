@@ -1,0 +1,1 @@
+/home/jason/projects/unitree_sdk2_ws/build/unitree_go/rosidl_generator_c/unitree_go/msg/detail/res__type_support.h

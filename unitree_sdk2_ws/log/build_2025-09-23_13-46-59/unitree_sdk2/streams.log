@@ -1,0 +1,982 @@
+[0.009s] Invoking command in '/home/jason/projects/unitree_sdk2_ws/build/unitree_sdk2': /usr/bin/cmake /home/jason/projects/unitree_sdk2_ws/unitree_sdk2 -DCMAKE_INSTALL_PREFIX=/home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2
+[0.055s] -- The C compiler identification is GNU 11.4.0
+[0.109s] -- The CXX compiler identification is GNU 11.4.0
+[0.112s] -- Detecting C compiler ABI info
+[0.162s] -- Detecting C compiler ABI info - done
+[0.167s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.167s] -- Detecting C compile features
+[0.168s] -- Detecting C compile features - done
+[0.170s] -- Detecting CXX compiler ABI info
+[0.256s] -- Detecting CXX compiler ABI info - done
+[0.264s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.265s] -- Detecting CXX compile features
+[0.265s] -- Detecting CXX compile features - done
+[0.266s] -- Setting build type to 'Release' as none was specified.
+[0.276s] -- Current system architecture: x86_64
+[0.278s] -- Looking for pthread.h
+[0.340s] -- Looking for pthread.h - found
+[0.341s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.388s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.389s] -- Found Threads: TRUE  
+[0.389s] -- Importing: /home/jason/projects/unitree_sdk2_ws/unitree_sdk2/thirdparty/lib/x86_64/libddsc.so
+[0.389s] -- Importing: /home/jason/projects/unitree_sdk2_ws/unitree_sdk2/thirdparty/lib/x86_64/libddscxx.so
+[0.390s] -- Unitree SDK library found at: /home/jason/projects/unitree_sdk2_ws/unitree_sdk2/lib/x86_64/libunitree_sdk2.a
+[0.390s] -- Importing: /home/jason/projects/unitree_sdk2_ws/unitree_sdk2/lib/x86_64/libunitree_sdk2.a
+[0.402s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options 
+[0.404s] -- Found yaml-cpp version 0.7.0
+[0.405s] -- Configuring done
+[0.422s] -- Generating done
+[0.427s] -- Build files have been written to: /home/jason/projects/unitree_sdk2_ws/build/unitree_sdk2
+[0.431s] Invoked command in '/home/jason/projects/unitree_sdk2_ws/build/unitree_sdk2' returned '0': /usr/bin/cmake /home/jason/projects/unitree_sdk2_ws/unitree_sdk2 -DCMAKE_INSTALL_PREFIX=/home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2
+[0.433s] Invoking command in '/home/jason/projects/unitree_sdk2_ws/build/unitree_sdk2': /usr/bin/cmake --build /home/jason/projects/unitree_sdk2_ws/build/unitree_sdk2 -- -j16 -l16
+[0.466s] [  3%] [32mBuilding CXX object example/state_machine/CMakeFiles/state_machine_example.dir/main.cpp.o[0m
+[0.467s] [  3%] [32mBuilding CXX object example/helloworld/CMakeFiles/test_publisher.dir/publisher.cpp.o[0m
+[0.467s] [  4%] [32mBuilding CXX object example/jsonize/CMakeFiles/test_jsonize.dir/test_jsonize.cpp.o[0m
+[0.467s] [  6%] [32mBuilding CXX object example/go2/CMakeFiles/go2_low_level.dir/go2_low_level.cpp.o[0m
+[0.468s] [  9%] [32mBuilding CXX object example/b2/CMakeFiles/b2_sport_client.dir/b2_sport_client.cpp.o[0m
+[0.469s] [  9%] [32mBuilding CXX object example/go2/CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.o[0m
+[0.469s] [ 12%] [32mBuilding CXX object example/helloworld/CMakeFiles/test_subscriber.dir/subscriber.cpp.o[0m
+[0.469s] [ 10%] [32mBuilding CXX object example/go2/CMakeFiles/go2_sport_client.dir/go2_sport_client.cpp.o[0m
+[0.469s] [ 13%] [32mBuilding CXX object example/go2/CMakeFiles/go2_video_client.dir/go2_video_client.cpp.o[0m
+[0.469s] [ 15%] [32mBuilding CXX object example/go2/CMakeFiles/go2_vui_client.dir/go2_vui_client.cpp.o[0m
+[0.472s] [ 16%] [32mBuilding CXX object example/h1/CMakeFiles/h1_low_level_example.dir/low_level/humanoid.cpp.o[0m
+[0.472s] [ 18%] [32mBuilding CXX object example/h1/CMakeFiles/h1_loco_client.dir/high_level/h1_loco_client_example.cpp.o[0m
+[0.472s] [ 19%] [32mBuilding CXX object example/b2/CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.o[0m
+[0.473s] [ 21%] [32mBuilding CXX object example/h1/CMakeFiles/h1_27dof_example.dir/low_level/h1_27dof_example.cpp.o[0m
+[0.475s] [ 22%] [32mBuilding CXX object example/go2/CMakeFiles/go2_stand_example.dir/go2_stand_example.cpp.o[0m
+[0.475s] [ 24%] [32mBuilding CXX object example/wireless_controller/CMakeFiles/advanced_gamepad.dir/main.cpp.o[0m
+[1.268s] [ 25%] [32m[1mLinking CXX executable ../../bin/test_jsonize[0m
+[1.518s] [ 27%] [32m[1mLinking CXX executable ../../bin/b2_sport_client[0m
+[1.578s] [ 28%] [32m[1mLinking CXX executable ../../bin/go2_robot_state_client[0m
+[1.617s] [ 28%] Built target test_jsonize
+[1.638s] [ 30%] [32mBuilding CXX object example/h1/CMakeFiles/h1_2_ankle_track.dir/low_level/h1_2_ankle_track.cpp.o[0m
+[1.793s] [ 31%] [32m[1mLinking CXX executable ../../bin/go2_video_client[0m
+[2.004s] [ 33%] [32m[1mLinking CXX executable ../../bin/h1_loco_client[0m
+[2.046s] [ 33%] Built target go2_robot_state_client
+[2.080s] [ 33%] Built target b2_sport_client
+[2.122s] [ 34%] [32mBuilding CXX object example/h1/CMakeFiles/h1_arm_sdk_dds_example.dir/high_level/h1_arm_sdk_dds_example.cpp.o[0m
+[2.130s] [ 36%] [32mBuilding CXX object example/h1/CMakeFiles/h1_2_arm_sdk_dds_example.dir/high_level/h1_2_arm_sdk_dds_example.cpp.o[0m
+[2.238s] [ 36%] Built target h1_loco_client
+[2.276s] [ 37%] [32mBuilding CXX object example/g1/CMakeFiles/g1_loco_client.dir/high_level/g1_loco_client_example.cpp.o[0m
+[2.309s] [ 37%] Built target go2_video_client
+[2.358s] [ 39%] [32mBuilding CXX object example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/high_level/g1_arm5_sdk_dds_example.cpp.o[0m
+[2.477s] [ 40%] [32m[1mLinking CXX executable ../../bin/go2_vui_client[0m
+[3.190s] [ 42%] [32mBuilding CXX object example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.o[0m
+[3.247s] [ 42%] Built target go2_vui_client
+[3.303s] [ 43%] [32mBuilding CXX object example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/high_level/g1_arm7_sdk_dds_example.cpp.o[0m
+[3.486s] [ 45%] [32m[1mLinking CXX executable ../../bin/advanced_gamepad[0m
+[4.324s] [ 45%] Built target advanced_gamepad
+[4.384s] [ 46%] [32mBuilding CXX object example/g1/CMakeFiles/g1_arm_action_example.dir/high_level/g1_arm_action_example.cpp.o[0m
+[4.464s] [ 48%] [32m[1mLinking CXX executable ../../bin/test_publisher[0m
+[4.995s] [ 48%] Built target test_publisher
+[5.027s] [ 50%] [32mBuilding CXX object example/g1/CMakeFiles/g1_ankle_swing_example.dir/low_level/g1_ankle_swing_example.cpp.o[0m
+[5.108s] [ 51%] [32mBuilding CXX object example/helloworld/CMakeFiles/test_subscriber.dir/HelloWorldData.cpp.o[0m
+[6.539s] [ 53%] [32m[1mLinking CXX executable ../../bin/test_subscriber[0m
+[6.753s] [ 54%] [32m[1mLinking CXX executable ../../bin/g1_arm_action_example[0m
+[6.876s] [ 54%] Built target test_subscriber
+[6.918s] [ 56%] [32mBuilding CXX object example/g1/CMakeFiles/g1_audio_client_example.dir/audio/g1_audio_client_example.cpp.o[0m
+[7.180s] [ 56%] Built target g1_arm_action_example
+[7.207s] [ 57%] [32mBuilding CXX object example/g1/CMakeFiles/g1_dex3_example.dir/dex3/g1_dex3_example.cpp.o[0m
+[7.598s] [ 59%] [32m[1mLinking CXX executable ../../bin/h1_27dof_example[0m
+[8.080s] [ 60%] [32m[1mLinking CXX executable ../../bin/go2_stand_example[0m
+[8.083s] [ 60%] Built target h1_27dof_example
+[8.123s] [ 62%] [32mBuilding CXX object example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.o[0m
+[8.878s] [ 62%] Built target go2_stand_example
+[8.919s] [ 63%] [32mBuilding CXX object example/g1/CMakeFiles/g1_dual_arm_example.dir/low_level/g1_dual_arm_example.cpp.o[0m
+[9.280s] [ 65%] [32m[1mLinking CXX executable ../../bin/b2_stand_example[0m
+[9.562s] [ 66%] [32m[1mLinking CXX executable ../../bin/g1_loco_client[0m
+[9.876s] [ 66%] Built target b2_stand_example
+[9.911s] [ 68%] [32mBuilding CXX object example/go2w/CMakeFiles/go2w_sport_client.dir/go2w_sport_client.cpp.o[0m
+[9.926s] [ 69%] [32m[1mLinking CXX executable ../../bin/go2_sport_client[0m
+[10.120s] [ 69%] Built target g1_loco_client
+[10.162s] [ 71%] [32mBuilding CXX object example/go2w/CMakeFiles/go2w_stand_example.dir/go2w_stand_example.cpp.o[0m
+[10.841s] [ 71%] Built target go2_sport_client
+[10.893s] [ 72%] [32mBuilding CXX object example/b2w/CMakeFiles/b2w_sport_client.dir/b2w_sport_client.cpp.o[0m
+[11.610s] [ 74%] [32m[1mLinking CXX executable ../../bin/go2_low_level[0m
+[11.957s] [ 74%] Built target go2_low_level
+[11.995s] [ 75%] [32mBuilding CXX object example/b2w/CMakeFiles/b2w_stand_example.dir/b2w_stand_example.cpp.o[0m
+[12.306s] [ 77%] [32m[1mLinking CXX executable ../../bin/h1_2_arm_sdk_dds_example[0m
+[12.432s] [ 78%] [32m[1mLinking CXX executable ../../bin/h1_arm_sdk_dds_example[0m
+[12.484s] [ 80%] [32m[1mLinking CXX executable ../../bin/h1_2_ankle_track[0m
+[12.524s] [ 81%] [32m[1mLinking CXX executable ../../bin/g1_audio_client_example[0m
+[12.545s] [ 83%] [32m[1mLinking CXX executable ../../bin/g1_arm7_sdk_dds_example[0m
+[12.690s] [ 83%] Built target h1_arm_sdk_dds_example
+[12.729s] [ 83%] Built target h1_2_arm_sdk_dds_example
+[12.772s] [ 83%] Built target h1_2_ankle_track
+[12.910s] [ 83%] Built target g1_audio_client_example
+[12.913s] [ 86%] [32m[1mLinking CXX executable ../../bin/b2w_sport_client[0m
+[12.913s] [ 86%] [32m[1mLinking CXX executable ../../bin/g1_arm5_sdk_dds_example[0m
+[12.927s] [ 87%] [32m[1mLinking CXX executable ../../bin/state_machine_example[0m
+[12.929s] [ 87%] Built target g1_arm7_sdk_dds_example
+[13.084s] [ 89%] [32m[1mLinking CXX executable ../../bin/h1_low_level_example[0m
+[13.167s] [ 89%] Built target g1_arm5_sdk_dds_example
+[13.179s] [ 89%] Built target state_machine_example
+[13.262s] [ 89%] Built target b2w_sport_client
+[13.425s] [ 89%] Built target h1_low_level_example
+[13.999s] [ 90%] [32m[1mLinking CXX executable ../../bin/go2w_sport_client[0m
+[14.272s] [ 90%] Built target go2w_sport_client
+[14.706s] [ 92%] [32m[1mLinking CXX executable ../../bin/g1_termination[0m
+[14.960s] [ 92%] Built target g1_termination
+[15.282s] [ 93%] [32m[1mLinking CXX executable ../../bin/g1_ankle_swing_example[0m
+[15.291s] [ 95%] [32m[1mLinking CXX executable ../../bin/g1_dex3_example[0m
+[15.500s] [ 95%] Built target g1_ankle_swing_example
+[15.566s] [ 95%] Built target g1_dex3_example
+[15.851s] [ 96%] [32m[1mLinking CXX executable ../../bin/go2w_stand_example[0m
+[15.951s] [ 98%] [32m[1mLinking CXX executable ../../bin/g1_dual_arm_example[0m
+[16.065s] [ 98%] Built target go2w_stand_example
+[16.203s] [ 98%] Built target g1_dual_arm_example
+[16.408s] [100%] [32m[1mLinking CXX executable ../../bin/b2w_stand_example[0m
+[16.589s] [100%] Built target b2w_stand_example
+[16.682s] Invoked command in '/home/jason/projects/unitree_sdk2_ws/build/unitree_sdk2' returned '0': /usr/bin/cmake --build /home/jason/projects/unitree_sdk2_ws/build/unitree_sdk2 -- -j16 -l16
+[16.682s] Invoking command in '/home/jason/projects/unitree_sdk2_ws/build/unitree_sdk2': /usr/bin/cmake --install /home/jason/projects/unitree_sdk2_ws/build/unitree_sdk2
+[16.690s] -- Install configuration: "Release"
+[16.690s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include
+[16.690s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree
+[16.690s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl
+[16.690s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2
+[16.690s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Vector3_.hpp
+[16.690s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2/PoseWithCovariance_.hpp
+[16.691s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2/PoseWithCovarianceStamped_.hpp
+[16.691s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2/TwistWithCovarianceStamped_.hpp
+[16.692s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Header_.hpp
+[16.692s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2/TwistStamped_.hpp
+[16.692s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2/MapMetaData_.hpp
+[16.692s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Odometry_.hpp
+[16.693s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Point32_.hpp
+[16.693s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2/PointField_.hpp
+[16.693s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2/PointStamped_.hpp
+[16.693s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Twist_.hpp
+[16.693s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2/PointCloud2_.hpp
+[16.694s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Imu_.hpp
+[16.694s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Point_.hpp
+[16.694s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2/QuaternionStamped_.hpp
+[16.694s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2/PoseStamped_.hpp
+[16.695s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Pose_.hpp
+[16.695s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Pose2D_.hpp
+[16.695s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Time_.hpp
+[16.696s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2/TwistWithCovariance_.hpp
+[16.696s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2/OccupancyGrid_.hpp
+[16.697s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2/String_.hpp
+[16.697s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Quaternion_.hpp
+[16.697s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/hg_doubleimu
+[16.697s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/hg_doubleimu/doubleIMUState_.hpp
+[16.697s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/hg
+[16.697s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/hg/SportModeState_.hpp
+[16.698s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/hg/MainBoardState_.hpp
+[16.698s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/hg/HandState_.hpp
+[16.698s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/hg/BmsCmd_.hpp
+[16.698s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/hg/LowCmd_.hpp
+[16.698s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/hg/HandCmd_.hpp
+[16.699s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/hg/MotorState_.hpp
+[16.699s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/hg/MotorCmd_.hpp
+[16.699s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/hg/LowState_.hpp
+[16.699s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/hg/PressSensorState_.hpp
+[16.699s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/hg/BmsState_.hpp
+[16.699s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/hg/IMUState_.hpp
+[16.699s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2
+[16.699s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/SportModeState_.hpp
+[16.699s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/BmsCmd_.hpp
+[16.700s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/UwbSwitch_.hpp
+[16.700s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/Res_.hpp
+[16.700s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/InterfaceConfig_.hpp
+[16.700s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/LowCmd_.hpp
+[16.701s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/UwbState_.hpp
+[16.701s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/VoxelMapCompressed_.hpp
+[16.701s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/SportModeCmd_.hpp
+[16.701s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/TimeSpec_.hpp
+[16.701s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/ConfigChangeStatus_.hpp
+[16.701s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/HeightMap_.hpp
+[16.702s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/PathPoint_.hpp
+[16.702s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/MotorState_.hpp
+[16.702s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/Go2FrontVideoData_.hpp
+[16.702s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/MotorStates_.hpp
+[16.702s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/MotorCmd_.hpp
+[16.703s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/LidarState_.hpp
+[16.703s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/LowState_.hpp
+[16.703s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/WirelessController_.hpp
+[16.703s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/MotorCmds_.hpp
+[16.703s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/BmsState_.hpp
+[16.704s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/IMUState_.hpp
+[16.704s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/Req_.hpp
+[16.704s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/Error_.hpp
+[16.704s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/idl/go2/AudioData_.hpp
+[16.705s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common
+[16.705s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/filesystem
+[16.705s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/filesystem/filesystem.hpp
+[16.705s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/filesystem/directory.hpp
+[16.705s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/filesystem/file.hpp
+[16.705s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/exception.hpp
+[16.705s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/dds
+[16.706s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_parameter.hpp
+[16.706s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_error.hpp
+[16.706s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_exception.hpp
+[16.706s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_traits.hpp
+[16.706s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_easy_model.hpp
+[16.707s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos_realize.hpp
+[16.707s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos_policy.hpp
+[16.708s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp
+[16.708s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos_parameter.hpp
+[16.708s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp
+[16.708s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_callback.hpp
+[16.708s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp
+[16.708s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos.hpp
+[16.709s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_native.hpp
+[16.709s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos_policy_parameter.hpp
+[16.709s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/thread
+[16.709s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/thread/thread_task.hpp
+[16.709s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/thread/thread.hpp
+[16.709s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/thread/thread_decl.hpp
+[16.710s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/thread/thread_pool.hpp
+[16.710s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/thread/recurrent_thread.hpp
+[16.710s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/thread/future.hpp
+[16.710s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/error.hpp
+[16.710s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/log
+[16.710s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/log/log_store.hpp
+[16.711s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/log/log.hpp
+[16.711s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/log/log_decl.hpp
+[16.711s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/log/log_keeper.hpp
+[16.711s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/log/log_logger.hpp
+[16.711s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/log/log_initor.hpp
+[16.712s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/log/log_writer.hpp
+[16.712s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/log/log_buffer.hpp
+[16.713s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/log/log_policy.hpp
+[16.713s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/service
+[16.714s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/service/dds_service.hpp
+[16.714s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/service/base
+[16.714s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/service/base/service_base.hpp
+[16.715s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/service/base/service_config.hpp
+[16.715s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/service/base/service_decl.hpp
+[16.715s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/service/base/service_application.hpp
+[16.715s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/string_tool.hpp
+[16.715s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/decl.hpp
+[16.715s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/os.hpp
+[16.715s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/assert.hpp
+[16.715s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/json
+[16.716s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/json/json_config.hpp
+[16.716s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/json/jsonize.hpp
+[16.716s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/json/json.hpp
+[16.716s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/lock
+[16.716s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/lock/lock.hpp
+[16.716s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/any.hpp
+[16.716s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/time
+[16.717s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/time/sleep.hpp
+[16.717s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/time/time_tool.hpp
+[16.717s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/common/block_queue.hpp
+[16.717s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/dds_wrapper
+[16.717s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots
+[16.717s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/g1
+[16.717s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/g1/g1_sub.h
+[16.718s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/g1/g1_pub.h
+[16.718s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/g1/defines.h
+[16.718s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/g1/g1.h
+[16.718s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/go2
+[16.719s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/go2/go2_sub.h
+[16.719s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/go2/go2.h
+[16.719s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/go2/defines.h
+[16.719s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/go2/go2_pub.h
+[16.719s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/common
+[16.720s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/common/Subscription.h
+[16.720s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/common/unitree_joystick.hpp
+[16.720s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/common/crc.h
+[16.720s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/dds_wrapper/common/Publisher.h
+[16.720s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot
+[16.721s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/g1
+[16.721s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/g1/audio
+[16.721s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/g1/audio/g1_audio_client.hpp
+[16.721s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/g1/audio/g1_audio_error.hpp
+[16.721s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/g1/audio/g1_audio_api.hpp
+[16.721s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/g1/common
+[16.722s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/g1/common/terminations.hpp
+[16.722s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/g1/loco
+[16.722s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/g1/loco/g1_loco_api.hpp
+[16.722s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/g1/loco/g1_loco_error.hpp
+[16.722s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/g1/loco/g1_loco_client.hpp
+[16.723s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/g1/arm
+[16.723s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/g1/arm/g1_arm_action_error.hpp
+[16.723s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/g1/arm/g1_arm_action_api.hpp
+[16.723s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/g1/arm/g1_arm_action_client.hpp
+[16.723s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/internal
+[16.723s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_api.hpp
+[16.724s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl
+[16.724s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestLease_.hpp
+[16.724s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestHeader_.hpp
+[16.724s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/Response_.hpp
+[16.724s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/ResponseStatus_.hpp
+[16.724s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/ResponseHeader_.hpp
+[16.725s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/Request_.hpp
+[16.725s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestIdentity_.hpp
+[16.725s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestPolicy_.hpp
+[16.725s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_request_response.hpp
+[16.725s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_error.hpp
+[16.725s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal.hpp
+[16.726s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/h1
+[16.726s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/h1/loco
+[16.726s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/h1/loco/h1_loco_api.hpp
+[16.726s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/h1/loco/h1_loco_error.hpp
+[16.728s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/h1/loco/h1_loco_client.hpp
+[16.728s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/server
+[16.728s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/server/server.hpp
+[16.728s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/server/server_base.hpp
+[16.728s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/server/lease_server.hpp
+[16.728s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/server/server_stub.hpp
+[16.729s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/client
+[16.729s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/client/client.hpp
+[16.729s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/client/client_stub.hpp
+[16.729s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/client/lease_client.hpp
+[16.729s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/client/client_base.hpp
+[16.730s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/future
+[16.730s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/future/request_future.hpp
+[16.730s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/channel
+[16.730s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_namer.hpp
+[16.730s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp
+[16.730s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp
+[16.730s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_publisher.hpp
+[16.730s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_labor.hpp
+[16.730s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/serialize
+[16.730s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/serialize/serialize.hpp
+[16.730s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2
+[16.730s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/obstacles_avoid
+[16.730s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/obstacles_avoid/obstacles_avoid_api.hpp
+[16.730s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/obstacles_avoid/obstacles_avoid_client.hpp
+[16.730s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/public
+[16.730s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/public/jsonize_type.hpp
+[16.730s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/sport
+[16.730s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/sport/sport_client.hpp
+[16.731s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/sport/sport_api.hpp
+[16.731s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/sport/sport_error.hpp
+[16.731s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/video
+[16.731s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/video/video_client.hpp
+[16.731s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/video/video_error.hpp
+[16.731s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/video/video_api.hpp
+[16.731s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/utrack
+[16.731s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/utrack/utrack_api.hpp
+[16.731s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/utrack/utrack_client.hpp
+[16.732s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/config
+[16.732s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/config/config_api.hpp
+[16.732s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/config/config_client.hpp
+[16.732s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/config/config_error.hpp
+[16.732s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/vui
+[16.732s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/vui/vui_error.hpp
+[16.732s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/vui/vui_api.hpp
+[16.732s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/vui/vui_client.hpp
+[16.732s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/robot_state
+[16.732s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/robot_state/robot_state_client.hpp
+[16.733s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/robot_state/robot_state_api.hpp
+[16.733s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/go2/robot_state/robot_state_error.hpp
+[16.733s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2
+[16.733s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2/front_video
+[16.733s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2/front_video/front_video_client.hpp
+[16.733s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2/front_video/front_video_error.hpp
+[16.733s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2/front_video/front_video_api.hpp
+[16.733s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2/sport
+[16.733s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2/sport/sport_client.hpp
+[16.733s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2/sport/sport_api.hpp
+[16.734s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2/sport/sport_error.hpp
+[16.734s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2/config
+[16.734s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2/config/config_api.hpp
+[16.735s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2/config/config_client.hpp
+[16.735s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2/config/config_error.hpp
+[16.735s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2/back_video
+[16.735s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2/back_video/back_video_api.hpp
+[16.735s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2/back_video/back_video_error.hpp
+[16.735s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2/back_video/back_video_client.hpp
+[16.735s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher
+[16.735s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher/motion_switcher_client.hpp
+[16.736s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher/motion_switcher_error.hpp
+[16.736s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher/motion_switcher_api.hpp
+[16.736s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2/robot_state
+[16.736s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2/robot_state/robot_state_client.hpp
+[16.736s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2/robot_state/robot_state_api.hpp
+[16.736s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/unitree/robot/b2/robot_state/robot_state_error.hpp
+[16.737s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/lib/libunitree_sdk2.a
+[16.765s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/lib/cmake/unitree_sdk2/unitree_sdk2Targets.cmake
+[16.765s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/lib/cmake/unitree_sdk2/unitree_sdk2Config.cmake
+[16.765s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/lib/cmake/unitree_sdk2/unitree_sdk2ConfigVersion.cmake
+[16.766s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/lib/libddsc.so
+[16.776s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/lib/libddsc.so.0
+[16.776s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/lib/libddscxx.so
+[16.779s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/lib/libddscxx.so.0
+[16.779s] -- Up-to-date: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include
+[16.779s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds
+[16.780s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/features.h
+[16.780s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/dds.h
+[16.780s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsc
+[16.780s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsc/dds_internal_api.h
+[16.780s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_listener.h
+[16.780s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_alloc.h
+[16.780s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsc/dds_basic_types.h
+[16.780s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_error.h
+[16.780s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsc/dds_opcodes.h
+[16.780s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsc/dds_rhc.h
+[16.781s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_qosdefs.h
+[16.781s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsc/dds_statistics.h
+[16.781s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsc/dds_data_allocator.h
+[16.781s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_impl.h
+[16.781s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsc/dds_loan_api.h
+[16.781s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_qos.h
+[16.781s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_status.h
+[16.781s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/export.h
+[16.781s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt
+[16.781s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/sync
+[16.781s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/sync/windows.h
+[16.781s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/sync/freertos.h
+[16.781s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/sync/posix.h
+[16.781s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/threads
+[16.781s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/threads/windows.h
+[16.781s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/threads/freertos.h
+[16.781s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/threads/posix.h
+[16.782s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/retcode.h
+[16.782s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/sockets.h
+[16.782s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/filesystem
+[16.782s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/filesystem/windows.h
+[16.782s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/filesystem/posix.h
+[16.782s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/strtol.h
+[16.782s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/types.h
+[16.782s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/random.h
+[16.782s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/atomics
+[16.782s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/atomics/sun.h
+[16.782s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/atomics/arm.h
+[16.782s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/atomics/gcc.h
+[16.782s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/atomics/msvc.h
+[16.782s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/sched.h
+[16.782s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/misc.h
+[16.783s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/threads.h
+[16.783s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/atomics.h
+[16.783s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/circlist.h
+[16.783s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/sockets
+[16.783s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/sockets/windows.h
+[16.783s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/sockets/posix.h
+[16.783s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/filesystem.h
+[16.783s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/strtod.h
+[16.783s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/string.h
+[16.783s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/heap.h
+[16.783s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/cdtors.h
+[16.783s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/log.h
+[16.783s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/expand_vars.h
+[16.783s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/dynlib.h
+[16.783s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/ifaddrs.h
+[16.783s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/avl.h
+[16.783s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/sync.h
+[16.784s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/netstat.h
+[16.784s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/io.h
+[16.784s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/mh3.h
+[16.784s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/rusage.h
+[16.784s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/bswap.h
+[16.784s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/align.h
+[16.784s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/xmlparser.h
+[16.784s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/endian.h
+[16.784s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/static_assert.h
+[16.784s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/process.h
+[16.784s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/arch.h
+[16.784s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/iovec.h
+[16.784s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/countargs.h
+[16.784s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/environ.h
+[16.785s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/types
+[16.785s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/types/windows.h
+[16.785s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/types/vxworks.h
+[16.785s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/types/posix.h
+[16.785s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/fibheap.h
+[16.785s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/attributes.h
+[16.785s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/time.h
+[16.785s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/md5.h
+[16.785s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/hopscotch.h
+[16.785s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/time
+[16.785s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsrt/time/freertos.h
+[16.785s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/config.h
+[16.785s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/version.h
+[16.785s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi
+[16.785s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_lease.h
+[16.785s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_bitset.h
+[16.785s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_log.h
+[16.786s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_ddsi_discovery.h
+[16.786s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata_plist.h
+[16.786s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_participant.h
+[16.786s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_inverse_uint32_set.h
+[16.786s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_unused.h
+[16.786s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_wraddrset.h
+[16.786s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_pcap.h
+[16.786s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_radmin.h
+[16.786s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_threadmon.h
+[16.786s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typeinfo.h
+[16.786s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_plist.h
+[16.786s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_time.h
+[16.786s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_acknack.h
+[16.786s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_typebuilder.h
+[16.787s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_transmit.h
+[16.787s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_proxy_endpoint.h
+[16.787s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_tkmap.h
+[16.787s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_debmon.h
+[16.787s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata_pserop.h
+[16.787s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_gc.h
+[16.787s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_tran.h
+[16.787s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_plist_generic.h
+[16.787s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_receive.h
+[16.787s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_typelookup.h
+[16.787s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_bswap.h
+[16.787s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_lifespan.h
+[16.788s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_freelist.h
+[16.788s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_init.h
+[16.788s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_xmsg.h
+[16.788s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_misc.h
+[16.788s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_guid.h
+[16.788s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_entity_match.h
+[16.788s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_rhc.h
+[16.788s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_list_tmpl.h
+[16.788s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_topic.h
+[16.788s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_tcp.h
+[16.788s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_typelib.h
+[16.788s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typemap.h
+[16.788s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_pmd.h
+[16.789s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_vendor.h
+[16.789s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_sertopic.h
+[16.789s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_raweth.h
+[16.789s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_rtps.h
+[16.789s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_security_util.h
+[16.789s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typemap.idl
+[16.789s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_shm_transport.h
+[16.789s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_security_exchange.h
+[16.789s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_sockwaitset.h
+[16.789s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typeinfo.idl
+[16.789s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_whc.h
+[16.790s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_qosmatch.h
+[16.790s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_protocol.h
+[16.790s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_hbcontrol.h
+[16.790s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_impl.h
+[16.790s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_domaingv.h
+[16.790s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_lat_estim.h
+[16.790s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_vnet.h
+[16.790s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_feature_check.h
+[16.790s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata.h
+[16.790s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_proxy_participant.h
+[16.790s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_entity.h
+[16.791s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_sertype.h
+[16.791s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_cfgunits.h
+[16.791s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_cdrstream.h
+[16.791s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_config_impl.h
+[16.791s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_deadline.h
+[16.791s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_ownip.h
+[16.791s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata_default.h
+[16.791s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_udp.h
+[16.791s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_portmapping.h
+[16.791s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_keyhash.h
+[16.791s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_ipaddr.h
+[16.791s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_mcgroup.h
+[16.791s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_typewrap.h
+[16.791s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xqos.h
+[16.792s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_xevent.h
+[16.792s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_security_msg.h
+[16.792s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typelookup.idl
+[16.792s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_iid.h
+[16.792s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_config.h
+[16.792s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_statistics.h
+[16.792s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_cfgelems.h
+[16.792s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_locator.h
+[16.792s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_deliver_locally.h
+[16.793s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_builtin_topic_if.h
+[16.793s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_addrset.h
+[16.793s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_security_omg.h
+[16.793s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/q_thread.h
+[16.793s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_endpoint.h
+[16.793s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typelookup.h
+[16.794s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_ssl.h
+[16.794s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_entity_index.h
+[16.794s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_handshake.h
+[16.794s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/sysdeps.h
+[16.794s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_list_genptr.h
+[16.794s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddsc
+[16.794s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddsc/dds.h
+[16.794s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx
+[16.794s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org
+[16.794s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse
+[16.794s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds
+[16.795s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/ForwardDeclarations.hpp
+[16.795s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain
+[16.795s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainParticipantRegistry.hpp
+[16.795s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/qos
+[16.795s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/qos/DomainParticipantQosDelegate.hpp
+[16.795s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainParticipantDelegate.hpp
+[16.795s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainParticipantListener.hpp
+[16.795s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/Domain.hpp
+[16.795s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainWrap.hpp
+[16.795s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic
+[16.795s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicTraits.hpp
+[16.795s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TopicDescriptionDelegate.hpp
+[16.795s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/find.hpp
+[16.795s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp
+[16.795s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/qos
+[16.795s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/qos/TopicQosDelegate.hpp
+[16.796s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TopicListener.hpp
+[16.796s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/AnyTopicListener.hpp
+[16.796s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicDelegate.hpp
+[16.796s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TBuiltinTopic.hpp
+[16.796s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopic.hpp
+[16.796s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/discovery.hpp
+[16.796s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/AnyTopicDelegate.hpp
+[16.796s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicKeyDelegate.hpp
+[16.796s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/CDRBlob.hpp
+[16.796s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp
+[16.796s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/hash.hpp
+[16.796s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/FilterDelegate.hpp
+[16.796s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicCopy.hpp
+[16.796s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub
+[16.796s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/AnyDataWriterDelegate.hpp
+[16.796s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/SuspendedPublicationDelegate.hpp
+[16.796s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/qos
+[16.796s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/qos/DataWriterQosDelegate.hpp
+[16.797s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/qos/PublisherQosDelegate.hpp
+[16.797s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/CoherentSetDelegate.hpp
+[16.797s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/PublisherDelegate.hpp
+[16.797s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core
+[16.797s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/WeakReferenceSet.hpp
+[16.797s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/MiscUtils.hpp
+[16.797s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/config.hpp
+[16.797s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/EntitySet.hpp
+[16.797s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/EntityRegistry.hpp
+[16.797s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/status
+[16.797s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/status/StatusDelegate.hpp
+[16.797s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ScopedLock.hpp
+[16.797s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/InstanceHandleDelegate.hpp
+[16.797s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy
+[16.797s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/PolicyDelegate.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/QosPolicyCountDelegate.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/Policy.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/TPolicy.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/ProprietaryPolicyKind.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/DDScObjectDelegate.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/Missing.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/EntityDelegate.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/type_helpers.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/TimeHelper.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/Mutex.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/QosProviderDelegate.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ListenerDispatcher.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/WaitSetDelegate.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/FunctorHolder.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/ShadowParticipant.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/StatusConditionDelegate.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/GuardConditionDelegate.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/ConditionDelegate.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/entity_properties.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/fragchain.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/basic_cdr_ser.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v2_ser.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/cdr_enums.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v1_ser.hpp
+[16.798s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/cdr_stream.hpp
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ObjectDelegate.hpp
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ReportUtils.hpp
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ObjectSet.hpp
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/GenerationCountImpl.hpp
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/SampleInfoImpl.hpp
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/CoherentAccessDelegate.hpp
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/AnyDataReaderDelegate.hpp
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/qos
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/qos/DataReaderQosDelegate.hpp
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/qos/SubscriberQosDelegate.hpp
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/SubscriberDelegate.hpp
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/RankImpl.hpp
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/cond
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/cond/QueryConditionDelegate.hpp
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/cond/ReadConditionDelegate.hpp
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/QueryDelegate.hpp
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/BuiltinSubscriberDelegate.hpp
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/domain
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/find.hpp
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/DomainParticipant.hpp
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/qos
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/qos/DomainParticipantQos.hpp
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/qos/detail
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/qos/detail/DomainParticipantQos.hpp
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/TDomainParticipant.hpp
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/discovery.hpp
+[16.799s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/DomainParticipantListener.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/detail
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/detail/DomainParticipant.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/detail/TDomainParticipantImpl.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/detail/ddsdomain.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/ddsdomain.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TFilter.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/find.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TMultiTopic.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TTopicDescription.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/MultiTopic.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/qos
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/qos/TopicQos.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/qos/detail
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/qos/detail/TopicQos.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TopicListener.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TAnyTopic.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/AnyTopicListener.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/Filter.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TBuiltinTopic.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TContentFilteredTopic.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/BuiltinTopicKey.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/AnyTopic.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/BuiltinTopic.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/Topic.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/discovery.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/ContentFilteredTopic.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TBuiltinTopicKey.hpp
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail
+[16.800s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/find.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/MultiTopic.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TBuiltinTopicImpl.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TContentFilteredTopicImpl.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TAnyTopicImpl.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/Filter.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TTopicDescriptionImpl.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/BuiltinTopicKey.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/AnyTopic.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/BuiltinTopic.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/Topic.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/discovery.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TFilterImpl.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TopicDescription.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TopicInstanceImpl.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TBuiltinTopicKeyImpl.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TTopicImpl.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/ddstopic.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TopicDescription.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TopicTraits.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TTopic.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TopicInstance.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/ddstopic.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/LICENSE
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/find.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/SuspendedPublication.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/ddspub.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/TCoherentSet.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/DataWriterQos.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/PublisherQos.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/detail
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/detail/DataWriterQos.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/detail/PublisherQos.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/PublisherListener.hpp
+[16.801s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/AnyDataWriterListener.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/Publisher.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/discovery.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TPublisherImpl.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/find.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/SuspendedPublication.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TCoherentSetImpl.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TSuspendedPublicationImpl.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/ddspub.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/Publisher.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/discovery.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/DataWriterImpl.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/DataWriter.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/AnyDataWriter.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/CoherentSet.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TAnyDataWriterImpl.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/TAnyDataWriter.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/DataWriter.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/DataWriterListener.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/TPublisher.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/AnyDataWriter.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/TSuspendedPublication.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/CoherentSet.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/Entity.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/TEntity.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/External.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/conformance.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/QosProvider.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/status
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/Status.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/TStatus.hpp
+[16.802s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/State.hpp
+[16.803s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/detail
+[16.803s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/detail/Status.hpp
+[16.803s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/detail/TStatusImpl.hpp
+[16.803s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/BuiltinTopicTypes.hpp
+[16.803s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/Value.hpp
+[16.803s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy
+[16.803s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/TCorePolicy.hpp
+[16.803s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/TQosPolicyCount.hpp
+[16.803s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/QosPolicyCount.hpp
+[16.803s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/PolicyKind.hpp
+[16.803s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail
+[16.803s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/QosPolicyCount.hpp
+[16.803s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/TQosPolicyCountImpl.hpp
+[16.803s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/TCorePolicyImpl.hpp
+[16.803s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/CorePolicy.hpp
+[16.803s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/CorePolicy.hpp
+[16.803s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/TQosProvider.hpp
+[16.803s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/Duration.hpp
+[16.803s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/ref_traits.hpp
+[16.803s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/LengthUnlimited.hpp
+[16.804s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/Exception.hpp
+[16.804s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/macros.hpp
+[16.804s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail
+[16.804s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/Entity.hpp
+[16.804s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/conformance.hpp
+[16.804s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/QosProvider.hpp
+[16.804s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/ReferenceImpl.hpp
+[16.804s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/export.hpp
+[16.804s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/BuiltinTopicTypes.hpp
+[16.804s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/Value.hpp
+[16.804s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/TInstanceHandleImpl.hpp
+[16.804s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/TEntityQosImpl.hpp
+[16.804s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/ref_traits.hpp
+[16.804s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/TEntityImpl.hpp
+[16.804s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/WeakReferenceImpl.hpp
+[16.804s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/old_win_stdint.h
+[16.804s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/macros.hpp
+[16.804s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/inttypes.hpp
+[16.804s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/array.hpp
+[16.804s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/ddscore.hpp
+[16.804s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/module_docs.hpp
+[16.804s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/InstanceHandle.hpp
+[16.804s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/TQosProviderImpl.hpp
+[16.804s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/refmacros.hpp
+[16.805s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/array.hpp
+[16.805s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes
+[16.805s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/StructType.hpp
+[16.805s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TMemberType.hpp
+[16.805s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TypeKind.hpp
+[16.805s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/Annotations.hpp
+[16.805s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/DynamicType.hpp
+[16.805s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TDynamicType.hpp
+[16.807s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/DynamicData.hpp
+[16.807s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TTypeProvider.hpp
+[16.807s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/UnionType.hpp
+[16.807s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TAnnotation.hpp
+[16.808s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TypeProvider.hpp
+[16.808s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TCollectionTypes.hpp
+[16.808s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail
+[16.808s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/StructType.hpp
+[16.808s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/DynamicType.hpp
+[16.808s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/DynamicData.hpp
+[16.808s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/Annotation.hpp
+[16.809s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/UnionType.hpp
+[16.809s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/TypeProvider.hpp
+[16.809s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/PrimitiveTypes.hpp
+[16.809s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/UnionCase.hpp
+[16.809s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/MemberType.hpp
+[16.809s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/CollectionTypes.hpp
+[16.809s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/PrimitiveTypes.hpp
+[16.809s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TDynamicData.hpp
+[16.810s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/UnionCase.hpp
+[16.810s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/MemberType.hpp
+[16.810s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TStructType.hpp
+[16.810s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/CollectionTypes.hpp
+[16.811s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/WeakReference.hpp
+[16.811s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/Time.hpp
+[16.811s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond
+[16.811s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/TStatusCondition.hpp
+[16.811s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/WaitSet.hpp
+[16.811s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/TCondition.hpp
+[16.812s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/TGuardCondition.hpp
+[16.812s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/StatusCondition.hpp
+[16.812s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/Condition.hpp
+[16.812s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/GuardCondition.hpp
+[16.812s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail
+[16.812s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TGuardConditionImpl.hpp
+[16.813s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TWaitSetImpl.hpp
+[16.813s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/WaitSet.hpp
+[16.813s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/StatusCondition.hpp
+[16.813s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/Condition.hpp
+[16.813s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/GuardCondition.hpp
+[16.813s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TStatusConditionImpl.hpp
+[16.813s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TConditionImpl.hpp
+[16.814s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/TWaitSet.hpp
+[16.814s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/ddscore.hpp
+[16.814s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/SafeEnumeration.hpp
+[16.814s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/TInstanceHandle.hpp
+[16.814s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/Optional.hpp
+[16.815s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/TEntityQos.hpp
+[16.815s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/TBuiltinTopicTypes.hpp
+[16.817s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/Reference.hpp
+[16.817s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/types.hpp
+[16.817s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/core/InstanceHandle.hpp
+[16.817s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/dds.hpp
+[16.817s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub
+[16.817s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/SharedSamples.hpp
+[16.817s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/find.hpp
+[16.817s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TQuery.hpp
+[16.817s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/LoanedSamples.hpp
+[16.817s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/status
+[16.817s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/status/DataState.hpp
+[16.817s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/status/detail
+[16.817s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/status/detail/DataStateImpl.hpp
+[16.817s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TSample.hpp
+[16.817s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/SampleRef.hpp
+[16.817s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/SampleInfo.hpp
+[16.817s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TSubscriber.hpp
+[16.817s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/DataReader.hpp
+[16.817s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos
+[16.818s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/DataReaderQos.hpp
+[16.818s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/SubscriberQos.hpp
+[16.818s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/detail
+[16.818s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/detail/DataReaderQos.hpp
+[16.818s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/detail/SubscriberQos.hpp
+[16.818s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/SubscriberListener.hpp
+[16.818s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/CoherentAccess.hpp
+[16.818s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TGenerationCount.hpp
+[16.818s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/Subscriber.hpp
+[16.818s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/Sample.hpp
+[16.818s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/discovery.hpp
+[16.818s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TAnyDataReader.hpp
+[16.818s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/ddssub.hpp
+[16.818s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TDataReader.hpp
+[16.818s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/Rank.hpp
+[16.819s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail
+[16.819s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TCoherentAccessImpl.hpp
+[16.819s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SharedSamples.hpp
+[16.819s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TAnyDataReaderImpl.hpp
+[16.819s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Manipulators.hpp
+[16.820s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/find.hpp
+[16.820s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/LoanedSamples.hpp
+[16.820s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SampleRef.hpp
+[16.820s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSampleRefImpl.hpp
+[16.820s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SampleInfo.hpp
+[16.820s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/DataReader.hpp
+[16.820s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SharedSamplesImpl.hpp
+[16.821s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TGenerationCountImpl.hpp
+[16.821s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSubscriberImpl.hpp
+[16.821s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/CoherentAccess.hpp
+[16.821s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TDataReaderImpl.hpp
+[16.821s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Subscriber.hpp
+[16.821s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Sample.hpp
+[16.821s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/discovery.hpp
+[16.821s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/ddssub.hpp
+[16.821s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TQueryImpl.hpp
+[16.821s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Rank.hpp
+[16.821s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/AnyDataReader.hpp
+[16.821s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Query.hpp
+[16.821s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSampleImpl.hpp
+[16.822s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SamplesHolder.hpp
+[16.822s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/LoanedSamplesImpl.hpp
+[16.822s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/GenerationCount.hpp
+[16.822s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TRankImpl.hpp
+[16.822s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSampleInfoImpl.hpp
+[16.822s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TSampleRef.hpp
+[16.822s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/AnyDataReader.hpp
+[16.822s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/Query.hpp
+[16.822s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TRank.hpp
+[16.822s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond
+[16.823s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/QueryCondition.hpp
+[16.823s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/TReadCondition.hpp
+[16.823s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/ReadCondition.hpp
+[16.823s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/TQueryCondition.hpp
+[16.823s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail
+[16.823s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/TReadConditionImpl.hpp
+[16.823s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/QueryCondition.hpp
+[16.823s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/ReadCondition.hpp
+[16.823s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/TQueryConditionImpl.hpp
+[16.823s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/AnyDataReaderListener.hpp
+[16.823s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/GenerationCount.hpp
+[16.823s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TSampleInfo.hpp
+[16.823s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/DataReaderListener.hpp
+[16.823s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TCoherentAccess.hpp
+[16.823s] -- Installing: /home/jason/projects/unitree_sdk2_ws/install/unitree_sdk2/include/ddscxx/dds/features.hpp
+[16.826s] Invoked command in '/home/jason/projects/unitree_sdk2_ws/build/unitree_sdk2' returned '0': /usr/bin/cmake --install /home/jason/projects/unitree_sdk2_ws/build/unitree_sdk2

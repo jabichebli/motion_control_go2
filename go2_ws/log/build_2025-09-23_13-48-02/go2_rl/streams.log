@@ -1,0 +1,20 @@
+[0.287s] Invoking command in '/home/jason/projects/go2_ws/src/go2_rl': PYTHONPATH=/home/jason/projects/go2_ws/build/go2_rl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jason/projects/go2_ws/install/go2_rl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_rl build --build-base /home/jason/projects/go2_ws/build/go2_rl/build install --record /home/jason/projects/go2_ws/build/go2_rl/install.log --single-version-externally-managed install_data
+[0.393s] running egg_info
+[0.393s] writing ../../build/go2_rl/go2_rl.egg-info/PKG-INFO
+[0.393s] writing dependency_links to ../../build/go2_rl/go2_rl.egg-info/dependency_links.txt
+[0.393s] writing entry points to ../../build/go2_rl/go2_rl.egg-info/entry_points.txt
+[0.393s] writing requirements to ../../build/go2_rl/go2_rl.egg-info/requires.txt
+[0.393s] writing top-level names to ../../build/go2_rl/go2_rl.egg-info/top_level.txt
+[0.393s] reading manifest file '../../build/go2_rl/go2_rl.egg-info/SOURCES.txt'
+[0.393s] writing manifest file '../../build/go2_rl/go2_rl.egg-info/SOURCES.txt'
+[0.393s] running build
+[0.393s] running build_py
+[0.394s] running install
+[0.394s] running install_lib
+[0.394s] running install_data
+[0.394s] running install_egg_info
+[0.395s] removing '/home/jason/projects/go2_ws/install/go2_rl/lib/python3.10/site-packages/go2_rl-0.0.0-py3.10.egg-info' (and everything under it)
+[0.395s] Copying ../../build/go2_rl/go2_rl.egg-info to /home/jason/projects/go2_ws/install/go2_rl/lib/python3.10/site-packages/go2_rl-0.0.0-py3.10.egg-info
+[0.395s] running install_scripts
+[0.404s] writing list of installed files to '/home/jason/projects/go2_ws/build/go2_rl/install.log'
+[0.416s] Invoked command in '/home/jason/projects/go2_ws/src/go2_rl' returned '0': PYTHONPATH=/home/jason/projects/go2_ws/build/go2_rl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jason/projects/go2_ws/install/go2_rl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_rl build --build-base /home/jason/projects/go2_ws/build/go2_rl/build install --record /home/jason/projects/go2_ws/build/go2_rl/install.log --single-version-externally-managed install_data

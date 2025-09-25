@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/h1_loco_client.dir/high_level/h1_loco_client_example.cpp.o -o ../../bin/h1_loco_client   -L/home/jason/projects/unitree_sdk2_ws/unitree_sdk2/thirdparty/lib/x86_64  -Wl,-rpath,/home/jason/projects/unitree_sdk2_ws/unitree_sdk2/thirdparty/lib/x86_64 /home/jason/projects/unitree_sdk2_ws/unitree_sdk2/lib/x86_64/libunitree_sdk2.a -lddsc -lddscxx 

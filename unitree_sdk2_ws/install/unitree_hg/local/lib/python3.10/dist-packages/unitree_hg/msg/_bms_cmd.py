@@ -1,0 +1,1 @@
+/home/jason/projects/unitree_sdk2_ws/build/unitree_hg/rosidl_generator_py/unitree_hg/msg/_bms_cmd.py
