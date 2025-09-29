@@ -1,0 +1,4 @@
+Invoking command in '/home/jason/projects/motion_control_go2/build/mujoco': /usr/bin/cmake --build /home/jason/projects/motion_control_go2/build/mujoco -- -j16 -l16
+Invoked command in '/home/jason/projects/motion_control_go2/build/mujoco' returned '0': /usr/bin/cmake --build /home/jason/projects/motion_control_go2/build/mujoco -- -j16 -l16
+Invoking command in '/home/jason/projects/motion_control_go2/build/mujoco': /usr/bin/cmake --install /home/jason/projects/motion_control_go2/build/mujoco
+Invoked command in '/home/jason/projects/motion_control_go2/build/mujoco' returned '0': /usr/bin/cmake --install /home/jason/projects/motion_control_go2/build/mujoco

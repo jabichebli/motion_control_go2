@@ -1,0 +1,2 @@
+"/usr/bin/gcc-ar-11" cr ../../../../lib/libabsl_tracing_internal.a CMakeFiles/absl_tracing_internal.dir/internal/tracing.cc.o
+"/usr/bin/gcc-ranlib-11" ../../../../lib/libabsl_tracing_internal.a

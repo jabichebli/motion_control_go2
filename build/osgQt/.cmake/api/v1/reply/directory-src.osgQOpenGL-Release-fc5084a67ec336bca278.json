@@ -1,0 +1,103 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL",
+			"INCLUDE",
+			"SETUP_LIBRARY"
+		],
+		"files" : 
+		[
+			"CMakeModules/ModuleInstall.cmake",
+			"CMakeModules/OsgMacroUtils.cmake",
+			"src/osgQOpenGL/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 251,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "libopenscenegraph",
+			"destination" : "lib64",
+			"paths" : 
+			[
+				"lib/libosgQOpenGL.so.3.6.5",
+				"lib/libosgQOpenGL.so.145"
+			],
+			"targetId" : "osgQOpenGL::@670a48394786be524309",
+			"targetIndex" : 1,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "libopenscenegraph",
+			"destination" : "lib64",
+			"paths" : 
+			[
+				"lib/libosgQOpenGL.so"
+			],
+			"targetId" : "osgQOpenGL::@670a48394786be524309",
+			"targetIndex" : 1,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "libopenscenegraph-dev",
+			"destination" : "include/osgQOpenGL",
+			"paths" : 
+			[
+				"src/osgQOpenGL/../../include/osgQOpenGL/osgQOpenGLWidget",
+				"src/osgQOpenGL/../../include/osgQOpenGL/osgQOpenGLWindow",
+				"src/osgQOpenGL/../../include/osgQOpenGL/OSGRenderer",
+				"src/osgQOpenGL/../../include/osgQOpenGL/CullVisitorEx",
+				"src/osgQOpenGL/../../include/osgQOpenGL/GraphicsWindowEx",
+				"src/osgQOpenGL/../../include/osgQOpenGL/RenderStageEx",
+				"src/osgQOpenGL/../../include/osgQOpenGL/StateEx",
+				"/home/jason/projects/motion_control_go2/build/osgQt/src/osgQOpenGL/Export"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/osgQOpenGL",
+		"source" : "src/osgQOpenGL"
+	}
+}

@@ -1,0 +1,1 @@
+/home/jason/projects/motion_control_go2/build/unitree_hg/rosidl_generator_cpp/unitree_hg/msg/detail/motor_cmd__type_support.hpp

@@ -1,0 +1,1 @@
+/home/jason/projects/motion_control_go2/build/unitree_api/rosidl_generator_c/unitree_api/msg/detail/response_status__type_support.h

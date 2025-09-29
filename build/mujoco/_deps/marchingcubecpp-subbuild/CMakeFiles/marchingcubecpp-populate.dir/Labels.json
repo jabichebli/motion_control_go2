@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/marchingcubecpp-subbuild/CMakeFiles/marchingcubecpp-populate"
+		},
+		{
+			"file" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/marchingcubecpp-subbuild/CMakeFiles/marchingcubecpp-populate.rule"
+		},
+		{
+			"file" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/marchingcubecpp-subbuild/CMakeFiles/marchingcubecpp-populate-complete.rule"
+		},
+		{
+			"file" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/marchingcubecpp-subbuild/marchingcubecpp-populate-prefix/src/marchingcubecpp-populate-stamp/marchingcubecpp-populate-build.rule"
+		},
+		{
+			"file" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/marchingcubecpp-subbuild/marchingcubecpp-populate-prefix/src/marchingcubecpp-populate-stamp/marchingcubecpp-populate-configure.rule"
+		},
+		{
+			"file" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/marchingcubecpp-subbuild/marchingcubecpp-populate-prefix/src/marchingcubecpp-populate-stamp/marchingcubecpp-populate-download.rule"
+		},
+		{
+			"file" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/marchingcubecpp-subbuild/marchingcubecpp-populate-prefix/src/marchingcubecpp-populate-stamp/marchingcubecpp-populate-install.rule"
+		},
+		{
+			"file" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/marchingcubecpp-subbuild/marchingcubecpp-populate-prefix/src/marchingcubecpp-populate-stamp/marchingcubecpp-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/marchingcubecpp-subbuild/marchingcubecpp-populate-prefix/src/marchingcubecpp-populate-stamp/marchingcubecpp-populate-patch.rule"
+		},
+		{
+			"file" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/marchingcubecpp-subbuild/marchingcubecpp-populate-prefix/src/marchingcubecpp-populate-stamp/marchingcubecpp-populate-test.rule"
+		},
+		{
+			"file" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/marchingcubecpp-subbuild/marchingcubecpp-populate-prefix/src/marchingcubecpp-populate-stamp/marchingcubecpp-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"marchingcubecpp-populate"
+		],
+		"name" : "marchingcubecpp-populate"
+	}
+}

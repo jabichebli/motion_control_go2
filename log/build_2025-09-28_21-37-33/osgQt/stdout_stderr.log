@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target osgQOpenGL[0m
+[ 87%] Built target osgQOpenGL
+[35m[1mConsolidate compiler generated dependencies of target example_osgviewerQt[0m
+[100%] Built target example_osgviewerQt
+-- Install configuration: "Release"
+-- Installing: /home/jason/projects/motion_control_go2/install/osgQt/lib64/pkgconfig/openscenegraph-osgQt.pc
+-- Installing: /home/jason/projects/motion_control_go2/install/osgQt/lib64/libosgQOpenGL.so.3.6.5
+-- Installing: /home/jason/projects/motion_control_go2/install/osgQt/lib64/libosgQOpenGL.so.145
+-- Installing: /home/jason/projects/motion_control_go2/install/osgQt/lib64/libosgQOpenGL.so
+-- Installing: /home/jason/projects/motion_control_go2/install/osgQt/include/osgQOpenGL/osgQOpenGLWidget
+-- Installing: /home/jason/projects/motion_control_go2/install/osgQt/include/osgQOpenGL/osgQOpenGLWindow
+-- Installing: /home/jason/projects/motion_control_go2/install/osgQt/include/osgQOpenGL/OSGRenderer
+-- Installing: /home/jason/projects/motion_control_go2/install/osgQt/include/osgQOpenGL/CullVisitorEx
+-- Installing: /home/jason/projects/motion_control_go2/install/osgQt/include/osgQOpenGL/GraphicsWindowEx
+-- Installing: /home/jason/projects/motion_control_go2/install/osgQt/include/osgQOpenGL/RenderStageEx
+-- Installing: /home/jason/projects/motion_control_go2/install/osgQt/include/osgQOpenGL/StateEx
+-- Installing: /home/jason/projects/motion_control_go2/install/osgQt/include/osgQOpenGL/Export
+-- Installing: /home/jason/projects/motion_control_go2/install/osgQt/share/OpenSceneGraph/bin/osgviewerQt
+-- Set runtime path of "/home/jason/projects/motion_control_go2/install/osgQt/share/OpenSceneGraph/bin/osgviewerQt" to ""

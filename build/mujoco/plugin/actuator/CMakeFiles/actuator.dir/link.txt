@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -flto -fno-fat-lto-objects -fuse-ld=gold -Wl,--gc-sections -shared -Wl,-soname,libactuator.so -o ../../lib/libactuator.so CMakeFiles/actuator.dir/pid.cc.o CMakeFiles/actuator.dir/register.cc.o  -Wl,-rpath,/home/jason/projects/motion_control_go2/build/mujoco/lib ../../lib/libmujoco.so.3.3.7 

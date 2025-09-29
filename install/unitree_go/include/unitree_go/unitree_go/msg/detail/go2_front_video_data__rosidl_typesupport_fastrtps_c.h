@@ -1,0 +1,1 @@
+/home/jason/projects/motion_control_go2/build/unitree_go/rosidl_typesupport_fastrtps_c/unitree_go/msg/detail/go2_front_video_data__rosidl_typesupport_fastrtps_c.h

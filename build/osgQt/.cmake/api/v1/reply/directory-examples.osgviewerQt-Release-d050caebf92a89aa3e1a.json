@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL",
+			"SETUP_EXAMPLE"
+		],
+		"files" : 
+		[
+			"CMakeModules/OsgMacroUtils.cmake",
+			"examples/osgviewerQt/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 470,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "openscenegraph-examples",
+			"destination" : "share/OpenSceneGraph/bin",
+			"paths" : 
+			[
+				"bin/osgviewerQt"
+			],
+			"targetId" : "example_osgviewerQt::@91044b75bd7295bc6ea3",
+			"targetIndex" : 0,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "examples/osgviewerQt",
+		"source" : "examples/osgviewerQt"
+	}
+}

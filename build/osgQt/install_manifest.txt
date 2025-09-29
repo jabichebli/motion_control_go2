@@ -1,0 +1,13 @@
+/home/jason/projects/motion_control_go2/install/osgQt/lib64/pkgconfig/openscenegraph-osgQt.pc
+/home/jason/projects/motion_control_go2/install/osgQt/lib64/libosgQOpenGL.so.3.6.5
+/home/jason/projects/motion_control_go2/install/osgQt/lib64/libosgQOpenGL.so.145
+/home/jason/projects/motion_control_go2/install/osgQt/lib64/libosgQOpenGL.so
+/home/jason/projects/motion_control_go2/install/osgQt/include/osgQOpenGL/osgQOpenGLWidget
+/home/jason/projects/motion_control_go2/install/osgQt/include/osgQOpenGL/osgQOpenGLWindow
+/home/jason/projects/motion_control_go2/install/osgQt/include/osgQOpenGL/OSGRenderer
+/home/jason/projects/motion_control_go2/install/osgQt/include/osgQOpenGL/CullVisitorEx
+/home/jason/projects/motion_control_go2/install/osgQt/include/osgQOpenGL/GraphicsWindowEx
+/home/jason/projects/motion_control_go2/install/osgQt/include/osgQOpenGL/RenderStageEx
+/home/jason/projects/motion_control_go2/install/osgQt/include/osgQOpenGL/StateEx
+/home/jason/projects/motion_control_go2/install/osgQt/include/osgQOpenGL/Export
+/home/jason/projects/motion_control_go2/install/osgQt/share/OpenSceneGraph/bin/osgviewerQt

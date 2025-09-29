@@ -1,0 +1,1 @@
+/home/jason/projects/motion_control_go2/build/unitree_go/rosidl_typesupport_introspection_cpp/unitree_go/msg/detail/bms_state__rosidl_typesupport_introspection_cpp.hpp

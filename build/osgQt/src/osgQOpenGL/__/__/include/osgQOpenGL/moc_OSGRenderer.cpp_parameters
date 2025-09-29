@@ -1,0 +1,10 @@
+-I/usr/include
+-I/home/jason/projects/motion_control_go2/src/osgQt/include
+-I/home/jason/projects/motion_control_go2/build/osgQt/src
+-I/usr/include
+-I/home/jason/projects/motion_control_go2/build/osgQt/include
+-I/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL
+-I/home/jason/projects/motion_control_go2/build/osgQt/src/osgQOpenGL
+-o
+/home/jason/projects/motion_control_go2/build/osgQt/src/osgQOpenGL/__/__/include/osgQOpenGL/moc_OSGRenderer.cpp
+/home/jason/projects/motion_control_go2/src/osgQt/include/osgQOpenGL/OSGRenderer

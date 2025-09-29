@@ -1,0 +1,4 @@
+Invoking command in '/home/jason/projects/motion_control_go2/build/robot_viz_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/projects/motion_control_go2/build/robot_viz_cpp -- -j16 -l16
+Invoked command in '/home/jason/projects/motion_control_go2/build/robot_viz_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/projects/motion_control_go2/build/robot_viz_cpp -- -j16 -l16
+Invoking command in '/home/jason/projects/motion_control_go2/build/robot_viz_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/projects/motion_control_go2/build/robot_viz_cpp
+Invoked command in '/home/jason/projects/motion_control_go2/build/robot_viz_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/projects/motion_control_go2/build/robot_viz_cpp

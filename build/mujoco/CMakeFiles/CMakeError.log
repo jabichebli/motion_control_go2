@@ -1,0 +1,92 @@
+Performing C SOURCE FILE Test SUPPORTS_LLD failed with the following output:
+Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_48bfc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_48bfc.dir/build.make CMakeFiles/cmTC_48bfc.dir/build
+gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48bfc.dir/src.c.o
+/usr/bin/cc -DSUPPORTS_LLD  -fuse-ld=lld -fPIE -std=c11 -o CMakeFiles/cmTC_48bfc.dir/src.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_48bfc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48bfc.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=lld CMakeFiles/cmTC_48bfc.dir/src.c.o -o cmTC_48bfc 
+collect2: fatal error: cannot find ‘ld’
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_48bfc.dir/build.make:99: cmTC_48bfc] Error 1
+gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_48bfc/fast] Error 2
+
+
+Source file was:
+int main() {}
+Performing C++ SOURCE FILE Test ABSL_INTERNAL_AT_LEAST_CXX20 failed with the following output:
+Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9037a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9037a.dir/build.make CMakeFiles/cmTC_9037a.dir/build
+gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9037a.dir/src.cxx.o
+/usr/bin/c++ -DABSL_INTERNAL_AT_LEAST_CXX20  -fPIE -std=c++17 -o CMakeFiles/cmTC_9037a.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
+/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx:6:4: error: #error "The compiler defaults or is configured for C++ < 20"
+    6 | #  error "The compiler defaults or is configured for C++ < 20"
+      |    ^~~~~
+gmake[1]: *** [CMakeFiles/cmTC_9037a.dir/build.make:78: CMakeFiles/cmTC_9037a.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9037a/fast] Error 2
+
+
+Source file was:
+#ifdef _MSC_VER
+#  if _MSVC_LANG < 202002L
+#    error "The compiler defaults or is configured for C++ < 20"
+#  endif
+#elif __cplusplus < 202002L
+#  error "The compiler defaults or is configured for C++ < 20"
+#endif
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
+Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a735f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a735f.dir/build.make CMakeFiles/cmTC_a735f.dir/build
+gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a735f.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -fPIE   -Wshorten-64-to-32 -std=c++17 -o CMakeFiles/cmTC_a735f.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wshorten-64-to-32'
+c++: error: unrecognized command-line option '-Wshorten-64-to-32'
+gmake[1]: *** [CMakeFiles/cmTC_a735f.dir/build.make:78: CMakeFiles/cmTC_a735f.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a735f/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_95fbe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_95fbe.dir/build.make CMakeFiles/cmTC_95fbe.dir/build
+gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_95fbe.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -wd654 -fPIE   -wd654 -std=c++17 -o CMakeFiles/cmTC_95fbe.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-wd654'
+c++: error: unrecognized command-line option '-wd654'
+gmake[1]: *** [CMakeFiles/cmTC_95fbe.dir/build.make:78: CMakeFiles/cmTC_95fbe.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_95fbe/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
+Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c3102/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c3102.dir/build.make CMakeFiles/cmTC_c3102.dir/build
+gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c3102.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -fPIE   -Wthread-safety -std=c++17 -o CMakeFiles/cmTC_c3102.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wthread-safety'
+c++: error: unrecognized command-line option '-Wthread-safety'
+gmake[1]: *** [CMakeFiles/cmTC_c3102.dir/build.make:78: CMakeFiles/cmTC_c3102.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_c3102/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }

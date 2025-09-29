@@ -1,0 +1,213 @@
+[0.015s] Invoking command in '/home/jason/projects/motion_control_go2/build/mujoco': /usr/bin/cmake /home/jason/projects/motion_control_go2/src/mujoco -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/mujoco
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.095s] -- The CXX compiler identification is GNU 11.4.0
+[0.099s] -- Detecting C compiler ABI info
+[0.139s] -- Detecting C compiler ABI info - done
+[0.143s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.143s] -- Detecting C compile features
+[0.143s] -- Detecting C compile features - done
+[0.145s] -- Detecting CXX compiler ABI info
+[0.190s] -- Detecting CXX compiler ABI info - done
+[0.197s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.197s] -- Detecting CXX compile features
+[0.197s] -- Detecting CXX compile features - done
+[0.197s] -- Setting build type to 'Release' as none was specified.
+[0.197s] -- Performing Test CAN_BUILD_AVX
+[0.363s] -- Performing Test CAN_BUILD_AVX - Success
+[0.365s] -- Performing Test SUPPORTS_LLD
+[0.402s] -- Performing Test SUPPORTS_LLD - Failed
+[0.403s] -- Performing Test SUPPORTS_GOLD
+[0.449s] -- Performing Test SUPPORTS_GOLD - Success
+[0.450s] -- Performing Test SUPPORTS_GC_SECTIONS
+[0.500s] -- Performing Test SUPPORTS_GC_SECTIONS - Success
+[2.964s] -- mujoco::FindOrFetch: checking for targets in package `qhull`
+[2.964s] -- mujoco::FindOrFetch: checking for targets in package `qhull` - target `qhull` not defined.
+[2.964s] -- mujoco::FindOrFetch: Using FetchContent to retrieve `qhull`
+[7.593s] -- Looking for sys/types.h
+[7.676s] -- Looking for sys/types.h - found
+[7.676s] -- Looking for inttypes.h
+[7.753s] -- Looking for inttypes.h - found
+[7.753s] -- Looking for stddef.h
+[7.827s] -- Looking for stddef.h - found
+[7.827s] -- Looking for stdint.h
+[7.899s] -- Looking for stdint.h - found
+[7.899s] -- Check size of off_t
+[7.967s] -- Check size of off_t - done
+[7.967s] -- Looking for fseeko
+[8.044s] -- Looking for fseeko - found
+[8.044s] -- Looking for ftello
+[8.119s] -- Looking for ftello - found
+[8.119s] -- Looking for PRIdMAX
+[8.185s] -- Looking for PRIdMAX - found
+[8.188s] -- 
+[8.189s] -- ========== qhull Build Information ==========
+[8.189s] -- Build Version:                             8.1-alpha3
+[8.189s] -- Install Prefix (CMAKE_INSTALL_PREFIX):     /home/jason/projects/motion_control_go2/install/mujoco
+[8.189s] -- Binary Directory (CMAKE_INSTALL_BINDIR):   bin
+[8.189s] -- Library Directory (CMAKE_INSTALL_LIBDIR):  lib
+[8.189s] -- Include Directory (CMAKE_INSTALL_INCLUDEDIR): include
+[8.189s] -- Documentation Directory (CMAKE_INSTALL_DOCDIR): share/doc/mujoco
+[8.189s] -- Man Pages Directory (CMAKE_INSTALL_MANDIR): share/man
+[8.189s] -- Build Type (CMAKE_BUILD_TYPE):             Release
+[8.189s] -- Build static libraries:                    ON
+[8.189s] -- Build shared library:                      OFF
+[8.189s] -- Use shared library for linking apps:       OFF
+[8.189s] -- Build tests:				   OFF
+[8.189s] -- To override these options, add -D{OPTION_NAME}=... to the cmake command
+[8.189s] --   Build the debug targets                  -DCMAKE_BUILD_TYPE=Debug
+[8.189s] -- 
+[8.189s] -- To build and install qhull, enter "make" and "make install"
+[8.189s] -- To smoketest qhull, enter "ctest"
+[8.189s] -- 
+[8.192s] -- mujoco::FindOrFetch: Using FetchContent to retrieve `qhull` - Done
+[8.193s] -- mujoco::FindOrFetch: checking for targets in package `tinyxml2`
+[8.193s] -- mujoco::FindOrFetch: checking for targets in package `tinyxml2` - target `tinyxml2` not defined.
+[8.193s] -- mujoco::FindOrFetch: Using FetchContent to retrieve `tinyxml2`
+[9.925s] -- mujoco::FindOrFetch: Using FetchContent to retrieve `tinyxml2` - Done
+[9.927s] -- mujoco::FindOrFetch: checking for targets in package `tinyobjloader`
+[9.927s] -- mujoco::FindOrFetch: checking for targets in package `tinyobjloader` - target `tinyobjloader` not defined.
+[9.927s] -- mujoco::FindOrFetch: Using FetchContent to retrieve `tinyobjloader`
+[12.044s] [0mCMake Deprecation Warning at /home/jason/projects/motion_control_go2/build/mujoco/_deps/tinyobjloader-src/CMakeLists.txt:5 (cmake_minimum_required):
+[12.044s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[12.044s]   CMake.
+[12.044s] 
+[12.044s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[12.044s]   CMake that the project does not need compatibility with older versions.
+[12.044s] 
+[12.044s] [0m
+[12.049s] -- mujoco::FindOrFetch: Using FetchContent to retrieve `tinyobjloader` - Done
+[13.386s] -- mujoco::FindOrFetch: checking for targets in package `ccd`
+[13.386s] -- mujoco::FindOrFetch: checking for targets in package `ccd` - target `ccd` not defined.
+[13.386s] -- mujoco::FindOrFetch: Using FetchContent to retrieve `ccd`
+[14.662s] [0mCMake Deprecation Warning at /home/jason/projects/motion_control_go2/build/mujoco/_deps/ccd-src/CMakeLists.txt:1 (cmake_minimum_required):
+[14.662s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[14.662s]   CMake.
+[14.662s] 
+[14.662s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[14.662s]   CMake that the project does not need compatibility with older versions.
+[14.662s] 
+[14.662s] [0m
+[14.662s] [33mCMake Warning (dev) at /home/jason/projects/motion_control_go2/build/mujoco/_deps/ccd-src/CMakeLists.txt:9 (project):
+[14.662s]   Policy CMP0048 is not set: project() command manages VERSION variables.
+[14.662s]   Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy
+[14.663s]   command to set the policy and suppress this warning.
+[14.663s] 
+[14.663s]   The following variable(s) would be set to empty:
+[14.663s] 
+[14.663s]     PROJECT_VERSION
+[14.663s]     PROJECT_VERSION_MAJOR
+[14.663s]     PROJECT_VERSION_MINOR
+[14.663s]     PROJECT_VERSION_PATCH
+[14.663s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[14.663s] [0m
+[14.679s] -- Performing Test COMPILER_SUPPORTS_VISIBILITY
+[14.767s] -- Performing Test COMPILER_SUPPORTS_VISIBILITY - Success
+[14.768s] -- mujoco::FindOrFetch: Using FetchContent to retrieve `ccd` - Done
+[14.771s] -- mujoco::FindOrFetch: checking for targets in package `absl`
+[14.771s] -- mujoco::FindOrFetch: checking for targets in package `absl` - target `absl::core_headers` not defined.
+[14.771s] -- mujoco::FindOrFetch: Using FetchContent to retrieve `abseil-cpp`
+[18.422s] -- Performing Test ABSL_INTERNAL_AT_LEAST_CXX17
+[18.553s] -- Performing Test ABSL_INTERNAL_AT_LEAST_CXX17 - Success
+[18.553s] -- Performing Test ABSL_INTERNAL_AT_LEAST_CXX20
+[18.583s] -- Performing Test ABSL_INTERNAL_AT_LEAST_CXX20 - Failed
+[18.588s] -- Looking for pthread.h
+[18.711s] -- Looking for pthread.h - found
+[18.711s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[18.806s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[18.808s] -- Found Threads: TRUE  
+[18.841s] -- mujoco::FindOrFetch: Using FetchContent to retrieve `abseil-cpp` - Done
+[18.841s] -- mujoco::FindOrFetch: checking for targets in package `GTest`
+[18.842s] -- mujoco::FindOrFetch: checking for targets in package `GTest` - target `gtest` not defined.
+[18.842s] -- mujoco::FindOrFetch: Using FetchContent to retrieve `googletest`
+[22.503s] -- mujoco::FindOrFetch: Using FetchContent to retrieve `googletest` - Done
+[22.505s] -- mujoco::FindOrFetch: checking for targets in package `benchmark`
+[22.505s] -- mujoco::FindOrFetch: checking for targets in package `benchmark` - target `benchmark::benchmark` not defined.
+[22.505s] -- mujoco::FindOrFetch: Using FetchContent to retrieve `benchmark`
+[24.184s] -- Failed to find LLVM FileCheck
+[24.185s] -- Found Git: /usr/bin/git (found version "2.34.1") 
+[24.196s] -- Google Benchmark version: v1.9.1-20-g049f6e79, normalized to 1.9.1.20
+[24.199s] -- Looking for shm_open in rt
+[24.280s] -- Looking for shm_open in rt - found
+[24.280s] -- Performing Test HAVE_CXX_FLAG_WALL
+[24.362s] -- Performing Test HAVE_CXX_FLAG_WALL - Success
+[24.363s] -- Performing Test HAVE_CXX_FLAG_WEXTRA
+[24.449s] -- Performing Test HAVE_CXX_FLAG_WEXTRA - Success
+[24.449s] -- Performing Test HAVE_CXX_FLAG_WSHADOW
+[24.515s] -- Performing Test HAVE_CXX_FLAG_WSHADOW - Success
+[24.515s] -- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL
+[24.592s] -- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL - Success
+[24.594s] -- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST
+[24.670s] -- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST - Success
+[24.671s] -- Performing Test HAVE_CXX_FLAG_WCONVERSION
+[24.770s] -- Performing Test HAVE_CXX_FLAG_WCONVERSION - Success
+[24.771s] -- Performing Test HAVE_CXX_FLAG_WERROR
+[24.867s] -- Performing Test HAVE_CXX_FLAG_WERROR - Success
+[24.869s] -- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE
+[24.963s] -- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE - Success
+[24.963s] -- Performing Test HAVE_CXX_FLAG_PEDANTIC
+[25.049s] -- Performing Test HAVE_CXX_FLAG_PEDANTIC - Success
+[25.049s] -- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS
+[25.136s] -- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS - Success
+[25.136s] -- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32
+[25.184s] -- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 - Failed
+[25.185s] -- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING
+[25.275s] -- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING - Success
+[25.276s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS
+[25.363s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS - Success
+[25.365s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED
+[25.451s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED - Success
+[25.451s] -- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING
+[25.526s] -- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING - Success
+[25.528s] -- Performing Test HAVE_CXX_FLAG_WD654
+[25.552s] -- Performing Test HAVE_CXX_FLAG_WD654 - Failed
+[25.553s] -- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY
+[25.594s] -- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY - Failed
+[25.595s] -- Performing Test HAVE_CXX_FLAG_COVERAGE
+[25.677s] -- Performing Test HAVE_CXX_FLAG_COVERAGE - Success
+[25.677s] -- Compiling and running to test HAVE_STD_REGEX
+[26.627s] -- Performing Test HAVE_STD_REGEX -- success
+[26.627s] -- Compiling and running to test HAVE_GNU_POSIX_REGEX
+[26.659s] -- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+[26.659s] -- Compiling and running to test HAVE_POSIX_REGEX
+[26.823s] -- Performing Test HAVE_POSIX_REGEX -- success
+[26.823s] -- Compiling and running to test HAVE_STEADY_CLOCK
+[26.945s] -- Performing Test HAVE_STEADY_CLOCK -- success
+[26.949s] -- Compiling and running to test HAVE_PTHREAD_AFFINITY
+[27.033s] -- Performing Test HAVE_PTHREAD_AFFINITY -- success
+[27.039s] -- mujoco::FindOrFetch: Using FetchContent to retrieve `benchmark` - Done
+[35.614s] -- mujoco::FindOrFetch: checking for targets in package `mujoco`
+[35.614s] -- mujoco::FindOrFetch: checking for targets in package `mujoco` - found
+[35.614s] -- mujoco::FindOrFetch: checking for targets in package `glfw3`
+[35.615s] -- mujoco::FindOrFetch: checking for targets in package `glfw3` - target `glfw` not defined.
+[35.615s] -- mujoco::FindOrFetch: Using FetchContent to retrieve `glfw3`
+[39.137s] -- Including Wayland support
+[39.137s] -- Including X11 support
+[39.140s] -- Looking for memfd_create
+[39.208s] -- Looking for memfd_create - found
+[39.213s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[39.213s] -- Checking for modules 'wayland-client>=0.2.7;wayland-cursor>=0.2.7;wayland-egl>=0.2.7;xkbcommon>=0.5.0'
+[39.236s] --   Found wayland-client, version 1.20.0
+[39.245s] --   Found wayland-cursor, version 1.20.0
+[39.257s] --   Found wayland-egl, version 18.1.0
+[39.265s] --   Found xkbcommon, version 1.4.0
+[39.393s] -- Found X11: /usr/include   
+[39.393s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[39.481s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[39.481s] -- Looking for gethostbyname
+[39.578s] -- Looking for gethostbyname - found
+[39.578s] -- Looking for connect
+[39.671s] -- Looking for connect - found
+[39.671s] -- Looking for remove
+[39.759s] -- Looking for remove - found
+[39.759s] -- Looking for shmat
+[39.861s] -- Looking for shmat - found
+[39.861s] -- Looking for IceConnectionNumber in ICE
+[39.939s] -- Looking for IceConnectionNumber in ICE - found
+[39.943s] -- mujoco::FindOrFetch: Using FetchContent to retrieve `glfw3` - Done
+[39.951s] -- mujoco::FindOrFetch: checking for targets in package `mujoco`
+[39.951s] -- mujoco::FindOrFetch: checking for targets in package `mujoco` - found
+[39.952s] -- mujoco::FindOrFetch: checking for targets in package `glfw3`
+[39.952s] -- mujoco::FindOrFetch: checking for targets in package `glfw3` - found
+[39.982s] -- Configuring done
+[40.179s] -- Generating done
+[40.261s] -- Build files have been written to: /home/jason/projects/motion_control_go2/build/mujoco

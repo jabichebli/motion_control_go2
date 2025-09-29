@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -flto -fno-fat-lto-objects -fuse-ld=gold -Wl,--gc-sections CMakeFiles/simulate.dir/main.cc.o -o ../bin/simulate  -Wl,-rpath,"\$ORIGIN/../lib" ../lib/libsimulate.a ../lib/libmujoco.so.3.3.7 ../lib/libglfw3.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl 

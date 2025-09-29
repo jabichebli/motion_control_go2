@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG -flto -fno-fat-lto-objects CMakeFiles/user_egp.dir/src/user_eg/user_eg.c.o -o ../../bin/user_egp  -Wl,-rpath,/home/jason/projects/motion_control_go2/build/mujoco/lib ../../lib/libqhull_p.so.8.1-alpha3 -lm 

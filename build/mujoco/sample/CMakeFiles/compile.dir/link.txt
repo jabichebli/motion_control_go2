@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -flto -fno-fat-lto-objects -fuse-ld=gold -Wl,--gc-sections CMakeFiles/compile.dir/compile.cc.o -o ../bin/compile  -Wl,-rpath,"\$ORIGIN/../lib" ../lib/libmujoco.so.3.3.7 

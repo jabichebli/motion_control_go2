@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jason/projects/motion_control_go2/build/stand_go2/stand_go2" "/home/jason/projects/motion_control_go2/build/stand_go2/stand_go2" "TARGETS" "stand_go2" "stand_go2")

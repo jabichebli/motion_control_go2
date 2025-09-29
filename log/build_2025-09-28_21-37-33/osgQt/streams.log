@@ -1,0 +1,23 @@
+[0.019s] Invoking command in '/home/jason/projects/motion_control_go2/build/osgQt': /usr/bin/cmake --build /home/jason/projects/motion_control_go2/build/osgQt -- -j16 -l16
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target osgQOpenGL[0m
+[0.086s] [ 87%] Built target osgQOpenGL
+[0.110s] [35m[1mConsolidate compiler generated dependencies of target example_osgviewerQt[0m
+[0.153s] [100%] Built target example_osgviewerQt
+[0.221s] Invoked command in '/home/jason/projects/motion_control_go2/build/osgQt' returned '0': /usr/bin/cmake --build /home/jason/projects/motion_control_go2/build/osgQt -- -j16 -l16
+[0.226s] Invoking command in '/home/jason/projects/motion_control_go2/build/osgQt': /usr/bin/cmake --install /home/jason/projects/motion_control_go2/build/osgQt
+[0.235s] -- Install configuration: "Release"
+[0.235s] -- Installing: /home/jason/projects/motion_control_go2/install/osgQt/lib64/pkgconfig/openscenegraph-osgQt.pc
+[0.235s] -- Installing: /home/jason/projects/motion_control_go2/install/osgQt/lib64/libosgQOpenGL.so.3.6.5
+[0.235s] -- Installing: /home/jason/projects/motion_control_go2/install/osgQt/lib64/libosgQOpenGL.so.145
+[0.235s] -- Installing: /home/jason/projects/motion_control_go2/install/osgQt/lib64/libosgQOpenGL.so
+[0.235s] -- Installing: /home/jason/projects/motion_control_go2/install/osgQt/include/osgQOpenGL/osgQOpenGLWidget
+[0.235s] -- Installing: /home/jason/projects/motion_control_go2/install/osgQt/include/osgQOpenGL/osgQOpenGLWindow
+[0.235s] -- Installing: /home/jason/projects/motion_control_go2/install/osgQt/include/osgQOpenGL/OSGRenderer
+[0.235s] -- Installing: /home/jason/projects/motion_control_go2/install/osgQt/include/osgQOpenGL/CullVisitorEx
+[0.235s] -- Installing: /home/jason/projects/motion_control_go2/install/osgQt/include/osgQOpenGL/GraphicsWindowEx
+[0.235s] -- Installing: /home/jason/projects/motion_control_go2/install/osgQt/include/osgQOpenGL/RenderStageEx
+[0.235s] -- Installing: /home/jason/projects/motion_control_go2/install/osgQt/include/osgQOpenGL/StateEx
+[0.235s] -- Installing: /home/jason/projects/motion_control_go2/install/osgQt/include/osgQOpenGL/Export
+[0.239s] -- Installing: /home/jason/projects/motion_control_go2/install/osgQt/share/OpenSceneGraph/bin/osgviewerQt
+[0.239s] -- Set runtime path of "/home/jason/projects/motion_control_go2/install/osgQt/share/OpenSceneGraph/bin/osgviewerQt" to ""
+[0.244s] Invoked command in '/home/jason/projects/motion_control_go2/build/osgQt' returned '0': /usr/bin/cmake --install /home/jason/projects/motion_control_go2/build/osgQt

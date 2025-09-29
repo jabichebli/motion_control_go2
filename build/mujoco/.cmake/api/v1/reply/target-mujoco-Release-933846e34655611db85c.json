@@ -1,0 +1,1548 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libmujoco.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_options",
+			"add_subdirectory",
+			"target_link_libraries",
+			"add_compile_options",
+			"include",
+			"target_compile_options",
+			"target_compile_definitions",
+			"add_compile_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"cmake/MujocoOptions.cmake",
+			"cmake/MujocoDependencies.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 100,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 220,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 131,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 115,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 138,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 124,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 119,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 11
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 342,
+				"parent" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 113,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 121,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 123,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 206,
+				"parent" : 12
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 114,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -flto -fno-fat-lto-objects -fPIC -fvisibility=hidden"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-mavx"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wimplicit-fallthrough"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wunused"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wvla"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wno-int-in-bool-context"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wno-unknown-pragmas"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wimplicit-fallthrough=5"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wno-maybe-uninitialized"
+				},
+				{
+					"fragment" : "-std=c11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "CCD_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "EIGEN_MPL2_ONLY"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "MC_IMPLEM_ENABLE"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "MUJOCO_DLL_EXPORTS"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "MUJOCO_TINYOBJLOADER_IMPL"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "mjUSEPLATFORMSIMD"
+				},
+				{
+					"define" : "mujoco_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 16,
+					"path" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/marchingcubecpp-src"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/trianglemeshdistance-src"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/home/jason/projects/motion_control_go2/src/mujoco/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/home/jason/projects/motion_control_go2/src/mujoco/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/ccd-src/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/ccd-build/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/lodepng-src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/qhull-src/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/qhull-src/src/libqhull_r"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/tinyobjloader-src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/tinyxml2-src"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				22,
+				24,
+				26,
+				29,
+				31,
+				33,
+				35,
+				38,
+				40,
+				42,
+				46,
+				48,
+				50,
+				52,
+				54,
+				57,
+				59,
+				61,
+				63,
+				65,
+				67,
+				70,
+				72,
+				74,
+				76,
+				86,
+				114,
+				117,
+				119,
+				121,
+				123,
+				130
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -flto -fno-fat-lto-objects -fPIC -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-mavx"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wimplicit-fallthrough"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wunused"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wvla"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wno-int-in-bool-context"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wno-unknown-pragmas"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wimplicit-fallthrough=5"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wno-maybe-uninitialized"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "CCD_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "EIGEN_MPL2_ONLY"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "MC_IMPLEM_ENABLE"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "MUJOCO_DLL_EXPORTS"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "MUJOCO_TINYOBJLOADER_IMPL"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "mjUSEPLATFORMSIMD"
+				},
+				{
+					"define" : "mujoco_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 16,
+					"path" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/marchingcubecpp-src"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/trianglemeshdistance-src"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/home/jason/projects/motion_control_go2/src/mujoco/include"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/home/jason/projects/motion_control_go2/src/mujoco/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/ccd-src/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/ccd-build/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/lodepng-src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/qhull-src/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/qhull-src/src/libqhull_r"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/tinyobjloader-src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/jason/projects/motion_control_go2/build/mujoco/_deps/tinyxml2-src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				20,
+				44,
+				78,
+				80,
+				82,
+				84,
+				87,
+				88,
+				90,
+				92,
+				94,
+				96,
+				98,
+				100,
+				102,
+				104,
+				106,
+				108,
+				110,
+				112,
+				116,
+				125,
+				128
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "lodepng::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "qhullstatic_r::@4af2aa71350e55b0c48f"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "tinyxml2::@bafd953fc568ffa9a669"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "tinyobjloader::@504dab42fa214d3d2823"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ccd::@38abda21a504939c0e68"
+		}
+	],
+	"id" : "mujoco::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/jason/projects/motion_control_go2/install/mujoco"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-fuse-ld=gold",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libccd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/liblodepng.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libqhullstatic_r.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libtinyobjloader.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "lib/libtinyxml2.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"lto" : true
+	},
+	"name" : "mujoco",
+	"nameOnDisk" : "libmujoco.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				5,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				28,
+				30,
+				32,
+				34,
+				36,
+				37,
+				39,
+				41,
+				43,
+				45,
+				47,
+				49,
+				51,
+				53,
+				55,
+				56,
+				58,
+				60,
+				62,
+				64,
+				66,
+				68,
+				69,
+				71,
+				73,
+				75,
+				77,
+				79,
+				81,
+				83,
+				85,
+				89,
+				91,
+				93,
+				95,
+				97,
+				99,
+				101,
+				103,
+				105,
+				107,
+				109,
+				111,
+				113,
+				115,
+				118,
+				120,
+				122,
+				124,
+				126,
+				127,
+				129,
+				131
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				29,
+				31,
+				33,
+				35,
+				38,
+				40,
+				42,
+				44,
+				46,
+				48,
+				50,
+				52,
+				54,
+				57,
+				59,
+				61,
+				63,
+				65,
+				67,
+				70,
+				72,
+				74,
+				76,
+				78,
+				80,
+				82,
+				84,
+				86,
+				87,
+				88,
+				90,
+				92,
+				94,
+				96,
+				98,
+				100,
+				102,
+				104,
+				106,
+				108,
+				110,
+				112,
+				114,
+				116,
+				117,
+				119,
+				121,
+				123,
+				125,
+				128,
+				130
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_array_safety.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_callback.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_callback.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_collision_box.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_collision_convex.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_collision_convex.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_collision_driver.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_collision_driver.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_collision_gjk.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_collision_gjk.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_collision_primitive.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_collision_primitive.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_collision_sdf.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_collision_sdf.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_core_constraint.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_core_constraint.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_core_util.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_core_util.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_core_smooth.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_core_smooth.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "src/engine/engine_crossplatform.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_crossplatform.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_derivative.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_derivative.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_derivative_fd.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_derivative_fd.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_forward.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_forward.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_global_table.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_inverse.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_inverse.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_init.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_init.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_island.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_island.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_io.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_io.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_macro.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_memory.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_memory.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_name.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_name.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_passive.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_passive.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 1,
+			"path" : "src/engine/engine_plugin.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_plugin.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_print.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_print.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_ray.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_ray.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_sensor.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_sensor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_setconst.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_setconst.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_solver.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_solver.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_sort.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_util_blas.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_util_blas.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_util_errmem.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_util_errmem.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_util_misc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_util_misc.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_util_solve.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_util_solve.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_util_sparse.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_util_sparse.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_util_sparse_avx.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_util_spatial.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_util_spatial.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_vis_init.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_vis_init.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_vis_interact.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_vis_interact.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 19,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/engine_vis_visualize.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 19,
+			"path" : "src/engine/engine_vis_visualize.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 1,
+			"path" : "src/user/user_api.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "src/user/user_api.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 1,
+			"path" : "src/user/user_cache.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "src/user/user_cache.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 1,
+			"path" : "src/user/user_composite.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "src/user/user_composite.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 1,
+			"path" : "src/user/user_flexcomp.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "src/user/user_flexcomp.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 0,
+			"path" : "src/user/user_init.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 1,
+			"path" : "src/user/user_mesh.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 1,
+			"path" : "src/user/user_model.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "src/user/user_model.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 1,
+			"path" : "src/user/user_objects.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "src/user/user_objects.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 1,
+			"path" : "src/user/user_resource.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "src/user/user_resource.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 1,
+			"path" : "src/user/user_util.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "src/user/user_util.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 14,
+			"compileGroupIndex" : 1,
+			"path" : "src/user/user_vfs.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 14,
+			"path" : "src/user/user_vfs.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 1,
+			"path" : "src/xml/xml_api.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 20,
+			"path" : "src/xml/xml_api.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 1,
+			"path" : "src/xml/xml_base.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 20,
+			"path" : "src/xml/xml_base.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 1,
+			"path" : "src/xml/xml.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 20,
+			"path" : "src/xml/xml.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 1,
+			"path" : "src/xml/xml_native_reader.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 20,
+			"path" : "src/xml/xml_native_reader.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 1,
+			"path" : "src/xml/xml_numeric_format.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 20,
+			"path" : "src/xml/xml_numeric_format.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 1,
+			"path" : "src/xml/xml_native_writer.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 20,
+			"path" : "src/xml/xml_native_writer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 1,
+			"path" : "src/xml/xml_urdf.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 20,
+			"path" : "src/xml/xml_urdf.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 20,
+			"compileGroupIndex" : 1,
+			"path" : "src/xml/xml_util.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 20,
+			"path" : "src/xml/xml_util.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/render/glad/glad.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "src/render/glad/glad.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 1,
+			"path" : "src/render/glad/loader.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/render/render_context.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "src/render/render_context.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/render/render_gl2.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "src/render/render_gl2.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/render/render_gl3.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "src/render/render_gl3.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "src/render/render_util.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "src/render/render_util.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 21,
+			"compileGroupIndex" : 1,
+			"path" : "src/thread/thread_pool.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 21,
+			"path" : "src/thread/thread_pool.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 21,
+			"path" : "src/thread/thread_queue.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 21,
+			"compileGroupIndex" : 1,
+			"path" : "src/thread/thread_task.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 21,
+			"path" : "src/thread/thread_task.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 22,
+			"compileGroupIndex" : 0,
+			"path" : "src/ui/ui_main.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 22,
+			"path" : "src/ui/ui_main.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

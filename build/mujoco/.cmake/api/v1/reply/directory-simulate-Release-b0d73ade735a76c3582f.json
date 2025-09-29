@@ -1,0 +1,78 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"simulate/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 293,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 305,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "simulate",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/simulate"
+			],
+			"targetId" : "simulate::@15ff4b60f7749b69808e",
+			"targetIndex" : 191,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "simulate",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libsimulate.a"
+			],
+			"targetId" : "libmujoco_simulate::@15ff4b60f7749b69808e",
+			"targetIndex" : 168,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "simulate",
+			"destination" : "include/simulate",
+			"paths" : 
+			[
+				"simulate/simulate.h",
+				"simulate/platform_ui_adapter.h",
+				"simulate/glfw_adapter.h",
+				"simulate/glfw_dispatch.h",
+				"simulate/glfw_corevideo.h",
+				"simulate/array_safety.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "simulate",
+		"source" : "simulate"
+	}
+}

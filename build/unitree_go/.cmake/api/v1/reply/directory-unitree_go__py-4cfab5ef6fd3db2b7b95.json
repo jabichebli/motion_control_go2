@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "unitree_go__py",
+		"source" : "/home/jason/projects/motion_control_go2/build/unitree_go/unitree_go__py"
+	}
+}

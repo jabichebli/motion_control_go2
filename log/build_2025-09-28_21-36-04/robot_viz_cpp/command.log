@@ -1,0 +1,1 @@
+Invoking command in '/home/jason/projects/motion_control_go2/build/robot_viz_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jason/projects/motion_control_go2/src/robot_viz_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/robot_viz_cpp

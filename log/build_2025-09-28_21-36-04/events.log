@@ -1,0 +1,1068 @@
+[0.000000] (-) TimerEvent: {}
+[0.000711] (gepetto-viewer) JobQueued: {'identifier': 'gepetto-viewer', 'dependencies': OrderedDict()}
+[0.000860] (mujoco) JobQueued: {'identifier': 'mujoco', 'dependencies': OrderedDict()}
+[0.000895] (osgQt) JobQueued: {'identifier': 'osgQt', 'dependencies': OrderedDict()}
+[0.000915] (robot_viz_cpp) JobQueued: {'identifier': 'robot_viz_cpp', 'dependencies': OrderedDict()}
+[0.000929] (unitree_api) JobQueued: {'identifier': 'unitree_api', 'dependencies': OrderedDict()}
+[0.000943] (unitree_go) JobQueued: {'identifier': 'unitree_go', 'dependencies': OrderedDict()}
+[0.000956] (unitree_hg) JobQueued: {'identifier': 'unitree_hg', 'dependencies': OrderedDict()}
+[0.000969] (gepetto-viewer-corba) JobQueued: {'identifier': 'gepetto-viewer-corba', 'dependencies': OrderedDict([('gepetto-viewer', '/home/jason/projects/motion_control_go2/install/gepetto-viewer')])}
+[0.000987] (stand_go2) JobQueued: {'identifier': 'stand_go2', 'dependencies': OrderedDict([('unitree_api', '/home/jason/projects/motion_control_go2/install/unitree_api'), ('unitree_go', '/home/jason/projects/motion_control_go2/install/unitree_go')])}
+[0.001005] (unitree_mujoco) JobQueued: {'identifier': 'unitree_mujoco', 'dependencies': OrderedDict([('mujoco', '/home/jason/projects/motion_control_go2/install/mujoco')])}
+[0.001022] (unitree_ros2_example) JobQueued: {'identifier': 'unitree_ros2_example', 'dependencies': OrderedDict([('unitree_api', '/home/jason/projects/motion_control_go2/install/unitree_api'), ('unitree_go', '/home/jason/projects/motion_control_go2/install/unitree_go'), ('unitree_hg', '/home/jason/projects/motion_control_go2/install/unitree_hg')])}
+[0.001041] (unitree_api) JobStarted: {'identifier': 'unitree_api'}
+[0.005353] (unitree_go) JobStarted: {'identifier': 'unitree_go'}
+[0.006729] (gepetto-viewer) JobStarted: {'identifier': 'gepetto-viewer'}
+[0.008380] (mujoco) JobStarted: {'identifier': 'mujoco'}
+[0.009645] (unitree_hg) JobStarted: {'identifier': 'unitree_hg'}
+[0.011463] (osgQt) JobStarted: {'identifier': 'osgQt'}
+[0.013643] (robot_viz_cpp) JobStarted: {'identifier': 'robot_viz_cpp'}
+[0.016037] (unitree_api) JobProgress: {'identifier': 'unitree_api', 'progress': 'cmake'}
+[0.016093] (unitree_api) Command: {'cmd': ['/usr/bin/cmake', '/home/jason/projects/motion_control_go2/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/unitree_api'], 'cwd': '/home/jason/projects/motion_control_go2/build/unitree_api', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/usr/local/lib:/opt/unitree_robotics/lib:/home/jason/.mujoco/mujoco-3.2.7/bin:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason/projects/motion_control_go2/src/unitree_mujoco/example'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/jason/.mujoco/mujoco-3.2.7'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jason/.mujoco/mujoco-3.2.7/bin:/home/jason/.local/bin:/opt/ros/humble/bin:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jasonabichebli:@/tmp/.ICE-unix/1822,unix/jasonabichebli:/tmp/.ICE-unix/1822'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1a7f7d58_f8e4_4a69_9d3a_994447bcac35'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W1EAD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/projects/motion_control_go2/build/unitree_api'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local:/usr/local:/usr/local::/opt/ros/humble')]), 'shell': False}
+[0.019325] (unitree_go) JobProgress: {'identifier': 'unitree_go', 'progress': 'cmake'}
+[0.021038] (unitree_go) Command: {'cmd': ['/usr/bin/cmake', '/home/jason/projects/motion_control_go2/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_go', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/unitree_go'], 'cwd': '/home/jason/projects/motion_control_go2/build/unitree_go', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/usr/local/lib:/opt/unitree_robotics/lib:/home/jason/.mujoco/mujoco-3.2.7/bin:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason/projects/motion_control_go2/src/unitree_mujoco/example'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/jason/.mujoco/mujoco-3.2.7'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jason/.mujoco/mujoco-3.2.7/bin:/home/jason/.local/bin:/opt/ros/humble/bin:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jasonabichebli:@/tmp/.ICE-unix/1822,unix/jasonabichebli:/tmp/.ICE-unix/1822'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1a7f7d58_f8e4_4a69_9d3a_994447bcac35'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W1EAD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/projects/motion_control_go2/build/unitree_go'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local:/usr/local:/usr/local::/opt/ros/humble')]), 'shell': False}
+[0.021558] (gepetto-viewer) JobProgress: {'identifier': 'gepetto-viewer', 'progress': 'cmake'}
+[0.021842] (gepetto-viewer) Command: {'cmd': ['/usr/bin/cmake', '/home/jason/projects/motion_control_go2/src/gepetto-viewer', '-DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/gepetto-viewer'], 'cwd': '/home/jason/projects/motion_control_go2/build/gepetto-viewer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/usr/local/lib:/opt/unitree_robotics/lib:/home/jason/.mujoco/mujoco-3.2.7/bin:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason/projects/motion_control_go2/src/unitree_mujoco/example'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/jason/.mujoco/mujoco-3.2.7'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jason/.mujoco/mujoco-3.2.7/bin:/home/jason/.local/bin:/opt/ros/humble/bin:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jasonabichebli:@/tmp/.ICE-unix/1822,unix/jasonabichebli:/tmp/.ICE-unix/1822'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1a7f7d58_f8e4_4a69_9d3a_994447bcac35'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W1EAD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/projects/motion_control_go2/build/gepetto-viewer'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local:/usr/local:/usr/local::/opt/ros/humble')]), 'shell': False}
+[0.022865] (mujoco) JobProgress: {'identifier': 'mujoco', 'progress': 'cmake'}
+[0.023389] (mujoco) Command: {'cmd': ['/usr/bin/cmake', '/home/jason/projects/motion_control_go2/src/mujoco', '-DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/mujoco'], 'cwd': '/home/jason/projects/motion_control_go2/build/mujoco', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/usr/local/lib:/opt/unitree_robotics/lib:/home/jason/.mujoco/mujoco-3.2.7/bin:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason/projects/motion_control_go2/src/unitree_mujoco/example'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/jason/.mujoco/mujoco-3.2.7'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jason/.mujoco/mujoco-3.2.7/bin:/home/jason/.local/bin:/opt/ros/humble/bin:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jasonabichebli:@/tmp/.ICE-unix/1822,unix/jasonabichebli:/tmp/.ICE-unix/1822'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1a7f7d58_f8e4_4a69_9d3a_994447bcac35'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W1EAD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/projects/motion_control_go2/build/mujoco'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local:/usr/local:/usr/local:')]), 'shell': False}
+[0.025570] (unitree_hg) JobProgress: {'identifier': 'unitree_hg', 'progress': 'cmake'}
+[0.028438] (unitree_hg) Command: {'cmd': ['/usr/bin/cmake', '/home/jason/projects/motion_control_go2/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/unitree_hg'], 'cwd': '/home/jason/projects/motion_control_go2/build/unitree_hg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/usr/local/lib:/opt/unitree_robotics/lib:/home/jason/.mujoco/mujoco-3.2.7/bin:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason/projects/motion_control_go2/src/unitree_mujoco/example'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/jason/.mujoco/mujoco-3.2.7'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jason/.mujoco/mujoco-3.2.7/bin:/home/jason/.local/bin:/opt/ros/humble/bin:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jasonabichebli:@/tmp/.ICE-unix/1822,unix/jasonabichebli:/tmp/.ICE-unix/1822'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1a7f7d58_f8e4_4a69_9d3a_994447bcac35'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W1EAD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/projects/motion_control_go2/build/unitree_hg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local:/usr/local:/usr/local::/opt/ros/humble')]), 'shell': False}
+[0.028763] (osgQt) JobProgress: {'identifier': 'osgQt', 'progress': 'cmake'}
+[0.030513] (osgQt) Command: {'cmd': ['/usr/bin/cmake', '/home/jason/projects/motion_control_go2/src/osgQt', '-DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/osgQt'], 'cwd': '/home/jason/projects/motion_control_go2/build/osgQt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/usr/local/lib:/opt/unitree_robotics/lib:/home/jason/.mujoco/mujoco-3.2.7/bin:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason/projects/motion_control_go2/src/unitree_mujoco/example'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/jason/.mujoco/mujoco-3.2.7'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jason/.mujoco/mujoco-3.2.7/bin:/home/jason/.local/bin:/opt/ros/humble/bin:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jasonabichebli:@/tmp/.ICE-unix/1822,unix/jasonabichebli:/tmp/.ICE-unix/1822'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1a7f7d58_f8e4_4a69_9d3a_994447bcac35'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W1EAD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/projects/motion_control_go2/build/osgQt'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local:/usr/local:/usr/local:')]), 'shell': False}
+[0.033868] (gepetto-viewer) StdoutLine: {'line': b"-- JRL cmakemodules found in 'cmake/' git submodule\n"}
+[0.035935] (gepetto-viewer) StdoutLine: {'line': b'-- Configuring "gepetto-viewer" (https://github.com/Gepetto/gepetto-viewer)\n'}
+[0.036199] (gepetto-viewer) StdoutLine: {'line': b'-- Package version (ROS package.xml): 6.0.0\n'}
+[0.037155] (robot_viz_cpp) JobProgress: {'identifier': 'robot_viz_cpp', 'progress': 'cmake'}
+[0.038218] (robot_viz_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/jason/projects/motion_control_go2/src/robot_viz_cpp', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/robot_viz_cpp'], 'cwd': '/home/jason/projects/motion_control_go2/build/robot_viz_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/usr/local/lib:/opt/unitree_robotics/lib:/home/jason/.mujoco/mujoco-3.2.7/bin:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason/projects/motion_control_go2/src/unitree_mujoco/example'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/jason/.mujoco/mujoco-3.2.7'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jason/.mujoco/mujoco-3.2.7/bin:/home/jason/.local/bin:/opt/ros/humble/bin:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jasonabichebli:@/tmp/.ICE-unix/1822,unix/jasonabichebli:/tmp/.ICE-unix/1822'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1a7f7d58_f8e4_4a69_9d3a_994447bcac35'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W1EAD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/projects/motion_control_go2/build/robot_viz_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local:/usr/local:/usr/local::/opt/ros/humble')]), 'shell': False}
+[0.060516] (unitree_hg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.063959] (unitree_api) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.064054] (unitree_go) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.072206] (robot_viz_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.072884] (mujoco) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.080074] (gepetto-viewer) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.087931] (osgQt) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.088094] (gepetto-viewer) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.098956] (unitree_go) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.099906] (-) TimerEvent: {}
+[0.103127] (mujoco) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.103297] (unitree_go) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.103882] (unitree_api) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.104030] (unitree_hg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.106870] (mujoco) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.108076] (unitree_api) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.109946] (robot_viz_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.112063] (unitree_hg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.113760] (robot_viz_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.120131] (osgQt) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.128956] (osgQt) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.133080] (gepetto-viewer) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.138889] (gepetto-viewer) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.139031] (gepetto-viewer) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.139069] (gepetto-viewer) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.147577] (gepetto-viewer) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.147736] (mujoco) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.151153] (unitree_api) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.151265] (mujoco) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.151312] (mujoco) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.151470] (mujoco) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.151835] (unitree_go) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.152607] (unitree_go) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.152743] (unitree_go) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.152907] (gepetto-viewer) StdoutLine: {'line': b'-- Performing Test res_-pedantic\n'}
+[0.152983] (unitree_go) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.153151] (mujoco) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.153189] (unitree_api) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.153306] (unitree_api) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.155622] (unitree_api) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.155777] (unitree_go) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.155820] (unitree_api) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.156010] (unitree_hg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.160194] (unitree_hg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.160335] (unitree_hg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.160565] (unitree_hg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.160916] (robot_viz_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.162245] (unitree_hg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.162748] (robot_viz_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.163131] (robot_viz_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.163203] (robot_viz_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.164745] (robot_viz_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.171469] (osgQt) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.175919] (osgQt) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.176091] (osgQt) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.176120] (osgQt) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.176640] (osgQt) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.197839] (mujoco) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.199091] (gepetto-viewer) StdoutLine: {'line': b'-- Performing Test res_-pedantic - Success\n'}
+[0.199459] (gepetto-viewer) StdoutLine: {'line': b'-- Performing Test res_-Wno-long-long\n'}
+[0.199979] (-) TimerEvent: {}
+[0.201889] (unitree_go) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.204892] (mujoco) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.205041] (mujoco) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.205071] (mujoco) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.205099] (mujoco) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[0.205125] (mujoco) StdoutLine: {'line': b'-- Performing Test CAN_BUILD_AVX\n'}
+[0.207778] (unitree_hg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.207936] (unitree_api) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.211333] (unitree_hg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.211483] (unitree_go) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.211533] (unitree_hg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.211653] (unitree_go) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.211732] (unitree_hg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.211906] (unitree_go) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.212289] (robot_viz_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.212766] (unitree_api) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.213837] (unitree_api) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.213892] (unitree_api) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.215064] (unitree_go) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.215148] (unitree_api) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.215175] (unitree_hg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.215809] (robot_viz_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.215878] (robot_viz_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.216183] (robot_viz_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.217286] (robot_viz_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.227002] (osgQt) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.229345] (osgQt) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.229492] (osgQt) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.229771] (osgQt) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.241041] (osgQt) StdoutLine: {'line': b'-- Found osgDB: /usr/lib/x86_64-linux-gnu/libosgDB.so  \n'}
+[0.242448] (osgQt) StdoutLine: {'line': b'-- Found osgGA: /usr/lib/x86_64-linux-gnu/libosgGA.so  \n'}
+[0.243675] (osgQt) StdoutLine: {'line': b'-- Found osgUtil: /usr/lib/x86_64-linux-gnu/libosgUtil.so  \n'}
+[0.244826] (osgQt) StdoutLine: {'line': b'-- Found osgText: /usr/lib/x86_64-linux-gnu/libosgText.so  \n'}
+[0.245973] (osgQt) StdoutLine: {'line': b'-- Found osgViewer: /usr/lib/x86_64-linux-gnu/libosgViewer.so  \n'}
+[0.247233] (osgQt) StdoutLine: {'line': b'-- Found osgWidget: /usr/lib/x86_64-linux-gnu/libosgWidget.so  \n'}
+[0.248408] (osgQt) StdoutLine: {'line': b'-- Found osg: /usr/lib/x86_64-linux-gnu/libosg.so  \n'}
+[0.249833] (gepetto-viewer) StdoutLine: {'line': b'-- Performing Test res_-Wno-long-long - Success\n'}
+[0.249899] (gepetto-viewer) StdoutLine: {'line': b'-- Performing Test res_-Wall\n'}
+[0.250253] (osgQt) StdoutLine: {'line': b'-- Found OpenThreads: /usr/lib/x86_64-linux-gnu/libOpenThreads.so  \n'}
+[0.253851] (osgQt) StdoutLine: {'line': b'-- Found OpenSceneGraph: /usr/lib/x86_64-linux-gnu/libosgDB.so;/usr/lib/x86_64-linux-gnu/libosgGA.so;/usr/lib/x86_64-linux-gnu/libosgUtil.so;/usr/lib/x86_64-linux-gnu/libosgText.so;/usr/lib/x86_64-linux-gnu/libosgViewer.so;/usr/lib/x86_64-linux-gnu/libosgWidget.so;/usr/lib/x86_64-linux-gnu/libosg.so;/usr/lib/x86_64-linux-gnu/libOpenThreads.so (found suitable version "3.6.5", minimum required is "3.6.0") \n'}
+[0.253941] (osgQt) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.297707] (osgQt) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.297856] (osgQt) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.298377] (unitree_go) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.300056] (-) TimerEvent: {}
+[0.300985] (unitree_hg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.302149] (robot_viz_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.302944] (unitree_api) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.309494] (gepetto-viewer) StdoutLine: {'line': b'-- Performing Test res_-Wall - Success\n'}
+[0.309607] (gepetto-viewer) StdoutLine: {'line': b'-- Performing Test res_-Wextra\n'}
+[0.370997] (mujoco) StdoutLine: {'line': b'-- Performing Test CAN_BUILD_AVX - Success\n'}
+[0.373828] (mujoco) StdoutLine: {'line': b'-- Performing Test SUPPORTS_LLD\n'}
+[0.377819] (gepetto-viewer) StdoutLine: {'line': b'-- Performing Test res_-Wextra - Success\n'}
+[0.377920] (gepetto-viewer) StdoutLine: {'line': b'-- Performing Test res_-Wcast-align\n'}
+[0.381821] (osgQt) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.381911] (osgQt) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.382128] (osgQt) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindOpenGL.cmake:315 (message):\n'}
+[0.382183] (osgQt) StderrLine: {'line': b'  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when\n'}
+[0.382207] (osgQt) StderrLine: {'line': b'  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the\n'}
+[0.382228] (osgQt) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[0.382247] (osgQt) StderrLine: {'line': b'\n'}
+[0.382266] (osgQt) StderrLine: {'line': b'  FindOpenGL found both a legacy GL library:\n'}
+[0.382285] (osgQt) StderrLine: {'line': b'\n'}
+[0.382304] (osgQt) StderrLine: {'line': b'    OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so\n'}
+[0.382321] (osgQt) StderrLine: {'line': b'\n'}
+[0.382339] (osgQt) StderrLine: {'line': b'  and GLVND libraries for OpenGL and GLX:\n'}
+[0.382356] (osgQt) StderrLine: {'line': b'\n'}
+[0.382374] (osgQt) StderrLine: {'line': b'    OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so\n'}
+[0.382391] (osgQt) StderrLine: {'line': b'    OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so\n'}
+[0.382408] (osgQt) StderrLine: {'line': b'\n'}
+[0.382427] (osgQt) StderrLine: {'line': b'  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for\n'}
+[0.382444] (osgQt) StderrLine: {'line': b'  compatibility with CMake 3.10 and below the legacy GL library will be used.\n'}
+[0.382461] (osgQt) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.382478] (osgQt) StderrLine: {'line': b'  CMakeLists.txt:267 (FIND_PACKAGE)\n'}
+[0.382495] (osgQt) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.382511] (osgQt) StderrLine: {'line': b'\x1b[0m\n'}
+[0.385813] (osgQt) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[0.395102] (osgQt) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[0.400200] (-) TimerEvent: {}
+[0.410808] (mujoco) StdoutLine: {'line': b'-- Performing Test SUPPORTS_LLD - Failed\n'}
+[0.410954] (mujoco) StdoutLine: {'line': b'-- Performing Test SUPPORTS_GOLD\n'}
+[0.421359] (gepetto-viewer) StdoutLine: {'line': b'-- Performing Test res_-Wcast-align - Success\n'}
+[0.424861] (gepetto-viewer) StdoutLine: {'line': b'-- Performing Test res_-Wcast-qual\n'}
+[0.429949] (unitree_go) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.430439] (unitree_hg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.434056] (robot_viz_cpp) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.436507] (unitree_api) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.457787] (mujoco) StdoutLine: {'line': b'-- Performing Test SUPPORTS_GOLD - Success\n'}
+[0.457930] (mujoco) StdoutLine: {'line': b'-- Performing Test SUPPORTS_GC_SECTIONS\n'}
+[0.457964] (osgQt) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[0.458000] (osgQt) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[0.458945] (unitree_api) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.460058] (unitree_go) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.466945] (unitree_hg) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.467579] (robot_viz_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.479312] (gepetto-viewer) StdoutLine: {'line': b'-- Performing Test res_-Wcast-qual - Success\n'}
+[0.479458] (gepetto-viewer) StdoutLine: {'line': b'-- Performing Test res_-Wformat\n'}
+[0.500320] (-) TimerEvent: {}
+[0.503412] (unitree_api) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.504195] (unitree_go) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.506380] (robot_viz_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.508000] (unitree_api) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.508791] (unitree_go) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.508839] (robot_viz_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.508876] (mujoco) StdoutLine: {'line': b'-- Performing Test SUPPORTS_GC_SECTIONS - Success\n'}
+[0.510376] (osgQt) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success\n'}
+[0.516851] (unitree_hg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.517123] (osgQt) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[0.517168] (unitree_hg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.517201] (unitree_go) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.518350] (robot_viz_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.518776] (unitree_api) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.520275] (unitree_hg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.528648] (unitree_api) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.528789] (robot_viz_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.528851] (unitree_hg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.528911] (unitree_go) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.538930] (gepetto-viewer) StdoutLine: {'line': b'-- Performing Test res_-Wformat - Success\n'}
+[0.539065] (gepetto-viewer) StdoutLine: {'line': b'-- Performing Test res_-Wwrite-strings\n'}
+[0.542471] (robot_viz_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.543431] (unitree_hg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.543481] (unitree_go) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.543513] (unitree_api) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.561705] (osgQt) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[0.561894] (osgQt) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.561925] (osgQt) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):\n'}
+[0.561956] (osgQt) StderrLine: {'line': b'  qt5_use_modules is not part of the official API, and might be removed in Qt\n'}
+[0.561978] (osgQt) StderrLine: {'line': b'  6.\n'}
+[0.561998] (osgQt) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.562018] (osgQt) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)\n'}
+[0.562038] (osgQt) StderrLine: {'line': b'  examples/osgviewerQt/CMakeLists.txt:23 (qt5_use_modules)\n'}
+[0.562056] (osgQt) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.562075] (osgQt) StderrLine: {'line': b'\x1b[0m\n'}
+[0.562099] (osgQt) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/Documentation.cmake:30 (message):\n'}
+[0.562118] (osgQt) StderrLine: {'line': b'  Policy CMP0106 is not set: The Documentation module is removed.  Run "cmake\n'}
+[0.562137] (osgQt) StderrLine: {'line': b'  --help-policy CMP0106" for policy details.  Use the cmake_policy command to\n'}
+[0.562155] (osgQt) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[0.562173] (osgQt) StderrLine: {'line': b'\n'}
+[0.562191] (osgQt) StderrLine: {'line': b'  Documentation.cmake is VTK-specific code and should not be used in non-VTK\n'}
+[0.562208] (osgQt) StderrLine: {'line': b'  projects.  This logic in this module is best shipped with the project using\n'}
+[0.562225] (osgQt) StderrLine: {'line': b'  it rather than with CMake.\n'}
+[0.562242] (osgQt) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.562260] (osgQt) StderrLine: {'line': b'  CMakeLists.txt:753 (INCLUDE)\n'}
+[0.562277] (osgQt) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.562294] (osgQt) StderrLine: {'line': b'\x1b[0m\n'}
+[0.569609] (osgQt) StdoutLine: {'line': b'-- Generating done\n'}
+[0.569774] (osgQt) StdoutLine: {'line': b'-- Build files have been written to: /home/jason/projects/motion_control_go2/build/osgQt\n'}
+[0.582201] (osgQt) CommandEnded: {'returncode': 0}
+[0.582494] (osgQt) JobProgress: {'identifier': 'osgQt', 'progress': 'build'}
+[0.582512] (osgQt) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jason/projects/motion_control_go2/build/osgQt', '--', '-j16', '-l16'], 'cwd': '/home/jason/projects/motion_control_go2/build/osgQt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib:/usr/local/lib:/opt/unitree_robotics/lib:/home/jason/.mujoco/mujoco-3.2.7/bin:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason/projects/motion_control_go2/src/unitree_mujoco/example'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/jason/.mujoco/mujoco-3.2.7'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jason/.mujoco/mujoco-3.2.7/bin:/home/jason/.local/bin:/opt/ros/humble/bin:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jasonabichebli:@/tmp/.ICE-unix/1822,unix/jasonabichebli:/tmp/.ICE-unix/1822'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1a7f7d58_f8e4_4a69_9d3a_994447bcac35'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W1EAD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/projects/motion_control_go2/build/osgQt'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local:/usr/local:/usr/local:')]), 'shell': False}
+[0.584078] (unitree_hg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.585405] (unitree_api) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.585758] (unitree_go) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.595840] (gepetto-viewer) StdoutLine: {'line': b'-- Performing Test res_-Wwrite-strings - Success\n'}
+[0.595996] (unitree_api) StdoutLine: {'line': b'-- Found rosidl_generator_dds_idl: 0.8.1 (/opt/ros/humble/share/rosidl_generator_dds_idl/cmake)\n'}
+[0.596041] (unitree_hg) StdoutLine: {'line': b'-- Found rosidl_generator_dds_idl: 0.8.1 (/opt/ros/humble/share/rosidl_generator_dds_idl/cmake)\n'}
+[0.596088] (robot_viz_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.596988] (gepetto-viewer) StdoutLine: {'line': b'-- Performing Test res_-Wconversion\n'}
+[0.597811] (unitree_go) StdoutLine: {'line': b'-- Found rosidl_generator_dds_idl: 0.8.1 (/opt/ros/humble/share/rosidl_generator_dds_idl/cmake)\n'}
+[0.598008] (robot_viz_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.601870] (-) TimerEvent: {}
+[0.614439] (osgQt) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating __/__/include/osgQOpenGL/moc_osgQOpenGLWindow.cpp\x1b[0m\n'}
+[0.615454] (osgQt) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating __/__/include/osgQOpenGL/moc_osgQOpenGLWidget.cpp\x1b[0m\n'}
+[0.618556] (osgQt) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating __/__/include/osgQOpenGL/moc_OSGRenderer.cpp\x1b[0m\n'}
+[0.667074] (gepetto-viewer) StdoutLine: {'line': b'-- Performing Test res_-Wconversion - Success\n'}
+[0.674623] (osgQt) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object src/osgQOpenGL/CMakeFiles/osgQOpenGL.dir/CullVisitorEx.cpp.o\x1b[0m\n'}
+[0.674756] (osgQt) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object src/osgQOpenGL/CMakeFiles/osgQOpenGL.dir/OSGRenderer.cpp.o\x1b[0m\n'}
+[0.674789] (osgQt) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object src/osgQOpenGL/CMakeFiles/osgQOpenGL.dir/osgQOpenGLWindow.cpp.o\x1b[0m\n'}
+[0.674831] (osgQt) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object src/osgQOpenGL/CMakeFiles/osgQOpenGL.dir/osgQOpenGLWidget.cpp.o\x1b[0m\n'}
+[0.675344] (osgQt) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object src/osgQOpenGL/CMakeFiles/osgQOpenGL.dir/RenderStageEx.cpp.o\x1b[0m\n'}
+[0.675852] (osgQt) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object src/osgQOpenGL/CMakeFiles/osgQOpenGL.dir/GraphicsWindowEx.cpp.o\x1b[0m\n'}
+[0.679044] (osgQt) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object src/osgQOpenGL/CMakeFiles/osgQOpenGL.dir/StateEx.cpp.o\x1b[0m\n'}
+[0.680982] (osgQt) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object src/osgQOpenGL/CMakeFiles/osgQOpenGL.dir/__/__/include/osgQOpenGL/moc_osgQOpenGLWidget.cpp.o\x1b[0m\n'}
+[0.682333] (osgQt) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object src/osgQOpenGL/CMakeFiles/osgQOpenGL.dir/__/__/include/osgQOpenGL/moc_OSGRenderer.cpp.o\x1b[0m\n'}
+[0.688942] (osgQt) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object src/osgQOpenGL/CMakeFiles/osgQOpenGL.dir/__/__/include/osgQOpenGL/moc_osgQOpenGLWindow.cpp.o\x1b[0m\n'}
+[0.690122] (gepetto-viewer) StdoutLine: {'line': b'-- Found Doxygen: /usr/bin/doxygen (found version "1.9.1") found components: doxygen dot \n'}
+[0.703842] (robot_viz_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.703971] (-) TimerEvent: {}
+[0.724080] (gepetto-viewer) StdoutLine: {'line': b'-- Doxygen version inferior to 1.9.2. If MathJax is enabled, v2.7 will be used.\n'}
+[0.747646] (robot_viz_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.797338] (robot_viz_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.804083] (-) TimerEvent: {}
+[0.817933] (robot_viz_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.861677] (unitree_hg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.888631] (unitree_go) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.904182] (-) TimerEvent: {}
+[0.907406] (unitree_api) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.912912] (robot_viz_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.917919] (robot_viz_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.993890] (robot_viz_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.994804] (robot_viz_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.004286] (-) TimerEvent: {}
+[1.020673] (gepetto-viewer) StdoutLine: {'line': b'-- Default C++ standard: 201703\n'}
+[1.020833] (gepetto-viewer) StdoutLine: {'line': b'-- Minimal C++ standard upgraded to 11\n'}
+[1.020872] (gepetto-viewer) StdoutLine: {'line': b'-- C++ standard sufficient: Minimal required 11, currently defined: 17\n'}
+[1.020902] (gepetto-viewer) StdoutLine: {'line': b'-- CMAKE_CXX_STANDARD was not set: automatically set to currently defined standard 17\n'}
+[1.020927] (gepetto-viewer) StdoutLine: {'line': b'-- openscenegraph >= 3.2 is required.\n'}
+[1.020950] (gepetto-viewer) StdoutLine: {'line': b"-- Checking for module 'openscenegraph>=3.2'\n"}
+[1.042420] (gepetto-viewer) StdoutLine: {'line': b'--   Found openscenegraph, version 3.6.5\n'}
+[1.104375] (-) TimerEvent: {}
+[1.129923] (robot_viz_cpp) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.134861] (gepetto-viewer) StdoutLine: {'line': b'-- Pkg-config module openscenegraph v3.6.5 has been detected with success.\n'}
+[1.135023] (gepetto-viewer) StdoutLine: {'line': b'-- openthreads >= 2.6 is required.\n'}
+[1.135058] (gepetto-viewer) StdoutLine: {'line': b"-- Checking for module 'openthreads>=2.6'\n"}
+[1.148870] (gepetto-viewer) StdoutLine: {'line': b'--   Found openthreads, version 3.3.1\n'}
+[1.193604] (robot_viz_cpp) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.201690] (gepetto-viewer) StdoutLine: {'line': b'-- Pkg-config module openthreads v3.3.1 has been detected with success.\n'}
+[1.201886] (gepetto-viewer) StdoutLine: {'line': b'-- openscenegraph-osgQt5 is required.\n'}
+[1.202078] (gepetto-viewer) StdoutLine: {'line': b"-- Checking for module 'openscenegraph-osgQt5'\n"}
+[1.204462] (-) TimerEvent: {}
+[1.205170] (gepetto-viewer) StdoutLine: {'line': b"--   No package 'openscenegraph-osgQt5' found\n"}
+[1.205465] (gepetto-viewer) StderrLine: {'line': b'\x1b[31mCMake Error at /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:603 (message):\n'}
+[1.205535] (gepetto-viewer) StderrLine: {'line': b'  A required package was not found\n'}
+[1.205564] (gepetto-viewer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.205589] (gepetto-viewer) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:825 (_pkg_check_modules_internal)\n'}
+[1.205647] (gepetto-viewer) StderrLine: {'line': b'  cmake/pkg-config.cmake:439 (pkg_check_modules)\n'}
+[1.205672] (gepetto-viewer) StderrLine: {'line': b'  cmake/pkg-config.cmake:709 (ADD_DEPENDENCY)\n'}
+[1.205692] (gepetto-viewer) StderrLine: {'line': b'  cmake-module/osgqt.cmake:13 (add_required_dependency)\n'}
+[1.205713] (gepetto-viewer) StderrLine: {'line': b'  CMakeLists.txt:146 (add_osgqt_dependency)\n'}
+[1.205734] (gepetto-viewer) StderrLine: {'line': b'\n'}
+[1.205753] (gepetto-viewer) StderrLine: {'line': b'\x1b[0m\n'}
+[1.205773] (gepetto-viewer) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.205800] (gepetto-viewer) StdoutLine: {'line': b'See also "/home/jason/projects/motion_control_go2/build/gepetto-viewer/CMakeFiles/CMakeOutput.log".\n'}
+[1.211436] (gepetto-viewer) CommandEnded: {'returncode': 1}
+[1.245096] (gepetto-viewer) JobEnded: {'identifier': 'gepetto-viewer', 'rc': 1}
+[1.304574] (-) TimerEvent: {}
+[1.324566] (unitree_api) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.328908] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/RenderStageEx.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void RenderStageEx::drawInner(osg::RenderInfo&, osgUtil::RenderLeaf*&, bool&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.329052] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/RenderStageEx.cpp:4:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KrenderInfo\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.329097] (osgQt) StderrLine: {'line': b'    4 | void RenderStageEx::drawInner(\x1b[01;35m\x1b[Kosg::RenderInfo& renderInfo\x1b[m\x1b[K,\n'}
+[1.329127] (osgQt) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.329152] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/RenderStageEx.cpp:5:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.329177] (osgQt) StderrLine: {'line': b'    5 |                               \x1b[01;35m\x1b[KosgUtil::RenderLeaf*& previous\x1b[m\x1b[K, bool& doCopyTexture)\n'}
+[1.329199] (osgQt) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[1.329219] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/RenderStageEx.cpp:5:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KdoCopyTexture\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.329246] (osgQt) StderrLine: {'line': b'    5 |                               osgUtil::RenderLeaf*& previous, \x1b[01;35m\x1b[Kbool& doCopyTexture\x1b[m\x1b[K)\n'}
+[1.329266] (osgQt) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.334924] (unitree_go) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.368229] (robot_viz_cpp) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.375845] (unitree_hg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.377740] (osgQt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/CullVisitorEx.cpp:1\x1b[m\x1b[K:\n'}
+[1.377982] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/include/osgQOpenGL/CullVisitorEx:\x1b[m\x1b[K In copy constructor \xe2\x80\x98\x1b[01m\x1b[KCullVisitorEx::CullVisitorEx(const CullVisitorEx&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.378139] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/include/osgQOpenGL/CullVisitorEx:17:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kbase class \xe2\x80\x98\x1b[01m\x1b[Kclass osg::Object\x1b[m\x1b[K\xe2\x80\x99 should be explicitly initialized in the copy constructor [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wextra\x07-Wextra\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.378307] (osgQt) StderrLine: {'line': b'   17 |     \x1b[01;35m\x1b[KCullVisitorEx\x1b[m\x1b[K(const CullVisitorEx& cv) : osgUtil::CullVisitor(cv) { }\n'}
+[1.378682] (osgQt) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.406846] (-) TimerEvent: {}
+[1.409869] (robot_viz_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.463580] (unitree_api) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.468761] (unitree_go) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.507070] (-) TimerEvent: {}
+[1.507880] (unitree_hg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.534101] (unitree_hg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.535122] (unitree_hg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.535871] (unitree_api) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.535993] (unitree_api) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.544391] (unitree_go) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.545266] (unitree_go) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.545895] (robot_viz_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.547068] (robot_viz_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.551533] (robot_viz_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.554831] (robot_viz_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[1.556834] (robot_viz_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/jason/projects/motion_control_go2/build/robot_viz_cpp\n'}
+[1.557302] (unitree_hg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.557361] (unitree_hg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.557388] (unitree_hg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.557413] (unitree_hg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.562840] (unitree_api) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.562979] (unitree_api) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.563010] (unitree_api) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.563036] (unitree_api) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.565117] (robot_viz_cpp) JobEnded: {'identifier': 'robot_viz_cpp', 'rc': 'SIGINT'}
+[1.566864] (unitree_go) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.566964] (unitree_go) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.566993] (unitree_go) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.567020] (unitree_go) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.574976] (unitree_api) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.578810] (unitree_hg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.582128] (unitree_go) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.607136] (-) TimerEvent: {}
+[1.639961] (unitree_go) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.644036] (unitree_api) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.648372] (unitree_hg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.661111] (unitree_api) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.662918] (unitree_api) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.663032] (unitree_api) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.663416] (unitree_go) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.665603] (unitree_hg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.665698] (unitree_hg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.665730] (unitree_hg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.670289] (unitree_api) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.670447] (unitree_go) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.670490] (unitree_go) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.670517] (unitree_hg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.672230] (unitree_go) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.701173] (unitree_hg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.703389] (unitree_api) StdoutLine: {'line': b'-- Generating done\n'}
+[1.708444] (-) TimerEvent: {}
+[1.709055] (unitree_hg) StdoutLine: {'line': b'-- Build files have been written to: /home/jason/projects/motion_control_go2/build/unitree_hg\n'}
+[1.715352] (unitree_api) StdoutLine: {'line': b'-- Build files have been written to: /home/jason/projects/motion_control_go2/build/unitree_api\n'}
+[1.722515] (unitree_hg) JobEnded: {'identifier': 'unitree_hg', 'rc': 'SIGINT'}
+[1.726840] (unitree_go) StdoutLine: {'line': b'-- Generating done\n'}
+[1.729090] (unitree_api) JobEnded: {'identifier': 'unitree_api', 'rc': 'SIGINT'}
+[1.734130] (unitree_go) StdoutLine: {'line': b'-- Build files have been written to: /home/jason/projects/motion_control_go2/build/unitree_go\n'}
+[1.748484] (unitree_go) JobEnded: {'identifier': 'unitree_go', 'rc': 'SIGINT'}
+[1.808551] (-) TimerEvent: {}
+[1.910044] (-) TimerEvent: {}
+[2.010402] (-) TimerEvent: {}
+[2.095541] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/osgQOpenGLWindow.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KosgQOpenGLWindow::osgQOpenGLWindow(QWidget*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.095711] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/osgQOpenGLWindow.cpp:16:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kparent\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.095759] (osgQt) StderrLine: {'line': b'   16 | osgQOpenGLWindow::osgQOpenGLWindow(\x1b[01;35m\x1b[KQWidget* parent\x1b[m\x1b[K)\n'}
+[2.095788] (osgQt) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[2.110498] (-) TimerEvent: {}
+[2.210776] (-) TimerEvent: {}
+[2.311108] (-) TimerEvent: {}
+[2.358728] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/OSGRenderer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void OSGRenderer::mousePressEvent(QMouseEvent*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.358911] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/OSGRenderer.cpp:260:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KQt::MidButton\x1b[m\x1b[K\xe2\x80\x99 is deprecated: MidButton is deprecated. Use MiddleButton instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.358948] (osgQt) StderrLine: {'line': b'  260 |     case Qt::\x1b[01;35m\x1b[KMidButton\x1b[m\x1b[K:\n'}
+[2.358977] (osgQt) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.359003] (osgQt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:48\x1b[m\x1b[K,\n'}
+[2.359044] (osgQt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:46\x1b[m\x1b[K,\n'}
+[2.359071] (osgQt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QObject:1\x1b[m\x1b[K,\n'}
+[2.359099] (osgQt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/include/osgQOpenGL/OSGRenderer:22\x1b[m\x1b[K,\n'}
+[2.359127] (osgQt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/OSGRenderer.cpp:17\x1b[m\x1b[K:\n'}
+[2.359155] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h:132:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.359180] (osgQt) StderrLine: {'line': b'  132 |         \x1b[01;36m\x1b[KMidButton\x1b[m\x1b[K Q_DECL_ENUMERATOR_DEPRECATED_X("MidButton is deprecated. Use MiddleButton instead") = MiddleButton,\n'}
+[2.359694] (osgQt) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.359734] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/OSGRenderer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void OSGRenderer::mouseReleaseEvent(QMouseEvent*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.359760] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/OSGRenderer.cpp:292:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KQt::MidButton\x1b[m\x1b[K\xe2\x80\x99 is deprecated: MidButton is deprecated. Use MiddleButton instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.359783] (osgQt) StderrLine: {'line': b'  292 |     case Qt::\x1b[01;35m\x1b[KMidButton\x1b[m\x1b[K:\n'}
+[2.359821] (osgQt) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.359841] (osgQt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:48\x1b[m\x1b[K,\n'}
+[2.359861] (osgQt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:46\x1b[m\x1b[K,\n'}
+[2.359879] (osgQt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QObject:1\x1b[m\x1b[K,\n'}
+[2.359899] (osgQt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/include/osgQOpenGL/OSGRenderer:22\x1b[m\x1b[K,\n'}
+[2.359917] (osgQt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/OSGRenderer.cpp:17\x1b[m\x1b[K:\n'}
+[2.359935] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h:132:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.359953] (osgQt) StderrLine: {'line': b'  132 |         \x1b[01;36m\x1b[KMidButton\x1b[m\x1b[K Q_DECL_ENUMERATOR_DEPRECATED_X("MidButton is deprecated. Use MiddleButton instead") = MiddleButton,\n'}
+[2.359970] (osgQt) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.359987] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/OSGRenderer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void OSGRenderer::mouseDoubleClickEvent(QMouseEvent*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.360009] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/OSGRenderer.cpp:324:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KQt::MidButton\x1b[m\x1b[K\xe2\x80\x99 is deprecated: MidButton is deprecated. Use MiddleButton instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.360031] (osgQt) StderrLine: {'line': b'  324 |     case Qt::\x1b[01;35m\x1b[KMidButton\x1b[m\x1b[K:\n'}
+[2.360048] (osgQt) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.360064] (osgQt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:48\x1b[m\x1b[K,\n'}
+[2.360082] (osgQt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:46\x1b[m\x1b[K,\n'}
+[2.360101] (osgQt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QObject:1\x1b[m\x1b[K,\n'}
+[2.360118] (osgQt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/include/osgQOpenGL/OSGRenderer:22\x1b[m\x1b[K,\n'}
+[2.360135] (osgQt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/OSGRenderer.cpp:17\x1b[m\x1b[K:\n'}
+[2.360153] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h:132:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.360171] (osgQt) StderrLine: {'line': b'  132 |         \x1b[01;36m\x1b[KMidButton\x1b[m\x1b[K Q_DECL_ENUMERATOR_DEPRECATED_X("MidButton is deprecated. Use MiddleButton instead") = MiddleButton,\n'}
+[2.360188] (osgQt) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.360206] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/OSGRenderer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void OSGRenderer::wheelEvent(QWheelEvent*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.360223] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/OSGRenderer.cpp:356:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint QWheelEvent::x() const\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use position() [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.360242] (osgQt) StderrLine: {'line': b'  356 |     m_osgWinEmb->getEventQueue()->mouseMotion(\x1b[01;35m\x1b[Kevent->x()\x1b[m\x1b[K * m_windowScale,\n'}
+[2.360260] (osgQt) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.360277] (osgQt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtGui/QKeyEvent:1\x1b[m\x1b[K,\n'}
+[2.360293] (osgQt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/OSGRenderer.cpp:32\x1b[m\x1b[K:\n'}
+[2.360309] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h:229:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.360326] (osgQt) StderrLine: {'line': b'  229 |     inline int \x1b[01;36m\x1b[Kx\x1b[m\x1b[K() const { return int(p.x()); }\n'}
+[2.360344] (osgQt) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.360361] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/OSGRenderer.cpp:357:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint QWheelEvent::y() const\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use position() [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.360381] (osgQt) StderrLine: {'line': b'  357 |                                               \x1b[01;35m\x1b[Kevent->y()\x1b[m\x1b[K * m_windowScale);\n'}
+[2.360400] (osgQt) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.360418] (osgQt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtGui/QKeyEvent:1\x1b[m\x1b[K,\n'}
+[2.360438] (osgQt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/OSGRenderer.cpp:32\x1b[m\x1b[K:\n'}
+[2.360455] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h:231:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.360473] (osgQt) StderrLine: {'line': b'  231 |     inline int \x1b[01;36m\x1b[Ky\x1b[m\x1b[K() const { return int(p.y()); }\n'}
+[2.360490] (osgQt) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.360507] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/OSGRenderer.cpp:359:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KQt::Orientation QWheelEvent::orientation() const\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use angleDelta() [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.360526] (osgQt) StderrLine: {'line': b'  359 |         \x1b[01;35m\x1b[Kevent->orientation()\x1b[m\x1b[K == Qt::Vertical ?\n'}
+[2.360543] (osgQt) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.360561] (osgQt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtGui/QKeyEvent:1\x1b[m\x1b[K,\n'}
+[2.360577] (osgQt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/OSGRenderer.cpp:32\x1b[m\x1b[K:\n'}
+[2.360598] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h:222:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.360617] (osgQt) StderrLine: {'line': b'  222 |     inline Qt::Orientation \x1b[01;36m\x1b[Korientation\x1b[m\x1b[K() const { return qt4O; }\n'}
+[2.360634] (osgQt) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.360650] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/OSGRenderer.cpp:360:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint QWheelEvent::delta() const\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use angleDelta() [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.360668] (osgQt) StderrLine: {'line': b'  360 |         (\x1b[01;35m\x1b[Kevent->delta()\x1b[m\x1b[K > 0 ? osgGA::GUIEventAdapter::SCROLL_UP :\n'}
+[2.360687] (osgQt) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.360703] (osgQt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtGui/QKeyEvent:1\x1b[m\x1b[K,\n'}
+[2.360722] (osgQt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/OSGRenderer.cpp:32\x1b[m\x1b[K:\n'}
+[2.360738] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h:219:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.360754] (osgQt) StderrLine: {'line': b'  219 |     inline int \x1b[01;36m\x1b[Kdelta\x1b[m\x1b[K() const  { return qt4D; }\n'}
+[2.360772] (osgQt) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.360789] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/OSGRenderer.cpp:362:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint QWheelEvent::delta() const\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use angleDelta() [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.360814] (osgQt) StderrLine: {'line': b'  362 |         (\x1b[01;35m\x1b[Kevent->delta()\x1b[m\x1b[K > 0 ? osgGA::GUIEventAdapter::SCROLL_LEFT :\n'}
+[2.360831] (osgQt) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.360848] (osgQt) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtGui/QKeyEvent:1\x1b[m\x1b[K,\n'}
+[2.360865] (osgQt) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/osgQt/src/osgQOpenGL/OSGRenderer.cpp:32\x1b[m\x1b[K:\n'}
+[2.360881] (osgQt) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h:219:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.360897] (osgQt) StderrLine: {'line': b'  219 |     inline int \x1b[01;36m\x1b[Kdelta\x1b[m\x1b[K() const  { return qt4D; }\n'}
+[2.360914] (osgQt) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.416853] (-) TimerEvent: {}
+[2.517225] (-) TimerEvent: {}
+[2.617722] (-) TimerEvent: {}
+[2.718131] (-) TimerEvent: {}
+[2.818867] (-) TimerEvent: {}
+[2.919225] (-) TimerEvent: {}
+[2.972541] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `qhull`\n'}
+[2.972682] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `qhull` - target `qhull` not defined.\n'}
+[2.972717] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `qhull`\n'}
+[3.019330] (-) TimerEvent: {}
+[3.119775] (-) TimerEvent: {}
+[3.220179] (-) TimerEvent: {}
+[3.320540] (-) TimerEvent: {}
+[3.365514] (osgQt) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library ../../lib/libosgQOpenGL.so\x1b[0m\n'}
+[3.420637] (-) TimerEvent: {}
+[3.522038] (-) TimerEvent: {}
+[3.558428] (osgQt) StdoutLine: {'line': b'[ 87%] Built target osgQOpenGL\n'}
+[3.581353] (osgQt) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object examples/osgviewerQt/CMakeFiles/example_osgviewerQt.dir/osgviewerQt.cpp.o\x1b[0m\n'}
+[3.622122] (-) TimerEvent: {}
+[3.723858] (-) TimerEvent: {}
+[3.824200] (-) TimerEvent: {}
+[3.924647] (-) TimerEvent: {}
+[4.025069] (-) TimerEvent: {}
+[4.125481] (-) TimerEvent: {}
+[4.225927] (-) TimerEvent: {}
+[4.326307] (-) TimerEvent: {}
+[4.426761] (-) TimerEvent: {}
+[4.527215] (-) TimerEvent: {}
+[4.627649] (-) TimerEvent: {}
+[4.728106] (-) TimerEvent: {}
+[4.828570] (-) TimerEvent: {}
+[4.929027] (-) TimerEvent: {}
+[5.029457] (-) TimerEvent: {}
+[5.129921] (-) TimerEvent: {}
+[5.230328] (-) TimerEvent: {}
+[5.330773] (-) TimerEvent: {}
+[5.431208] (-) TimerEvent: {}
+[5.531645] (-) TimerEvent: {}
+[5.632271] (-) TimerEvent: {}
+[5.649579] (osgQt) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/osgviewerQt\x1b[0m\n'}
+[5.732454] (-) TimerEvent: {}
+[5.833058] (-) TimerEvent: {}
+[5.893448] (osgQt) StdoutLine: {'line': b'[100%] Built target example_osgviewerQt\n'}
+[5.903756] (osgQt) JobEnded: {'identifier': 'osgQt', 'rc': 'SIGINT'}
+[5.933164] (-) TimerEvent: {}
+[6.033628] (-) TimerEvent: {}
+[6.134153] (-) TimerEvent: {}
+[6.234713] (-) TimerEvent: {}
+[6.335208] (-) TimerEvent: {}
+[6.435767] (-) TimerEvent: {}
+[6.536159] (-) TimerEvent: {}
+[6.636511] (-) TimerEvent: {}
+[6.737033] (-) TimerEvent: {}
+[6.837516] (-) TimerEvent: {}
+[6.937963] (-) TimerEvent: {}
+[7.038431] (-) TimerEvent: {}
+[7.138817] (-) TimerEvent: {}
+[7.239590] (-) TimerEvent: {}
+[7.341021] (-) TimerEvent: {}
+[7.441461] (-) TimerEvent: {}
+[7.541959] (-) TimerEvent: {}
+[7.601101] (mujoco) StdoutLine: {'line': b'-- Looking for sys/types.h\n'}
+[7.642101] (-) TimerEvent: {}
+[7.684042] (mujoco) StdoutLine: {'line': b'-- Looking for sys/types.h - found\n'}
+[7.684271] (mujoco) StdoutLine: {'line': b'-- Looking for inttypes.h\n'}
+[7.742229] (-) TimerEvent: {}
+[7.761074] (mujoco) StdoutLine: {'line': b'-- Looking for inttypes.h - found\n'}
+[7.761857] (mujoco) StdoutLine: {'line': b'-- Looking for stddef.h\n'}
+[7.835107] (mujoco) StdoutLine: {'line': b'-- Looking for stddef.h - found\n'}
+[7.835367] (mujoco) StdoutLine: {'line': b'-- Looking for stdint.h\n'}
+[7.842288] (-) TimerEvent: {}
+[7.906914] (mujoco) StdoutLine: {'line': b'-- Looking for stdint.h - found\n'}
+[7.907255] (mujoco) StdoutLine: {'line': b'-- Check size of off_t\n'}
+[7.942890] (-) TimerEvent: {}
+[7.975321] (mujoco) StdoutLine: {'line': b'-- Check size of off_t - done\n'}
+[7.975507] (mujoco) StdoutLine: {'line': b'-- Looking for fseeko\n'}
+[8.043018] (-) TimerEvent: {}
+[8.052221] (mujoco) StdoutLine: {'line': b'-- Looking for fseeko - found\n'}
+[8.052439] (mujoco) StdoutLine: {'line': b'-- Looking for ftello\n'}
+[8.127063] (mujoco) StdoutLine: {'line': b'-- Looking for ftello - found\n'}
+[8.127306] (mujoco) StdoutLine: {'line': b'-- Looking for PRIdMAX\n'}
+[8.143123] (-) TimerEvent: {}
+[8.193206] (mujoco) StdoutLine: {'line': b'-- Looking for PRIdMAX - found\n'}
+[8.196722] (mujoco) StdoutLine: {'line': b'-- \n'}
+[8.196920] (mujoco) StdoutLine: {'line': b'-- ========== qhull Build Information ==========\n'}
+[8.196990] (mujoco) StdoutLine: {'line': b'-- Build Version:                             8.1-alpha3\n'}
+[8.197044] (mujoco) StdoutLine: {'line': b'-- Install Prefix (CMAKE_INSTALL_PREFIX):     /home/jason/projects/motion_control_go2/install/mujoco\n'}
+[8.197101] (mujoco) StdoutLine: {'line': b'-- Binary Directory (CMAKE_INSTALL_BINDIR):   bin\n'}
+[8.197151] (mujoco) StdoutLine: {'line': b'-- Library Directory (CMAKE_INSTALL_LIBDIR):  lib\n'}
+[8.197198] (mujoco) StdoutLine: {'line': b'-- Include Directory (CMAKE_INSTALL_INCLUDEDIR): include\n'}
+[8.197243] (mujoco) StdoutLine: {'line': b'-- Documentation Directory (CMAKE_INSTALL_DOCDIR): share/doc/mujoco\n'}
+[8.197287] (mujoco) StdoutLine: {'line': b'-- Man Pages Directory (CMAKE_INSTALL_MANDIR): share/man\n'}
+[8.197332] (mujoco) StdoutLine: {'line': b'-- Build Type (CMAKE_BUILD_TYPE):             Release\n'}
+[8.197376] (mujoco) StdoutLine: {'line': b'-- Build static libraries:                    ON\n'}
+[8.197420] (mujoco) StdoutLine: {'line': b'-- Build shared library:                      OFF\n'}
+[8.197463] (mujoco) StdoutLine: {'line': b'-- Use shared library for linking apps:       OFF\n'}
+[8.197507] (mujoco) StdoutLine: {'line': b'-- Build tests:\t\t\t\t   OFF\n'}
+[8.197551] (mujoco) StdoutLine: {'line': b'-- To override these options, add -D{OPTION_NAME}=... to the cmake command\n'}
+[8.197595] (mujoco) StdoutLine: {'line': b'--   Build the debug targets                  -DCMAKE_BUILD_TYPE=Debug\n'}
+[8.197639] (mujoco) StdoutLine: {'line': b'-- \n'}
+[8.197683] (mujoco) StdoutLine: {'line': b'-- To build and install qhull, enter "make" and "make install"\n'}
+[8.197726] (mujoco) StdoutLine: {'line': b'-- To smoketest qhull, enter "ctest"\n'}
+[8.197768] (mujoco) StdoutLine: {'line': b'-- \n'}
+[8.199934] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `qhull` - Done\n'}
+[8.201266] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `tinyxml2`\n'}
+[8.201425] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `tinyxml2` - target `tinyxml2` not defined.\n'}
+[8.201493] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `tinyxml2`\n'}
+[8.243243] (-) TimerEvent: {}
+[8.343703] (-) TimerEvent: {}
+[8.444092] (-) TimerEvent: {}
+[8.544518] (-) TimerEvent: {}
+[8.644971] (-) TimerEvent: {}
+[8.745506] (-) TimerEvent: {}
+[8.845902] (-) TimerEvent: {}
+[8.947032] (-) TimerEvent: {}
+[9.047424] (-) TimerEvent: {}
+[9.147902] (-) TimerEvent: {}
+[9.248564] (-) TimerEvent: {}
+[9.349241] (-) TimerEvent: {}
+[9.449642] (-) TimerEvent: {}
+[9.550233] (-) TimerEvent: {}
+[9.650779] (-) TimerEvent: {}
+[9.751282] (-) TimerEvent: {}
+[9.851862] (-) TimerEvent: {}
+[9.932943] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `tinyxml2` - Done\n'}
+[9.934884] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `tinyobjloader`\n'}
+[9.935054] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `tinyobjloader` - target `tinyobjloader` not defined.\n'}
+[9.935124] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `tinyobjloader`\n'}
+[9.951939] (-) TimerEvent: {}
+[10.052305] (-) TimerEvent: {}
+[10.152702] (-) TimerEvent: {}
+[10.253179] (-) TimerEvent: {}
+[10.353674] (-) TimerEvent: {}
+[10.454076] (-) TimerEvent: {}
+[10.554563] (-) TimerEvent: {}
+[10.655177] (-) TimerEvent: {}
+[10.755641] (-) TimerEvent: {}
+[10.856518] (-) TimerEvent: {}
+[10.956955] (-) TimerEvent: {}
+[11.057483] (-) TimerEvent: {}
+[11.157884] (-) TimerEvent: {}
+[11.258271] (-) TimerEvent: {}
+[11.358714] (-) TimerEvent: {}
+[11.459172] (-) TimerEvent: {}
+[11.559628] (-) TimerEvent: {}
+[11.660304] (-) TimerEvent: {}
+[11.760778] (-) TimerEvent: {}
+[11.861175] (-) TimerEvent: {}
+[11.962126] (-) TimerEvent: {}
+[12.052246] (mujoco) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /home/jason/projects/motion_control_go2/build/mujoco/_deps/tinyobjloader-src/CMakeLists.txt:5 (cmake_minimum_required):\n'}
+[12.052539] (mujoco) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[12.052611] (mujoco) StderrLine: {'line': b'  CMake.\n'}
+[12.052667] (mujoco) StderrLine: {'line': b'\n'}
+[12.052721] (mujoco) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[12.052770] (mujoco) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[12.052840] (mujoco) StderrLine: {'line': b'\n'}
+[12.052887] (mujoco) StderrLine: {'line': b'\x1b[0m\n'}
+[12.057224] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `tinyobjloader` - Done\n'}
+[12.062032] (-) TimerEvent: {}
+[12.162917] (-) TimerEvent: {}
+[12.263227] (-) TimerEvent: {}
+[12.363594] (-) TimerEvent: {}
+[12.464019] (-) TimerEvent: {}
+[12.564449] (-) TimerEvent: {}
+[12.664898] (-) TimerEvent: {}
+[12.765587] (-) TimerEvent: {}
+[12.866304] (-) TimerEvent: {}
+[12.966788] (-) TimerEvent: {}
+[13.067156] (-) TimerEvent: {}
+[13.167566] (-) TimerEvent: {}
+[13.267989] (-) TimerEvent: {}
+[13.368379] (-) TimerEvent: {}
+[13.394178] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `ccd`\n'}
+[13.394427] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `ccd` - target `ccd` not defined.\n'}
+[13.394511] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `ccd`\n'}
+[13.468508] (-) TimerEvent: {}
+[13.568951] (-) TimerEvent: {}
+[13.669410] (-) TimerEvent: {}
+[13.770098] (-) TimerEvent: {}
+[13.870823] (-) TimerEvent: {}
+[13.971529] (-) TimerEvent: {}
+[14.072098] (-) TimerEvent: {}
+[14.172526] (-) TimerEvent: {}
+[14.273163] (-) TimerEvent: {}
+[14.373561] (-) TimerEvent: {}
+[14.474023] (-) TimerEvent: {}
+[14.574683] (-) TimerEvent: {}
+[14.670112] (mujoco) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /home/jason/projects/motion_control_go2/build/mujoco/_deps/ccd-src/CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[14.670371] (mujoco) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[14.670442] (mujoco) StderrLine: {'line': b'  CMake.\n'}
+[14.670498] (mujoco) StderrLine: {'line': b'\n'}
+[14.670548] (mujoco) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[14.670614] (mujoco) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[14.670661] (mujoco) StderrLine: {'line': b'\n'}
+[14.670707] (mujoco) StderrLine: {'line': b'\x1b[0m\n'}
+[14.670752] (mujoco) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /home/jason/projects/motion_control_go2/build/mujoco/_deps/ccd-src/CMakeLists.txt:9 (project):\n'}
+[14.670826] (mujoco) StderrLine: {'line': b'  Policy CMP0048 is not set: project() command manages VERSION variables.\n'}
+[14.670877] (mujoco) StderrLine: {'line': b'  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy\n'}
+[14.670922] (mujoco) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[14.670968] (mujoco) StderrLine: {'line': b'\n'}
+[14.671011] (mujoco) StderrLine: {'line': b'  The following variable(s) would be set to empty:\n'}
+[14.671054] (mujoco) StderrLine: {'line': b'\n'}
+[14.671095] (mujoco) StderrLine: {'line': b'    PROJECT_VERSION\n'}
+[14.671138] (mujoco) StderrLine: {'line': b'    PROJECT_VERSION_MAJOR\n'}
+[14.671181] (mujoco) StderrLine: {'line': b'    PROJECT_VERSION_MINOR\n'}
+[14.671224] (mujoco) StderrLine: {'line': b'    PROJECT_VERSION_PATCH\n'}
+[14.671265] (mujoco) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.671310] (mujoco) StderrLine: {'line': b'\x1b[0m\n'}
+[14.674841] (-) TimerEvent: {}
+[14.686941] (mujoco) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORTS_VISIBILITY\n'}
+[14.775024] (mujoco) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORTS_VISIBILITY - Success\n'}
+[14.775247] (-) TimerEvent: {}
+[14.776837] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `ccd` - Done\n'}
+[14.778948] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `absl`\n'}
+[14.779067] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `absl` - target `absl::core_headers` not defined.\n'}
+[14.779135] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `abseil-cpp`\n'}
+[14.875390] (-) TimerEvent: {}
+[14.975840] (-) TimerEvent: {}
+[15.076365] (-) TimerEvent: {}
+[15.176883] (-) TimerEvent: {}
+[15.277277] (-) TimerEvent: {}
+[15.377654] (-) TimerEvent: {}
+[15.478313] (-) TimerEvent: {}
+[15.578781] (-) TimerEvent: {}
+[15.679158] (-) TimerEvent: {}
+[15.779598] (-) TimerEvent: {}
+[15.879989] (-) TimerEvent: {}
+[15.980354] (-) TimerEvent: {}
+[16.080834] (-) TimerEvent: {}
+[16.181298] (-) TimerEvent: {}
+[16.281675] (-) TimerEvent: {}
+[16.382056] (-) TimerEvent: {}
+[16.482429] (-) TimerEvent: {}
+[16.582768] (-) TimerEvent: {}
+[16.683139] (-) TimerEvent: {}
+[16.783546] (-) TimerEvent: {}
+[16.884131] (-) TimerEvent: {}
+[16.984585] (-) TimerEvent: {}
+[17.085139] (-) TimerEvent: {}
+[17.185697] (-) TimerEvent: {}
+[17.286056] (-) TimerEvent: {}
+[17.386935] (-) TimerEvent: {}
+[17.487297] (-) TimerEvent: {}
+[17.587922] (-) TimerEvent: {}
+[17.688471] (-) TimerEvent: {}
+[17.788938] (-) TimerEvent: {}
+[17.889782] (-) TimerEvent: {}
+[17.990107] (-) TimerEvent: {}
+[18.090534] (-) TimerEvent: {}
+[18.191001] (-) TimerEvent: {}
+[18.291311] (-) TimerEvent: {}
+[18.391845] (-) TimerEvent: {}
+[18.430452] (mujoco) StdoutLine: {'line': b'-- Performing Test ABSL_INTERNAL_AT_LEAST_CXX17\n'}
+[18.492037] (-) TimerEvent: {}
+[18.561342] (mujoco) StdoutLine: {'line': b'-- Performing Test ABSL_INTERNAL_AT_LEAST_CXX17 - Success\n'}
+[18.561637] (mujoco) StdoutLine: {'line': b'-- Performing Test ABSL_INTERNAL_AT_LEAST_CXX20\n'}
+[18.591043] (mujoco) StdoutLine: {'line': b'-- Performing Test ABSL_INTERNAL_AT_LEAST_CXX20 - Failed\n'}
+[18.592094] (-) TimerEvent: {}
+[18.596322] (mujoco) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[18.693757] (-) TimerEvent: {}
+[18.719084] (mujoco) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[18.719382] (mujoco) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[18.793951] (-) TimerEvent: {}
+[18.814097] (mujoco) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[18.816586] (mujoco) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[18.849249] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `abseil-cpp` - Done\n'}
+[18.849726] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `GTest`\n'}
+[18.849911] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `GTest` - target `gtest` not defined.\n'}
+[18.849987] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `googletest`\n'}
+[18.894073] (-) TimerEvent: {}
+[18.994496] (-) TimerEvent: {}
+[19.094927] (-) TimerEvent: {}
+[19.195367] (-) TimerEvent: {}
+[19.295842] (-) TimerEvent: {}
+[19.396224] (-) TimerEvent: {}
+[19.496671] (-) TimerEvent: {}
+[19.597130] (-) TimerEvent: {}
+[19.697554] (-) TimerEvent: {}
+[19.798214] (-) TimerEvent: {}
+[19.898765] (-) TimerEvent: {}
+[19.999404] (-) TimerEvent: {}
+[20.099842] (-) TimerEvent: {}
+[20.200222] (-) TimerEvent: {}
+[20.300593] (-) TimerEvent: {}
+[20.401087] (-) TimerEvent: {}
+[20.501558] (-) TimerEvent: {}
+[20.601945] (-) TimerEvent: {}
+[20.702319] (-) TimerEvent: {}
+[20.802783] (-) TimerEvent: {}
+[20.903183] (-) TimerEvent: {}
+[21.003647] (-) TimerEvent: {}
+[21.104029] (-) TimerEvent: {}
+[21.204376] (-) TimerEvent: {}
+[21.304653] (-) TimerEvent: {}
+[21.405024] (-) TimerEvent: {}
+[21.505422] (-) TimerEvent: {}
+[21.605872] (-) TimerEvent: {}
+[21.706691] (-) TimerEvent: {}
+[21.807402] (-) TimerEvent: {}
+[21.907788] (-) TimerEvent: {}
+[22.008224] (-) TimerEvent: {}
+[22.108990] (-) TimerEvent: {}
+[22.209302] (-) TimerEvent: {}
+[22.309735] (-) TimerEvent: {}
+[22.410047] (-) TimerEvent: {}
+[22.510349] (-) TimerEvent: {}
+[22.511193] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `googletest` - Done\n'}
+[22.513057] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `benchmark`\n'}
+[22.513113] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `benchmark` - target `benchmark::benchmark` not defined.\n'}
+[22.513146] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `benchmark`\n'}
+[22.610526] (-) TimerEvent: {}
+[22.711003] (-) TimerEvent: {}
+[22.811517] (-) TimerEvent: {}
+[22.911979] (-) TimerEvent: {}
+[23.012499] (-) TimerEvent: {}
+[23.113091] (-) TimerEvent: {}
+[23.213677] (-) TimerEvent: {}
+[23.314358] (-) TimerEvent: {}
+[23.414768] (-) TimerEvent: {}
+[23.515235] (-) TimerEvent: {}
+[23.615690] (-) TimerEvent: {}
+[23.716079] (-) TimerEvent: {}
+[23.816467] (-) TimerEvent: {}
+[23.916812] (-) TimerEvent: {}
+[24.018025] (-) TimerEvent: {}
+[24.118454] (-) TimerEvent: {}
+[24.191895] (mujoco) StdoutLine: {'line': b'-- Failed to find LLVM FileCheck\n'}
+[24.193802] (mujoco) StdoutLine: {'line': b'-- Found Git: /usr/bin/git (found version "2.34.1") \n'}
+[24.204231] (mujoco) StdoutLine: {'line': b'-- Google Benchmark version: v1.9.1-20-g049f6e79, normalized to 1.9.1.20\n'}
+[24.207451] (mujoco) StdoutLine: {'line': b'-- Looking for shm_open in rt\n'}
+[24.219856] (-) TimerEvent: {}
+[24.288214] (mujoco) StdoutLine: {'line': b'-- Looking for shm_open in rt - found\n'}
+[24.288496] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WALL\n'}
+[24.319968] (-) TimerEvent: {}
+[24.370475] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WALL - Success\n'}
+[24.371540] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WEXTRA\n'}
+[24.420078] (-) TimerEvent: {}
+[24.457009] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WEXTRA - Success\n'}
+[24.457160] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WSHADOW\n'}
+[24.520212] (-) TimerEvent: {}
+[24.522890] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WSHADOW - Success\n'}
+[24.523705] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL\n'}
+[24.600076] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WFLOAT_EQUAL - Success\n'}
+[24.601874] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST\n'}
+[24.620304] (-) TimerEvent: {}
+[24.678595] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WOLD_STYLE_CAST - Success\n'}
+[24.679727] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WCONVERSION\n'}
+[24.720432] (-) TimerEvent: {}
+[24.778067] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WCONVERSION - Success\n'}
+[24.779021] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WERROR\n'}
+[24.820561] (-) TimerEvent: {}
+[24.875235] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WERROR - Success\n'}
+[24.876875] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE\n'}
+[24.920691] (-) TimerEvent: {}
+[24.971122] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE - Success\n'}
+[24.971378] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_PEDANTIC\n'}
+[25.020878] (-) TimerEvent: {}
+[25.056860] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_PEDANTIC - Success\n'}
+[25.057298] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS\n'}
+[25.121884] (-) TimerEvent: {}
+[25.144047] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS - Success\n'}
+[25.144430] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32\n'}
+[25.192473] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 - Failed\n'}
+[25.193661] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING\n'}
+[25.222052] (-) TimerEvent: {}
+[25.283459] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING - Success\n'}
+[25.283934] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS\n'}
+[25.322166] (-) TimerEvent: {}
+[25.371141] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS - Success\n'}
+[25.372984] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED\n'}
+[25.422302] (-) TimerEvent: {}
+[25.459207] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED - Success\n'}
+[25.459568] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING\n'}
+[25.522476] (-) TimerEvent: {}
+[25.534047] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING - Success\n'}
+[25.536082] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WD654\n'}
+[25.560045] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WD654 - Failed\n'}
+[25.561025] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY\n'}
+[25.602356] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY - Failed\n'}
+[25.603639] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_COVERAGE\n'}
+[25.622651] (-) TimerEvent: {}
+[25.685329] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FLAG_COVERAGE - Success\n'}
+[25.685618] (mujoco) StdoutLine: {'line': b'-- Compiling and running to test HAVE_STD_REGEX\n'}
+[25.722857] (-) TimerEvent: {}
+[25.823231] (-) TimerEvent: {}
+[25.923575] (-) TimerEvent: {}
+[26.023968] (-) TimerEvent: {}
+[26.124375] (-) TimerEvent: {}
+[26.224767] (-) TimerEvent: {}
+[26.325178] (-) TimerEvent: {}
+[26.425608] (-) TimerEvent: {}
+[26.526024] (-) TimerEvent: {}
+[26.626409] (-) TimerEvent: {}
+[26.634901] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_STD_REGEX -- success\n'}
+[26.635214] (mujoco) StdoutLine: {'line': b'-- Compiling and running to test HAVE_GNU_POSIX_REGEX\n'}
+[26.667265] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile\n'}
+[26.667497] (mujoco) StdoutLine: {'line': b'-- Compiling and running to test HAVE_POSIX_REGEX\n'}
+[26.727056] (-) TimerEvent: {}
+[26.827422] (-) TimerEvent: {}
+[26.831108] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_POSIX_REGEX -- success\n'}
+[26.831216] (mujoco) StdoutLine: {'line': b'-- Compiling and running to test HAVE_STEADY_CLOCK\n'}
+[26.927621] (-) TimerEvent: {}
+[26.953352] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_STEADY_CLOCK -- success\n'}
+[26.956984] (mujoco) StdoutLine: {'line': b'-- Compiling and running to test HAVE_PTHREAD_AFFINITY\n'}
+[27.027822] (-) TimerEvent: {}
+[27.041005] (mujoco) StdoutLine: {'line': b'-- Performing Test HAVE_PTHREAD_AFFINITY -- success\n'}
+[27.047184] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `benchmark` - Done\n'}
+[27.128011] (-) TimerEvent: {}
+[27.228399] (-) TimerEvent: {}
+[27.329033] (-) TimerEvent: {}
+[27.429847] (-) TimerEvent: {}
+[27.530477] (-) TimerEvent: {}
+[27.630943] (-) TimerEvent: {}
+[27.731665] (-) TimerEvent: {}
+[27.832083] (-) TimerEvent: {}
+[27.932528] (-) TimerEvent: {}
+[28.033051] (-) TimerEvent: {}
+[28.133459] (-) TimerEvent: {}
+[28.233899] (-) TimerEvent: {}
+[28.334310] (-) TimerEvent: {}
+[28.434882] (-) TimerEvent: {}
+[28.535359] (-) TimerEvent: {}
+[28.635805] (-) TimerEvent: {}
+[28.736413] (-) TimerEvent: {}
+[28.836792] (-) TimerEvent: {}
+[28.937273] (-) TimerEvent: {}
+[29.037776] (-) TimerEvent: {}
+[29.138167] (-) TimerEvent: {}
+[29.238626] (-) TimerEvent: {}
+[29.339017] (-) TimerEvent: {}
+[29.439611] (-) TimerEvent: {}
+[29.540056] (-) TimerEvent: {}
+[29.640492] (-) TimerEvent: {}
+[29.741012] (-) TimerEvent: {}
+[29.841421] (-) TimerEvent: {}
+[29.941782] (-) TimerEvent: {}
+[30.042144] (-) TimerEvent: {}
+[30.142674] (-) TimerEvent: {}
+[30.243238] (-) TimerEvent: {}
+[30.343786] (-) TimerEvent: {}
+[30.444106] (-) TimerEvent: {}
+[30.544486] (-) TimerEvent: {}
+[30.645114] (-) TimerEvent: {}
+[30.745594] (-) TimerEvent: {}
+[30.845976] (-) TimerEvent: {}
+[30.946326] (-) TimerEvent: {}
+[31.046786] (-) TimerEvent: {}
+[31.147382] (-) TimerEvent: {}
+[31.247995] (-) TimerEvent: {}
+[31.348385] (-) TimerEvent: {}
+[31.449015] (-) TimerEvent: {}
+[31.549498] (-) TimerEvent: {}
+[31.649965] (-) TimerEvent: {}
+[31.750439] (-) TimerEvent: {}
+[31.850921] (-) TimerEvent: {}
+[31.951329] (-) TimerEvent: {}
+[32.051707] (-) TimerEvent: {}
+[32.152167] (-) TimerEvent: {}
+[32.252547] (-) TimerEvent: {}
+[32.355987] (-) TimerEvent: {}
+[32.456352] (-) TimerEvent: {}
+[32.556774] (-) TimerEvent: {}
+[32.657290] (-) TimerEvent: {}
+[32.757678] (-) TimerEvent: {}
+[32.858136] (-) TimerEvent: {}
+[32.958631] (-) TimerEvent: {}
+[33.059122] (-) TimerEvent: {}
+[33.159774] (-) TimerEvent: {}
+[33.260320] (-) TimerEvent: {}
+[33.360802] (-) TimerEvent: {}
+[33.461176] (-) TimerEvent: {}
+[33.561548] (-) TimerEvent: {}
+[33.661879] (-) TimerEvent: {}
+[33.762254] (-) TimerEvent: {}
+[33.862706] (-) TimerEvent: {}
+[33.963091] (-) TimerEvent: {}
+[34.063396] (-) TimerEvent: {}
+[34.163880] (-) TimerEvent: {}
+[34.264281] (-) TimerEvent: {}
+[34.366870] (-) TimerEvent: {}
+[34.467240] (-) TimerEvent: {}
+[34.568163] (-) TimerEvent: {}
+[34.668609] (-) TimerEvent: {}
+[34.769030] (-) TimerEvent: {}
+[34.869359] (-) TimerEvent: {}
+[34.971098] (-) TimerEvent: {}
+[35.071573] (-) TimerEvent: {}
+[35.171976] (-) TimerEvent: {}
+[35.272434] (-) TimerEvent: {}
+[35.372741] (-) TimerEvent: {}
+[35.473164] (-) TimerEvent: {}
+[35.573718] (-) TimerEvent: {}
+[35.622548] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `mujoco`\n'}
+[35.622784] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `mujoco` - found\n'}
+[35.622875] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `glfw3`\n'}
+[35.622940] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `glfw3` - target `glfw` not defined.\n'}
+[35.622998] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `glfw3`\n'}
+[35.673928] (-) TimerEvent: {}
+[35.774880] (-) TimerEvent: {}
+[35.876275] (-) TimerEvent: {}
+[35.976674] (-) TimerEvent: {}
+[36.077007] (-) TimerEvent: {}
+[36.177397] (-) TimerEvent: {}
+[36.277690] (-) TimerEvent: {}
+[36.378050] (-) TimerEvent: {}
+[36.478449] (-) TimerEvent: {}
+[36.579021] (-) TimerEvent: {}
+[36.679353] (-) TimerEvent: {}
+[36.779712] (-) TimerEvent: {}
+[36.880073] (-) TimerEvent: {}
+[36.980371] (-) TimerEvent: {}
+[37.080778] (-) TimerEvent: {}
+[37.181164] (-) TimerEvent: {}
+[37.282910] (-) TimerEvent: {}
+[37.383293] (-) TimerEvent: {}
+[37.483738] (-) TimerEvent: {}
+[37.584123] (-) TimerEvent: {}
+[37.684500] (-) TimerEvent: {}
+[37.784962] (-) TimerEvent: {}
+[37.885352] (-) TimerEvent: {}
+[37.985711] (-) TimerEvent: {}
+[38.086092] (-) TimerEvent: {}
+[38.186562] (-) TimerEvent: {}
+[38.286948] (-) TimerEvent: {}
+[38.387572] (-) TimerEvent: {}
+[38.487954] (-) TimerEvent: {}
+[38.588308] (-) TimerEvent: {}
+[38.688658] (-) TimerEvent: {}
+[38.790966] (-) TimerEvent: {}
+[38.891331] (-) TimerEvent: {}
+[38.992071] (-) TimerEvent: {}
+[39.092626] (-) TimerEvent: {}
+[39.145317] (mujoco) StdoutLine: {'line': b'-- Including Wayland support\n'}
+[39.145593] (mujoco) StdoutLine: {'line': b'-- Including X11 support\n'}
+[39.147824] (mujoco) StdoutLine: {'line': b'-- Looking for memfd_create\n'}
+[39.192902] (-) TimerEvent: {}
+[39.216290] (mujoco) StdoutLine: {'line': b'-- Looking for memfd_create - found\n'}
+[39.220978] (mujoco) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[39.221209] (mujoco) StdoutLine: {'line': b"-- Checking for modules 'wayland-client>=0.2.7;wayland-cursor>=0.2.7;wayland-egl>=0.2.7;xkbcommon>=0.5.0'\n"}
+[39.243817] (mujoco) StdoutLine: {'line': b'--   Found wayland-client, version 1.20.0\n'}
+[39.252986] (mujoco) StdoutLine: {'line': b'--   Found wayland-cursor, version 1.20.0\n'}
+[39.264830] (mujoco) StdoutLine: {'line': b'--   Found wayland-egl, version 18.1.0\n'}
+[39.273054] (mujoco) StdoutLine: {'line': b'--   Found xkbcommon, version 1.4.0\n'}
+[39.293569] (-) TimerEvent: {}
+[39.393970] (-) TimerEvent: {}
+[39.401262] (mujoco) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[39.401449] (mujoco) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[39.489204] (mujoco) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[39.489436] (mujoco) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[39.495489] (-) TimerEvent: {}
+[39.586150] (mujoco) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[39.586316] (mujoco) StdoutLine: {'line': b'-- Looking for connect\n'}
+[39.595644] (-) TimerEvent: {}
+[39.679655] (mujoco) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[39.679807] (mujoco) StdoutLine: {'line': b'-- Looking for remove\n'}
+[39.696130] (-) TimerEvent: {}
+[39.767241] (mujoco) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[39.767449] (mujoco) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[39.796255] (-) TimerEvent: {}
+[39.869045] (mujoco) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[39.869273] (mujoco) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[39.896472] (-) TimerEvent: {}
+[39.947369] (mujoco) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[39.951199] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `glfw3` - Done\n'}
+[39.959004] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `mujoco`\n'}
+[39.959058] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `mujoco` - found\n'}
+[39.959916] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `glfw3`\n'}
+[39.959970] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `glfw3` - found\n'}
+[39.990184] (mujoco) StdoutLine: {'line': b'-- Configuring done\n'}
+[39.996590] (-) TimerEvent: {}
+[40.096888] (-) TimerEvent: {}
+[40.187147] (mujoco) StdoutLine: {'line': b'-- Generating done\n'}
+[40.197024] (-) TimerEvent: {}
+[40.268908] (mujoco) StdoutLine: {'line': b'-- Build files have been written to: /home/jason/projects/motion_control_go2/build/mujoco\n'}
+[40.283120] (mujoco) JobEnded: {'identifier': 'mujoco', 'rc': 'SIGINT'}
+[40.293473] (gepetto-viewer-corba) JobSkipped: {'identifier': 'gepetto-viewer-corba'}
+[40.293539] (stand_go2) JobSkipped: {'identifier': 'stand_go2'}
+[40.294188] (unitree_mujoco) JobSkipped: {'identifier': 'unitree_mujoco'}
+[40.294356] (unitree_ros2_example) JobSkipped: {'identifier': 'unitree_ros2_example'}
+[40.294383] (-) EventReactorShutdown: {}

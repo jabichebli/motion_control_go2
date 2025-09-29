@@ -1,0 +1,81 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"sample/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 140,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "samples",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/basic"
+			],
+			"targetId" : "basic::@f68f564e181663381ef6",
+			"targetIndex" : 120,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "samples",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/compile"
+			],
+			"targetId" : "compile::@f68f564e181663381ef6",
+			"targetIndex" : 125,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "samples",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/record"
+			],
+			"targetId" : "record::@f68f564e181663381ef6",
+			"targetIndex" : 188,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "samples",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"bin/testspeed"
+			],
+			"targetId" : "testspeed::@f68f564e181663381ef6",
+			"targetIndex" : 196,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "sample",
+		"source" : "sample"
+	}
+}
