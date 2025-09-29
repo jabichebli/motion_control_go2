@@ -1,1 +1,0 @@
-/home/jason/projects/unitree_sdk2_ws/build/unitree_api/rosidl_generator_c/unitree_api/msg/detail/request_policy__type_support.h

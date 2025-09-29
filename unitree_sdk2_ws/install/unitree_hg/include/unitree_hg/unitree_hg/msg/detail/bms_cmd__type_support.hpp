@@ -1,1 +1,0 @@
-/home/jason/projects/unitree_sdk2_ws/build/unitree_hg/rosidl_generator_cpp/unitree_hg/msg/detail/bms_cmd__type_support.hpp

@@ -1,1 +1,0 @@
-/home/jason/projects/unitree_sdk2_ws/build/unitree_hg/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h

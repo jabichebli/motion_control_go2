@@ -1,1 +1,0 @@
-/home/jason/projects/unitree_sdk2_ws/build/unitree_hg/rosidl_generator_c/unitree_hg/msg/detail/hand_state__type_support.h

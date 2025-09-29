@@ -1,8 +1,0 @@
-/home/jason/projects/unitree_sdk2_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/Request.idl
-/home/jason/projects/unitree_sdk2_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/RequestHeader.idl
-/home/jason/projects/unitree_sdk2_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/RequestIdentity.idl
-/home/jason/projects/unitree_sdk2_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/RequestLease.idl
-/home/jason/projects/unitree_sdk2_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/RequestPolicy.idl
-/home/jason/projects/unitree_sdk2_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/Response.idl
-/home/jason/projects/unitree_sdk2_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/ResponseHeader.idl
-/home/jason/projects/unitree_sdk2_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/ResponseStatus.idl

@@ -1,6 +1,0 @@
-source;share/go2_rl/hook/pythonpath.ps1
-source;share/go2_rl/hook/pythonpath.dsv
-source;share/go2_rl/hook/pythonpath.sh
-source;share/go2_rl/hook/ament_prefix_path.ps1
-source;share/go2_rl/hook/ament_prefix_path.dsv
-source;share/go2_rl/hook/ament_prefix_path.sh

@@ -1,1 +1,0 @@
-/home/jason/projects/unitree_sdk2_ws/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api/msg/Response.msg
