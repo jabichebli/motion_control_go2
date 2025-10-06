@@ -1,0 +1,29 @@
+[0.045s] Invoking command in '/home/jason/projects/motion_control_go2/src/build/go2_description': /usr/bin/cmake /home/jason/projects/motion_control_go2/src/unitree_ros/robots/go2_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/src/install/go2_description
+[0.484s] -- Configuring incomplete, errors occurred!
+[0.484s] See also "/home/jason/projects/motion_control_go2/src/build/go2_description/CMakeFiles/CMakeOutput.log".
+[0.491s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.491s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.491s]   CMake.
+[0.491s] 
+[0.491s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.491s]   CMake that the project does not need compatibility with older versions.
+[0.491s] 
+[0.491s] [0m
+[0.491s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[0.491s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.491s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.491s]   CMake did not find one.
+[0.491s] 
+[0.491s]   Could not find a package configuration file provided by "catkin" with any
+[0.491s]   of the following names:
+[0.491s] 
+[0.491s]     catkinConfig.cmake
+[0.491s]     catkin-config.cmake
+[0.491s] 
+[0.491s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.491s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.491s]   provides a separate development package or SDK, be sure it has been
+[0.491s]   installed.
+[0.491s] 
+[0.491s] [0m
+[0.508s] Invoked command in '/home/jason/projects/motion_control_go2/src/build/go2_description' returned '1': /usr/bin/cmake /home/jason/projects/motion_control_go2/src/unitree_ros/robots/go2_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/src/install/go2_description

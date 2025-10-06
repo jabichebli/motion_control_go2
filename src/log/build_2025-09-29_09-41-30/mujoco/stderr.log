@@ -1,0 +1,8 @@
+lto-wrapper: warning: using serial compilation of 6 LTRANS jobs
+lto-wrapper: warning: using serial compilation of 6 LTRANS jobs
+lto-wrapper: warning: using serial compilation of 6 LTRANS jobs
+lto-wrapper: warning: using serial compilation of 6 LTRANS jobs
+lto-wrapper: warning: using serial compilation of 63 LTRANS jobs
+gmake[2]: *** [CMakeFiles/mujoco.dir/build.make:1127: lib/libmujoco.so.3.3.7] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:1447: CMakeFiles/mujoco.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

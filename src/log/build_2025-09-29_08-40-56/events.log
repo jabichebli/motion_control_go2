@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.000398] (-) JobUnselected: {'identifier': 'go2_description'}
+[0.000416] (-) JobUnselected: {'identifier': 'mujoco'}
+[0.000427] (-) JobUnselected: {'identifier': 'stand_go2'}
+[0.000499] (-) JobUnselected: {'identifier': 'unitree_controller'}
+[0.000508] (-) JobUnselected: {'identifier': 'unitree_gazebo'}
+[0.000514] (-) JobUnselected: {'identifier': 'unitree_legged_control'}
+[0.000520] (-) JobUnselected: {'identifier': 'unitree_mujoco'}
+[0.000525] (-) JobUnselected: {'identifier': 'z1_description'}
+[0.000532] (go2_pinocchio_demo) JobQueued: {'identifier': 'go2_pinocchio_demo', 'dependencies': OrderedDict()}
+[0.000540] (go2_pinocchio_demo) JobStarted: {'identifier': 'go2_pinocchio_demo'}
+[0.005907] (go2_pinocchio_demo) JobProgress: {'identifier': 'go2_pinocchio_demo', 'progress': 'cmake'}
+[0.005923] (go2_pinocchio_demo) Command: {'cmd': ['/usr/bin/cmake', '/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo', '-DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/src/install/go2_pinocchio_demo'], 'cwd': '/home/jason/projects/motion_control_go2/src/build/go2_pinocchio_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/unitree_robotics/lib:/home/jason/.mujoco/mujoco-3.2.7/bin:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1840'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/jason/.mujoco/mujoco-3.2.7'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jason/.mujoco/mujoco-3.2.7/bin:/home/jason/.local/bin:/opt/ros/humble/bin:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jasonabichebli:@/tmp/.ICE-unix/1811,unix/jasonabichebli:/tmp/.ICE-unix/1811'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cf24cf1c_970f_4b69_a688_e9da55233fa2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3JISD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/projects/motion_control_go2/src/build/go2_pinocchio_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local::/opt/ros/humble')]), 'shell': False}
+[0.099976] (-) TimerEvent: {}
+[0.103040] (go2_pinocchio_demo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.183594] (go2_pinocchio_demo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.193671] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200147] (-) TimerEvent: {}
+[0.267514] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.274677] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.300308] (-) TimerEvent: {}
+[0.400663] (-) TimerEvent: {}
+[0.408925] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.410379] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.414382] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.495555] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.500838] (-) TimerEvent: {}
+[0.503943] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.504099] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.505438] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.561452] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.601874] (-) TimerEvent: {}
+[0.702166] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.702411] (-) TimerEvent: {}
+[0.777391] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.803183] (-) TimerEvent: {}
+[0.820094] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.823100] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.828523] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.836942] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.847281] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.878249] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.880042] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.903278] (-) TimerEvent: {}
+[0.943227] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.978546] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.003119] (go2_pinocchio_demo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.003314] (-) TimerEvent: {}
+[1.010254] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.081055] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.081323] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.103433] (-) TimerEvent: {}
+[1.197001] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.198799] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.203586] (-) TimerEvent: {}
+[1.303981] (-) TimerEvent: {}
+[1.322765] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.342550] (go2_pinocchio_demo) StdoutLine: {'line': b'-- pinocchio_default FOUND. pinocchio_default at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_default.so\n'}
+[1.342957] (go2_pinocchio_demo) StdoutLine: {'line': b'-- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_parsers.so\n'}
+[1.343166] (go2_pinocchio_demo) StdoutLine: {'line': b'-- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so\n'}
+[1.343255] (go2_pinocchio_demo) StdoutLine: {'line': b'-- boost_serialization FOUND. boost_serialization at /lib/x86_64-linux-gnu/libboost_serialization.so\n'}
+[1.343315] (go2_pinocchio_demo) StdoutLine: {'line': b'-- boost_system FOUND. boost_system at /lib/x86_64-linux-gnu/libboost_system.so\n'}
+[1.370148] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found Boost: /usr/include (found version "1.74.0") found components: filesystem serialization system \n'}
+[1.371186] (go2_pinocchio_demo) StdoutLine: {'line': b'-- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so\n'}
+[1.396716] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Checking for NumPy\n'}
+[1.404039] (-) TimerEvent: {}
+[1.504237] (-) TimerEvent: {}
+[1.571816] (go2_pinocchio_demo) StdoutLine: {'line': b'--   NUMPY_INCLUDE_DIRS=/home/jason/.local/lib/python3.10/site-packages/numpy/_core/include\n'}
+[1.605116] (-) TimerEvent: {}
+[1.613486] (go2_pinocchio_demo) StdoutLine: {'line': b'--   NUMPY_VERSION=2.2.6\n'}
+[1.706118] (-) TimerEvent: {}
+[1.732508] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development.Module NumPy \n'}
+[1.732910] (go2_pinocchio_demo) StdoutLine: {'line': b'-- PythonLibraryDirs: \n'}
+[1.732970] (go2_pinocchio_demo) StdoutLine: {'line': b'-- PythonLibVersionString: 3.10.12\n'}
+[1.742809] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Python site lib: lib/python3.10/site-packages\n'}
+[1.742879] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Python include dirs: /usr/include/python3.10\n'}
+[1.765849] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Checking for NumPy\n'}
+[1.806246] (-) TimerEvent: {}
+[1.806463] (go2_pinocchio_demo) StdoutLine: {'line': b'--   NUMPY_INCLUDE_DIRS=/home/jason/.local/lib/python3.10/site-packages/numpy/_core/include\n'}
+[1.847319] (go2_pinocchio_demo) StdoutLine: {'line': b'--   NUMPY_VERSION=2.2.6\n'}
+[1.847447] (go2_pinocchio_demo) StdoutLine: {'line': b'-- NumPy include dir: /home/jason/.local/lib/python3.10/site-packages/numpy/_core/include\n'}
+[1.849982] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):\n'}
+[1.850029] (go2_pinocchio_demo) StderrLine: {'line': b'  No header defined for python310; skipping header check (note: header-only\n'}
+[1.850051] (go2_pinocchio_demo) StderrLine: {'line': b'  libraries have no designated component)\n'}
+[1.850081] (go2_pinocchio_demo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.850104] (go2_pinocchio_demo) StderrLine: {'line': b'  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)\n'}
+[1.850121] (go2_pinocchio_demo) StderrLine: {'line': b'  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)\n'}
+[1.850141] (go2_pinocchio_demo) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)\n'}
+[1.850158] (go2_pinocchio_demo) StderrLine: {'line': b'  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)\n'}
+[1.850174] (go2_pinocchio_demo) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[1.850190] (go2_pinocchio_demo) StderrLine: {'line': b'\n'}
+[1.850207] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[0m\n'}
+[1.851940] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found Boost: /usr/include (found version "1.74.0") found components: python310 \n'}
+[1.906424] (-) TimerEvent: {}
+[2.006951] (-) TimerEvent: {}
+[2.065642] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Default C++ standard: 201703\n'}
+[2.065882] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Minimal C++ standard upgraded to 11\n'}
+[2.065954] (go2_pinocchio_demo) StdoutLine: {'line': b'-- C++ standard sufficient: Minimal required 11, currently defined: 17\n'}
+[2.066013] (go2_pinocchio_demo) StdoutLine: {'line': b'-- CMAKE_CXX_STANDARD was not set: automatically set to currently defined standard 17\n'}
+[2.107128] (-) TimerEvent: {}
+[2.151791] (go2_pinocchio_demo) StdoutLine: {'line': b'-- hpp-fcl FOUND. hpp-fcl at /opt/ros/humble/lib/x86_64-linux-gnu/libhpp-fcl.so\n'}
+[2.165552] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found Boost: /usr/include (found version "1.74.0") found components: chrono serialization filesystem \n'}
+[2.172039] (go2_pinocchio_demo) StdoutLine: {'line': b'-- C++ standard sufficient: Minimal required 11, currently defined: 17\n'}
+[2.173030] (go2_pinocchio_demo) StdoutLine: {'line': b'-- C++ standard sufficient: Minimal required 11, currently defined: 17\n'}
+[2.207310] (-) TimerEvent: {}
+[2.223481] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.227304] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (add_executable):\n'}
+[2.227446] (go2_pinocchio_demo) StderrLine: {'line': b'  Cannot find source file:\n'}
+[2.227513] (go2_pinocchio_demo) StderrLine: {'line': b'\n'}
+[2.227569] (go2_pinocchio_demo) StderrLine: {'line': b'    src/fk_ik_id_example.cpp\n'}
+[2.227622] (go2_pinocchio_demo) StderrLine: {'line': b'\n'}
+[2.227671] (go2_pinocchio_demo) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[2.227722] (go2_pinocchio_demo) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[2.227770] (go2_pinocchio_demo) StderrLine: {'line': b'\n'}
+[2.227816] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[0m\n'}
+[2.227933] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (add_executable):\n'}
+[2.227993] (go2_pinocchio_demo) StderrLine: {'line': b'  No SOURCES given to target: fk_ik_id_example\n'}
+[2.228042] (go2_pinocchio_demo) StderrLine: {'line': b'\n'}
+[2.228099] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[0m\n'}
+[2.228149] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[2.240368] (go2_pinocchio_demo) CommandEnded: {'returncode': 1}
+[2.264582] (go2_pinocchio_demo) JobEnded: {'identifier': 'go2_pinocchio_demo', 'rc': 1}
+[2.275098] (-) EventReactorShutdown: {}

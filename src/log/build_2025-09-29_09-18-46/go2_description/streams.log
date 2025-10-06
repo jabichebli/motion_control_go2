@@ -1,0 +1,40 @@
+[0.019s] Invoking command in '/home/jason/projects/motion_control_go2/src/build/go2_description': /usr/bin/cmake /home/jason/projects/motion_control_go2/src/unitree_ros/robots/go2_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/src/install/go2_description
+[0.031s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.031s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.031s]   CMake.
+[0.031s] 
+[0.031s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.031s]   CMake that the project does not need compatibility with older versions.
+[0.031s] 
+[0.031s] [0m
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.104s] -- The CXX compiler identification is GNU 11.4.0
+[0.109s] -- Detecting C compiler ABI info
+[0.155s] -- Detecting C compiler ABI info - done
+[0.156s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.156s] -- Detecting C compile features
+[0.157s] -- Detecting C compile features - done
+[0.159s] -- Detecting CXX compiler ABI info
+[0.209s] -- Detecting CXX compiler ABI info - done
+[0.214s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.215s] -- Detecting CXX compile features
+[0.215s] -- Detecting CXX compile features - done
+[0.223s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[0.223s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.223s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.223s]   CMake did not find one.
+[0.225s] 
+[0.225s]   Could not find a package configuration file provided by "catkin" with any
+[0.225s]   of the following names:
+[0.225s] 
+[0.225s]     catkinConfig.cmake
+[0.225s]     catkin-config.cmake
+[0.225s] 
+[0.225s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.225s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.225s]   provides a separate development package or SDK, be sure it has been
+[0.225s]   installed.
+[0.225s] 
+[0.225s] [0m
+[0.225s] -- Configuring incomplete, errors occurred!
+[0.225s] See also "/home/jason/projects/motion_control_go2/src/build/go2_description/CMakeFiles/CMakeOutput.log".

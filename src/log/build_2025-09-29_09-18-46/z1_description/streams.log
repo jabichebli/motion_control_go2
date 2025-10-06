@@ -1,0 +1,32 @@
+[0.028s] Invoking command in '/home/jason/projects/motion_control_go2/src/build/z1_description': /usr/bin/cmake /home/jason/projects/motion_control_go2/src/unitree_ros/robots/z1_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/src/install/z1_description
+[0.069s] -- The C compiler identification is GNU 11.4.0
+[0.106s] -- The CXX compiler identification is GNU 11.4.0
+[0.113s] -- Detecting C compiler ABI info
+[0.155s] -- Detecting C compiler ABI info - done
+[0.158s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.158s] -- Detecting C compile features
+[0.159s] -- Detecting C compile features - done
+[0.161s] -- Detecting CXX compiler ABI info
+[0.214s] -- Detecting CXX compiler ABI info - done
+[0.219s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.222s] -- Detecting CXX compile features
+[0.222s] -- Detecting CXX compile features - done
+[0.222s] -- Configuring incomplete, errors occurred!
+[0.222s] See also "/home/jason/projects/motion_control_go2/src/build/z1_description/CMakeFiles/CMakeOutput.log".
+[0.222s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.222s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.222s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.222s]   CMake did not find one.
+[0.222s] 
+[0.222s]   Could not find a package configuration file provided by "catkin" with any
+[0.222s]   of the following names:
+[0.222s] 
+[0.222s]     catkinConfig.cmake
+[0.222s]     catkin-config.cmake
+[0.222s] 
+[0.222s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.222s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.222s]   provides a separate development package or SDK, be sure it has been
+[0.222s]   installed.
+[0.222s] 
+[0.223s] [0m

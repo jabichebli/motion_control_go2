@@ -1,0 +1,55 @@
+[0.018s] Invoking command in '/home/jason/projects/motion_control_go2/src/build/go2_pinocchio_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jason/projects/motion_control_go2/src/go2_pinocchio_demo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/src/install/go2_pinocchio_demo
+[0.029s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.068s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.107s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.110s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.126s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.128s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.131s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.136s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.143s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.162s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.163s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.224s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.246s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.259s] -- pinocchio_default FOUND. pinocchio_default at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_default.so
+[0.259s] -- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_parsers.so
+[0.259s] -- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so
+[0.260s] -- boost_serialization FOUND. boost_serialization at /lib/x86_64-linux-gnu/libboost_serialization.so
+[0.261s] -- boost_system FOUND. boost_system at /lib/x86_64-linux-gnu/libboost_system.so
+[0.264s] -- Found Boost: /usr/include (found version "1.74.0") found components: filesystem serialization system 
+[0.265s] -- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so
+[0.286s] -- Checking for NumPy
+[0.409s] --   NUMPY_INCLUDE_DIRS=/home/jason/.local/lib/python3.10/site-packages/numpy/_core/include
+[0.465s] --   NUMPY_VERSION=2.2.6
+[0.609s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development.Module NumPy 
+[0.609s] -- PythonLibraryDirs: 
+[0.609s] -- PythonLibVersionString: 3.10.12
+[0.619s] -- Python site lib: lib/python3.10/site-packages
+[0.619s] -- Python include dirs: /usr/include/python3.10
+[0.640s] -- Checking for NumPy
+[0.688s] --   NUMPY_INCLUDE_DIRS=/home/jason/.local/lib/python3.10/site-packages/numpy/_core/include
+[0.752s] --   NUMPY_VERSION=2.2.6
+[0.755s] -- NumPy include dir: /home/jason/.local/lib/python3.10/site-packages/numpy/_core/include
+[0.755s] [33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+[0.755s]   No header defined for python310; skipping header check (note: header-only
+[0.755s]   libraries have no designated component)
+[0.755s] Call Stack (most recent call first):
+[0.755s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+[0.755s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+[0.755s]   /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+[0.755s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+[0.755s]   CMakeLists.txt:13 (find_package)
+[0.755s] 
+[0.756s] [0m
+[0.756s] -- Found Boost: /usr/include (found version "1.74.0") found components: python310 
+[0.934s] -- Default C++ standard: 201703
+[0.934s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.935s] -- CMAKE_CXX_STANDARD was not set: automatically set to currently defined standard 17
+[0.935s] -- hpp-fcl FOUND. hpp-fcl at /opt/ros/humble/lib/x86_64-linux-gnu/libhpp-fcl.so
+[0.938s] -- Found Boost: /usr/include (found version "1.74.0") found components: chrono serialization filesystem 
+[0.941s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.941s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.975s] -- Configuring done
+[0.980s] -- Generating done
+[0.981s] -- Build files have been written to: /home/jason/projects/motion_control_go2/src/build/go2_pinocchio_demo

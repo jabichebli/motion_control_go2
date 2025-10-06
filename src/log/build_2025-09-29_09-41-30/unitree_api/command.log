@@ -1,0 +1,1 @@
+Invoking command in '/home/jason/projects/motion_control_go2/src/build/unitree_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jason/projects/motion_control_go2/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_api -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/src/install/unitree_api

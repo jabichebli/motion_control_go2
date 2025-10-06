@@ -1,0 +1,7 @@
+[0.047s] Invoking command in '/home/jason/projects/motion_control_go2/src/build/go2_pinocchio_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/projects/motion_control_go2/src/build/go2_pinocchio_demo -- -j16 -l16
+[0.485s] [ 50%] [32mBuilding CXX object CMakeFiles/fk_ik_id_example.dir/src/fk_ik_id_example.cpp.o[0m
+[17.982s] gmake[2]: *** [CMakeFiles/fk_ik_id_example.dir/build.make:76: CMakeFiles/fk_ik_id_example.dir/src/fk_ik_id_example.cpp.o] Interrupt
+[17.982s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/fk_ik_id_example.dir/all] Interrupt
+[17.985s] gmake: *** wait: No child processes.  Stop.
+[17.985s] gmake: *** Waiting for unfinished jobs....
+[17.985s] gmake: *** wait: No child processes.  Stop.

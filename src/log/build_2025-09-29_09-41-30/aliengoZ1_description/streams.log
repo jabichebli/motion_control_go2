@@ -1,0 +1,33 @@
+[0.045s] Invoking command in '/home/jason/projects/motion_control_go2/src/build/aliengoZ1_description': /usr/bin/cmake /home/jason/projects/motion_control_go2/src/unitree_ros/robots/aliengoZ1_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/src/install/aliengoZ1_description
+[0.088s] -- The C compiler identification is GNU 11.4.0
+[0.200s] -- The CXX compiler identification is GNU 11.4.0
+[0.213s] -- Detecting C compiler ABI info
+[0.319s] -- Detecting C compiler ABI info - done
+[0.326s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.326s] -- Detecting C compile features
+[0.326s] -- Detecting C compile features - done
+[0.333s] -- Detecting CXX compiler ABI info
+[0.476s] -- Detecting CXX compiler ABI info - done
+[0.505s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.505s] -- Detecting CXX compile features
+[0.505s] -- Detecting CXX compile features - done
+[0.520s] -- Configuring incomplete, errors occurred!
+[0.521s] See also "/home/jason/projects/motion_control_go2/src/build/aliengoZ1_description/CMakeFiles/CMakeOutput.log".
+[0.521s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.521s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.521s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.521s]   CMake did not find one.
+[0.521s] 
+[0.521s]   Could not find a package configuration file provided by "catkin" with any
+[0.521s]   of the following names:
+[0.521s] 
+[0.521s]     catkinConfig.cmake
+[0.521s]     catkin-config.cmake
+[0.521s] 
+[0.522s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.522s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.522s]   provides a separate development package or SDK, be sure it has been
+[0.522s]   installed.
+[0.522s] 
+[0.522s] [0m
+[0.549s] Invoked command in '/home/jason/projects/motion_control_go2/src/build/aliengoZ1_description' returned '1': /usr/bin/cmake /home/jason/projects/motion_control_go2/src/unitree_ros/robots/aliengoZ1_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/src/install/aliengoZ1_description

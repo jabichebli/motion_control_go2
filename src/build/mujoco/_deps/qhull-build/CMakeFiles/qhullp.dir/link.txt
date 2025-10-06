@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG -flto -fno-fat-lto-objects CMakeFiles/qhullp.dir/src/qhull/unix.c.o -o ../../bin/qhullp  -Wl,-rpath,/home/jason/projects/motion_control_go2/src/build/mujoco/lib ../../lib/libqhull_p.so.8.1-alpha3 -lm 

@@ -1,0 +1,378 @@
+[  0%] [34m[1mGenerating xdg-shell-client-protocol.h[0m
+[  0%] [32mBuilding C object _deps/ccd-build/src/CMakeFiles/ccd.dir/ccd.c.o[0m
+[  0%] [34m[1mGenerating fractional-scale-v1-client-protocol-code.h[0m
+[  1%] [32mBuilding C object _deps/ccd-build/src/CMakeFiles/ccd.dir/polytope.c.o[0m
+[  1%] [32mBuilding CXX object _deps/tinyobjloader-build/CMakeFiles/tinyobjloader.dir/tiny_obj_loader.cc.o[0m
+[  1%] [32mBuilding C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/global_r.c.o[0m
+[  1%] [32mBuilding C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/stat_r.c.o[0m
+[  1%] [32mBuilding CXX object _deps/tinyxml2-build/CMakeFiles/tinyxml2.dir/tinyxml2.cpp.o[0m
+[  2%] [34m[1mGenerating fractional-scale-v1-client-protocol.h[0m
+[  2%] [32mBuilding C object _deps/ccd-build/src/CMakeFiles/ccd.dir/support.c.o[0m
+[  2%] [32mBuilding C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/geom2_r.c.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/lodepng.dir/_deps/lodepng-src/lodepng.cpp.o[0m
+[  2%] [32mBuilding CXX object _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  2%] [32mBuilding C object _deps/ccd-build/src/CMakeFiles/ccd.dir/mpr.c.o[0m
+[  4%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_spinlock_wait.dir/internal/spinlock_wait.cc.o[0m
+[  4%] [34m[1mGenerating idle-inhibit-unstable-v1-client-protocol.h[0m
+[  4%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_fixed.cc.o[0m
+[  4%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_log_severity.dir/log_severity.cc.o[0m
+[  4%] [34m[1mGenerating idle-inhibit-unstable-v1-client-protocol-code.h[0m
+[  4%] [34m[1mGenerating pointer-constraints-unstable-v1-client-protocol-code.h[0m
+[  4%] [32mBuilding C object _deps/ccd-build/src/CMakeFiles/ccd.dir/vec3.c.o[0m
+[  4%] [34m[1mGenerating pointer-constraints-unstable-v1-client-protocol.h[0m
+[  4%] [34m[1mGenerating relative-pointer-unstable-v1-client-protocol-code.h[0m
+[  4%] [34m[1mGenerating relative-pointer-unstable-v1-client-protocol.h[0m
+[  4%] [34m[1mGenerating viewporter-client-protocol-code.h[0m
+[  4%] [32mBuilding C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/poly2_r.c.o[0m
+[  4%] [34m[1mGenerating viewporter-client-protocol.h[0m
+[  4%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_utf8_for_code_point.dir/internal/utf8_for_code_point.cc.o[0m
+[  4%] [34m[1mGenerating wayland-client-protocol-code.h[0m
+[  5%] [32mBuilding C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/merge_r.c.o[0m
+[  5%] [34m[1mGenerating wayland-client-protocol.h[0m
+[  5%] [32m[1mLinking C static library ../../../lib/libccd.a[0m
+[  5%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/profiling/CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.o[0m
+[  5%] [32m[1mLinking CXX static library ../../../../lib/libabsl_spinlock_wait.a[0m
+[  5%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_format.cc.o[0m
+[  5%] [34m[1mGenerating xdg-activation-v1-client-protocol-code.h[0m
+[  5%] [32mBuilding C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/libqhull_r.c.o[0m
+[  7%] [32m[1mLinking CXX static library ../../../../lib/libabsl_utf8_for_code_point.a[0m
+[  7%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_civil_time.dir/internal/cctz/src/civil_time_detail.cc.o[0m
+[  7%] [34m[1mGenerating xdg-activation-v1-client-protocol.h[0m
+[  7%] Built target ccd
+[  7%] [34m[1mGenerating xdg-decoration-unstable-v1-client-protocol-code.h[0m
+[  7%] Built target absl_spinlock_wait
+[  8%] [32m[1mLinking CXX static library ../../lib/libtinyxml2.a[0m
+[ 10%] [32m[1mLinking CXX static library ../../../../lib/libabsl_log_severity.a[0m
+[ 10%] [34m[1mGenerating xdg-decoration-unstable-v1-client-protocol.h[0m
+[ 11%] [34m[1mGenerating xdg-shell-client-protocol-code.h[0m
+[ 11%] [32mBuilding CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark.cc.o[0m
+[ 11%] Built target absl_utf8_for_code_point
+[ 11%] [32mBuilding C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/geom_r.c.o[0m
+[ 11%] [32mBuilding CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o[0m
+[ 11%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_if.cc.o[0m
+[ 11%] Built target tinyxml2
+[ 11%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_impl.cc.o[0m
+[ 11%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/context.c.o[0m
+[ 11%] Built target absl_log_severity
+[ 11%] [32mBuilding C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/poly_r.c.o[0m
+[ 11%] [32mBuilding C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/qset_r.c.o[0m
+[ 11%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_info.cc.o[0m
+[ 13%] [32m[1mLinking CXX static library ../../../../lib/libabsl_exponential_biased.a[0m
+[ 13%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_raw_logging_internal.dir/internal/raw_logging.cc.o[0m
+[ 13%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_libc.cc.o[0m
+[ 13%] [32mBuilding C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/mem_r.c.o[0m
+[ 13%] Built target absl_exponential_biased
+[ 14%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_lookup.cc.o[0m
+[ 15%] [32mBuilding C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/usermem_r.c.o[0m
+[ 15%] [32mBuilding C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/random_r.c.o[0m
+[ 15%] [32m[1mLinking CXX static library ../../../../lib/libabsl_civil_time.a[0m
+[ 15%] [32mBuilding C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/userprintf_r.c.o[0m
+[ 17%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/init.c.o[0m
+[ 17%] [32m[1mLinking CXX static library lib/liblodepng.a[0m
+[ 17%] [32mBuilding C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/io_r.c.o[0m
+[ 17%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/zone_info_source.cc.o[0m
+[ 17%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time_zone.dir/internal/cctz/src/time_zone_posix.cc.o[0m
+[ 17%] [32m[1mLinking CXX static library ../../../../lib/libabsl_raw_logging_internal.a[0m
+[ 17%] Built target absl_civil_time
+[ 17%] Built target lodepng
+[ 17%] [32mBuilding C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/accessors_r.c.o[0m
+[ 17%] [32mBuilding C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/user_r.c.o[0m
+[ 17%] [32mBuilding C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/rboxlib_r.c.o[0m
+[ 17%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/input.c.o[0m
+[ 17%] [32mBuilding C object _deps/qhull-build/CMakeFiles/qhullstatic_r.dir/src/libqhull_r/userprintf_rbox_r.c.o[0m
+[ 17%] [32mBuilding CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_name.cc.o[0m
+[ 18%] [32mBuilding CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_register.cc.o[0m
+[ 18%] Built target absl_raw_logging_internal
+[ 18%] [32mBuilding CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/check.cc.o[0m
+[ 18%] [32mBuilding CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/colorprint.cc.o[0m
+[ 18%] [32mBuilding CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/benchmark_runner.cc.o[0m
+[ 18%] [32mBuilding CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/commandlineflags.cc.o[0m
+[ 18%] [32mBuilding CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/complexity.cc.o[0m
+[ 18%] [32mBuilding CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/console_reporter.cc.o[0m
+[ 20%] [32mBuilding CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/counter.cc.o[0m
+[ 20%] [32m[1mLinking CXX static library ../../lib/libtinyobjloader.a[0m
+[ 20%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/monitor.c.o[0m
+[ 20%] Built target tinyobjloader
+[ 20%] [32mBuilding CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/csv_reporter.cc.o[0m
+[ 21%] [32m[1mLinking C static library ../../lib/libqhullstatic_r.a[0m
+[ 21%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/cycleclock.cc.o[0m
+[ 21%] [32mBuilding CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/json_reporter.cc.o[0m
+[ 21%] [32mBuilding CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/perf_counters.cc.o[0m
+[ 21%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/platform.c.o[0m
+[ 21%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/spinlock.cc.o[0m
+[ 21%] [32mBuilding CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/reporter.cc.o[0m
+[ 21%] Built target qhullstatic_r
+[ 23%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_throw_delegate.dir/internal/throw_delegate.cc.o[0m
+[ 23%] [32mBuilding CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/statistics.cc.o[0m
+[ 23%] [32mBuilding CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/string_util.cc.o[0m
+[ 23%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/vulkan.c.o[0m
+[ 23%] [32m[1mLinking CXX static library ../../../../lib/libabsl_time_zone.a[0m
+[ 23%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/address_is_readable.cc.o[0m
+[ 24%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_functions.dir/internal/cordz_functions.cc.o[0m
+[ 24%] Built target absl_time_zone
+[ 26%] [32mBuilding CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/sysinfo.cc.o[0m
+[ 26%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/window.c.o[0m
+[ 26%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/sysinfo.cc.o[0m
+[ 26%] [32m[1mLinking CXX static library ../../../../lib/libabsl_throw_delegate.a[0m
+[ 26%] [32mBuilding CXX object _deps/benchmark-build/src/CMakeFiles/benchmark.dir/timers.cc.o[0m
+[ 26%] Built target absl_throw_delegate
+[ 27%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/elf_mem_image.cc.o[0m
+[ 27%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/thread_identity.cc.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_callback.c.o[0m
+[ 30%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/egl_context.c.o[0m
+[ 30%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_base.dir/internal/unscaledcycleclock.cc.o[0m
+[ 30%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_collision_box.c.o[0m
+[ 30%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_collision_convex.c.o[0m
+[ 30%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_collision_driver.c.o[0m
+[ 30%] [32m[1mLinking CXX static library ../../../../lib/libabsl_cordz_functions.a[0m
+[ 30%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_collision_gjk.c.o[0m
+[ 30%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_debugging_internal.dir/internal/vdso_support.cc.o[0m
+[ 30%] Built target absl_cordz_functions
+[ 30%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/osmesa_context.c.o[0m
+[ 30%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_collision_primitive.c.o[0m
+[ 31%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_collision_sdf.c.o[0m
+[ 31%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_core_constraint.c.o[0m
+[ 31%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_core_util.c.o[0m
+[ 31%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/null_init.c.o[0m
+[ 31%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_core_smooth.c.o[0m
+[ 31%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/null_window.c.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/mujoco.dir/src/engine/engine_crossplatform.cc.o[0m
+[ 31%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/null_monitor.c.o[0m
+[ 31%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_derivative.c.o[0m
+[ 31%] [32m[1mLinking CXX static library ../../../../lib/libabsl_debugging_internal.a[0m
+[ 31%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_derivative_fd.c.o[0m
+[ 31%] [32m[1mLinking CXX static library ../../../../lib/libabsl_base.a[0m
+[ 31%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/null_joystick.c.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_forward.c.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_inverse.c.o[0m
+[ 33%] Built target absl_debugging_internal
+[ 33%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/posix_module.c.o[0m
+[ 33%] Built target absl_base
+[ 34%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/posix_time.c.o[0m
+[ 34%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/posix_thread.c.o[0m
+[ 34%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/x11_monitor.c.o[0m
+[ 34%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/x11_init.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_init.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_island.c.o[0m
+[ 34%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/x11_window.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_io.c.o[0m
+[ 34%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/xkb_unicode.c.o[0m
+[ 34%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/glx_context.c.o[0m
+[ 36%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/wl_init.c.o[0m
+[ 36%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_memory.c.o[0m
+[ 36%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/wl_monitor.c.o[0m
+[ 36%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/wl_window.c.o[0m
+[ 36%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/base/CMakeFiles/absl_tracing_internal.dir/internal/tracing.cc.o[0m
+[ 36%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/ostringstream.cc.o[0m
+[ 36%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/utf8.cc.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_name.c.o[0m
+[ 36%] [32m[1mLinking CXX static library ../../../lib/libbenchmark.a[0m
+[ 36%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/linux_joystick.c.o[0m
+[ 36%] [32mBuilding C object _deps/glfw3-build/src/CMakeFiles/glfw.dir/posix_poll.c.o[0m
+[ 36%] [32m[1mLinking CXX static library ../../../../lib/libabsl_tracing_internal.a[0m
+[ 36%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings_internal.dir/internal/escaping.cc.o[0m
+[ 37%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/numeric/CMakeFiles/absl_int128.dir/int128.cc.o[0m
+[ 37%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_decode_rust_punycode.dir/internal/decode_rust_punycode.cc.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_passive.c.o[0m
+[ 39%] Built target benchmark
+[ 39%] [32mBuilding CXX object CMakeFiles/mujoco.dir/src/engine/engine_plugin.cc.o[0m
+[ 39%] Built target absl_tracing_internal
+[ 39%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_print.c.o[0m
+[ 39%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_string_view.dir/string_view.cc.o[0m
+[ 39%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_cpu_detect.dir/internal/cpu_detect.cc.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_ray.c.o[0m
+[ 40%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_city.dir/internal/city.cc.o[0m
+[ 40%] [32mBuilding CXX object _deps/benchmark-build/src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_sensor.c.o[0m
+[ 40%] [32m[1mLinking C static library ../../../lib/libglfw3.a[0m
+[ 40%] [32m[1mLinking CXX static library ../../../lib/libgtest.a[0m
+[ 40%] [32m[1mLinking CXX static library ../../../../lib/libabsl_malloc_internal.a[0m
+[ 40%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_setconst.c.o[0m
+[ 40%] Built target gtest
+[ 40%] Built target absl_malloc_internal
+[ 40%] [32m[1mLinking CXX static library ../../../../lib/libabsl_crc_cpu_detect.a[0m
+[ 40%] [32mBuilding CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 40%] Built target glfw
+[ 40%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_solver.c.o[0m
+[ 40%] Built target absl_crc_cpu_detect
+[ 40%] [32mBuilding CXX object _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_support.c.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_util_blas.c.o[0m
+[ 42%] [32m[1mLinking CXX static library ../../../../lib/libabsl_decode_rust_punycode.a[0m
+[ 42%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_util_errmem.c.o[0m
+[ 42%] [32m[1mLinking CXX static library ../../../../lib/libabsl_string_view.a[0m
+[ 42%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_stacktrace.dir/stacktrace.cc.o[0m
+[ 42%] [32m[1mLinking CXX static library ../../../../lib/libabsl_city.a[0m
+[ 42%] Built target absl_string_view
+[ 42%] Built target absl_decode_rust_punycode
+[ 42%] [32m[1mLinking CXX static library ../../../../lib/libabsl_strings_internal.a[0m
+[ 42%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_util_misc.c.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_util_solve.c.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_util_sparse.c.o[0m
+[ 42%] Built target absl_strings_internal
+[ 42%] [32m[1mLinking CXX static library ../../../../lib/libabsl_int128.a[0m
+[ 42%] Built target absl_city
+[ 42%] [32m[1mLinking CXX static library ../../../lib/libbenchmark_main.a[0m
+[ 42%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_graphcycles_internal.dir/internal/graphcycles.cc.o[0m
+[ 42%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_internal.dir/internal/crc.cc.o[0m
+[ 42%] Built target absl_int128
+[ 42%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_util_spatial.c.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_vis_init.c.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_vis_interact.c.o[0m
+[ 43%] Built target benchmark_main
+[ 44%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_demangle_rust.dir/internal/demangle_rust.cc.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/mujoco.dir/src/engine/engine_vis_visualize.c.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/mujoco.dir/src/user/user_api.cc.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/mujoco.dir/src/user/user_cache.cc.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/mujoco.dir/src/user/user_composite.cc.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/mujoco.dir/src/user/user_flexcomp.cc.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/mujoco.dir/src/user/user_init.c.o[0m
+[ 46%] [32m[1mLinking CXX static library ../../../../lib/libabsl_demangle_rust.a[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/mujoco.dir/src/user/user_mesh.cc.o[0m
+[ 47%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/ascii.cc.o[0m
+[ 47%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_internal.dir/internal/crc_x86_arm_combined.cc.o[0m
+[ 47%] Built target absl_demangle_rust
+[ 47%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/charconv.cc.o[0m
+[ 47%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/escaping.cc.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/mujoco.dir/src/user/user_model.cc.o[0m
+[ 47%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/charconv_bigint.cc.o[0m
+[ 47%] [32m[1mLinking CXX static library ../../../../lib/libabsl_stacktrace.a[0m
+[ 47%] [32m[1mLinking CXX static library ../../../../lib/libabsl_graphcycles_internal.a[0m
+[ 47%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_demangle_internal.dir/internal/demangle.cc.o[0m
+[ 47%] Built target absl_stacktrace
+[ 47%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/charconv_parse.cc.o[0m
+[ 47%] Built target absl_graphcycles_internal
+[ 47%] [32mBuilding CXX object CMakeFiles/mujoco.dir/src/user/user_objects.cc.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/mujoco.dir/src/user/user_resource.cc.o[0m
+[ 47%] [32m[1mLinking CXX static library ../../../../lib/libabsl_crc_internal.a[0m
+[ 47%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/damerau_levenshtein_distance.cc.o[0m
+[ 47%] Built target absl_crc_internal
+[ 47%] [32mBuilding CXX object CMakeFiles/mujoco.dir/src/user/user_util.cc.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/mujoco.dir/src/user/user_vfs.cc.o[0m
+[ 47%] [32m[1mLinking CXX static library ../../../../lib/libabsl_demangle_internal.a[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/mujoco.dir/src/xml/xml_api.cc.o[0m
+[ 49%] [32m[1mLinking CXX static library ../../../lib/libgtest_main.a[0m
+[ 50%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/memutil.cc.o[0m
+[ 50%] Built target absl_demangle_internal
+[ 50%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/internal/stringify_sink.cc.o[0m
+[ 50%] Built target gtest_main
+[ 50%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/match.cc.o[0m
+[ 50%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/numbers.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mujoco.dir/src/xml/xml_base.cc.o[0m
+[ 50%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/str_cat.cc.o[0m
+[ 52%] [32m[1mLinking CXX static library ../../../lib/libgmock.a[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/mujoco.dir/src/xml/xml.cc.o[0m
+[ 52%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/str_replace.cc.o[0m
+[ 52%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/str_split.cc.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/mujoco.dir/src/xml/xml_native_reader.cc.o[0m
+[ 52%] Built target gmock
+[ 52%] [32mBuilding CXX object CMakeFiles/mujoco.dir/src/xml/xml_numeric_format.cc.o[0m
+[ 53%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_strings.dir/substitute.cc.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/mujoco.dir/src/xml/xml_native_writer.cc.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/mujoco.dir/src/xml/xml_urdf.cc.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/mujoco.dir/src/xml/xml_util.cc.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/mujoco.dir/src/render/glad/glad.c.o[0m
+[ 55%] [32mBuilding CXX object python/mujoco/util/CMakeFiles/array_traits_test.dir/array_traits_test.cc.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/mujoco.dir/src/render/glad/loader.cc.o[0m
+[ 55%] [32mBuilding CXX object python/mujoco/util/CMakeFiles/func_traits_test.dir/func_traits_test.cc.o[0m
+[ 56%] [32mBuilding CXX object python/mujoco/util/CMakeFiles/func_wrap_test.dir/func_wrap_test.cc.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/mujoco.dir/src/render/render_context.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/mujoco.dir/src/render/render_gl2.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/mujoco.dir/src/render/render_gl3.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/mujoco.dir/src/render/render_util.c.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/mujoco.dir/src/thread/thread_pool.cc.o[0m
+[ 57%] [32m[1mLinking CXX static library ../../../../lib/libabsl_strings.a[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/mujoco.dir/src/thread/thread_task.cc.o[0m
+[ 57%] [32mBuilding CXX object python/mujoco/util/CMakeFiles/tuple_tools_test.dir/tuple_tools_test.cc.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/mujoco.dir/src/ui/ui_main.c.o[0m
+[ 57%] Built target absl_strings
+[ 57%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/debugging/CMakeFiles/absl_symbolize.dir/symbolize.cc.o[0m
+[ 57%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/civil_time.cc.o[0m
+[ 57%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/clock.cc.o[0m
+[ 57%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/duration.cc.o[0m
+[ 57%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/arg.cc.o[0m
+[ 59%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/hash/CMakeFiles/absl_hash.dir/internal/hash.cc.o[0m
+[ 59%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/format.cc.o[0m
+[ 60%] [32m[1mLinking CXX static library ../../../../lib/libabsl_symbolize.a[0m
+[ 60%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/time/CMakeFiles/absl_time.dir/time.cc.o[0m
+[ 60%] Built target absl_symbolize
+[ 60%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/bind.cc.o[0m
+[ 60%] [32m[1mLinking CXX executable ../../../bin/func_traits_test[0m
+[ 60%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/extension.cc.o[0m
+[ 60%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/float_conversion.cc.o[0m
+[ 62%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/output.cc.o[0m
+[ 62%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_str_format_internal.dir/internal/str_format/parser.cc.o[0m
+[ 62%] [32m[1mLinking CXX static library ../../../../lib/libabsl_hash.a[0m
+[ 62%] Built target absl_hash
+[ 63%] [32m[1mLinking CXX static library ../../../../lib/libabsl_time.a[0m
+[ 63%] Built target absl_time
+[ 63%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_kernel_timeout_internal.dir/internal/kernel_timeout.cc.o[0m
+lto-wrapper: warning: using serial compilation of 6 LTRANS jobs
+[ 63%] [32m[1mLinking CXX executable ../../../bin/tuple_tools_test[0m
+lto-wrapper: warning: using serial compilation of 6 LTRANS jobs
+[ 63%] [32m[1mLinking CXX static library ../../../../lib/libabsl_str_format_internal.a[0m
+[ 63%] [32m[1mLinking CXX static library ../../../../lib/libabsl_kernel_timeout_internal.a[0m
+[ 63%] Built target absl_str_format_internal
+[ 63%] Built target absl_kernel_timeout_internal
+[ 63%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/crc32c.cc.o[0m
+[ 63%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_x86_arm_combined.cc.o[0m
+[ 63%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_memcpy_fallback.cc.o[0m
+[ 63%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/barrier.cc.o[0m
+[ 63%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/create_thread_identity.cc.o[0m
+[ 63%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/blocking_counter.cc.o[0m
+[ 63%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/per_thread_sem.cc.o[0m
+[ 63%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc32c.dir/internal/crc_non_temporal_memcpy.cc.o[0m
+[ 63%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/futex_waiter.cc.o[0m
+[ 63%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/pthread_waiter.cc.o[0m
+[ 65%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/sem_waiter.cc.o[0m
+[ 65%] [32m[1mLinking CXX executable ../../../bin/func_wrap_test[0m
+[ 65%] [32m[1mLinking CXX shared library lib/libmujoco.so[0m
+[ 66%] [32m[1mLinking CXX executable ../../../bin/array_traits_test[0m
+lto-wrapper: warning: using serial compilation of 6 LTRANS jobs
+lto-wrapper: warning: using serial compilation of 6 LTRANS jobs
+[ 66%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/stdcpp_waiter.cc.o[0m
+[ 66%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/waiter_base.cc.o[0m
+[ 66%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/notification.cc.o[0m
+[ 66%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/mutex.cc.o[0m
+[ 66%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/synchronization/CMakeFiles/absl_synchronization.dir/internal/win32_waiter.cc.o[0m
+[ 66%] [32m[1mLinking CXX static library ../../../../lib/libabsl_crc32c.a[0m
+[ 66%] Built target absl_crc32c
+[ 66%] [32m[1mLinking CXX static library ../../../../lib/libabsl_synchronization.a[0m
+[ 66%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/crc/CMakeFiles/absl_crc_cord_state.dir/internal/crc_cord_state.cc.o[0m
+[ 66%] Built target absl_synchronization
+[ 66%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler_force_weak_definition.cc.o[0m
+[ 66%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler.cc.o[0m
+[ 66%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_handle.dir/internal/cordz_handle.cc.o[0m
+[ 66%] [32m[1mLinking CXX static library ../../../../lib/libabsl_cordz_handle.a[0m
+[ 68%] [32m[1mLinking CXX static library ../../../../lib/libabsl_crc_cord_state.a[0m
+[ 68%] Built target absl_cordz_handle
+[ 68%] Built target absl_crc_cord_state
+[ 68%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree.cc.o[0m
+[ 69%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_internal.cc.o[0m
+[ 69%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree_navigator.cc.o[0m
+[ 69%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_crc.cc.o[0m
+[ 69%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_btree_reader.cc.o[0m
+[ 69%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord_internal.dir/internal/cord_rep_consume.cc.o[0m
+[ 69%] [32m[1mLinking CXX static library ../../../../lib/libabsl_hashtablez_sampler.a[0m
+[ 69%] Built target absl_hashtablez_sampler
+lto-wrapper: warning: using serial compilation of 63 LTRANS jobs
+[ 69%] [32m[1mLinking CXX static library ../../../../lib/libabsl_cord_internal.a[0m
+[ 69%] Built target absl_cord_internal
+[ 69%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cordz_info.dir/internal/cordz_info.cc.o[0m
+[ 69%] [32m[1mLinking CXX static library ../../../../lib/libabsl_cordz_info.a[0m
+[ 69%] Built target absl_cordz_info
+[ 69%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord.dir/cord_analysis.cc.o[0m
+[ 69%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/strings/CMakeFiles/absl_cord.dir/cord.cc.o[0m
+[ 69%] Built target func_traits_test
+[ 69%] Built target tuple_tools_test
+[ 69%] [32m[1mLinking CXX static library ../../../../lib/libabsl_cord.a[0m
+[ 69%] Built target absl_cord
+[ 69%] Built target func_wrap_test
+[ 69%] [32mBuilding CXX object _deps/abseil-cpp-build/absl/container/CMakeFiles/absl_raw_hash_set.dir/internal/raw_hash_set.cc.o[0m
+[ 69%] Built target array_traits_test
+[ 69%] [32m[1mLinking CXX static library ../../../../lib/libabsl_raw_hash_set.a[0m
+[ 69%] Built target absl_raw_hash_set
+gmake[2]: *** [CMakeFiles/mujoco.dir/build.make:1127: lib/libmujoco.so.3.3.7] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:1447: CMakeFiles/mujoco.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,41 @@
+[0.047s] Invoking command in '/home/jason/projects/motion_control_go2/src/build/b2w_description': /usr/bin/cmake /home/jason/projects/motion_control_go2/src/unitree_ros/robots/b2w_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/src/install/b2w_description
+[0.072s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.072s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.072s]   CMake.
+[0.072s] 
+[0.072s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.072s]   CMake that the project does not need compatibility with older versions.
+[0.072s] 
+[0.072s] [0m
+[0.086s] -- The C compiler identification is GNU 11.4.0
+[0.196s] -- The CXX compiler identification is GNU 11.4.0
+[0.204s] -- Detecting C compiler ABI info
+[0.346s] -- Detecting C compiler ABI info - done
+[0.352s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.352s] -- Detecting C compile features
+[0.353s] -- Detecting C compile features - done
+[0.360s] -- Detecting CXX compiler ABI info
+[0.472s] -- Detecting CXX compiler ABI info - done
+[0.497s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.498s] -- Detecting CXX compile features
+[0.498s] -- Detecting CXX compile features - done
+[0.499s] -- Configuring incomplete, errors occurred!
+[0.501s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[0.501s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.508s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.510s]   CMake did not find one.
+[0.511s] 
+[0.511s]   Could not find a package configuration file provided by "catkin" with any
+[0.511s]   of the following names:
+[0.511s] 
+[0.511s]     catkinConfig.cmake
+[0.511s]     catkin-config.cmake
+[0.511s] 
+[0.511s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.511s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.511s]   provides a separate development package or SDK, be sure it has been
+[0.511s]   installed.
+[0.511s] 
+[0.511s] [0m
+[0.511s] See also "/home/jason/projects/motion_control_go2/src/build/b2w_description/CMakeFiles/CMakeOutput.log".
+[0.540s] Invoked command in '/home/jason/projects/motion_control_go2/src/build/b2w_description' returned '1': /usr/bin/cmake /home/jason/projects/motion_control_go2/src/unitree_ros/robots/b2w_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/src/install/b2w_description

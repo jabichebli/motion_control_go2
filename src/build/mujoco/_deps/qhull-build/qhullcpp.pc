@@ -1,0 +1,10 @@
+prefix=/home/jason/projects/motion_control_go2/src/install/mujoco
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: qhullcpp
+Description: Qhull C++ library
+Version: 8.1-alpha3
+Libs: -L${libdir} -lqhullcpp
+Cflags: -I${includedir}
+

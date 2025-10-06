@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jason/projects/motion_control_go2/src/build/mujoco/_deps/trianglemeshdistance-subbuild/CMakeFiles/trianglemeshdistance-populate"
+		},
+		{
+			"file" : "/home/jason/projects/motion_control_go2/src/build/mujoco/_deps/trianglemeshdistance-subbuild/CMakeFiles/trianglemeshdistance-populate.rule"
+		},
+		{
+			"file" : "/home/jason/projects/motion_control_go2/src/build/mujoco/_deps/trianglemeshdistance-subbuild/CMakeFiles/trianglemeshdistance-populate-complete.rule"
+		},
+		{
+			"file" : "/home/jason/projects/motion_control_go2/src/build/mujoco/_deps/trianglemeshdistance-subbuild/trianglemeshdistance-populate-prefix/src/trianglemeshdistance-populate-stamp/trianglemeshdistance-populate-build.rule"
+		},
+		{
+			"file" : "/home/jason/projects/motion_control_go2/src/build/mujoco/_deps/trianglemeshdistance-subbuild/trianglemeshdistance-populate-prefix/src/trianglemeshdistance-populate-stamp/trianglemeshdistance-populate-configure.rule"
+		},
+		{
+			"file" : "/home/jason/projects/motion_control_go2/src/build/mujoco/_deps/trianglemeshdistance-subbuild/trianglemeshdistance-populate-prefix/src/trianglemeshdistance-populate-stamp/trianglemeshdistance-populate-download.rule"
+		},
+		{
+			"file" : "/home/jason/projects/motion_control_go2/src/build/mujoco/_deps/trianglemeshdistance-subbuild/trianglemeshdistance-populate-prefix/src/trianglemeshdistance-populate-stamp/trianglemeshdistance-populate-install.rule"
+		},
+		{
+			"file" : "/home/jason/projects/motion_control_go2/src/build/mujoco/_deps/trianglemeshdistance-subbuild/trianglemeshdistance-populate-prefix/src/trianglemeshdistance-populate-stamp/trianglemeshdistance-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/jason/projects/motion_control_go2/src/build/mujoco/_deps/trianglemeshdistance-subbuild/trianglemeshdistance-populate-prefix/src/trianglemeshdistance-populate-stamp/trianglemeshdistance-populate-patch.rule"
+		},
+		{
+			"file" : "/home/jason/projects/motion_control_go2/src/build/mujoco/_deps/trianglemeshdistance-subbuild/trianglemeshdistance-populate-prefix/src/trianglemeshdistance-populate-stamp/trianglemeshdistance-populate-test.rule"
+		},
+		{
+			"file" : "/home/jason/projects/motion_control_go2/src/build/mujoco/_deps/trianglemeshdistance-subbuild/trianglemeshdistance-populate-prefix/src/trianglemeshdistance-populate-stamp/trianglemeshdistance-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"trianglemeshdistance-populate"
+		],
+		"name" : "trianglemeshdistance-populate"
+	}
+}

@@ -1,0 +1,41 @@
+[0.043s] Invoking command in '/home/jason/projects/motion_control_go2/src/build/aliengo_description': /usr/bin/cmake /home/jason/projects/motion_control_go2/src/unitree_ros/robots/aliengo_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/src/install/aliengo_description
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.073s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.074s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.074s]   CMake.
+[0.074s] 
+[0.074s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.074s]   CMake that the project does not need compatibility with older versions.
+[0.074s] 
+[0.074s] [0m
+[0.120s] -- The CXX compiler identification is GNU 11.4.0
+[0.134s] -- Detecting C compiler ABI info
+[0.253s] -- Detecting C compiler ABI info - done
+[0.265s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.269s] -- Detecting C compile features
+[0.269s] -- Detecting C compile features - done
+[0.273s] -- Detecting CXX compiler ABI info
+[0.441s] -- Detecting CXX compiler ABI info - done
+[0.455s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.456s] -- Detecting CXX compile features
+[0.456s] -- Detecting CXX compile features - done
+[0.477s] -- Configuring incomplete, errors occurred!
+[0.477s] See also "/home/jason/projects/motion_control_go2/src/build/aliengo_description/CMakeFiles/CMakeOutput.log".
+[0.480s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.480s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.480s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.480s]   CMake did not find one.
+[0.480s] 
+[0.480s]   Could not find a package configuration file provided by "catkin" with any
+[0.480s]   of the following names:
+[0.480s] 
+[0.480s]     catkinConfig.cmake
+[0.481s]     catkin-config.cmake
+[0.481s] 
+[0.481s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.481s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.481s]   provides a separate development package or SDK, be sure it has been
+[0.481s]   installed.
+[0.481s] 
+[0.481s] [0m
+[0.492s] Invoked command in '/home/jason/projects/motion_control_go2/src/build/aliengo_description' returned '1': /usr/bin/cmake /home/jason/projects/motion_control_go2/src/unitree_ros/robots/aliengo_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/src/install/aliengo_description

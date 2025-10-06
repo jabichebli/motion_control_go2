@@ -1,0 +1,933 @@
+[0.046s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.046s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71b0abf283a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71b0abeeba60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71b0abeeba60>>)
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.114s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jason/projects/motion_control_go2/src'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(go2_pinocchio_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(go2_pinocchio_demo) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(go2_pinocchio_demo) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(go2_pinocchio_demo) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(go2_pinocchio_demo) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(go2_pinocchio_demo) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(go2_pinocchio_demo) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(go2_pinocchio_demo) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(go2_pinocchio_demo) by extension 'ros'
+[0.121s] DEBUG:colcon.colcon_core.package_identification:Package 'go2_pinocchio_demo' with type 'ros.ament_cmake' and name 'go2_pinocchio_demo'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extension 'ignore_ament_install'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extensions ['colcon_pkg']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extension 'ros'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extensions ['cmake', 'python']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(mujoco) by extension 'python'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'mujoco' with type 'cmake' and name 'mujoco'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco) by extension 'ros'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco) by extension 'python'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco) by extensions ['python_setup_py']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco) by extension 'python_setup_py'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/doc) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/doc) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/doc) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/doc) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/doc) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/doc) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/doc) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/doc) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/doc) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/doc) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/doc) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/doc) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/doc) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example/python) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example/python) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example/python) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example/python) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example/python) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example/python) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example/python) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example/python) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example/python) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example/python) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example/python) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example/python) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example/python) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example/python) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example/ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example/ros2) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example/ros2) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example/ros2) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example/ros2) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example/ros2) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example/ros2) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example/ros2) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/example/ros2) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'unitree_mujoco/example/ros2' with type 'ros.ament_cmake' and name 'stand_go2'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate) by extension 'python'
+[0.225s] DEBUG:colcon.colcon_core.package_identification:Package 'unitree_mujoco/simulate' with type 'cmake' and name 'unitree_mujoco'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/__pycache__) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/__pycache__) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/__pycache__) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/__pycache__) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/__pycache__) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/__pycache__) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/__pycache__) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/__pycache__) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/__pycache__) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/__pycache__) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/__pycache__) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/__pycache__) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/__pycache__) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/test) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/test) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/test) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/test) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/test) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/test) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/test) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/test) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/test) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/test) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/test) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/test) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/test) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/simulate_python/test) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/terrain_tool) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/terrain_tool) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/terrain_tool) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/terrain_tool) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/terrain_tool) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/terrain_tool) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/terrain_tool) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/terrain_tool) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/terrain_tool) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/terrain_tool) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/terrain_tool) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/terrain_tool) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/terrain_tool) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/terrain_tool) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2/assets) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2/assets) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2/assets) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2/assets) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2/assets) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2/assets) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2/assets) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2/assets) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2/assets) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2/assets) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2/assets) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2/assets) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2/assets) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w/assets) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w/assets) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w/assets) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w/assets) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w/assets) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w/assets) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w/assets) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w/assets) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w/assets) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w/assets) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w/assets) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w/assets) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/b2w/assets) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/images) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/images) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/images) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/images) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/images) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/images) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/images) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/images) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/images) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/images) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/images) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/images) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/images) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/images) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/meshes) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/meshes) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/meshes) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/meshes) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/meshes) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/meshes) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/meshes) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/meshes) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/meshes) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/meshes) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/meshes) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/meshes) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/g1/meshes) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2/assets) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2/assets) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2/assets) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2/assets) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2/assets) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2/assets) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2/assets) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2/assets) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2/assets) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2/assets) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2/assets) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2/assets) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2/assets) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w/assets) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w/assets) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w/assets) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w/assets) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w/assets) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w/assets) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w/assets) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w/assets) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w/assets) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w/assets) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w/assets) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w/assets) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/go2w/assets) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1/assets) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1/assets) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1/assets) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1/assets) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1/assets) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1/assets) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1/assets) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1/assets) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1/assets) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1/assets) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1/assets) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1/assets) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1/assets) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2/meshes) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2/meshes) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2/meshes) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2/meshes) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2/meshes) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2/meshes) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2/meshes) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2/meshes) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2/meshes) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2/meshes) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2/meshes) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2/meshes) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_mujoco/unitree_robots/h1_2/meshes) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/meshes) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/meshes) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/meshes) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/meshes) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/meshes) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/meshes) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/meshes) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/meshes) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/meshes) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/meshes) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/meshes) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/meshes) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/meshes) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/xml) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/xml) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/xml) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/xml) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/xml) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/xml) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/xml) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/xml) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/xml) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/xml) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/xml) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/xml) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/xml) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/b2_description_mujoco/xml) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1/meshes) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1/meshes) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1/meshes) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1/meshes) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1/meshes) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1/meshes) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1/meshes) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1/meshes) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1/meshes) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1/meshes) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1/meshes) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1/meshes) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex1_1/meshes) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1/meshes) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1/meshes) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1/meshes) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1/meshes) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1/meshes) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1/meshes) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1/meshes) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1/meshes) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1/meshes) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1/meshes) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1/meshes) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1/meshes) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex3_1/meshes) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1/meshes) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1/meshes) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1/meshes) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1/meshes) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1/meshes) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1/meshes) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1/meshes) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1/meshes) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1/meshes) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1/meshes) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1/meshes) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1/meshes) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/dexterous_hand_description/dex5_1/meshes) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/images) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/images) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/images) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/images) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/images) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/images) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/images) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/images) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/images) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/images) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/images) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/images) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/images) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/images) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/inspire_hand) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/inspire_hand) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/inspire_hand) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/inspire_hand) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/inspire_hand) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/inspire_hand) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/inspire_hand) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/inspire_hand) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/inspire_hand) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/inspire_hand) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/inspire_hand) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/inspire_hand) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/inspire_hand) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/inspire_hand) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/meshes) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/meshes) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/meshes) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/meshes) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/meshes) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/meshes) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/meshes) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/meshes) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/meshes) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/meshes) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/meshes) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/meshes) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_description/meshes) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand/meshes) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand/meshes) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand/meshes) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand/meshes) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand/meshes) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand/meshes) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand/meshes) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand/meshes) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand/meshes) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand/meshes) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand/meshes) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand/meshes) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/g1_with_brainco_hand/meshes) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/go2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/go2_description) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/go2_description) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/go2_description) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/go2_description) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/go2_description) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/go2_description) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/go2_description) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/go2_description) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'unitree_ros/robots/go2_description' with type 'ros.catkin' and name 'go2_description'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description) by extension 'python'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description) by extensions ['python_setup_py']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description/meshes) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description/meshes) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description/meshes) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description/meshes) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description/meshes) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description/meshes) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description/meshes) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description/meshes) by extension 'ros'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description/meshes) by extensions ['cmake', 'python']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description/meshes) by extension 'cmake'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description/meshes) by extension 'python'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description/meshes) by extensions ['python_setup_py']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/h1_2_description/meshes) by extension 'python_setup_py'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/z1_description) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/z1_description) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/z1_description) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/z1_description) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/z1_description) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/z1_description) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/z1_description) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/z1_description) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/robots/z1_description) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package 'unitree_ros/robots/z1_description' with type 'ros.catkin' and name 'z1_description'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_controller) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_controller) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_controller) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_controller) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_controller) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_controller) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_controller) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_controller) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'unitree_ros/unitree_controller' with type 'ros.catkin' and name 'unitree_controller'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_gazebo) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_gazebo) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_gazebo) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_gazebo) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_gazebo) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_gazebo) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_gazebo) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_gazebo) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'unitree_ros/unitree_gazebo' with type 'ros.catkin' and name 'unitree_gazebo'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_legged_control) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_legged_control) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_legged_control) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_legged_control) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_legged_control) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_legged_control) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_legged_control) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_legged_control) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_legged_control) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'unitree_ros/unitree_legged_control' with type 'ros.catkin' and name 'unitree_legged_control'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_ros_to_real) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_ros_to_real) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_ros_to_real) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_ros_to_real) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_ros_to_real) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_ros_to_real) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_ros_to_real) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_ros_to_real) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_ros_to_real) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_ros_to_real) by extensions ['cmake', 'python']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_ros_to_real) by extension 'cmake'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_ros_to_real) by extension 'python'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_ros_to_real) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(unitree_ros/unitree_ros_to_real) by extension 'python_setup_py'
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.253s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/jason/projects/motion_control_go2/install
+[0.253s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jason/projects/motion_control_go2/src/install
+[0.254s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 316 installed packages in /opt/ros/humble
+[0.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'cmake_target' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.269s] DEBUG:colcon.colcon_core.verb:Building package 'go2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/projects/motion_control_go2/src/build/go2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/projects/motion_control_go2/src/install/go2_description', 'merge_install': False, 'path': '/home/jason/projects/motion_control_go2/src/unitree_ros/robots/go2_description', 'symlink_install': True, 'test_result_base': None}
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'go2_pinocchio_demo' build argument 'cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'go2_pinocchio_demo' build argument 'cmake_target' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'go2_pinocchio_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'go2_pinocchio_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'go2_pinocchio_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'go2_pinocchio_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'go2_pinocchio_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'go2_pinocchio_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'go2_pinocchio_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.269s] DEBUG:colcon.colcon_core.verb:Building package 'go2_pinocchio_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/projects/motion_control_go2/src/build/go2_pinocchio_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/projects/motion_control_go2/src/install/go2_pinocchio_demo', 'merge_install': False, 'path': '/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo', 'symlink_install': True, 'test_result_base': None}
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'mujoco' build argument 'cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'mujoco' build argument 'cmake_target' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'mujoco' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'mujoco' build argument 'cmake_clean_cache' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'mujoco' build argument 'cmake_clean_first' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'mujoco' build argument 'cmake_force_configure' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'mujoco' build argument 'ament_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'mujoco' build argument 'catkin_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'mujoco' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.269s] DEBUG:colcon.colcon_core.verb:Building package 'mujoco' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/projects/motion_control_go2/src/build/mujoco', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/projects/motion_control_go2/src/install/mujoco', 'merge_install': False, 'path': '/home/jason/projects/motion_control_go2/src/mujoco', 'symlink_install': True, 'test_result_base': None}
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'stand_go2' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'stand_go2' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'stand_go2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'stand_go2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'stand_go2' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'stand_go2' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'stand_go2' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'stand_go2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'stand_go2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'stand_go2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/projects/motion_control_go2/src/build/stand_go2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/projects/motion_control_go2/src/install/stand_go2', 'merge_install': False, 'path': '/home/jason/projects/motion_control_go2/src/unitree_mujoco/example/ros2', 'symlink_install': True, 'test_result_base': None}
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_controller' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_controller' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/projects/motion_control_go2/src/build/unitree_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/projects/motion_control_go2/src/install/unitree_controller', 'merge_install': False, 'path': '/home/jason/projects/motion_control_go2/src/unitree_ros/unitree_controller', 'symlink_install': True, 'test_result_base': None}
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/projects/motion_control_go2/src/build/unitree_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/projects/motion_control_go2/src/install/unitree_gazebo', 'merge_install': False, 'path': '/home/jason/projects/motion_control_go2/src/unitree_ros/unitree_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_control' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_control' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'unitree_legged_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_legged_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/projects/motion_control_go2/src/build/unitree_legged_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/projects/motion_control_go2/src/install/unitree_legged_control', 'merge_install': False, 'path': '/home/jason/projects/motion_control_go2/src/unitree_ros/unitree_legged_control', 'symlink_install': True, 'test_result_base': None}
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'z1_description' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'z1_description' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'z1_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'z1_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'z1_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'z1_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'z1_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'z1_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'z1_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'z1_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/projects/motion_control_go2/src/build/z1_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/projects/motion_control_go2/src/install/z1_description', 'merge_install': False, 'path': '/home/jason/projects/motion_control_go2/src/unitree_ros/robots/z1_description', 'symlink_install': True, 'test_result_base': None}
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'unitree_mujoco' build argument 'cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'unitree_mujoco' build argument 'cmake_target' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'unitree_mujoco' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'unitree_mujoco' build argument 'cmake_clean_cache' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'unitree_mujoco' build argument 'cmake_clean_first' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'unitree_mujoco' build argument 'cmake_force_configure' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'unitree_mujoco' build argument 'ament_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'unitree_mujoco' build argument 'catkin_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'unitree_mujoco' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.271s] DEBUG:colcon.colcon_core.verb:Building package 'unitree_mujoco' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jason/projects/motion_control_go2/src/build/unitree_mujoco', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jason/projects/motion_control_go2/src/install/unitree_mujoco', 'merge_install': False, 'path': '/home/jason/projects/motion_control_go2/src/unitree_mujoco/simulate', 'symlink_install': True, 'test_result_base': None}
+[0.271s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.272s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.272s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jason/projects/motion_control_go2/src/mujoco'
+[0.273s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.273s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.273s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.274s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/jason/projects/motion_control_go2/src/unitree_ros/robots/go2_description' with build type 'catkin'
+[0.275s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jason/projects/motion_control_go2/src/unitree_ros/robots/go2_description'
+[0.275s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.275s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.276s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo' with build type 'ament_cmake'
+[0.276s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo'
+[0.276s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.276s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.278s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jason/projects/motion_control_go2/src/unitree_mujoco/example/ros2' with build type 'ament_cmake'
+[0.278s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jason/projects/motion_control_go2/src/unitree_mujoco/example/ros2'
+[0.278s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.278s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.280s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/jason/projects/motion_control_go2/src/unitree_ros/unitree_controller' with build type 'catkin'
+[0.280s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jason/projects/motion_control_go2/src/unitree_ros/unitree_controller'
+[0.280s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.280s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.282s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/jason/projects/motion_control_go2/src/unitree_ros/unitree_gazebo' with build type 'catkin'
+[0.282s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jason/projects/motion_control_go2/src/unitree_ros/unitree_gazebo'
+[0.282s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.282s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.284s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/jason/projects/motion_control_go2/src/unitree_ros/unitree_legged_control' with build type 'catkin'
+[0.284s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jason/projects/motion_control_go2/src/unitree_ros/unitree_legged_control'
+[0.284s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.284s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.286s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/jason/projects/motion_control_go2/src/unitree_ros/robots/z1_description' with build type 'catkin'
+[0.286s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jason/projects/motion_control_go2/src/unitree_ros/robots/z1_description'
+[0.286s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.286s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/projects/motion_control_go2/src/build/mujoco': /usr/bin/cmake /home/jason/projects/motion_control_go2/src/mujoco -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/src/install/mujoco
+[0.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/projects/motion_control_go2/src/build/go2_description': /usr/bin/cmake /home/jason/projects/motion_control_go2/src/unitree_ros/robots/go2_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/src/install/go2_description
+[0.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/projects/motion_control_go2/src/build/go2_pinocchio_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jason/projects/motion_control_go2/src/go2_pinocchio_demo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/src/install/go2_pinocchio_demo
+[0.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/projects/motion_control_go2/src/build/stand_go2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jason/projects/motion_control_go2/src/unitree_mujoco/example/ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/src/install/stand_go2
+[0.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/projects/motion_control_go2/src/build/unitree_controller': /usr/bin/cmake /home/jason/projects/motion_control_go2/src/unitree_ros/unitree_controller -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/src/install/unitree_controller
+[0.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/projects/motion_control_go2/src/build/unitree_gazebo': /usr/bin/cmake /home/jason/projects/motion_control_go2/src/unitree_ros/unitree_gazebo -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/src/install/unitree_gazebo
+[0.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/projects/motion_control_go2/src/build/unitree_legged_control': /usr/bin/cmake /home/jason/projects/motion_control_go2/src/unitree_ros/unitree_legged_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/src/install/unitree_legged_control
+[0.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jason/projects/motion_control_go2/src/build/z1_description': /usr/bin/cmake /home/jason/projects/motion_control_go2/src/unitree_ros/robots/z1_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/src/install/z1_description
+[0.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jason/projects/motion_control_go2/src/build/unitree_legged_control' returned '1': /usr/bin/cmake /home/jason/projects/motion_control_go2/src/unitree_ros/unitree_legged_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/src/install/unitree_legged_control
+[0.501s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unitree_legged_control)
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/jason/projects/motion_control_go2/src/install/unitree_legged_control' for CMake module files
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/jason/projects/motion_control_go2/src/install/unitree_legged_control' for CMake config files
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/jason/projects/motion_control_go2/src/install/unitree_legged_control/bin'
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/jason/projects/motion_control_go2/src/install/unitree_legged_control/lib/pkgconfig/unitree_legged_control.pc'
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/jason/projects/motion_control_go2/src/install/unitree_legged_control/lib/python3.10/site-packages'
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/jason/projects/motion_control_go2/src/install/unitree_legged_control/bin'
+[0.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/projects/motion_control_go2/src/install/unitree_legged_control/share/unitree_legged_control/package.ps1'
+[0.508s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jason/projects/motion_control_go2/src/install/unitree_legged_control/share/unitree_legged_control/package.dsv'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/projects/motion_control_go2/src/install/unitree_legged_control/share/unitree_legged_control/package.sh'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/projects/motion_control_go2/src/install/unitree_legged_control/share/unitree_legged_control/package.bash'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/jason/projects/motion_control_go2/src/install/unitree_legged_control/share/unitree_legged_control/package.zsh'
+[0.510s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jason/projects/motion_control_go2/src/install/unitree_legged_control/share/colcon-core/packages/unitree_legged_control)
+[39.152s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[39.152s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[39.152s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[39.152s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[39.165s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[39.165s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[39.165s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[39.180s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[39.180s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jason/projects/motion_control_go2/src/install/local_setup.ps1'
+[39.181s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jason/projects/motion_control_go2/src/install/_local_setup_util_ps1.py'
+[39.182s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jason/projects/motion_control_go2/src/install/setup.ps1'
+[39.188s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jason/projects/motion_control_go2/src/install/local_setup.sh'
+[39.189s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jason/projects/motion_control_go2/src/install/_local_setup_util_sh.py'
+[39.189s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jason/projects/motion_control_go2/src/install/setup.sh'
+[39.190s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jason/projects/motion_control_go2/src/install/local_setup.bash'
+[39.191s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jason/projects/motion_control_go2/src/install/setup.bash'
+[39.192s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jason/projects/motion_control_go2/src/install/local_setup.zsh'
+[39.192s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jason/projects/motion_control_go2/src/install/setup.zsh'

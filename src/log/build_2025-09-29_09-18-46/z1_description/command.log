@@ -1,0 +1,1 @@
+Invoking command in '/home/jason/projects/motion_control_go2/src/build/z1_description': /usr/bin/cmake /home/jason/projects/motion_control_go2/src/unitree_ros/robots/z1_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/src/install/z1_description

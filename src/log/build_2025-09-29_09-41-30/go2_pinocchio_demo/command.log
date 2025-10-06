@@ -1,0 +1,1 @@
+Invoking command in '/home/jason/projects/motion_control_go2/src/build/go2_pinocchio_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/projects/motion_control_go2/src/build/go2_pinocchio_demo -- -j16 -l16
