@@ -1,1 +1,0 @@
-/home/jason/projects/motion_control_go2/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg/msg/BmsState.msg

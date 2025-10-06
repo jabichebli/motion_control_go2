@@ -1,0 +1,23 @@
+[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+  No header defined for python310; skipping header check (note: header-only
+  libraries have no designated component)
+Call Stack (most recent call first):
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+  CMakeLists.txt:13 (find_package)
+
+[0m
+In file included from [01m[K/opt/ros/humble/include/pinocchio/fwd.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/spatial/fwd.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/multibody/model.hpp:9[m[K,
+                 from [01m[K/opt/ros/humble/include/pinocchio/parsers/urdf.hpp:9[m[K,
+                 from [01m[K/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo/src/fk_ik_id_example.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/utils/cast.hpp:8:10:[m[K [01;31m[Kfatal error: [m[KEigen/Core: No such file or directory
+    8 | #include [01;31m[K<Eigen/Core>[m[K
+      |          [01;31m[K^~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/fk_ik_id_example.dir/build.make:76: CMakeFiles/fk_ik_id_example.dir/src/fk_ik_id_example.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/fk_ik_id_example.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

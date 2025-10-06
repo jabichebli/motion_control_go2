@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/abseil-cpp-build/absl/container",
+		"source" : "/home/jason/projects/motion_control_go2/src/build/mujoco/_deps/abseil-cpp-src/absl/container"
+	}
+}

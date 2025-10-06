@@ -1,4 +1,0 @@
-Invoking command in '/home/jason/projects/motion_control_go2/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/projects/motion_control_go2/build/unitree_hg -- -j16 -l16
-Invoked command in '/home/jason/projects/motion_control_go2/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/projects/motion_control_go2/build/unitree_hg -- -j16 -l16
-Invoking command in '/home/jason/projects/motion_control_go2/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/projects/motion_control_go2/build/unitree_hg
-Invoked command in '/home/jason/projects/motion_control_go2/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/projects/motion_control_go2/build/unitree_hg

@@ -1,2 +1,0 @@
-"/usr/bin/gcc-ar-11" cr ../../lib/libtinyobjloader.a CMakeFiles/tinyobjloader.dir/tiny_obj_loader.cc.o
-"/usr/bin/gcc-ranlib-11" ../../lib/libtinyobjloader.a

@@ -1,0 +1,20 @@
+[100%] Built target fk_ik_id_example
+-- Install configuration: ""
+-- Up-to-date: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/lib/go2_pinocchio_demo/fk_ik_id_example
+-- Up-to-date: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/launch
+-- Installing: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/launch/demo.launch.py
+-- Up-to-date: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/ament_index/resource_index/package_run_dependencies/go2_pinocchio_demo
+-- Up-to-date: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/ament_index/resource_index/parent_prefix_path/go2_pinocchio_demo
+-- Up-to-date: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/environment/path.sh
+-- Up-to-date: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/environment/path.dsv
+-- Up-to-date: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/local_setup.bash
+-- Up-to-date: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/local_setup.sh
+-- Up-to-date: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/local_setup.zsh
+-- Up-to-date: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/local_setup.dsv
+-- Up-to-date: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/package.dsv
+-- Up-to-date: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/ament_index/resource_index/packages/go2_pinocchio_demo
+-- Up-to-date: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/cmake/go2_pinocchio_demoConfig.cmake
+-- Up-to-date: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/cmake/go2_pinocchio_demoConfig-version.cmake
+-- Up-to-date: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/package.xml

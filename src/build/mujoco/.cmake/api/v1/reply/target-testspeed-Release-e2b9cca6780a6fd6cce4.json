@@ -1,0 +1,307 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/testspeed"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"target_link_options",
+			"target_link_libraries",
+			"add_compile_options",
+			"include",
+			"target_compile_options",
+			"add_compile_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"sample/CMakeLists.txt",
+			"cmake/MujocoOptions.cmake",
+			"CMakeLists.txt",
+			"cmake/MujocoDependencies.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 79,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 140,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 82,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 72,
+				"parent" : 5
+			},
+			{
+				"file" : 1,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 74,
+				"parent" : 5
+			},
+			{
+				"file" : 3,
+				"parent" : 10
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 342,
+				"parent" : 11
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 123,
+				"parent" : 11
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 206,
+				"parent" : 11
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -flto -fno-fat-lto-objects -fPIE -fvisibility=hidden -fvisibility-inlines-hidden"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-mavx"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wimplicit-fallthrough"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wunused"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wvla"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wno-int-in-bool-context"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wno-sign-compare"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wno-unknown-pragmas"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wimplicit-fallthrough=5"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wno-maybe-uninitialized"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 12,
+					"define" : "EIGEN_MPL2_ONLY"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "mjUSEPLATFORMSIMD"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 13,
+					"path" : "/home/jason/projects/motion_control_go2/src/build/mujoco/_deps/marchingcubecpp-src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/home/jason/projects/motion_control_go2/src/build/mujoco/_deps/trianglemeshdistance-src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/jason/projects/motion_control_go2/src/mujoco/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "mujoco::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "testspeed::@f68f564e181663381ef6",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/jason/projects/motion_control_go2/src/install/mujoco"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O3 -DNDEBUG -flto -fno-fat-lto-objects",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-fuse-ld=gold",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-Wl,--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,\"\\$$ORIGIN/../lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../lib/libmujoco.so.3.3.7",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"lto" : true
+	},
+	"name" : "testspeed",
+	"nameOnDisk" : "testspeed",
+	"paths" : 
+	{
+		"build" : "sample",
+		"source" : "sample"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sample/testspeed.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

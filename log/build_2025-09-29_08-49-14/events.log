@@ -1,0 +1,442 @@
+[0.000000] (-) TimerEvent: {}
+[0.000756] (-) JobUnselected: {'identifier': 'go2_description'}
+[0.000819] (-) JobUnselected: {'identifier': 'mujoco'}
+[0.000830] (-) JobUnselected: {'identifier': 'stand_go2'}
+[0.000835] (-) JobUnselected: {'identifier': 'unitree_controller'}
+[0.000840] (-) JobUnselected: {'identifier': 'unitree_gazebo'}
+[0.000846] (-) JobUnselected: {'identifier': 'unitree_legged_control'}
+[0.000851] (-) JobUnselected: {'identifier': 'unitree_mujoco'}
+[0.000856] (-) JobUnselected: {'identifier': 'z1_description'}
+[0.000863] (go2_pinocchio_demo) JobQueued: {'identifier': 'go2_pinocchio_demo', 'dependencies': OrderedDict()}
+[0.000872] (go2_pinocchio_demo) JobStarted: {'identifier': 'go2_pinocchio_demo'}
+[0.004737] (go2_pinocchio_demo) JobProgress: {'identifier': 'go2_pinocchio_demo', 'progress': 'cmake'}
+[0.004765] (go2_pinocchio_demo) JobProgress: {'identifier': 'go2_pinocchio_demo', 'progress': 'build'}
+[0.004777] (go2_pinocchio_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jason/projects/motion_control_go2/build/go2_pinocchio_demo', '--', '-j16', '-l16'], 'cwd': '/home/jason/projects/motion_control_go2/build/go2_pinocchio_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/unitree_robotics/lib:/home/jason/.mujoco/mujoco-3.2.7/bin:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1840'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jason/projects/motion_control_go2/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/jason/.mujoco/mujoco-3.2.7'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jason/.mujoco/mujoco-3.2.7/bin:/home/jason/.local/bin:/opt/ros/humble/bin:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jasonabichebli:@/tmp/.ICE-unix/1811,unix/jasonabichebli:/tmp/.ICE-unix/1811'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cf24cf1c_970f_4b69_a688_e9da55233fa2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3JISD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/projects/motion_control_go2/build/go2_pinocchio_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local::/opt/ros/humble')]), 'shell': False}
+[0.045191] (go2_pinocchio_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fk_ik_id_example\x1b[0m\n'}
+[0.072912] (go2_pinocchio_demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/fk_ik_id_example.dir/src/fk_ik_id_example.cpp.o\x1b[0m\n'}
+[0.100030] (-) TimerEvent: {}
+[0.200333] (-) TimerEvent: {}
+[0.300623] (-) TimerEvent: {}
+[0.400822] (-) TimerEvent: {}
+[0.501020] (-) TimerEvent: {}
+[0.601224] (-) TimerEvent: {}
+[0.701420] (-) TimerEvent: {}
+[0.801635] (-) TimerEvent: {}
+[0.901841] (-) TimerEvent: {}
+[1.002190] (-) TimerEvent: {}
+[1.102574] (-) TimerEvent: {}
+[1.202924] (-) TimerEvent: {}
+[1.303274] (-) TimerEvent: {}
+[1.403645] (-) TimerEvent: {}
+[1.504003] (-) TimerEvent: {}
+[1.604367] (-) TimerEvent: {}
+[1.704876] (-) TimerEvent: {}
+[1.805301] (-) TimerEvent: {}
+[1.905757] (-) TimerEvent: {}
+[2.006186] (-) TimerEvent: {}
+[2.107518] (-) TimerEvent: {}
+[2.207939] (-) TimerEvent: {}
+[2.308408] (-) TimerEvent: {}
+[2.408851] (-) TimerEvent: {}
+[2.509320] (-) TimerEvent: {}
+[2.609777] (-) TimerEvent: {}
+[2.710151] (-) TimerEvent: {}
+[2.810598] (-) TimerEvent: {}
+[2.910968] (-) TimerEvent: {}
+[3.011400] (-) TimerEvent: {}
+[3.111850] (-) TimerEvent: {}
+[3.212283] (-) TimerEvent: {}
+[3.312717] (-) TimerEvent: {}
+[3.413151] (-) TimerEvent: {}
+[3.513599] (-) TimerEvent: {}
+[3.614052] (-) TimerEvent: {}
+[3.714522] (-) TimerEvent: {}
+[3.814995] (-) TimerEvent: {}
+[3.915437] (-) TimerEvent: {}
+[4.015889] (-) TimerEvent: {}
+[4.116329] (-) TimerEvent: {}
+[4.216809] (-) TimerEvent: {}
+[4.317292] (-) TimerEvent: {}
+[4.417726] (-) TimerEvent: {}
+[4.518210] (-) TimerEvent: {}
+[4.618636] (-) TimerEvent: {}
+[4.719071] (-) TimerEvent: {}
+[4.819506] (-) TimerEvent: {}
+[4.919945] (-) TimerEvent: {}
+[5.020376] (-) TimerEvent: {}
+[5.120818] (-) TimerEvent: {}
+[5.221230] (-) TimerEvent: {}
+[5.321714] (-) TimerEvent: {}
+[5.422174] (-) TimerEvent: {}
+[5.522607] (-) TimerEvent: {}
+[5.623052] (-) TimerEvent: {}
+[5.723529] (-) TimerEvent: {}
+[5.823977] (-) TimerEvent: {}
+[5.924466] (-) TimerEvent: {}
+[6.024928] (-) TimerEvent: {}
+[6.125351] (-) TimerEvent: {}
+[6.225806] (-) TimerEvent: {}
+[6.326256] (-) TimerEvent: {}
+[6.426715] (-) TimerEvent: {}
+[6.527167] (-) TimerEvent: {}
+[6.627680] (-) TimerEvent: {}
+[6.728139] (-) TimerEvent: {}
+[6.828574] (-) TimerEvent: {}
+[6.928997] (-) TimerEvent: {}
+[7.029469] (-) TimerEvent: {}
+[7.129923] (-) TimerEvent: {}
+[7.230368] (-) TimerEvent: {}
+[7.330822] (-) TimerEvent: {}
+[7.431217] (-) TimerEvent: {}
+[7.531671] (-) TimerEvent: {}
+[7.632119] (-) TimerEvent: {}
+[7.732580] (-) TimerEvent: {}
+[7.833006] (-) TimerEvent: {}
+[7.933481] (-) TimerEvent: {}
+[8.033965] (-) TimerEvent: {}
+[8.134477] (-) TimerEvent: {}
+[8.234968] (-) TimerEvent: {}
+[8.335434] (-) TimerEvent: {}
+[8.435939] (-) TimerEvent: {}
+[8.536410] (-) TimerEvent: {}
+[8.636924] (-) TimerEvent: {}
+[8.737361] (-) TimerEvent: {}
+[8.837840] (-) TimerEvent: {}
+[8.938295] (-) TimerEvent: {}
+[9.038736] (-) TimerEvent: {}
+[9.139148] (-) TimerEvent: {}
+[9.239599] (-) TimerEvent: {}
+[9.340025] (-) TimerEvent: {}
+[9.440444] (-) TimerEvent: {}
+[9.540883] (-) TimerEvent: {}
+[9.641317] (-) TimerEvent: {}
+[9.741760] (-) TimerEvent: {}
+[9.842199] (-) TimerEvent: {}
+[9.942643] (-) TimerEvent: {}
+[10.043112] (-) TimerEvent: {}
+[10.143544] (-) TimerEvent: {}
+[10.244020] (-) TimerEvent: {}
+[10.344428] (-) TimerEvent: {}
+[10.444895] (-) TimerEvent: {}
+[10.545338] (-) TimerEvent: {}
+[10.645799] (-) TimerEvent: {}
+[10.746256] (-) TimerEvent: {}
+[10.846606] (-) TimerEvent: {}
+[10.947040] (-) TimerEvent: {}
+[11.047485] (-) TimerEvent: {}
+[11.147953] (-) TimerEvent: {}
+[11.248383] (-) TimerEvent: {}
+[11.348829] (-) TimerEvent: {}
+[11.449281] (-) TimerEvent: {}
+[11.549747] (-) TimerEvent: {}
+[11.650195] (-) TimerEvent: {}
+[11.750627] (-) TimerEvent: {}
+[11.851107] (-) TimerEvent: {}
+[11.951549] (-) TimerEvent: {}
+[12.051982] (-) TimerEvent: {}
+[12.152440] (-) TimerEvent: {}
+[12.252918] (-) TimerEvent: {}
+[12.353337] (-) TimerEvent: {}
+[12.453774] (-) TimerEvent: {}
+[12.554223] (-) TimerEvent: {}
+[12.654662] (-) TimerEvent: {}
+[12.755114] (-) TimerEvent: {}
+[12.855555] (-) TimerEvent: {}
+[12.955998] (-) TimerEvent: {}
+[13.056437] (-) TimerEvent: {}
+[13.156886] (-) TimerEvent: {}
+[13.257339] (-) TimerEvent: {}
+[13.357772] (-) TimerEvent: {}
+[13.458222] (-) TimerEvent: {}
+[13.558666] (-) TimerEvent: {}
+[13.659105] (-) TimerEvent: {}
+[13.759569] (-) TimerEvent: {}
+[13.860007] (-) TimerEvent: {}
+[13.960479] (-) TimerEvent: {}
+[14.060904] (-) TimerEvent: {}
+[14.161338] (-) TimerEvent: {}
+[14.261783] (-) TimerEvent: {}
+[14.362205] (-) TimerEvent: {}
+[14.462664] (-) TimerEvent: {}
+[14.563100] (-) TimerEvent: {}
+[14.663529] (-) TimerEvent: {}
+[14.763978] (-) TimerEvent: {}
+[14.864404] (-) TimerEvent: {}
+[14.964849] (-) TimerEvent: {}
+[15.065301] (-) TimerEvent: {}
+[15.165752] (-) TimerEvent: {}
+[15.266165] (-) TimerEvent: {}
+[15.366619] (-) TimerEvent: {}
+[15.467047] (-) TimerEvent: {}
+[15.567531] (-) TimerEvent: {}
+[15.667986] (-) TimerEvent: {}
+[15.768464] (-) TimerEvent: {}
+[15.868911] (-) TimerEvent: {}
+[15.969376] (-) TimerEvent: {}
+[16.069839] (-) TimerEvent: {}
+[16.170286] (-) TimerEvent: {}
+[16.270734] (-) TimerEvent: {}
+[16.371226] (-) TimerEvent: {}
+[16.471762] (-) TimerEvent: {}
+[16.572230] (-) TimerEvent: {}
+[16.672720] (-) TimerEvent: {}
+[16.773177] (-) TimerEvent: {}
+[16.873638] (-) TimerEvent: {}
+[16.974107] (-) TimerEvent: {}
+[17.074547] (-) TimerEvent: {}
+[17.174987] (-) TimerEvent: {}
+[17.275423] (-) TimerEvent: {}
+[17.375878] (-) TimerEvent: {}
+[17.476306] (-) TimerEvent: {}
+[17.576760] (-) TimerEvent: {}
+[17.677210] (-) TimerEvent: {}
+[17.777635] (-) TimerEvent: {}
+[17.878102] (-) TimerEvent: {}
+[17.978573] (-) TimerEvent: {}
+[18.079046] (-) TimerEvent: {}
+[18.179547] (-) TimerEvent: {}
+[18.279992] (-) TimerEvent: {}
+[18.380490] (-) TimerEvent: {}
+[18.480927] (-) TimerEvent: {}
+[18.581408] (-) TimerEvent: {}
+[18.681867] (-) TimerEvent: {}
+[18.782321] (-) TimerEvent: {}
+[18.882793] (-) TimerEvent: {}
+[18.983270] (-) TimerEvent: {}
+[19.083750] (-) TimerEvent: {}
+[19.184232] (-) TimerEvent: {}
+[19.284717] (-) TimerEvent: {}
+[19.385197] (-) TimerEvent: {}
+[19.485667] (-) TimerEvent: {}
+[19.586154] (-) TimerEvent: {}
+[19.686625] (-) TimerEvent: {}
+[19.787078] (-) TimerEvent: {}
+[19.887580] (-) TimerEvent: {}
+[19.988072] (-) TimerEvent: {}
+[20.088558] (-) TimerEvent: {}
+[20.189051] (-) TimerEvent: {}
+[20.289527] (-) TimerEvent: {}
+[20.390854] (-) TimerEvent: {}
+[20.491353] (-) TimerEvent: {}
+[20.591796] (-) TimerEvent: {}
+[20.692263] (-) TimerEvent: {}
+[20.792725] (-) TimerEvent: {}
+[20.893168] (-) TimerEvent: {}
+[20.993594] (-) TimerEvent: {}
+[21.094056] (-) TimerEvent: {}
+[21.194525] (-) TimerEvent: {}
+[21.294947] (-) TimerEvent: {}
+[21.395395] (-) TimerEvent: {}
+[21.495834] (-) TimerEvent: {}
+[21.596289] (-) TimerEvent: {}
+[21.696755] (-) TimerEvent: {}
+[21.797196] (-) TimerEvent: {}
+[21.897679] (-) TimerEvent: {}
+[21.998141] (-) TimerEvent: {}
+[22.098583] (-) TimerEvent: {}
+[22.199001] (-) TimerEvent: {}
+[22.299500] (-) TimerEvent: {}
+[22.399935] (-) TimerEvent: {}
+[22.500376] (-) TimerEvent: {}
+[22.600839] (-) TimerEvent: {}
+[22.698026] (go2_pinocchio_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/pinocchio/parsers/urdf.hpp:351\x1b[m\x1b[K,\n'}
+[22.698314] (go2_pinocchio_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo/src/fk_ik_id_example.cpp:2\x1b[m\x1b[K:\n'}
+[22.698405] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/pinocchio/parsers/urdf/model.hxx:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kpinocchio::JointIndex pinocchio::urdf::details::UrdfVisitor<Scalar, Options, JointCollectionTpl>::addMimicJoint(const Frame&, const SE3&, const string&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const MimicInfo_&) [with TypeX = pinocchio::JointModelRevoluteTpl<double, 0, 0>; TypeY = pinocchio::JointModelRevoluteTpl<double, 0, 1>; TypeZ = pinocchio::JointModelRevoluteTpl<double, 0, 2>; TypeUnaligned = pinocchio::JointModelRevoluteUnalignedTpl<double>; Scalar = double; int Options = 0; JointCollectionTpl = pinocchio::JointCollectionDefaultTpl]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.698502] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/pinocchio/parsers/urdf/model.hxx:543:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.698567] (go2_pinocchio_demo) StderrLine: {'line': b'  543 |         \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[22.698617] (go2_pinocchio_demo) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[22.700916] (-) TimerEvent: {}
+[22.701466] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/pinocchio/parsers/urdf/model.hxx:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kpinocchio::JointIndex pinocchio::urdf::details::UrdfVisitor<Scalar, Options, JointCollectionTpl>::addMimicJoint(const Frame&, const SE3&, const string&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const MimicInfo_&) [with TypeX = pinocchio::JointModelPrismaticTpl<double, 0, 0>; TypeY = pinocchio::JointModelPrismaticTpl<double, 0, 1>; TypeZ = pinocchio::JointModelPrismaticTpl<double, 0, 2>; TypeUnaligned = pinocchio::JointModelPrismaticUnalignedTpl<double>; Scalar = double; int Options = 0; JointCollectionTpl = pinocchio::JointCollectionDefaultTpl]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.701652] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/pinocchio/parsers/urdf/model.hxx:543:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[22.701725] (go2_pinocchio_demo) StderrLine: {'line': b'  543 |         \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[22.701782] (go2_pinocchio_demo) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[22.801132] (-) TimerEvent: {}
+[22.901549] (-) TimerEvent: {}
+[23.001986] (-) TimerEvent: {}
+[23.102437] (-) TimerEvent: {}
+[23.202841] (-) TimerEvent: {}
+[23.303251] (-) TimerEvent: {}
+[23.403699] (-) TimerEvent: {}
+[23.504132] (-) TimerEvent: {}
+[23.604599] (-) TimerEvent: {}
+[23.705082] (-) TimerEvent: {}
+[23.805535] (-) TimerEvent: {}
+[23.905982] (-) TimerEvent: {}
+[24.006433] (-) TimerEvent: {}
+[24.106898] (-) TimerEvent: {}
+[24.207377] (-) TimerEvent: {}
+[24.307836] (-) TimerEvent: {}
+[24.408233] (-) TimerEvent: {}
+[24.508673] (-) TimerEvent: {}
+[24.609150] (-) TimerEvent: {}
+[24.709609] (-) TimerEvent: {}
+[24.810102] (-) TimerEvent: {}
+[24.910585] (-) TimerEvent: {}
+[25.011035] (-) TimerEvent: {}
+[25.111559] (-) TimerEvent: {}
+[25.212045] (-) TimerEvent: {}
+[25.312540] (-) TimerEvent: {}
+[25.413026] (-) TimerEvent: {}
+[25.513489] (-) TimerEvent: {}
+[25.613890] (-) TimerEvent: {}
+[25.714287] (-) TimerEvent: {}
+[25.814721] (-) TimerEvent: {}
+[25.915143] (-) TimerEvent: {}
+[26.015550] (-) TimerEvent: {}
+[26.115971] (-) TimerEvent: {}
+[26.216378] (-) TimerEvent: {}
+[26.316801] (-) TimerEvent: {}
+[26.417221] (-) TimerEvent: {}
+[26.517629] (-) TimerEvent: {}
+[26.618034] (-) TimerEvent: {}
+[26.718467] (-) TimerEvent: {}
+[26.818872] (-) TimerEvent: {}
+[26.919281] (-) TimerEvent: {}
+[27.019718] (-) TimerEvent: {}
+[27.120150] (-) TimerEvent: {}
+[27.220576] (-) TimerEvent: {}
+[27.320987] (-) TimerEvent: {}
+[27.421406] (-) TimerEvent: {}
+[27.521847] (-) TimerEvent: {}
+[27.622255] (-) TimerEvent: {}
+[27.722692] (-) TimerEvent: {}
+[27.823080] (-) TimerEvent: {}
+[27.923526] (-) TimerEvent: {}
+[28.023945] (-) TimerEvent: {}
+[28.124359] (-) TimerEvent: {}
+[28.224795] (-) TimerEvent: {}
+[28.325225] (-) TimerEvent: {}
+[28.425648] (-) TimerEvent: {}
+[28.526048] (-) TimerEvent: {}
+[28.626477] (-) TimerEvent: {}
+[28.726893] (-) TimerEvent: {}
+[28.827321] (-) TimerEvent: {}
+[28.927746] (-) TimerEvent: {}
+[29.028163] (-) TimerEvent: {}
+[29.128564] (-) TimerEvent: {}
+[29.228988] (-) TimerEvent: {}
+[29.329389] (-) TimerEvent: {}
+[29.429825] (-) TimerEvent: {}
+[29.530243] (-) TimerEvent: {}
+[29.630632] (-) TimerEvent: {}
+[29.731050] (-) TimerEvent: {}
+[29.831488] (-) TimerEvent: {}
+[29.931883] (-) TimerEvent: {}
+[30.032279] (-) TimerEvent: {}
+[30.132737] (-) TimerEvent: {}
+[30.233137] (-) TimerEvent: {}
+[30.333577] (-) TimerEvent: {}
+[30.433952] (-) TimerEvent: {}
+[30.534372] (-) TimerEvent: {}
+[30.634829] (-) TimerEvent: {}
+[30.735242] (-) TimerEvent: {}
+[30.835664] (-) TimerEvent: {}
+[30.936060] (-) TimerEvent: {}
+[31.036474] (-) TimerEvent: {}
+[31.136930] (-) TimerEvent: {}
+[31.237367] (-) TimerEvent: {}
+[31.337768] (-) TimerEvent: {}
+[31.438233] (-) TimerEvent: {}
+[31.538646] (-) TimerEvent: {}
+[31.639070] (-) TimerEvent: {}
+[31.739502] (-) TimerEvent: {}
+[31.839922] (-) TimerEvent: {}
+[31.940345] (-) TimerEvent: {}
+[32.040766] (-) TimerEvent: {}
+[32.141177] (-) TimerEvent: {}
+[32.241609] (-) TimerEvent: {}
+[32.342019] (-) TimerEvent: {}
+[32.442418] (-) TimerEvent: {}
+[32.542843] (-) TimerEvent: {}
+[32.643267] (-) TimerEvent: {}
+[32.743713] (-) TimerEvent: {}
+[32.844142] (-) TimerEvent: {}
+[32.944561] (-) TimerEvent: {}
+[33.044997] (-) TimerEvent: {}
+[33.145422] (-) TimerEvent: {}
+[33.245832] (-) TimerEvent: {}
+[33.346261] (-) TimerEvent: {}
+[33.446710] (-) TimerEvent: {}
+[33.547112] (-) TimerEvent: {}
+[33.647504] (-) TimerEvent: {}
+[33.747895] (-) TimerEvent: {}
+[33.848313] (-) TimerEvent: {}
+[33.948738] (-) TimerEvent: {}
+[34.049139] (-) TimerEvent: {}
+[34.149561] (-) TimerEvent: {}
+[34.249978] (-) TimerEvent: {}
+[34.350380] (-) TimerEvent: {}
+[34.450809] (-) TimerEvent: {}
+[34.551235] (-) TimerEvent: {}
+[34.651740] (-) TimerEvent: {}
+[34.752148] (-) TimerEvent: {}
+[34.852536] (-) TimerEvent: {}
+[34.952946] (-) TimerEvent: {}
+[35.053386] (-) TimerEvent: {}
+[35.153827] (-) TimerEvent: {}
+[35.254250] (-) TimerEvent: {}
+[35.354755] (-) TimerEvent: {}
+[35.455194] (-) TimerEvent: {}
+[35.555647] (-) TimerEvent: {}
+[35.656071] (-) TimerEvent: {}
+[35.756518] (-) TimerEvent: {}
+[35.856953] (-) TimerEvent: {}
+[35.957355] (-) TimerEvent: {}
+[36.057810] (-) TimerEvent: {}
+[36.158252] (-) TimerEvent: {}
+[36.258685] (-) TimerEvent: {}
+[36.359131] (-) TimerEvent: {}
+[36.459570] (-) TimerEvent: {}
+[36.560058] (-) TimerEvent: {}
+[36.660530] (-) TimerEvent: {}
+[36.760962] (-) TimerEvent: {}
+[36.861395] (-) TimerEvent: {}
+[36.961833] (-) TimerEvent: {}
+[37.062271] (-) TimerEvent: {}
+[37.162752] (-) TimerEvent: {}
+[37.263243] (-) TimerEvent: {}
+[37.363724] (-) TimerEvent: {}
+[37.464157] (-) TimerEvent: {}
+[37.556170] (go2_pinocchio_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable fk_ik_id_example\x1b[0m\n'}
+[37.564328] (-) TimerEvent: {}
+[37.664709] (-) TimerEvent: {}
+[37.765069] (-) TimerEvent: {}
+[37.865516] (-) TimerEvent: {}
+[37.965885] (-) TimerEvent: {}
+[38.066313] (-) TimerEvent: {}
+[38.166789] (-) TimerEvent: {}
+[38.267212] (-) TimerEvent: {}
+[38.367628] (-) TimerEvent: {}
+[38.468057] (-) TimerEvent: {}
+[38.568497] (-) TimerEvent: {}
+[38.668929] (-) TimerEvent: {}
+[38.769341] (-) TimerEvent: {}
+[38.869748] (-) TimerEvent: {}
+[38.970200] (-) TimerEvent: {}
+[39.070638] (-) TimerEvent: {}
+[39.171083] (-) TimerEvent: {}
+[39.195001] (go2_pinocchio_demo) StdoutLine: {'line': b'[100%] Built target fk_ik_id_example\n'}
+[39.204875] (go2_pinocchio_demo) CommandEnded: {'returncode': 0}
+[39.206234] (go2_pinocchio_demo) JobProgress: {'identifier': 'go2_pinocchio_demo', 'progress': 'install'}
+[39.213211] (go2_pinocchio_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jason/projects/motion_control_go2/build/go2_pinocchio_demo'], 'cwd': '/home/jason/projects/motion_control_go2/build/go2_pinocchio_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/unitree_robotics/lib:/home/jason/.mujoco/mujoco-3.2.7/bin:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1840'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jason/projects/motion_control_go2/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/jason/.mujoco/mujoco-3.2.7'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jason/.mujoco/mujoco-3.2.7/bin:/home/jason/.local/bin:/opt/ros/humble/bin:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jasonabichebli:@/tmp/.ICE-unix/1811,unix/jasonabichebli:/tmp/.ICE-unix/1811'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cf24cf1c_970f_4b69_a688_e9da55233fa2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3JISD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/projects/motion_control_go2/build/go2_pinocchio_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local::/opt/ros/humble')]), 'shell': False}
+[39.218728] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[39.222883] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Installing: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/lib/go2_pinocchio_demo/fk_ik_id_example\n'}
+[39.242787] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/lib/go2_pinocchio_demo/fk_ik_id_example" to ""\n'}
+[39.242966] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Installing: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/ament_index/resource_index/package_run_dependencies/go2_pinocchio_demo\n'}
+[39.243056] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Installing: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/ament_index/resource_index/parent_prefix_path/go2_pinocchio_demo\n'}
+[39.243134] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Installing: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/environment/ament_prefix_path.sh\n'}
+[39.243186] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Installing: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/environment/ament_prefix_path.dsv\n'}
+[39.243235] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Installing: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/environment/path.sh\n'}
+[39.243285] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Installing: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/environment/path.dsv\n'}
+[39.243334] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Installing: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/local_setup.bash\n'}
+[39.243387] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Installing: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/local_setup.sh\n'}
+[39.243972] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Installing: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/local_setup.zsh\n'}
+[39.244537] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Installing: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/local_setup.dsv\n'}
+[39.244639] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Installing: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/package.dsv\n'}
+[39.244711] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Installing: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/ament_index/resource_index/packages/go2_pinocchio_demo\n'}
+[39.244769] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Installing: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/cmake/go2_pinocchio_demoConfig.cmake\n'}
+[39.244915] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Installing: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/cmake/go2_pinocchio_demoConfig-version.cmake\n'}
+[39.244973] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Installing: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/package.xml\n'}
+[39.245318] (go2_pinocchio_demo) CommandEnded: {'returncode': 0}
+[39.264182] (go2_pinocchio_demo) JobEnded: {'identifier': 'go2_pinocchio_demo', 'rc': 0}
+[39.265027] (-) EventReactorShutdown: {}

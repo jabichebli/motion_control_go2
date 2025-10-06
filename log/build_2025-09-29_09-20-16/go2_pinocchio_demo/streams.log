@@ -1,0 +1,24 @@
+[0.006s] Invoking command in '/home/jason/projects/motion_control_go2/build/go2_pinocchio_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/projects/motion_control_go2/build/go2_pinocchio_demo -- -j16 -l16
+[0.078s] [100%] Built target fk_ik_id_example
+[0.089s] Invoked command in '/home/jason/projects/motion_control_go2/build/go2_pinocchio_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/projects/motion_control_go2/build/go2_pinocchio_demo -- -j16 -l16
+[0.098s] Invoking command in '/home/jason/projects/motion_control_go2/build/go2_pinocchio_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/projects/motion_control_go2/build/go2_pinocchio_demo
+[0.106s] -- Install configuration: ""
+[0.107s] -- Execute custom install script
+[0.107s] -- Up-to-date symlink: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/lib/go2_pinocchio_demo/fk_ik_id_example
+[0.107s] -- Up-to-date symlink: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/launch/demo.launch.py
+[0.108s] -- Up-to-date symlink: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/ament_index/resource_index/package_run_dependencies/go2_pinocchio_demo
+[0.108s] -- Up-to-date symlink: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/ament_index/resource_index/parent_prefix_path/go2_pinocchio_demo
+[0.108s] -- Up-to-date symlink: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/environment/ament_prefix_path.sh
+[0.108s] -- Up-to-date symlink: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/environment/ament_prefix_path.dsv
+[0.108s] -- Up-to-date symlink: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/environment/path.sh
+[0.108s] -- Up-to-date symlink: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/environment/path.dsv
+[0.108s] -- Up-to-date symlink: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/local_setup.bash
+[0.108s] -- Up-to-date symlink: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/local_setup.sh
+[0.108s] -- Up-to-date symlink: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/local_setup.zsh
+[0.108s] -- Up-to-date symlink: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/local_setup.dsv
+[0.109s] -- Symlinking: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/package.dsv
+[0.119s] -- Up-to-date symlink: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/ament_index/resource_index/packages/go2_pinocchio_demo
+[0.120s] -- Up-to-date symlink: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/cmake/go2_pinocchio_demoConfig.cmake
+[0.120s] -- Up-to-date symlink: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/cmake/go2_pinocchio_demoConfig-version.cmake
+[0.120s] -- Up-to-date symlink: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/package.xml
+[0.122s] Invoked command in '/home/jason/projects/motion_control_go2/build/go2_pinocchio_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/projects/motion_control_go2/build/go2_pinocchio_demo

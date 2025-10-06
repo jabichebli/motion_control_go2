@@ -1,0 +1,90 @@
+[0.005s] Invoking command in '/home/jason/projects/motion_control_go2/build/go2_pinocchio_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/projects/motion_control_go2/build/go2_pinocchio_demo -- -j16 -l16
+[0.037s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.081s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.134s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.156s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.156s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.158s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.162s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.167s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.180s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.180s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.225s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.245s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.257s] -- pinocchio_default FOUND. pinocchio_default at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_default.so
+[0.257s] -- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_parsers.so
+[0.257s] -- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so
+[0.258s] -- boost_serialization FOUND. boost_serialization at /lib/x86_64-linux-gnu/libboost_serialization.so
+[0.258s] -- boost_system FOUND. boost_system at /lib/x86_64-linux-gnu/libboost_system.so
+[0.261s] -- Found Boost: /usr/include (found version "1.74.0") found components: filesystem serialization system 
+[0.262s] -- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so
+[0.288s] -- Checking for NumPy
+[0.400s] --   NUMPY_INCLUDE_DIRS=/home/jason/.local/lib/python3.10/site-packages/numpy/_core/include
+[0.450s] --   NUMPY_VERSION=2.2.6
+[0.580s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development.Module NumPy 
+[0.580s] -- PythonLibraryDirs: 
+[0.580s] -- PythonLibVersionString: 3.10.12
+[0.589s] -- Python site lib: lib/python3.10/site-packages
+[0.589s] -- Python include dirs: /usr/include/python3.10
+[0.608s] -- Checking for NumPy
+[0.654s] --   NUMPY_INCLUDE_DIRS=/home/jason/.local/lib/python3.10/site-packages/numpy/_core/include
+[0.697s] --   NUMPY_VERSION=2.2.6
+[0.697s] -- NumPy include dir: /home/jason/.local/lib/python3.10/site-packages/numpy/_core/include
+[0.699s] [33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+[0.699s]   No header defined for python310; skipping header check (note: header-only
+[0.699s]   libraries have no designated component)
+[0.699s] Call Stack (most recent call first):
+[0.699s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+[0.699s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+[0.699s]   /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+[0.699s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+[0.699s]   CMakeLists.txt:13 (find_package)
+[0.699s] 
+[0.699s] [0m
+[0.699s] -- Found Boost: /usr/include (found version "1.74.0") found components: python310 
+[0.887s] -- Default C++ standard: 201703
+[0.887s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.887s] -- CMAKE_CXX_STANDARD was not set: automatically set to currently defined standard 17
+[0.887s] -- hpp-fcl FOUND. hpp-fcl at /opt/ros/humble/lib/x86_64-linux-gnu/libhpp-fcl.so
+[0.891s] -- Found Boost: /usr/include (found version "1.74.0") found components: chrono serialization filesystem 
+[0.892s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.892s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.954s] -- Configuring done
+[0.965s] -- Generating done
+[0.969s] -- Build files have been written to: /home/jason/projects/motion_control_go2/build/go2_pinocchio_demo
+[1.004s] [ 50%] [32mBuilding CXX object CMakeFiles/fk_ik_id_example.dir/src/fk_ik_id_example.cpp.o[0m
+[4.556s] [01m[K/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo/src/fk_ik_id_example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.556s] [01m[K/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo/src/fk_ik_id_example.cpp:61:25:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KcomputeFrameJacobian(pinocchio::Model&, pinocchio::Data&, Eigen::VectorXd&, const FrameIndex&, Eigen::MatrixXd&, pinocchio::ReferenceFrame)[m[K’
+[4.556s]    61 |     [01;31m[KcomputeFrameJacobian(model, data, q_ik, fid, J, pinocchio::LOCAL_WORLD_ALIGNED)[m[K;
+[4.556s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.560s] In file included from [01m[K/opt/ros/humble/include/pinocchio/algorithm/frames.hpp:599[m[K,
+[4.560s]                  from [01m[K/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo/src/fk_ik_id_example.cpp:3[m[K:
+[4.560s] [01m[K/opt/ros/humble/include/pinocchio/algorithm/frames.hxx:183:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Scalar, int Options, template<class, int <anonymous> > class JointCollectionTpl, class ConfigVectorType, class Matrix6xLike> void pinocchio::computeFrameJacobian(const pinocchio::ModelTpl<_Scalar, _Options, JointCollectionTpl>&, pinocchio::DataTpl<Scalar, Options, JointCollectionTpl>&, const Eigen::MatrixBase<Matrix3Like>&, pinocchio::FrameIndex, pinocchio::ReferenceFrame, const Eigen::MatrixBase<MatRet>&)[m[K’
+[4.560s]   183 |   inline void [01;36m[KcomputeFrameJacobian[m[K(
+[4.560s]       |               [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.560s] [01m[K/opt/ros/humble/include/pinocchio/algorithm/frames.hxx:183:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.560s] [01m[K/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo/src/fk_ik_id_example.cpp:61:25:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::MatrixBase<MatRet>[m[K’ and ‘[01m[Kpinocchio::ReferenceFrame[m[K’
+[4.560s]    61 |     [01;36m[KcomputeFrameJacobian(model, data, q_ik, fid, J, pinocchio::LOCAL_WORLD_ALIGNED)[m[K;
+[4.560s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.560s] In file included from [01m[K/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo/src/fk_ik_id_example.cpp:3[m[K:
+[4.560s] [01m[K/opt/ros/humble/include/pinocchio/algorithm/frames.hpp:476:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Scalar, int Options, template<class, int <anonymous> > class JointCollectionTpl, class ConfigVectorType, class Matrix6xLike> void pinocchio::computeFrameJacobian(const pinocchio::ModelTpl<_Scalar, _Options, JointCollectionTpl>&, pinocchio::DataTpl<Scalar, Options, JointCollectionTpl>&, const Eigen::MatrixBase<Matrix3Like>&, pinocchio::FrameIndex, const Eigen::MatrixBase<MatRet>&)[m[K’
+[4.560s]   476 |   inline void [01;36m[KcomputeFrameJacobian[m[K(
+[4.560s]       |               [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.560s] [01m[K/opt/ros/humble/include/pinocchio/algorithm/frames.hpp:476:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.562s] [01m[K/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo/src/fk_ik_id_example.cpp:61:25:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 6 provided
+[4.562s]    61 |     [01;36m[KcomputeFrameJacobian(model, data, q_ik, fid, J, pinocchio::LOCAL_WORLD_ALIGNED)[m[K;
+[4.562s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[23.859s] In file included from [01m[K/opt/ros/humble/include/pinocchio/parsers/urdf.hpp:351[m[K,
+[23.859s]                  from [01m[K/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo/src/fk_ik_id_example.cpp:2[m[K:
+[23.859s] [01m[K/opt/ros/humble/include/pinocchio/parsers/urdf/model.hxx:[m[K In member function ‘[01m[Kpinocchio::JointIndex pinocchio::urdf::details::UrdfVisitor<Scalar, Options, JointCollectionTpl>::addMimicJoint(const Frame&, const SE3&, const string&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const MimicInfo_&) [with TypeX = pinocchio::JointModelRevoluteTpl<double, 0, 0>; TypeY = pinocchio::JointModelRevoluteTpl<double, 0, 1>; TypeZ = pinocchio::JointModelRevoluteTpl<double, 0, 2>; TypeUnaligned = pinocchio::JointModelRevoluteUnalignedTpl<double>; Scalar = double; int Options = 0; JointCollectionTpl = pinocchio::JointCollectionDefaultTpl][m[K’:
+[23.859s] [01m[K/opt/ros/humble/include/pinocchio/parsers/urdf/model.hxx:543:9:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[23.859s]   543 |         [01;35m[K}[m[K
+[23.860s]       |         [01;35m[K^[m[K
+[23.862s] [01m[K/opt/ros/humble/include/pinocchio/parsers/urdf/model.hxx:[m[K In member function ‘[01m[Kpinocchio::JointIndex pinocchio::urdf::details::UrdfVisitor<Scalar, Options, JointCollectionTpl>::addMimicJoint(const Frame&, const SE3&, const string&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const MimicInfo_&) [with TypeX = pinocchio::JointModelPrismaticTpl<double, 0, 0>; TypeY = pinocchio::JointModelPrismaticTpl<double, 0, 1>; TypeZ = pinocchio::JointModelPrismaticTpl<double, 0, 2>; TypeUnaligned = pinocchio::JointModelPrismaticUnalignedTpl<double>; Scalar = double; int Options = 0; JointCollectionTpl = pinocchio::JointCollectionDefaultTpl][m[K’:
+[23.862s] [01m[K/opt/ros/humble/include/pinocchio/parsers/urdf/model.hxx:543:9:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[23.862s]   543 |         [01;35m[K}[m[K
+[23.862s]       |         [01;35m[K^[m[K
+[24.514s] gmake[2]: *** [CMakeFiles/fk_ik_id_example.dir/build.make:76: CMakeFiles/fk_ik_id_example.dir/src/fk_ik_id_example.cpp.o] Error 1
+[24.514s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/fk_ik_id_example.dir/all] Error 2
+[24.514s] gmake: *** [Makefile:146: all] Error 2
+[24.517s] Invoked command in '/home/jason/projects/motion_control_go2/build/go2_pinocchio_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/projects/motion_control_go2/build/go2_pinocchio_demo -- -j16 -l16

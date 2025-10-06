@@ -1,1 +1,0 @@
-/home/jason/projects/motion_control_go2/build/unitree_hg/rosidl_generator_py/unitree_hg/msg/_main_board_state.py

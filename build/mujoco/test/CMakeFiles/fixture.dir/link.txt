@@ -1,2 +1,0 @@
-"/usr/bin/gcc-ar-11" cr ../lib/libfixture.a CMakeFiles/fixture.dir/fixture.cc.o
-"/usr/bin/gcc-ranlib-11" ../lib/libfixture.a

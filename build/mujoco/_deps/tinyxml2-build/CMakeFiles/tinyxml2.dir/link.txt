@@ -1,2 +1,0 @@
-"/usr/bin/gcc-ar-11" cr ../../lib/libtinyxml2.a CMakeFiles/tinyxml2.dir/tinyxml2.cpp.o
-"/usr/bin/gcc-ranlib-11" ../../lib/libtinyxml2.a

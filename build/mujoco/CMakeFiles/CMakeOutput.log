@@ -28,10 +28,10 @@ The CXX compiler identification is GNU, found in "/home/jason/projects/motion_co
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cdf24/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cdf24.dir/build.make CMakeFiles/cmTC_cdf24.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b91a9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b91a9.dir/build.make CMakeFiles/cmTC_b91a9.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cdf24.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -v -o CMakeFiles/cmTC_cdf24.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_b91a9.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_b91a9.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -41,8 +41,8 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~2
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cdf24.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cdf24.dir/'
- /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_cdf24.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccV0vfQP.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b91a9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b91a9.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b91a9.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccLeMqxr.s
 GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
 	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -62,15 +62,15 @@ GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 4011c2103cba78949d7e02d0f0047a3d
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cdf24.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cdf24.dir/'
- as -v --64 -o CMakeFiles/cmTC_cdf24.dir/CMakeCCompilerABI.c.o /tmp/ccV0vfQP.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b91a9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b91a9.dir/'
+ as -v --64 -o CMakeFiles/cmTC_b91a9.dir/CMakeCCompilerABI.c.o /tmp/ccLeMqxr.s
 GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cdf24.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cdf24.dir/CMakeCCompilerABI.c.'
-Linking C executable cmTC_cdf24
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdf24.dir/link.txt --verbose=1
-/usr/bin/cc  -v CMakeFiles/cmTC_cdf24.dir/CMakeCCompilerABI.c.o -o cmTC_cdf24 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b91a9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b91a9.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_b91a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b91a9.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_b91a9.dir/CMakeCCompilerABI.c.o -o cmTC_b91a9 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -83,9 +83,9 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cdf24' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cdf24.'
- /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4jWYg9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cdf24 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_cdf24.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cdf24' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cdf24.'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b91a9' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b91a9.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cci3gZ6k.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b91a9 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_b91a9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b91a9' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b91a9.'
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -109,10 +109,10 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cdf24/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cdf24.dir/build.make CMakeFiles/cmTC_cdf24.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b91a9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b91a9.dir/build.make CMakeFiles/cmTC_b91a9.dir/build]
   ignore line: [gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_cdf24.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_cdf24.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_b91a9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_b91a9.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -122,8 +122,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cdf24.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cdf24.dir/']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_cdf24.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccV0vfQP.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b91a9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b91a9.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b91a9.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccLeMqxr.s]
   ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -143,15 +143,15 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 4011c2103cba78949d7e02d0f0047a3d]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cdf24.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cdf24.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_cdf24.dir/CMakeCCompilerABI.c.o /tmp/ccV0vfQP.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b91a9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b91a9.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_b91a9.dir/CMakeCCompilerABI.c.o /tmp/ccLeMqxr.s]
   ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cdf24.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cdf24.dir/CMakeCCompilerABI.c.']
-  ignore line: [Linking C executable cmTC_cdf24]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdf24.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_cdf24.dir/CMakeCCompilerABI.c.o -o cmTC_cdf24 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b91a9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b91a9.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_b91a9]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b91a9.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_b91a9.dir/CMakeCCompilerABI.c.o -o cmTC_b91a9 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -164,13 +164,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cdf24' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cdf24.']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4jWYg9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cdf24 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_cdf24.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b91a9' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b91a9.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cci3gZ6k.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b91a9 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_b91a9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc4jWYg9.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cci3gZ6k.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -188,7 +188,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_cdf24] ==> ignore
+    arg [cmTC_b91a9] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -200,7 +200,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
-    arg [CMakeFiles/cmTC_cdf24.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_b91a9.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -234,10 +234,10 @@ Parsed C implicit link information from above output:
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_716d9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_716d9.dir/build.make CMakeFiles/cmTC_716d9.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a5338/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a5338.dir/build.make CMakeFiles/cmTC_a5338.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_716d9.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++   -v -o CMakeFiles/cmTC_716d9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Building CXX object CMakeFiles/cmTC_a5338.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_a5338.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -247,8 +247,8 @@ Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~2
 Thread model: posix
 Supported LTO compression algorithms: zlib zstd
 gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_716d9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_716d9.dir/'
- /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_716d9.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccaoy5kY.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a5338.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a5338.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a5338.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccbFphRK.s
 GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
 	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -272,15 +272,15 @@ GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 6c87588fc345655b93b8c25f48f88886
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_716d9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_716d9.dir/'
- as -v --64 -o CMakeFiles/cmTC_716d9.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccaoy5kY.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a5338.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a5338.dir/'
+ as -v --64 -o CMakeFiles/cmTC_a5338.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccbFphRK.s
 GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_716d9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_716d9.dir/CMakeCXXCompilerABI.cpp.'
-Linking CXX executable cmTC_716d9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_716d9.dir/link.txt --verbose=1
-/usr/bin/c++  -v CMakeFiles/cmTC_716d9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_716d9 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a5338.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a5338.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_a5338
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5338.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_a5338.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a5338 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -293,9 +293,9 @@ Supported LTO compression algorithms: zlib zstd
 gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_716d9' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_716d9.'
- /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEX2K9b.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_716d9 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_716d9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_716d9' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_716d9.'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a5338' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a5338.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3EyYko.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a5338 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_a5338.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a5338' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a5338.'
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -325,10 +325,10 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_716d9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_716d9.dir/build.make CMakeFiles/cmTC_716d9.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a5338/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a5338.dir/build.make CMakeFiles/cmTC_a5338.dir/build]
   ignore line: [gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_716d9.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_716d9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_a5338.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_a5338.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -338,8 +338,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib zstd]
   ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_716d9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_716d9.dir/']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_716d9.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccaoy5kY.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a5338.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a5338.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a5338.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccbFphRK.s]
   ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -363,15 +363,15 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 6c87588fc345655b93b8c25f48f88886]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_716d9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_716d9.dir/']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_716d9.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccaoy5kY.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a5338.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a5338.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_a5338.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccbFphRK.s]
   ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_716d9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_716d9.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [Linking CXX executable cmTC_716d9]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_716d9.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_716d9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_716d9 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a5338.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a5338.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_a5338]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5338.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_a5338.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a5338 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -384,13 +384,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_716d9' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_716d9.']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEX2K9b.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_716d9 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_716d9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a5338' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a5338.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3EyYko.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a5338 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_a5338.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccEX2K9b.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc3EyYko.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -408,7 +408,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_716d9] ==> ignore
+    arg [cmTC_a5338] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -420,7 +420,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
-    arg [CMakeFiles/cmTC_716d9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_a5338.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -450,13 +450,13 @@ Parsed CXX implicit link information from above output:
 Performing C SOURCE FILE Test CAN_BUILD_AVX succeeded with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f338a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f338a.dir/build.make CMakeFiles/cmTC_f338a.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5c924/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5c924.dir/build.make CMakeFiles/cmTC_5c924.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f338a.dir/src.c.o
-/usr/bin/cc -DCAN_BUILD_AVX  -mavx -fPIE -std=c11 -o CMakeFiles/cmTC_f338a.dir/src.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_f338a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f338a.dir/link.txt --verbose=1
-/usr/bin/cc  -mavx CMakeFiles/cmTC_f338a.dir/src.c.o -o cmTC_f338a 
+Building C object CMakeFiles/cmTC_5c924.dir/src.c.o
+/usr/bin/cc -DCAN_BUILD_AVX  -mavx -fPIE -std=c11 -o CMakeFiles/cmTC_5c924.dir/src.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5c924
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c924.dir/link.txt --verbose=1
+/usr/bin/cc  -mavx CMakeFiles/cmTC_5c924.dir/src.c.o -o cmTC_5c924 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -471,13 +471,13 @@ Source file was:
 Performing C SOURCE FILE Test SUPPORTS_GOLD succeeded with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b08bb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b08bb.dir/build.make CMakeFiles/cmTC_b08bb.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e88bc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e88bc.dir/build.make CMakeFiles/cmTC_e88bc.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b08bb.dir/src.c.o
-/usr/bin/cc -DSUPPORTS_GOLD  -fuse-ld=gold -fPIE -std=c11 -o CMakeFiles/cmTC_b08bb.dir/src.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_b08bb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b08bb.dir/link.txt --verbose=1
-/usr/bin/cc  -fuse-ld=gold CMakeFiles/cmTC_b08bb.dir/src.c.o -o cmTC_b08bb 
+Building C object CMakeFiles/cmTC_e88bc.dir/src.c.o
+/usr/bin/cc -DSUPPORTS_GOLD  -fuse-ld=gold -fPIE -std=c11 -o CMakeFiles/cmTC_e88bc.dir/src.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e88bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e88bc.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold CMakeFiles/cmTC_e88bc.dir/src.c.o -o cmTC_e88bc 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -486,13 +486,13 @@ int main() {}
 Performing C SOURCE FILE Test SUPPORTS_GC_SECTIONS succeeded with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d14db/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d14db.dir/build.make CMakeFiles/cmTC_d14db.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a6cae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a6cae.dir/build.make CMakeFiles/cmTC_a6cae.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d14db.dir/src.c.o
-/usr/bin/cc -DSUPPORTS_GC_SECTIONS  -fuse-ld=gold -fPIE -std=c11 -o CMakeFiles/cmTC_d14db.dir/src.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_d14db
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d14db.dir/link.txt --verbose=1
-/usr/bin/cc  -fuse-ld=gold CMakeFiles/cmTC_d14db.dir/src.c.o -o cmTC_d14db 
+Building C object CMakeFiles/cmTC_a6cae.dir/src.c.o
+/usr/bin/cc -DSUPPORTS_GC_SECTIONS  -fuse-ld=gold -fPIE -std=c11 -o CMakeFiles/cmTC_a6cae.dir/src.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a6cae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6cae.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold CMakeFiles/cmTC_a6cae.dir/src.c.o -o cmTC_a6cae 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -501,13 +501,13 @@ int main() {}
 Determining if the include file sys/types.h exists passed with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_85746/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_85746.dir/build.make CMakeFiles/cmTC_85746.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_52698/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_52698.dir/build.make CMakeFiles/cmTC_52698.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_85746.dir/CheckIncludeFile.c.o
-/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -std=c11 -o CMakeFiles/cmTC_85746.dir/CheckIncludeFile.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_85746
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85746.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_85746.dir/CheckIncludeFile.c.o -o cmTC_85746 
+Building C object CMakeFiles/cmTC_52698.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -std=c11 -o CMakeFiles/cmTC_52698.dir/CheckIncludeFile.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_52698
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52698.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_52698.dir/CheckIncludeFile.c.o -o cmTC_52698 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -515,13 +515,13 @@ gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoc
 Determining if the include file inttypes.h exists passed with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_950b7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_950b7.dir/build.make CMakeFiles/cmTC_950b7.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bc578/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bc578.dir/build.make CMakeFiles/cmTC_bc578.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_950b7.dir/CheckIncludeFile.c.o
-/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -std=c11 -o CMakeFiles/cmTC_950b7.dir/CheckIncludeFile.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_950b7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_950b7.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_950b7.dir/CheckIncludeFile.c.o -o cmTC_950b7 
+Building C object CMakeFiles/cmTC_bc578.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -std=c11 -o CMakeFiles/cmTC_bc578.dir/CheckIncludeFile.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bc578
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc578.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_bc578.dir/CheckIncludeFile.c.o -o cmTC_bc578 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -529,13 +529,13 @@ gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoc
 Determining if the include file stddef.h exists passed with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c030f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c030f.dir/build.make CMakeFiles/cmTC_c030f.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6d861/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6d861.dir/build.make CMakeFiles/cmTC_6d861.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c030f.dir/CheckIncludeFile.c.o
-/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -std=c11 -o CMakeFiles/cmTC_c030f.dir/CheckIncludeFile.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_c030f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c030f.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_c030f.dir/CheckIncludeFile.c.o -o cmTC_c030f 
+Building C object CMakeFiles/cmTC_6d861.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -std=c11 -o CMakeFiles/cmTC_6d861.dir/CheckIncludeFile.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6d861
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d861.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_6d861.dir/CheckIncludeFile.c.o -o cmTC_6d861 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -543,13 +543,13 @@ gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoc
 Determining if the include file stdint.h exists passed with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5792b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5792b.dir/build.make CMakeFiles/cmTC_5792b.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e0efe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e0efe.dir/build.make CMakeFiles/cmTC_e0efe.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5792b.dir/CheckIncludeFile.c.o
-/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -std=c11 -o CMakeFiles/cmTC_5792b.dir/CheckIncludeFile.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_5792b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5792b.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_5792b.dir/CheckIncludeFile.c.o -o cmTC_5792b 
+Building C object CMakeFiles/cmTC_e0efe.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -std=c11 -o CMakeFiles/cmTC_e0efe.dir/CheckIncludeFile.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e0efe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0efe.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e0efe.dir/CheckIncludeFile.c.o -o cmTC_e0efe 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -557,13 +557,13 @@ gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoc
 Determining size of off_t passed with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3f067/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3f067.dir/build.make CMakeFiles/cmTC_3f067.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_64cf9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_64cf9.dir/build.make CMakeFiles/cmTC_64cf9.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3f067.dir/SIZEOF_OFF_T.c.o
-/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -std=c11 -o CMakeFiles/cmTC_3f067.dir/SIZEOF_OFF_T.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CheckTypeSize/SIZEOF_OFF_T.c
-Linking C executable cmTC_3f067
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f067.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_3f067.dir/SIZEOF_OFF_T.c.o -o cmTC_3f067 
+Building C object CMakeFiles/cmTC_64cf9.dir/SIZEOF_OFF_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -std=c11 -o CMakeFiles/cmTC_64cf9.dir/SIZEOF_OFF_T.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CheckTypeSize/SIZEOF_OFF_T.c
+Linking C executable cmTC_64cf9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64cf9.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_64cf9.dir/SIZEOF_OFF_T.c.o -o cmTC_64cf9 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -571,13 +571,13 @@ gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoc
 Determining if the fseeko exist passed with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e578c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e578c.dir/build.make CMakeFiles/cmTC_e578c.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_046b9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_046b9.dir/build.make CMakeFiles/cmTC_046b9.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e578c.dir/CheckSymbolExists.c.o
-/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -std=c11 -o CMakeFiles/cmTC_e578c.dir/CheckSymbolExists.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_e578c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e578c.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_e578c.dir/CheckSymbolExists.c.o -o cmTC_e578c 
+Building C object CMakeFiles/cmTC_046b9.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -std=c11 -o CMakeFiles/cmTC_046b9.dir/CheckSymbolExists.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_046b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_046b9.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_046b9.dir/CheckSymbolExists.c.o -o cmTC_046b9 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -598,13 +598,13 @@ int main(int argc, char** argv)
 Determining if the ftello exist passed with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8e185/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8e185.dir/build.make CMakeFiles/cmTC_8e185.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c5dfe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c5dfe.dir/build.make CMakeFiles/cmTC_c5dfe.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8e185.dir/CheckSymbolExists.c.o
-/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -std=c11 -o CMakeFiles/cmTC_8e185.dir/CheckSymbolExists.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_8e185
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e185.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_8e185.dir/CheckSymbolExists.c.o -o cmTC_8e185 
+Building C object CMakeFiles/cmTC_c5dfe.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -std=c11 -o CMakeFiles/cmTC_c5dfe.dir/CheckSymbolExists.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c5dfe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5dfe.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c5dfe.dir/CheckSymbolExists.c.o -o cmTC_c5dfe 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -625,13 +625,13 @@ int main(int argc, char** argv)
 Determining if the PRIdMAX exist passed with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f65ca/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f65ca.dir/build.make CMakeFiles/cmTC_f65ca.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_46499/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_46499.dir/build.make CMakeFiles/cmTC_46499.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f65ca.dir/CheckSymbolExists.c.o
-/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -std=c11 -o CMakeFiles/cmTC_f65ca.dir/CheckSymbolExists.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_f65ca
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f65ca.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_f65ca.dir/CheckSymbolExists.c.o -o cmTC_f65ca 
+Building C object CMakeFiles/cmTC_46499.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -std=c11 -o CMakeFiles/cmTC_46499.dir/CheckSymbolExists.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_46499
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46499.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_46499.dir/CheckSymbolExists.c.o -o cmTC_46499 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -652,13 +652,13 @@ int main(int argc, char** argv)
 Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_VISIBILITY succeeded with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b2cee/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b2cee.dir/build.make CMakeFiles/cmTC_b2cee.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0fe45/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0fe45.dir/build.make CMakeFiles/cmTC_0fe45.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b2cee.dir/src.cxx.o
-/usr/bin/c++ -DCOMPILER_SUPPORTS_VISIBILITY  -fPIE   -fvisibility=hidden -std=c++17 -o CMakeFiles/cmTC_b2cee.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_b2cee
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2cee.dir/link.txt --verbose=1
-/usr/bin/c++ CMakeFiles/cmTC_b2cee.dir/src.cxx.o -o cmTC_b2cee 
+Building CXX object CMakeFiles/cmTC_0fe45.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_VISIBILITY  -fPIE   -fvisibility=hidden -std=c++17 -o CMakeFiles/cmTC_0fe45.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0fe45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fe45.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_0fe45.dir/src.cxx.o -o cmTC_0fe45 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -667,13 +667,13 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test ABSL_INTERNAL_AT_LEAST_CXX17 succeeded with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cc70f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cc70f.dir/build.make CMakeFiles/cmTC_cc70f.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c8be1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c8be1.dir/build.make CMakeFiles/cmTC_c8be1.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cc70f.dir/src.cxx.o
-/usr/bin/c++ -DABSL_INTERNAL_AT_LEAST_CXX17  -fPIE -std=c++17 -o CMakeFiles/cmTC_cc70f.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_cc70f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc70f.dir/link.txt --verbose=1
-/usr/bin/c++ CMakeFiles/cmTC_cc70f.dir/src.cxx.o -o cmTC_cc70f 
+Building CXX object CMakeFiles/cmTC_c8be1.dir/src.cxx.o
+/usr/bin/c++ -DABSL_INTERNAL_AT_LEAST_CXX17  -fPIE -std=c++17 -o CMakeFiles/cmTC_c8be1.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c8be1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8be1.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_c8be1.dir/src.cxx.o -o cmTC_c8be1 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -690,13 +690,13 @@ int main() { return 0; }
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0667e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0667e.dir/build.make CMakeFiles/cmTC_0667e.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_279e3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_279e3.dir/build.make CMakeFiles/cmTC_279e3.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0667e.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -fPIE -std=c11 -o CMakeFiles/cmTC_0667e.dir/CheckIncludeFile.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_0667e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0667e.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_0667e.dir/CheckIncludeFile.c.o -o cmTC_0667e 
+Building C object CMakeFiles/cmTC_279e3.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=c11 -o CMakeFiles/cmTC_279e3.dir/CheckIncludeFile.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_279e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_279e3.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_279e3.dir/CheckIncludeFile.c.o -o cmTC_279e3 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -704,13 +704,750 @@ gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoc
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4048b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4048b.dir/build.make CMakeFiles/cmTC_4048b.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_930bf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_930bf.dir/build.make CMakeFiles/cmTC_930bf.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4048b.dir/src.c.o
-/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -std=c11 -o CMakeFiles/cmTC_4048b.dir/src.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_4048b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4048b.dir/link.txt --verbose=1
-/usr/bin/cc CMakeFiles/cmTC_4048b.dir/src.c.o -o cmTC_4048b 
+Building C object CMakeFiles/cmTC_930bf.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -std=c11 -o CMakeFiles/cmTC_930bf.dir/src.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_930bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_930bf.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_930bf.dir/src.c.o -o cmTC_930bf 
+gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+The system is: Linux - 6.8.0-83-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aeca4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aeca4.dir/build.make CMakeFiles/cmTC_aeca4.dir/build
+gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aeca4.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_aeca4.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.2' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aeca4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_aeca4.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_aeca4.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccmfQ0Zc.s
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 4011c2103cba78949d7e02d0f0047a3d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aeca4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_aeca4.dir/'
+ as -v --64 -o CMakeFiles/cmTC_aeca4.dir/CMakeCCompilerABI.c.o /tmp/ccmfQ0Zc.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aeca4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_aeca4.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_aeca4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aeca4.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_aeca4.dir/CMakeCCompilerABI.c.o -o cmTC_aeca4 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.2' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aeca4' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_aeca4.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjQZLom.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_aeca4 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_aeca4.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aeca4' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_aeca4.'
+gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aeca4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aeca4.dir/build.make CMakeFiles/cmTC_aeca4.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_aeca4.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_aeca4.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.2' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aeca4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_aeca4.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_aeca4.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccmfQ0Zc.s]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 4011c2103cba78949d7e02d0f0047a3d]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aeca4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_aeca4.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_aeca4.dir/CMakeCCompilerABI.c.o /tmp/ccmfQ0Zc.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_aeca4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_aeca4.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_aeca4]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aeca4.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_aeca4.dir/CMakeCCompilerABI.c.o -o cmTC_aeca4 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.2' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aeca4' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_aeca4.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjQZLom.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_aeca4 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_aeca4.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccjQZLom.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_aeca4] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_aeca4.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1ad22/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1ad22.dir/build.make CMakeFiles/cmTC_1ad22.dir/build
+gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1ad22.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_1ad22.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.2' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1ad22.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1ad22.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_1ad22.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccDB1N0s.s
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/11
+ /usr/include/x86_64-linux-gnu/c++/11
+ /usr/include/c++/11/backward
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 6c87588fc345655b93b8c25f48f88886
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1ad22.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1ad22.dir/'
+ as -v --64 -o CMakeFiles/cmTC_1ad22.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccDB1N0s.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1ad22.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1ad22.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_1ad22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ad22.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_1ad22.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1ad22 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.2' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1ad22' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1ad22.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccG07oTl.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1ad22 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_1ad22.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1ad22' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1ad22.'
+gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/11]
+    add: [/usr/include/x86_64-linux-gnu/c++/11]
+    add: [/usr/include/c++/11/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+  collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1ad22/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1ad22.dir/build.make CMakeFiles/cmTC_1ad22.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_1ad22.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_1ad22.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.2' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1ad22.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1ad22.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_1ad22.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccDB1N0s.s]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/11]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+  ignore line: [ /usr/include/c++/11/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04.2) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 6c87588fc345655b93b8c25f48f88886]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1ad22.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1ad22.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_1ad22.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccDB1N0s.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1ad22.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_1ad22.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_1ad22]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ad22.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_1ad22.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1ad22 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04.2' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-2Y5pKs/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04.2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1ad22' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1ad22.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccG07oTl.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_1ad22 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_1ad22.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccG07oTl.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1ad22] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_1ad22.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test CAN_BUILD_AVX succeeded with the following output:
+Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f6292/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f6292.dir/build.make CMakeFiles/cmTC_f6292.dir/build
+gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6292.dir/src.c.o
+/usr/bin/cc -DCAN_BUILD_AVX  -mavx -fPIE -std=c11 -o CMakeFiles/cmTC_f6292.dir/src.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f6292
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6292.dir/link.txt --verbose=1
+/usr/bin/cc  -mavx CMakeFiles/cmTC_f6292.dir/src.c.o -o cmTC_f6292 
+gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+      #include <immintrin.h>
+      int main(int argc, char* argv[]) {
+        __m256d ymm;
+        return 0;
+      }
+    
+Performing C SOURCE FILE Test SUPPORTS_GOLD succeeded with the following output:
+Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8210b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8210b.dir/build.make CMakeFiles/cmTC_8210b.dir/build
+gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8210b.dir/src.c.o
+/usr/bin/cc -DSUPPORTS_GOLD  -fuse-ld=gold -fPIE -std=c11 -o CMakeFiles/cmTC_8210b.dir/src.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8210b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8210b.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold CMakeFiles/cmTC_8210b.dir/src.c.o -o cmTC_8210b 
+gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() {}
+Performing C SOURCE FILE Test SUPPORTS_GC_SECTIONS succeeded with the following output:
+Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f16cf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f16cf.dir/build.make CMakeFiles/cmTC_f16cf.dir/build
+gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f16cf.dir/src.c.o
+/usr/bin/cc -DSUPPORTS_GC_SECTIONS  -fuse-ld=gold -fPIE -std=c11 -o CMakeFiles/cmTC_f16cf.dir/src.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f16cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f16cf.dir/link.txt --verbose=1
+/usr/bin/cc  -fuse-ld=gold CMakeFiles/cmTC_f16cf.dir/src.c.o -o cmTC_f16cf 
+gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() {}
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9cb51/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9cb51.dir/build.make CMakeFiles/cmTC_9cb51.dir/build
+gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9cb51.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -std=c11 -o CMakeFiles/cmTC_9cb51.dir/CheckIncludeFile.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9cb51
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cb51.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_9cb51.dir/CheckIncludeFile.c.o -o cmTC_9cb51 
+gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6c07b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6c07b.dir/build.make CMakeFiles/cmTC_6c07b.dir/build
+gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c07b.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -std=c11 -o CMakeFiles/cmTC_6c07b.dir/CheckIncludeFile.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6c07b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c07b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_6c07b.dir/CheckIncludeFile.c.o -o cmTC_6c07b 
+gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_75ce5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_75ce5.dir/build.make CMakeFiles/cmTC_75ce5.dir/build
+gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75ce5.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -std=c11 -o CMakeFiles/cmTC_75ce5.dir/CheckIncludeFile.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_75ce5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75ce5.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_75ce5.dir/CheckIncludeFile.c.o -o cmTC_75ce5 
+gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c1f45/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c1f45.dir/build.make CMakeFiles/cmTC_c1f45.dir/build
+gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c1f45.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -std=c11 -o CMakeFiles/cmTC_c1f45.dir/CheckIncludeFile.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c1f45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1f45.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c1f45.dir/CheckIncludeFile.c.o -o cmTC_c1f45 
+gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_91036/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_91036.dir/build.make CMakeFiles/cmTC_91036.dir/build
+gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91036.dir/SIZEOF_OFF_T.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -std=c11 -o CMakeFiles/cmTC_91036.dir/SIZEOF_OFF_T.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CheckTypeSize/SIZEOF_OFF_T.c
+Linking C executable cmTC_91036
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91036.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_91036.dir/SIZEOF_OFF_T.c.o -o cmTC_91036 
+gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the fseeko exist passed with the following output:
+Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7ef33/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7ef33.dir/build.make CMakeFiles/cmTC_7ef33.dir/build
+gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ef33.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -std=c11 -o CMakeFiles/cmTC_7ef33.dir/CheckSymbolExists.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7ef33
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ef33.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_7ef33.dir/CheckSymbolExists.c.o -o cmTC_7ef33 
+gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+
+
+File /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fseeko
+  return ((int*)(&fseeko))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ftello exist passed with the following output:
+Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_383e7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_383e7.dir/build.make CMakeFiles/cmTC_383e7.dir/build
+gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_383e7.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -std=c11 -o CMakeFiles/cmTC_383e7.dir/CheckSymbolExists.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_383e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_383e7.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_383e7.dir/CheckSymbolExists.c.o -o cmTC_383e7 
+gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+
+
+File /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ftello
+  return ((int*)(&ftello))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the PRIdMAX exist passed with the following output:
+Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4d349/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4d349.dir/build.make CMakeFiles/cmTC_4d349.dir/build
+gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4d349.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIE -std=c11 -o CMakeFiles/cmTC_4d349.dir/CheckSymbolExists.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4d349
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d349.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_4d349.dir/CheckSymbolExists.c.o -o cmTC_4d349 
+gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+
+
+File /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <inttypes.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef PRIdMAX
+  return ((int*)(&PRIdMAX))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_VISIBILITY succeeded with the following output:
+Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_52281/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_52281.dir/build.make CMakeFiles/cmTC_52281.dir/build
+gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_52281.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_VISIBILITY  -fPIE   -fvisibility=hidden -std=c++17 -o CMakeFiles/cmTC_52281.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_52281
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52281.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_52281.dir/src.cxx.o -o cmTC_52281 
+gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test ABSL_INTERNAL_AT_LEAST_CXX17 succeeded with the following output:
+Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cb6ec/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cb6ec.dir/build.make CMakeFiles/cmTC_cb6ec.dir/build
+gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cb6ec.dir/src.cxx.o
+/usr/bin/c++ -DABSL_INTERNAL_AT_LEAST_CXX17  -fPIE -std=c++17 -o CMakeFiles/cmTC_cb6ec.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cb6ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb6ec.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_cb6ec.dir/src.cxx.o -o cmTC_cb6ec 
+gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#ifdef _MSC_VER
+#  if _MSVC_LANG < 201703L
+#    error "The compiler defaults or is configured for C++ < 17"
+#  endif
+#elif __cplusplus < 201703L
+#  error "The compiler defaults or is configured for C++ < 17"
+#endif
+int main() { return 0; }
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5142d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5142d.dir/build.make CMakeFiles/cmTC_5142d.dir/build
+gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5142d.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -std=c11 -o CMakeFiles/cmTC_5142d.dir/CheckIncludeFile.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5142d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5142d.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_5142d.dir/CheckIncludeFile.c.o -o cmTC_5142d 
+gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8f0fd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8f0fd.dir/build.make CMakeFiles/cmTC_8f0fd.dir/build
+gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f0fd.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -std=c11 -o CMakeFiles/cmTC_8f0fd.dir/src.c.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8f0fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f0fd.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8f0fd.dir/src.c.o -o cmTC_8f0fd 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -738,13 +1475,13 @@ int main(void)
 Determining if the function shm_open exists in the rt passed with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5b01c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5b01c.dir/build.make CMakeFiles/cmTC_5b01c.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4594d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4594d.dir/build.make CMakeFiles/cmTC_4594d.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5b01c.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shm_open -fPIE -std=c11 -o CMakeFiles/cmTC_5b01c.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_5b01c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b01c.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shm_open CMakeFiles/cmTC_5b01c.dir/CheckFunctionExists.c.o -o cmTC_5b01c  -lrt 
+Building C object CMakeFiles/cmTC_4594d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shm_open -fPIE -std=c11 -o CMakeFiles/cmTC_4594d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4594d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4594d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shm_open CMakeFiles/cmTC_4594d.dir/CheckFunctionExists.c.o -o cmTC_4594d  -lrt 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -752,13 +1489,13 @@ gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoc
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5b96c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5b96c.dir/build.make CMakeFiles/cmTC_5b96c.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_29dd6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_29dd6.dir/build.make CMakeFiles/cmTC_29dd6.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5b96c.dir/src.cxx.o
-/usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -Wall -fPIE   -Wall -std=c++17 -o CMakeFiles/cmTC_5b96c.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_5b96c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b96c.dir/link.txt --verbose=1
-/usr/bin/c++   -Wall CMakeFiles/cmTC_5b96c.dir/src.cxx.o -o cmTC_5b96c 
+Building CXX object CMakeFiles/cmTC_29dd6.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -Wall -fPIE   -Wall -std=c++17 -o CMakeFiles/cmTC_29dd6.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_29dd6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29dd6.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall CMakeFiles/cmTC_29dd6.dir/src.cxx.o -o cmTC_29dd6 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -767,13 +1504,13 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_67237/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_67237.dir/build.make CMakeFiles/cmTC_67237.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e26df/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e26df.dir/build.make CMakeFiles/cmTC_e26df.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_67237.dir/src.cxx.o
-/usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -Wall  -Wextra -fPIE   -Wextra -std=c++17 -o CMakeFiles/cmTC_67237.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_67237
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67237.dir/link.txt --verbose=1
-/usr/bin/c++   -Wall  -Wextra CMakeFiles/cmTC_67237.dir/src.cxx.o -o cmTC_67237 
+Building CXX object CMakeFiles/cmTC_e26df.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -Wall  -Wextra -fPIE   -Wextra -std=c++17 -o CMakeFiles/cmTC_e26df.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e26df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e26df.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra CMakeFiles/cmTC_e26df.dir/src.cxx.o -o cmTC_e26df 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -782,13 +1519,13 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f1567/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f1567.dir/build.make CMakeFiles/cmTC_f1567.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a6baa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a6baa.dir/build.make CMakeFiles/cmTC_a6baa.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f1567.dir/src.cxx.o
-/usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -Wall  -Wextra  -Wshadow -fPIE   -Wshadow -std=c++17 -o CMakeFiles/cmTC_f1567.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_f1567
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1567.dir/link.txt --verbose=1
-/usr/bin/c++   -Wall  -Wextra  -Wshadow CMakeFiles/cmTC_f1567.dir/src.cxx.o -o cmTC_f1567 
+Building CXX object CMakeFiles/cmTC_a6baa.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -Wall  -Wextra  -Wshadow -fPIE   -Wshadow -std=c++17 -o CMakeFiles/cmTC_a6baa.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a6baa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6baa.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow CMakeFiles/cmTC_a6baa.dir/src.cxx.o -o cmTC_a6baa 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -797,13 +1534,13 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WFLOAT_EQUAL succeeded with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b98de/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b98de.dir/build.make CMakeFiles/cmTC_b98de.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aee84/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aee84.dir/build.make CMakeFiles/cmTC_aee84.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b98de.dir/src.cxx.o
-/usr/bin/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wall  -Wextra  -Wshadow  -Wfloat-equal -fPIE   -Wfloat-equal -std=c++17 -o CMakeFiles/cmTC_b98de.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_b98de
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b98de.dir/link.txt --verbose=1
-/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal CMakeFiles/cmTC_b98de.dir/src.cxx.o -o cmTC_b98de 
+Building CXX object CMakeFiles/cmTC_aee84.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -Wall  -Wextra  -Wshadow  -Wfloat-equal -fPIE   -Wfloat-equal -std=c++17 -o CMakeFiles/cmTC_aee84.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_aee84
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aee84.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal CMakeFiles/cmTC_aee84.dir/src.cxx.o -o cmTC_aee84 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -812,13 +1549,13 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WOLD_STYLE_CAST succeeded with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_80622/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_80622.dir/build.make CMakeFiles/cmTC_80622.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c7d41/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c7d41.dir/build.make CMakeFiles/cmTC_c7d41.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_80622.dir/src.cxx.o
-/usr/bin/c++ -DHAVE_CXX_FLAG_WOLD_STYLE_CAST  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast -fPIE   -Wold-style-cast -std=c++17 -o CMakeFiles/cmTC_80622.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_80622
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80622.dir/link.txt --verbose=1
-/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast CMakeFiles/cmTC_80622.dir/src.cxx.o -o cmTC_80622 
+Building CXX object CMakeFiles/cmTC_c7d41.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WOLD_STYLE_CAST  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast -fPIE   -Wold-style-cast -std=c++17 -o CMakeFiles/cmTC_c7d41.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c7d41
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7d41.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast CMakeFiles/cmTC_c7d41.dir/src.cxx.o -o cmTC_c7d41 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -827,13 +1564,13 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WCONVERSION succeeded with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_59dd8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_59dd8.dir/build.make CMakeFiles/cmTC_59dd8.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_303a9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_303a9.dir/build.make CMakeFiles/cmTC_303a9.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_59dd8.dir/src.cxx.o
-/usr/bin/c++ -DHAVE_CXX_FLAG_WCONVERSION  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion -fPIE   -Wconversion -std=c++17 -o CMakeFiles/cmTC_59dd8.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_59dd8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59dd8.dir/link.txt --verbose=1
-/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion CMakeFiles/cmTC_59dd8.dir/src.cxx.o -o cmTC_59dd8 
+Building CXX object CMakeFiles/cmTC_303a9.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WCONVERSION  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion -fPIE   -Wconversion -std=c++17 -o CMakeFiles/cmTC_303a9.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_303a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_303a9.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion CMakeFiles/cmTC_303a9.dir/src.cxx.o -o cmTC_303a9 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -842,13 +1579,13 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WERROR succeeded with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_86319/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_86319.dir/build.make CMakeFiles/cmTC_86319.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a1617/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a1617.dir/build.make CMakeFiles/cmTC_a1617.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_86319.dir/src.cxx.o
-/usr/bin/c++ -DHAVE_CXX_FLAG_WERROR  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror -fPIE   -Werror -std=c++17 -o CMakeFiles/cmTC_86319.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_86319
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86319.dir/link.txt --verbose=1
-/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror CMakeFiles/cmTC_86319.dir/src.cxx.o -o cmTC_86319 
+Building CXX object CMakeFiles/cmTC_a1617.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WERROR  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror -fPIE   -Werror -std=c++17 -o CMakeFiles/cmTC_a1617.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a1617
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1617.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror CMakeFiles/cmTC_a1617.dir/src.cxx.o -o cmTC_a1617 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -857,13 +1594,13 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE succeeded with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ae845/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ae845.dir/build.make CMakeFiles/cmTC_ae845.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_967ef/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_967ef.dir/build.make CMakeFiles/cmTC_967ef.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ae845.dir/src.cxx.o
-/usr/bin/c++ -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override -fPIE   -Wsuggest-override -std=c++17 -o CMakeFiles/cmTC_ae845.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_ae845
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae845.dir/link.txt --verbose=1
-/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override CMakeFiles/cmTC_ae845.dir/src.cxx.o -o cmTC_ae845 
+Building CXX object CMakeFiles/cmTC_967ef.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override -fPIE   -Wsuggest-override -std=c++17 -o CMakeFiles/cmTC_967ef.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_967ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_967ef.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override CMakeFiles/cmTC_967ef.dir/src.cxx.o -o cmTC_967ef 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -872,13 +1609,13 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC succeeded with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bba61/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bba61.dir/build.make CMakeFiles/cmTC_bba61.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_633ba/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_633ba.dir/build.make CMakeFiles/cmTC_633ba.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_bba61.dir/src.cxx.o
-/usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic -fPIE   -pedantic -std=c++17 -o CMakeFiles/cmTC_bba61.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_bba61
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bba61.dir/link.txt --verbose=1
-/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic CMakeFiles/cmTC_bba61.dir/src.cxx.o -o cmTC_bba61 
+Building CXX object CMakeFiles/cmTC_633ba.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic -fPIE   -pedantic -std=c++17 -o CMakeFiles/cmTC_633ba.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_633ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_633ba.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic CMakeFiles/cmTC_633ba.dir/src.cxx.o -o cmTC_633ba 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -887,13 +1624,13 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC_ERRORS succeeded with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cd81a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cd81a.dir/build.make CMakeFiles/cmTC_cd81a.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_000b8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_000b8.dir/build.make CMakeFiles/cmTC_000b8.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cd81a.dir/src.cxx.o
-/usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors -fPIE   -pedantic-errors -std=c++17 -o CMakeFiles/cmTC_cd81a.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_cd81a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd81a.dir/link.txt --verbose=1
-/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors CMakeFiles/cmTC_cd81a.dir/src.cxx.o -o cmTC_cd81a 
+Building CXX object CMakeFiles/cmTC_000b8.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors -fPIE   -pedantic-errors -std=c++17 -o CMakeFiles/cmTC_000b8.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_000b8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_000b8.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors CMakeFiles/cmTC_000b8.dir/src.cxx.o -o cmTC_000b8 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -902,13 +1639,13 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8ad2c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8ad2c.dir/build.make CMakeFiles/cmTC_8ad2c.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1b6b4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1b6b4.dir/build.make CMakeFiles/cmTC_1b6b4.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8ad2c.dir/src.cxx.o
-/usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing -fPIE   -fstrict-aliasing -std=c++17 -o CMakeFiles/cmTC_8ad2c.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_8ad2c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ad2c.dir/link.txt --verbose=1
-/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing CMakeFiles/cmTC_8ad2c.dir/src.cxx.o -o cmTC_8ad2c 
+Building CXX object CMakeFiles/cmTC_1b6b4.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing -fPIE   -fstrict-aliasing -std=c++17 -o CMakeFiles/cmTC_1b6b4.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1b6b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b6b4.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing CMakeFiles/cmTC_1b6b4.dir/src.cxx.o -o cmTC_1b6b4 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -917,13 +1654,13 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS succeeded with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fa974/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fa974.dir/build.make CMakeFiles/cmTC_fa974.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c96e8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c96e8.dir/build.make CMakeFiles/cmTC_c96e8.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_fa974.dir/src.cxx.o
-/usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -fPIE   -Wno-deprecated-declarations -std=c++17 -o CMakeFiles/cmTC_fa974.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_fa974
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa974.dir/link.txt --verbose=1
-/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations CMakeFiles/cmTC_fa974.dir/src.cxx.o -o cmTC_fa974 
+Building CXX object CMakeFiles/cmTC_c96e8.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -fPIE   -Wno-deprecated-declarations -std=c++17 -o CMakeFiles/cmTC_c96e8.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c96e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c96e8.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations CMakeFiles/cmTC_c96e8.dir/src.cxx.o -o cmTC_c96e8 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -932,13 +1669,13 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED succeeded with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ff719/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ff719.dir/build.make CMakeFiles/cmTC_ff719.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_32299/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_32299.dir/build.make CMakeFiles/cmTC_32299.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ff719.dir/src.cxx.o
-/usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -fPIE   -Wno-deprecated -std=c++17 -o CMakeFiles/cmTC_ff719.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_ff719
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff719.dir/link.txt --verbose=1
-/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated CMakeFiles/cmTC_ff719.dir/src.cxx.o -o cmTC_ff719 
+Building CXX object CMakeFiles/cmTC_32299.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated -fPIE   -Wno-deprecated -std=c++17 -o CMakeFiles/cmTC_32299.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_32299
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32299.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated CMakeFiles/cmTC_32299.dir/src.cxx.o -o cmTC_32299 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -947,13 +1684,13 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3bd5e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3bd5e.dir/build.make CMakeFiles/cmTC_3bd5e.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ac63e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ac63e.dir/build.make CMakeFiles/cmTC_ac63e.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3bd5e.dir/src.cxx.o
-/usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -fPIE   -Wstrict-aliasing -std=c++17 -o CMakeFiles/cmTC_3bd5e.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_3bd5e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bd5e.dir/link.txt --verbose=1
-/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing CMakeFiles/cmTC_3bd5e.dir/src.cxx.o -o cmTC_3bd5e 
+Building CXX object CMakeFiles/cmTC_ac63e.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing -fPIE   -Wstrict-aliasing -std=c++17 -o CMakeFiles/cmTC_ac63e.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ac63e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac63e.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing CMakeFiles/cmTC_ac63e.dir/src.cxx.o -o cmTC_ac63e 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
@@ -962,113 +1699,15 @@ int main() { return 0; }
 Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
 Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ec71e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ec71e.dir/build.make CMakeFiles/cmTC_ec71e.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_33918/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_33918.dir/build.make CMakeFiles/cmTC_33918.dir/build
 gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ec71e.dir/src.cxx.o
-/usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage -fPIE   --coverage -std=c++17 -o CMakeFiles/cmTC_ec71e.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_ec71e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec71e.dir/link.txt --verbose=1
-/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage CMakeFiles/cmTC_ec71e.dir/src.cxx.o -o cmTC_ec71e 
+Building CXX object CMakeFiles/cmTC_33918.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage -fPIE   --coverage -std=c++17 -o CMakeFiles/cmTC_33918.dir/src.cxx.o -c /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_33918
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33918.dir/link.txt --verbose=1
+/usr/bin/c++   -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  --coverage CMakeFiles/cmTC_33918.dir/src.cxx.o -o cmTC_33918 
 gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
 
 
 Source file was:
 int main() { return 0; }
-Determining if the function memfd_create exists passed with the following output:
-Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2542b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2542b.dir/build.make CMakeFiles/cmTC_2542b.dir/build
-gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2542b.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memfd_create -fPIE -std=c11 -o CMakeFiles/cmTC_2542b.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_2542b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2542b.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=memfd_create CMakeFiles/cmTC_2542b.dir/CheckFunctionExists.c.o -o cmTC_2542b 
-gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-
-
-
-Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
-Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_72a89/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_72a89.dir/build.make CMakeFiles/cmTC_72a89.dir/build
-gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_72a89.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -fPIE -std=c11 -o CMakeFiles/cmTC_72a89.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_72a89
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72a89.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_72a89.dir/CheckFunctionExists.c.o -o cmTC_72a89  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
-gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-
-
-
-Determining if the function gethostbyname exists passed with the following output:
-Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_94a72/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_94a72.dir/build.make CMakeFiles/cmTC_94a72.dir/build
-gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_94a72.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -fPIE -std=c11 -o CMakeFiles/cmTC_94a72.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_94a72
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94a72.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_94a72.dir/CheckFunctionExists.c.o -o cmTC_94a72 
-gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-
-
-
-Determining if the function connect exists passed with the following output:
-Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_04de2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_04de2.dir/build.make CMakeFiles/cmTC_04de2.dir/build
-gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_04de2.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -fPIE -std=c11 -o CMakeFiles/cmTC_04de2.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_04de2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04de2.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_04de2.dir/CheckFunctionExists.c.o -o cmTC_04de2 
-gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-
-
-
-Determining if the function remove exists passed with the following output:
-Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c72cf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c72cf.dir/build.make CMakeFiles/cmTC_c72cf.dir/build
-gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c72cf.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -fPIE -std=c11 -o CMakeFiles/cmTC_c72cf.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c72cf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c72cf.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_c72cf.dir/CheckFunctionExists.c.o -o cmTC_c72cf 
-gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-
-
-
-Determining if the function shmat exists passed with the following output:
-Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_12149/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_12149.dir/build.make CMakeFiles/cmTC_12149.dir/build
-gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_12149.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -fPIE -std=c11 -o CMakeFiles/cmTC_12149.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_12149
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12149.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_12149.dir/CheckFunctionExists.c.o -o cmTC_12149 
-gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-
-
-
-Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
-Change Dir: /home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8ecad/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8ecad.dir/build.make CMakeFiles/cmTC_8ecad.dir/build
-gmake[1]: Entering directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8ecad.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -fPIE -std=c11 -o CMakeFiles/cmTC_8ecad.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
-Linking C executable cmTC_8ecad
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ecad.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_8ecad.dir/CheckFunctionExists.c.o -o cmTC_8ecad  -lICE 
-gmake[1]: Leaving directory '/home/jason/projects/motion_control_go2/build/mujoco/CMakeFiles/CMakeTmp'
-
-
-

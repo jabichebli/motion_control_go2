@@ -310,6 +310,9 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
+# install("TARGETS" "go2_explorer" "DESTINATION" "lib/robot_viz_cpp")
+include("/home/jason/projects/motion_control_go2/build/robot_viz_cpp/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
 # install(FILES "/home/jason/projects/motion_control_go2/build/robot_viz_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_viz_cpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/jason/projects/motion_control_go2/src/robot_viz_cpp" FILES "/home/jason/projects/motion_control_go2/build/robot_viz_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_viz_cpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 

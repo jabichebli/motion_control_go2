@@ -1,2 +1,0 @@
-"/usr/bin/gcc-ar-11" cr ../../../lib/libbenchmark_main.a CMakeFiles/benchmark_main.dir/benchmark_main.cc.o
-"/usr/bin/gcc-ranlib-11" ../../../lib/libbenchmark_main.a

@@ -1,0 +1,76 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found osgDB: /usr/lib/x86_64-linux-gnu/libosgDB.so  
+-- Found osgGA: /usr/lib/x86_64-linux-gnu/libosgGA.so  
+-- Found osgUtil: /usr/lib/x86_64-linux-gnu/libosgUtil.so  
+-- Found osgText: /usr/lib/x86_64-linux-gnu/libosgText.so  
+-- Found osgViewer: /usr/lib/x86_64-linux-gnu/libosgViewer.so  
+-- Found osgWidget: /usr/lib/x86_64-linux-gnu/libosgWidget.so  
+-- Found osg: /usr/lib/x86_64-linux-gnu/libosg.so  
+-- Found OpenThreads: /usr/lib/x86_64-linux-gnu/libOpenThreads.so  
+-- Found OpenSceneGraph: /usr/lib/x86_64-linux-gnu/libosgDB.so;/usr/lib/x86_64-linux-gnu/libosgGA.so;/usr/lib/x86_64-linux-gnu/libosgUtil.so;/usr/lib/x86_64-linux-gnu/libosgText.so;/usr/lib/x86_64-linux-gnu/libosgViewer.so;/usr/lib/x86_64-linux-gnu/libosgWidget.so;/usr/lib/x86_64-linux-gnu/libosg.so;/usr/lib/x86_64-linux-gnu/libOpenThreads.so (found suitable version "3.6.5", minimum required is "3.6.0") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindOpenGL.cmake:315 (message):
+  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  FindOpenGL found both a legacy GL library:
+
+    OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+
+  and GLVND libraries for OpenGL and GLX:
+
+    OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+    OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+
+  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+  compatibility with CMake 3.10 and below the legacy GL library will be used.
+Call Stack (most recent call first):
+  CMakeLists.txt:267 (FIND_PACKAGE)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_use_modules is not part of the official API, and might be removed in Qt
+  6.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)
+  examples/osgviewerQt/CMakeLists.txt:23 (qt5_use_modules)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/Documentation.cmake:30 (message):
+  Policy CMP0106 is not set: The Documentation module is removed.  Run "cmake
+  --help-policy CMP0106" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  Documentation.cmake is VTK-specific code and should not be used in non-VTK
+  projects.  This logic in this module is best shipped with the project using
+  it rather than with CMake.
+Call Stack (most recent call first):
+  CMakeLists.txt:753 (INCLUDE)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jason/projects/motion_control_go2/build/osgQt

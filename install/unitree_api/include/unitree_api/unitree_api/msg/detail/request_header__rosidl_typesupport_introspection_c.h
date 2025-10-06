@@ -1,1 +1,0 @@
-/home/jason/projects/motion_control_go2/build/unitree_api/rosidl_typesupport_introspection_c/unitree_api/msg/detail/request_header__rosidl_typesupport_introspection_c.h

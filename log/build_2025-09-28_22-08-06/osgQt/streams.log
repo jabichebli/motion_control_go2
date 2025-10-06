@@ -1,0 +1,77 @@
+[0.024s] Invoking command in '/home/jason/projects/motion_control_go2/build/osgQt': /usr/bin/cmake /home/jason/projects/motion_control_go2/src/osgQt -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/osgQt
+[0.072s] -- The C compiler identification is GNU 11.4.0
+[0.113s] -- The CXX compiler identification is GNU 11.4.0
+[0.120s] -- Detecting C compiler ABI info
+[0.171s] -- Detecting C compiler ABI info - done
+[0.172s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.172s] -- Detecting C compile features
+[0.173s] -- Detecting C compile features - done
+[0.174s] -- Detecting CXX compiler ABI info
+[0.230s] -- Detecting CXX compiler ABI info - done
+[0.231s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.232s] -- Detecting CXX compile features
+[0.232s] -- Detecting CXX compile features - done
+[0.242s] -- Found osgDB: /usr/lib/x86_64-linux-gnu/libosgDB.so  
+[0.243s] -- Found osgGA: /usr/lib/x86_64-linux-gnu/libosgGA.so  
+[0.245s] -- Found osgUtil: /usr/lib/x86_64-linux-gnu/libosgUtil.so  
+[0.246s] -- Found osgText: /usr/lib/x86_64-linux-gnu/libosgText.so  
+[0.247s] -- Found osgViewer: /usr/lib/x86_64-linux-gnu/libosgViewer.so  
+[0.252s] -- Found osgWidget: /usr/lib/x86_64-linux-gnu/libosgWidget.so  
+[0.252s] -- Found osg: /usr/lib/x86_64-linux-gnu/libosg.so  
+[0.253s] -- Found OpenThreads: /usr/lib/x86_64-linux-gnu/libOpenThreads.so  
+[0.253s] -- Found OpenSceneGraph: /usr/lib/x86_64-linux-gnu/libosgDB.so;/usr/lib/x86_64-linux-gnu/libosgGA.so;/usr/lib/x86_64-linux-gnu/libosgUtil.so;/usr/lib/x86_64-linux-gnu/libosgText.so;/usr/lib/x86_64-linux-gnu/libosgViewer.so;/usr/lib/x86_64-linux-gnu/libosgWidget.so;/usr/lib/x86_64-linux-gnu/libosg.so;/usr/lib/x86_64-linux-gnu/libOpenThreads.so (found suitable version "3.6.5", minimum required is "3.6.0") 
+[0.253s] -- Looking for pthread.h
+[0.382s] -- Looking for pthread.h - found
+[0.382s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.500s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.502s] -- Found Threads: TRUE  
+[0.507s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindOpenGL.cmake:315 (message):
+[0.507s]   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+[0.507s]   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+[0.507s]   cmake_policy command to set the policy and suppress this warning.
+[0.507s] 
+[0.507s]   FindOpenGL found both a legacy GL library:
+[0.507s] 
+[0.507s]     OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+[0.507s] 
+[0.507s]   and GLVND libraries for OpenGL and GLX:
+[0.507s] 
+[0.507s]     OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+[0.507s]     OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+[0.507s] 
+[0.507s]   OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+[0.507s]   compatibility with CMake 3.10 and below the legacy GL library will be used.
+[0.507s] Call Stack (most recent call first):
+[0.507s]   CMakeLists.txt:267 (FIND_PACKAGE)
+[0.507s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.507s] [0m
+[0.508s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[0.519s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[0.560s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[0.560s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[0.615s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[0.615s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[0.681s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[0.682s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+[0.683s]   qt5_use_modules is not part of the official API, and might be removed in Qt
+[0.683s]   6.
+[0.683s] Call Stack (most recent call first):
+[0.683s]   /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)
+[0.683s]   examples/osgviewerQt/CMakeLists.txt:23 (qt5_use_modules)
+[0.683s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.683s] [0m
+[0.683s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/Documentation.cmake:30 (message):
+[0.683s]   Policy CMP0106 is not set: The Documentation module is removed.  Run "cmake
+[0.683s]   --help-policy CMP0106" for policy details.  Use the cmake_policy command to
+[0.683s]   set the policy and suppress this warning.
+[0.683s] 
+[0.683s]   Documentation.cmake is VTK-specific code and should not be used in non-VTK
+[0.683s]   projects.  This logic in this module is best shipped with the project using
+[0.683s]   it rather than with CMake.
+[0.683s] Call Stack (most recent call first):
+[0.683s]   CMakeLists.txt:753 (INCLUDE)
+[0.683s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.683s] [0m
+[0.683s] -- Configuring done
+[0.688s] -- Generating done
+[0.689s] -- Build files have been written to: /home/jason/projects/motion_control_go2/build/osgQt

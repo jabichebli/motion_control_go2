@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jason/projects/motion_control_go2/src/build/go2_pinocchio_demo/fk_ik_id_example" "TARGETS" "fk_ik_id_example" "DESTINATION" "lib/go2_pinocchio_demo")

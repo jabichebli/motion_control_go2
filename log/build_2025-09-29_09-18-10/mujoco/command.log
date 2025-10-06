@@ -1,0 +1,1 @@
+Invoking command in '/home/jason/projects/motion_control_go2/build/mujoco': /usr/bin/cmake /home/jason/projects/motion_control_go2/src/mujoco -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/mujoco

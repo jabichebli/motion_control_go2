@@ -1,1 +1,0 @@
-/home/jason/projects/motion_control_go2/build/unitree_hg/rosidl_generator_c/unitree_hg/msg/main_board_state.h

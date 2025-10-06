@@ -1,0 +1,930 @@
+[0.000000] (-) TimerEvent: {}
+[0.000720] (go2_control_cpp) JobQueued: {'identifier': 'go2_control_cpp', 'dependencies': OrderedDict()}
+[0.000749] (go2_description) JobQueued: {'identifier': 'go2_description', 'dependencies': OrderedDict()}
+[0.000759] (mujoco) JobQueued: {'identifier': 'mujoco', 'dependencies': OrderedDict()}
+[0.000766] (osgQt) JobQueued: {'identifier': 'osgQt', 'dependencies': OrderedDict()}
+[0.000772] (robot_viz_cpp) JobQueued: {'identifier': 'robot_viz_cpp', 'dependencies': OrderedDict()}
+[0.000778] (stand_go2) JobQueued: {'identifier': 'stand_go2', 'dependencies': OrderedDict()}
+[0.000784] (unitree_controller) JobQueued: {'identifier': 'unitree_controller', 'dependencies': OrderedDict()}
+[0.000789] (unitree_gazebo) JobQueued: {'identifier': 'unitree_gazebo', 'dependencies': OrderedDict()}
+[0.000794] (unitree_legged_control) JobQueued: {'identifier': 'unitree_legged_control', 'dependencies': OrderedDict()}
+[0.000799] (z1_description) JobQueued: {'identifier': 'z1_description', 'dependencies': OrderedDict()}
+[0.000804] (unitree_mujoco) JobQueued: {'identifier': 'unitree_mujoco', 'dependencies': OrderedDict([('mujoco', '/home/jason/projects/motion_control_go2/install/mujoco')])}
+[0.002175] (mujoco) JobStarted: {'identifier': 'mujoco'}
+[0.003859] (go2_control_cpp) JobStarted: {'identifier': 'go2_control_cpp'}
+[0.005437] (go2_description) JobStarted: {'identifier': 'go2_description'}
+[0.007288] (osgQt) JobStarted: {'identifier': 'osgQt'}
+[0.009097] (robot_viz_cpp) JobStarted: {'identifier': 'robot_viz_cpp'}
+[0.013920] (stand_go2) JobStarted: {'identifier': 'stand_go2'}
+[0.014034] (unitree_controller) JobStarted: {'identifier': 'unitree_controller'}
+[0.014227] (unitree_gazebo) JobStarted: {'identifier': 'unitree_gazebo'}
+[0.015345] (unitree_legged_control) JobStarted: {'identifier': 'unitree_legged_control'}
+[0.017541] (z1_description) JobStarted: {'identifier': 'z1_description'}
+[0.023445] (mujoco) JobProgress: {'identifier': 'mujoco', 'progress': 'cmake'}
+[0.024006] (mujoco) Command: {'cmd': ['/usr/bin/cmake', '/home/jason/projects/motion_control_go2/src/mujoco', '-DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/mujoco'], 'cwd': '/home/jason/projects/motion_control_go2/build/mujoco', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jason/projects/motion_control_go2/install/unitree_hg/lib:/home/jason/projects/motion_control_go2/install/unitree_go/lib:/home/jason/projects/motion_control_go2/install/unitree_api/lib:/home/jason/projects/motion_control_go2/install/osgQt/lib64:/home/jason/projects/motion_control_go2/install/mujoco/lib:/usr/local/lib:/usr/local/lib:/opt/unitree_robotics/lib:/home/jason/.mujoco/mujoco-3.2.7/bin:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason/projects/motion_control_go2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/jason/.mujoco/mujoco-3.2.7'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jason/projects/motion_control_go2/install/mujoco/bin:/home/jason/.mujoco/mujoco-3.2.7/bin:/home/jason/.local/bin:/opt/ros/humble/bin:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jasonabichebli:@/tmp/.ICE-unix/1822,unix/jasonabichebli:/tmp/.ICE-unix/1822'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1a7f7d58_f8e4_4a69_9d3a_994447bcac35'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W1EAD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install/unitree_ros2_example:/home/jason/projects/motion_control_go2/install/unitree_hg:/home/jason/projects/motion_control_go2/install/stand_go2:/home/jason/projects/motion_control_go2/install/unitree_go:/home/jason/projects/motion_control_go2/install/unitree_api:/home/jason/projects/motion_control_go2/install/robot_viz_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/projects/motion_control_go2/build/mujoco'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jason/projects/motion_control_go2/install/unitree_hg/local/lib/python3.10/dist-packages:/home/jason/projects/motion_control_go2/install/unitree_go/local/lib/python3.10/dist-packages:/home/jason/projects/motion_control_go2/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install/unitree_ros2_example:/home/jason/projects/motion_control_go2/install/unitree_hg:/home/jason/projects/motion_control_go2/install/unitree_go:/home/jason/projects/motion_control_go2/install/unitree_api:/home/jason/projects/motion_control_go2/install/mujoco:/usr/local:/usr/local:/usr/local:')]), 'shell': False}
+[0.026227] (go2_control_cpp) JobProgress: {'identifier': 'go2_control_cpp', 'progress': 'cmake'}
+[0.026711] (go2_control_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/jason/projects/motion_control_go2/src/go2_control_cpp', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/go2_control_cpp'], 'cwd': '/home/jason/projects/motion_control_go2/build/go2_control_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jason/projects/motion_control_go2/install/unitree_hg/lib:/home/jason/projects/motion_control_go2/install/unitree_go/lib:/home/jason/projects/motion_control_go2/install/unitree_api/lib:/home/jason/projects/motion_control_go2/install/osgQt/lib64:/home/jason/projects/motion_control_go2/install/mujoco/lib:/usr/local/lib:/usr/local/lib:/opt/unitree_robotics/lib:/home/jason/.mujoco/mujoco-3.2.7/bin:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason/projects/motion_control_go2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/jason/.mujoco/mujoco-3.2.7'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jason/projects/motion_control_go2/install/mujoco/bin:/home/jason/.mujoco/mujoco-3.2.7/bin:/home/jason/.local/bin:/opt/ros/humble/bin:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jasonabichebli:@/tmp/.ICE-unix/1822,unix/jasonabichebli:/tmp/.ICE-unix/1822'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1a7f7d58_f8e4_4a69_9d3a_994447bcac35'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W1EAD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install/unitree_ros2_example:/home/jason/projects/motion_control_go2/install/unitree_hg:/home/jason/projects/motion_control_go2/install/stand_go2:/home/jason/projects/motion_control_go2/install/unitree_go:/home/jason/projects/motion_control_go2/install/unitree_api:/home/jason/projects/motion_control_go2/install/robot_viz_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/projects/motion_control_go2/build/go2_control_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jason/projects/motion_control_go2/install/unitree_hg/local/lib/python3.10/dist-packages:/home/jason/projects/motion_control_go2/install/unitree_go/local/lib/python3.10/dist-packages:/home/jason/projects/motion_control_go2/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install/unitree_ros2_example:/home/jason/projects/motion_control_go2/install/unitree_hg:/home/jason/projects/motion_control_go2/install/unitree_go:/home/jason/projects/motion_control_go2/install/unitree_api:/home/jason/projects/motion_control_go2/install/mujoco:/usr/local:/usr/local:/usr/local::/home/jason/projects/motion_control_go2/install/stand_go2:/home/jason/projects/motion_control_go2/install/robot_viz_cpp:/opt/ros/humble')]), 'shell': False}
+[0.028197] (go2_description) JobProgress: {'identifier': 'go2_description', 'progress': 'cmake'}
+[0.028426] (go2_description) Command: {'cmd': ['/usr/bin/cmake', '/home/jason/projects/motion_control_go2/src/unitree_ros/robots/go2_description', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/go2_description'], 'cwd': '/home/jason/projects/motion_control_go2/build/go2_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jason/projects/motion_control_go2/install/unitree_hg/lib:/home/jason/projects/motion_control_go2/install/unitree_go/lib:/home/jason/projects/motion_control_go2/install/unitree_api/lib:/home/jason/projects/motion_control_go2/install/osgQt/lib64:/home/jason/projects/motion_control_go2/install/mujoco/lib:/usr/local/lib:/usr/local/lib:/opt/unitree_robotics/lib:/home/jason/.mujoco/mujoco-3.2.7/bin:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason/projects/motion_control_go2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/jason/.mujoco/mujoco-3.2.7'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jason/projects/motion_control_go2/install/mujoco/bin:/home/jason/.mujoco/mujoco-3.2.7/bin:/home/jason/.local/bin:/opt/ros/humble/bin:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jasonabichebli:@/tmp/.ICE-unix/1822,unix/jasonabichebli:/tmp/.ICE-unix/1822'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1a7f7d58_f8e4_4a69_9d3a_994447bcac35'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W1EAD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install/unitree_ros2_example:/home/jason/projects/motion_control_go2/install/unitree_hg:/home/jason/projects/motion_control_go2/install/stand_go2:/home/jason/projects/motion_control_go2/install/unitree_go:/home/jason/projects/motion_control_go2/install/unitree_api:/home/jason/projects/motion_control_go2/install/robot_viz_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/projects/motion_control_go2/build/go2_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jason/projects/motion_control_go2/install/unitree_hg/local/lib/python3.10/dist-packages:/home/jason/projects/motion_control_go2/install/unitree_go/local/lib/python3.10/dist-packages:/home/jason/projects/motion_control_go2/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install/unitree_ros2_example:/home/jason/projects/motion_control_go2/install/unitree_hg:/home/jason/projects/motion_control_go2/install/unitree_go:/home/jason/projects/motion_control_go2/install/unitree_api:/home/jason/projects/motion_control_go2/install/mujoco:/usr/local:/usr/local:/usr/local:')]), 'shell': False}
+[0.029598] (osgQt) JobProgress: {'identifier': 'osgQt', 'progress': 'cmake'}
+[0.030571] (osgQt) Command: {'cmd': ['/usr/bin/cmake', '/home/jason/projects/motion_control_go2/src/osgQt', '-DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/osgQt'], 'cwd': '/home/jason/projects/motion_control_go2/build/osgQt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jason/projects/motion_control_go2/install/unitree_hg/lib:/home/jason/projects/motion_control_go2/install/unitree_go/lib:/home/jason/projects/motion_control_go2/install/unitree_api/lib:/home/jason/projects/motion_control_go2/install/osgQt/lib64:/home/jason/projects/motion_control_go2/install/mujoco/lib:/usr/local/lib:/usr/local/lib:/opt/unitree_robotics/lib:/home/jason/.mujoco/mujoco-3.2.7/bin:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason/projects/motion_control_go2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/jason/.mujoco/mujoco-3.2.7'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jason/projects/motion_control_go2/install/mujoco/bin:/home/jason/.mujoco/mujoco-3.2.7/bin:/home/jason/.local/bin:/opt/ros/humble/bin:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jasonabichebli:@/tmp/.ICE-unix/1822,unix/jasonabichebli:/tmp/.ICE-unix/1822'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1a7f7d58_f8e4_4a69_9d3a_994447bcac35'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W1EAD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install/unitree_ros2_example:/home/jason/projects/motion_control_go2/install/unitree_hg:/home/jason/projects/motion_control_go2/install/stand_go2:/home/jason/projects/motion_control_go2/install/unitree_go:/home/jason/projects/motion_control_go2/install/unitree_api:/home/jason/projects/motion_control_go2/install/robot_viz_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/projects/motion_control_go2/build/osgQt'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jason/projects/motion_control_go2/install/unitree_hg/local/lib/python3.10/dist-packages:/home/jason/projects/motion_control_go2/install/unitree_go/local/lib/python3.10/dist-packages:/home/jason/projects/motion_control_go2/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install/unitree_ros2_example:/home/jason/projects/motion_control_go2/install/unitree_hg:/home/jason/projects/motion_control_go2/install/unitree_go:/home/jason/projects/motion_control_go2/install/unitree_api:/home/jason/projects/motion_control_go2/install/mujoco:/usr/local:/usr/local:/usr/local:')]), 'shell': False}
+[0.036099] (robot_viz_cpp) JobProgress: {'identifier': 'robot_viz_cpp', 'progress': 'cmake'}
+[0.036167] (robot_viz_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/jason/projects/motion_control_go2/src/robot_viz_cpp', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/robot_viz_cpp'], 'cwd': '/home/jason/projects/motion_control_go2/build/robot_viz_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jason/projects/motion_control_go2/install/unitree_hg/lib:/home/jason/projects/motion_control_go2/install/unitree_go/lib:/home/jason/projects/motion_control_go2/install/unitree_api/lib:/home/jason/projects/motion_control_go2/install/osgQt/lib64:/home/jason/projects/motion_control_go2/install/mujoco/lib:/usr/local/lib:/usr/local/lib:/opt/unitree_robotics/lib:/home/jason/.mujoco/mujoco-3.2.7/bin:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason/projects/motion_control_go2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/jason/.mujoco/mujoco-3.2.7'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jason/projects/motion_control_go2/install/mujoco/bin:/home/jason/.mujoco/mujoco-3.2.7/bin:/home/jason/.local/bin:/opt/ros/humble/bin:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jasonabichebli:@/tmp/.ICE-unix/1822,unix/jasonabichebli:/tmp/.ICE-unix/1822'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1a7f7d58_f8e4_4a69_9d3a_994447bcac35'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W1EAD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install/unitree_ros2_example:/home/jason/projects/motion_control_go2/install/unitree_hg:/home/jason/projects/motion_control_go2/install/stand_go2:/home/jason/projects/motion_control_go2/install/unitree_go:/home/jason/projects/motion_control_go2/install/unitree_api:/home/jason/projects/motion_control_go2/install/robot_viz_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/projects/motion_control_go2/build/robot_viz_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jason/projects/motion_control_go2/install/unitree_hg/local/lib/python3.10/dist-packages:/home/jason/projects/motion_control_go2/install/unitree_go/local/lib/python3.10/dist-packages:/home/jason/projects/motion_control_go2/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install/unitree_ros2_example:/home/jason/projects/motion_control_go2/install/unitree_hg:/home/jason/projects/motion_control_go2/install/unitree_go:/home/jason/projects/motion_control_go2/install/unitree_api:/home/jason/projects/motion_control_go2/install/mujoco:/usr/local:/usr/local:/usr/local::/home/jason/projects/motion_control_go2/install/stand_go2:/home/jason/projects/motion_control_go2/install/robot_viz_cpp:/opt/ros/humble')]), 'shell': False}
+[0.036886] (stand_go2) JobProgress: {'identifier': 'stand_go2', 'progress': 'cmake'}
+[0.036940] (stand_go2) Command: {'cmd': ['/usr/bin/cmake', '/home/jason/projects/motion_control_go2/src/unitree_mujoco/example/ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/stand_go2'], 'cwd': '/home/jason/projects/motion_control_go2/build/stand_go2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jason/projects/motion_control_go2/install/unitree_hg/lib:/home/jason/projects/motion_control_go2/install/unitree_go/lib:/home/jason/projects/motion_control_go2/install/unitree_api/lib:/home/jason/projects/motion_control_go2/install/osgQt/lib64:/home/jason/projects/motion_control_go2/install/mujoco/lib:/usr/local/lib:/usr/local/lib:/opt/unitree_robotics/lib:/home/jason/.mujoco/mujoco-3.2.7/bin:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason/projects/motion_control_go2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/jason/.mujoco/mujoco-3.2.7'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jason/projects/motion_control_go2/install/mujoco/bin:/home/jason/.mujoco/mujoco-3.2.7/bin:/home/jason/.local/bin:/opt/ros/humble/bin:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jasonabichebli:@/tmp/.ICE-unix/1822,unix/jasonabichebli:/tmp/.ICE-unix/1822'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1a7f7d58_f8e4_4a69_9d3a_994447bcac35'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W1EAD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install/unitree_ros2_example:/home/jason/projects/motion_control_go2/install/unitree_hg:/home/jason/projects/motion_control_go2/install/stand_go2:/home/jason/projects/motion_control_go2/install/unitree_go:/home/jason/projects/motion_control_go2/install/unitree_api:/home/jason/projects/motion_control_go2/install/robot_viz_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/projects/motion_control_go2/build/stand_go2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jason/projects/motion_control_go2/install/unitree_hg/local/lib/python3.10/dist-packages:/home/jason/projects/motion_control_go2/install/unitree_go/local/lib/python3.10/dist-packages:/home/jason/projects/motion_control_go2/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install/unitree_ros2_example:/home/jason/projects/motion_control_go2/install/unitree_hg:/home/jason/projects/motion_control_go2/install/unitree_go:/home/jason/projects/motion_control_go2/install/unitree_api:/home/jason/projects/motion_control_go2/install/mujoco:/usr/local:/usr/local:/usr/local::/home/jason/projects/motion_control_go2/install/stand_go2:/home/jason/projects/motion_control_go2/install/robot_viz_cpp:/opt/ros/humble')]), 'shell': False}
+[0.037501] (unitree_controller) JobProgress: {'identifier': 'unitree_controller', 'progress': 'cmake'}
+[0.037527] (unitree_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/jason/projects/motion_control_go2/src/unitree_ros/unitree_controller', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/unitree_controller'], 'cwd': '/home/jason/projects/motion_control_go2/build/unitree_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jason/projects/motion_control_go2/install/unitree_hg/lib:/home/jason/projects/motion_control_go2/install/unitree_go/lib:/home/jason/projects/motion_control_go2/install/unitree_api/lib:/home/jason/projects/motion_control_go2/install/osgQt/lib64:/home/jason/projects/motion_control_go2/install/mujoco/lib:/usr/local/lib:/usr/local/lib:/opt/unitree_robotics/lib:/home/jason/.mujoco/mujoco-3.2.7/bin:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason/projects/motion_control_go2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/jason/.mujoco/mujoco-3.2.7'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jason/projects/motion_control_go2/install/mujoco/bin:/home/jason/.mujoco/mujoco-3.2.7/bin:/home/jason/.local/bin:/opt/ros/humble/bin:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jasonabichebli:@/tmp/.ICE-unix/1822,unix/jasonabichebli:/tmp/.ICE-unix/1822'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1a7f7d58_f8e4_4a69_9d3a_994447bcac35'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W1EAD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install/unitree_ros2_example:/home/jason/projects/motion_control_go2/install/unitree_hg:/home/jason/projects/motion_control_go2/install/stand_go2:/home/jason/projects/motion_control_go2/install/unitree_go:/home/jason/projects/motion_control_go2/install/unitree_api:/home/jason/projects/motion_control_go2/install/robot_viz_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/projects/motion_control_go2/build/unitree_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jason/projects/motion_control_go2/install/unitree_hg/local/lib/python3.10/dist-packages:/home/jason/projects/motion_control_go2/install/unitree_go/local/lib/python3.10/dist-packages:/home/jason/projects/motion_control_go2/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install/unitree_ros2_example:/home/jason/projects/motion_control_go2/install/unitree_hg:/home/jason/projects/motion_control_go2/install/unitree_go:/home/jason/projects/motion_control_go2/install/unitree_api:/home/jason/projects/motion_control_go2/install/mujoco:/usr/local:/usr/local:/usr/local:')]), 'shell': False}
+[0.038674] (unitree_gazebo) JobProgress: {'identifier': 'unitree_gazebo', 'progress': 'cmake'}
+[0.038701] (unitree_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/jason/projects/motion_control_go2/src/unitree_ros/unitree_gazebo', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/unitree_gazebo'], 'cwd': '/home/jason/projects/motion_control_go2/build/unitree_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jason/projects/motion_control_go2/install/unitree_hg/lib:/home/jason/projects/motion_control_go2/install/unitree_go/lib:/home/jason/projects/motion_control_go2/install/unitree_api/lib:/home/jason/projects/motion_control_go2/install/osgQt/lib64:/home/jason/projects/motion_control_go2/install/mujoco/lib:/usr/local/lib:/usr/local/lib:/opt/unitree_robotics/lib:/home/jason/.mujoco/mujoco-3.2.7/bin:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason/projects/motion_control_go2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/jason/.mujoco/mujoco-3.2.7'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jason/projects/motion_control_go2/install/mujoco/bin:/home/jason/.mujoco/mujoco-3.2.7/bin:/home/jason/.local/bin:/opt/ros/humble/bin:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jasonabichebli:@/tmp/.ICE-unix/1822,unix/jasonabichebli:/tmp/.ICE-unix/1822'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1a7f7d58_f8e4_4a69_9d3a_994447bcac35'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W1EAD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install/unitree_ros2_example:/home/jason/projects/motion_control_go2/install/unitree_hg:/home/jason/projects/motion_control_go2/install/stand_go2:/home/jason/projects/motion_control_go2/install/unitree_go:/home/jason/projects/motion_control_go2/install/unitree_api:/home/jason/projects/motion_control_go2/install/robot_viz_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/projects/motion_control_go2/build/unitree_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jason/projects/motion_control_go2/install/unitree_hg/local/lib/python3.10/dist-packages:/home/jason/projects/motion_control_go2/install/unitree_go/local/lib/python3.10/dist-packages:/home/jason/projects/motion_control_go2/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install/unitree_ros2_example:/home/jason/projects/motion_control_go2/install/unitree_hg:/home/jason/projects/motion_control_go2/install/unitree_go:/home/jason/projects/motion_control_go2/install/unitree_api:/home/jason/projects/motion_control_go2/install/mujoco:/usr/local:/usr/local:/usr/local:')]), 'shell': False}
+[0.039638] (unitree_legged_control) JobProgress: {'identifier': 'unitree_legged_control', 'progress': 'cmake'}
+[0.040200] (unitree_legged_control) Command: {'cmd': ['/usr/bin/cmake', '/home/jason/projects/motion_control_go2/src/unitree_ros/unitree_legged_control', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/unitree_legged_control'], 'cwd': '/home/jason/projects/motion_control_go2/build/unitree_legged_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jason/projects/motion_control_go2/install/unitree_hg/lib:/home/jason/projects/motion_control_go2/install/unitree_go/lib:/home/jason/projects/motion_control_go2/install/unitree_api/lib:/home/jason/projects/motion_control_go2/install/osgQt/lib64:/home/jason/projects/motion_control_go2/install/mujoco/lib:/usr/local/lib:/usr/local/lib:/opt/unitree_robotics/lib:/home/jason/.mujoco/mujoco-3.2.7/bin:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason/projects/motion_control_go2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/jason/.mujoco/mujoco-3.2.7'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jason/projects/motion_control_go2/install/mujoco/bin:/home/jason/.mujoco/mujoco-3.2.7/bin:/home/jason/.local/bin:/opt/ros/humble/bin:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jasonabichebli:@/tmp/.ICE-unix/1822,unix/jasonabichebli:/tmp/.ICE-unix/1822'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1a7f7d58_f8e4_4a69_9d3a_994447bcac35'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W1EAD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install/unitree_ros2_example:/home/jason/projects/motion_control_go2/install/unitree_hg:/home/jason/projects/motion_control_go2/install/stand_go2:/home/jason/projects/motion_control_go2/install/unitree_go:/home/jason/projects/motion_control_go2/install/unitree_api:/home/jason/projects/motion_control_go2/install/robot_viz_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/projects/motion_control_go2/build/unitree_legged_control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jason/projects/motion_control_go2/install/unitree_hg/local/lib/python3.10/dist-packages:/home/jason/projects/motion_control_go2/install/unitree_go/local/lib/python3.10/dist-packages:/home/jason/projects/motion_control_go2/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install/unitree_ros2_example:/home/jason/projects/motion_control_go2/install/unitree_hg:/home/jason/projects/motion_control_go2/install/unitree_go:/home/jason/projects/motion_control_go2/install/unitree_api:/home/jason/projects/motion_control_go2/install/mujoco:/usr/local:/usr/local:/usr/local:')]), 'shell': False}
+[0.048776] (go2_description) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.049024] (go2_description) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.049070] (go2_description) StderrLine: {'line': b'  CMake.\n'}
+[0.049102] (go2_description) StderrLine: {'line': b'\n'}
+[0.049131] (go2_description) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.049158] (go2_description) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.049184] (go2_description) StderrLine: {'line': b'\n'}
+[0.049211] (go2_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.052174] (unitree_controller) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.052517] (unitree_controller) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.055028] (unitree_controller) StderrLine: {'line': b'  CMake.\n'}
+[0.055062] (unitree_controller) StderrLine: {'line': b'\n'}
+[0.055087] (unitree_controller) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.055111] (unitree_controller) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.055133] (unitree_controller) StderrLine: {'line': b'\n'}
+[0.055266] (unitree_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[0.055413] (unitree_gazebo) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.055449] (unitree_gazebo) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.055469] (unitree_gazebo) StderrLine: {'line': b'  CMake.\n'}
+[0.055487] (unitree_gazebo) StderrLine: {'line': b'\n'}
+[0.055504] (unitree_gazebo) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.055522] (unitree_gazebo) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.055541] (unitree_gazebo) StderrLine: {'line': b'\n'}
+[0.055557] (unitree_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[0.059058] (unitree_legged_control) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.059182] (unitree_legged_control) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.059217] (unitree_legged_control) StderrLine: {'line': b'  CMake.\n'}
+[0.059246] (unitree_legged_control) StderrLine: {'line': b'\n'}
+[0.059273] (unitree_legged_control) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.059300] (unitree_legged_control) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.059328] (unitree_legged_control) StderrLine: {'line': b'\n'}
+[0.059354] (unitree_legged_control) StderrLine: {'line': b'\x1b[0m\n'}
+[0.059381] (z1_description) JobProgress: {'identifier': 'z1_description', 'progress': 'cmake'}
+[0.059395] (z1_description) Command: {'cmd': ['/usr/bin/cmake', '/home/jason/projects/motion_control_go2/src/unitree_ros/robots/z1_description', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCATKIN_SYMLINK_INSTALL=ON', '-DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/z1_description'], 'cwd': '/home/jason/projects/motion_control_go2/build/z1_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jason/projects/motion_control_go2/install/unitree_hg/lib:/home/jason/projects/motion_control_go2/install/unitree_go/lib:/home/jason/projects/motion_control_go2/install/unitree_api/lib:/home/jason/projects/motion_control_go2/install/osgQt/lib64:/home/jason/projects/motion_control_go2/install/mujoco/lib:/usr/local/lib:/usr/local/lib:/opt/unitree_robotics/lib:/home/jason/.mujoco/mujoco-3.2.7/bin:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason/projects/motion_control_go2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1851'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/jason/.mujoco/mujoco-3.2.7'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jason/projects/motion_control_go2/install/mujoco/bin:/home/jason/.mujoco/mujoco-3.2.7/bin:/home/jason/.local/bin:/opt/ros/humble/bin:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jasonabichebli:@/tmp/.ICE-unix/1822,unix/jasonabichebli:/tmp/.ICE-unix/1822'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1a7f7d58_f8e4_4a69_9d3a_994447bcac35'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.W1EAD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install/unitree_ros2_example:/home/jason/projects/motion_control_go2/install/unitree_hg:/home/jason/projects/motion_control_go2/install/stand_go2:/home/jason/projects/motion_control_go2/install/unitree_go:/home/jason/projects/motion_control_go2/install/unitree_api:/home/jason/projects/motion_control_go2/install/robot_viz_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/projects/motion_control_go2/build/z1_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jason/projects/motion_control_go2/install/unitree_hg/local/lib/python3.10/dist-packages:/home/jason/projects/motion_control_go2/install/unitree_go/local/lib/python3.10/dist-packages:/home/jason/projects/motion_control_go2/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jason/projects/motion_control_go2/install/unitree_ros2_example:/home/jason/projects/motion_control_go2/install/unitree_hg:/home/jason/projects/motion_control_go2/install/unitree_go:/home/jason/projects/motion_control_go2/install/unitree_api:/home/jason/projects/motion_control_go2/install/mujoco:/usr/local:/usr/local:/usr/local:')]), 'shell': False}
+[0.079148] (osgQt) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.079330] (go2_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.080398] (go2_control_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.090503] (mujoco) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.091433] (unitree_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.092515] (robot_viz_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.093640] (stand_go2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.096171] (unitree_legged_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.098196] (unitree_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.098919] (z1_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.100014] (-) TimerEvent: {}
+[0.119901] (go2_control_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.120038] (osgQt) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.120118] (go2_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.126072] (go2_control_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.126204] (go2_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.127518] (osgQt) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.127967] (stand_go2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.128930] (mujoco) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.132884] (unitree_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.133012] (stand_go2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.135063] (mujoco) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.135292] (unitree_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.137299] (robot_viz_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.140007] (unitree_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.141475] (unitree_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.141942] (z1_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.142178] (robot_viz_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.143347] (unitree_legged_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.148551] (unitree_legged_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.149937] (z1_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.172935] (go2_control_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.176588] (go2_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.177773] (go2_control_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.177932] (go2_control_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.178020] (osgQt) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.178094] (go2_control_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.179573] (osgQt) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.179680] (go2_control_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.179735] (osgQt) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.179923] (osgQt) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.180957] (stand_go2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.181044] (go2_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.181126] (go2_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.181384] (go2_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.181618] (osgQt) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.183645] (unitree_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.183755] (stand_go2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.183794] (stand_go2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.183823] (stand_go2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.185178] (stand_go2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.185273] (go2_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.187537] (unitree_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.187720] (unitree_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.187801] (unitree_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.187956] (mujoco) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.188737] (unitree_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.189412] (mujoco) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.189499] (mujoco) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.189572] (unitree_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.189669] (mujoco) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.191479] (mujoco) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.193395] (unitree_legged_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.193776] (unitree_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.194124] (unitree_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.194226] (unitree_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.195419] (robot_viz_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.195947] (robot_viz_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.196689] (unitree_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.196774] (robot_viz_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.196815] (robot_viz_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.197729] (unitree_legged_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.197818] (unitree_legged_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.197859] (unitree_legged_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.198389] (robot_viz_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199915] (unitree_legged_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.200071] (-) TimerEvent: {}
+[0.200964] (z1_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.206071] (z1_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.206204] (z1_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.206686] (z1_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.210881] (z1_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.229389] (go2_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.233690] (go2_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.233938] (go2_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.234559] (go2_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.237205] (osgQt) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.238614] (osgQt) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.238691] (stand_go2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.239133] (osgQt) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.239303] (osgQt) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.241504] (unitree_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.242814] (go2_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:5 (find_package):\n'}
+[0.242871] (go2_description) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.242902] (go2_description) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[0.242924] (go2_description) StderrLine: {'line': b'  CMake did not find one.\n'}
+[0.243125] (go2_description) StderrLine: {'line': b'\n'}
+[0.243461] (stand_go2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.243500] (stand_go2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.243524] (stand_go2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.243614] (go2_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.243644] (go2_description) StdoutLine: {'line': b'See also "/home/jason/projects/motion_control_go2/build/go2_description/CMakeFiles/CMakeOutput.log".\n'}
+[0.243666] (go2_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[0.243687] (go2_description) StderrLine: {'line': b'  of the following names:\n'}
+[0.243707] (go2_description) StderrLine: {'line': b'\n'}
+[0.243726] (go2_description) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[0.243744] (go2_description) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[0.243761] (go2_description) StderrLine: {'line': b'\n'}
+[0.243777] (go2_description) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[0.243794] (go2_description) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[0.243811] (go2_description) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[0.243828] (go2_description) StderrLine: {'line': b'  installed.\n'}
+[0.243844] (go2_description) StderrLine: {'line': b'\n'}
+[0.243860] (go2_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.243906] (mujoco) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.244495] (stand_go2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.244953] (mujoco) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.245122] (mujoco) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.245417] (mujoco) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.245637] (go2_description) CommandEnded: {'returncode': 1}
+[0.245906] (mujoco) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[0.248457] (go2_control_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.248681] (unitree_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.248723] (unitree_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.248752] (unitree_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.248779] (mujoco) StdoutLine: {'line': b'-- Performing Test CAN_BUILD_AVX\n'}
+[0.248810] (osgQt) StdoutLine: {'line': b'-- Found osgDB: /usr/lib/x86_64-linux-gnu/libosgDB.so  \n'}
+[0.250009] (osgQt) StdoutLine: {'line': b'-- Found osgGA: /usr/lib/x86_64-linux-gnu/libosgGA.so  \n'}
+[0.250549] (go2_control_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.250788] (go2_control_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.251349] (go2_control_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.251955] (osgQt) StdoutLine: {'line': b'-- Found osgUtil: /usr/lib/x86_64-linux-gnu/libosgUtil.so  \n'}
+[0.252555] (robot_viz_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.252678] (unitree_controller) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.252719] (unitree_controller) StdoutLine: {'line': b'See also "/home/jason/projects/motion_control_go2/build/unitree_controller/CMakeFiles/CMakeOutput.log".\n'}
+[0.252750] (unitree_controller) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[0.252783] (unitree_controller) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.252812] (unitree_controller) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[0.252839] (unitree_controller) StderrLine: {'line': b'  CMake did not find one.\n'}
+[0.252867] (unitree_controller) StderrLine: {'line': b'\n'}
+[0.252901] (unitree_controller) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[0.252933] (unitree_controller) StderrLine: {'line': b'  of the following names:\n'}
+[0.252966] (unitree_controller) StderrLine: {'line': b'\n'}
+[0.252999] (unitree_controller) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[0.253029] (unitree_controller) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[0.253062] (unitree_controller) StderrLine: {'line': b'\n'}
+[0.253089] (unitree_controller) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[0.253115] (unitree_controller) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[0.253142] (unitree_controller) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[0.253168] (unitree_controller) StderrLine: {'line': b'  installed.\n'}
+[0.253196] (unitree_controller) StderrLine: {'line': b'\n'}
+[0.253422] (unitree_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[0.253457] (osgQt) StdoutLine: {'line': b'-- Found osgText: /usr/lib/x86_64-linux-gnu/libosgText.so  \n'}
+[0.254412] (osgQt) StdoutLine: {'line': b'-- Found osgViewer: /usr/lib/x86_64-linux-gnu/libosgViewer.so  \n'}
+[0.254506] (unitree_legged_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.255213] (go2_control_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.255425] (osgQt) StdoutLine: {'line': b'-- Found osgWidget: /usr/lib/x86_64-linux-gnu/libosgWidget.so  \n'}
+[0.259111] (osgQt) StdoutLine: {'line': b'-- Found osg: /usr/lib/x86_64-linux-gnu/libosg.so  \n'}
+[0.259572] (unitree_legged_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.259688] (unitree_legged_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.259719] (robot_viz_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.259834] (robot_viz_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.259863] (robot_viz_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.259896] (robot_viz_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.259923] (osgQt) StdoutLine: {'line': b'-- Found OpenThreads: /usr/lib/x86_64-linux-gnu/libOpenThreads.so  \n'}
+[0.259953] (osgQt) StdoutLine: {'line': b'-- Found OpenSceneGraph: /usr/lib/x86_64-linux-gnu/libosgDB.so;/usr/lib/x86_64-linux-gnu/libosgGA.so;/usr/lib/x86_64-linux-gnu/libosgUtil.so;/usr/lib/x86_64-linux-gnu/libosgText.so;/usr/lib/x86_64-linux-gnu/libosgViewer.so;/usr/lib/x86_64-linux-gnu/libosgWidget.so;/usr/lib/x86_64-linux-gnu/libosg.so;/usr/lib/x86_64-linux-gnu/libOpenThreads.so (found suitable version "3.6.5", minimum required is "3.6.0") \n'}
+[0.259991] (osgQt) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.260019] (unitree_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.260111] (unitree_legged_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.267105] (unitree_legged_control) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.273998] (unitree_legged_control) StdoutLine: {'line': b'See also "/home/jason/projects/motion_control_go2/build/unitree_legged_control/CMakeFiles/CMakeOutput.log".\n'}
+[0.274069] (unitree_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.274758] (unitree_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.274796] (unitree_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.274827] (unitree_gazebo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.274855] (unitree_gazebo) StdoutLine: {'line': b'See also "/home/jason/projects/motion_control_go2/build/unitree_gazebo/CMakeFiles/CMakeOutput.log".\n'}
+[0.274889] (unitree_gazebo) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[0.274923] (unitree_gazebo) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.274951] (unitree_gazebo) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[0.274979] (unitree_gazebo) StderrLine: {'line': b'  CMake did not find one.\n'}
+[0.275007] (unitree_gazebo) StderrLine: {'line': b'\n'}
+[0.275034] (unitree_gazebo) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[0.275061] (unitree_gazebo) StderrLine: {'line': b'  of the following names:\n'}
+[0.275089] (unitree_gazebo) StderrLine: {'line': b'\n'}
+[0.275117] (unitree_gazebo) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[0.275145] (unitree_gazebo) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[0.275173] (unitree_gazebo) StderrLine: {'line': b'\n'}
+[0.275200] (unitree_gazebo) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[0.275227] (unitree_gazebo) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[0.275254] (unitree_gazebo) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[0.275281] (unitree_gazebo) StderrLine: {'line': b'  installed.\n'}
+[0.275307] (unitree_gazebo) StderrLine: {'line': b'\n'}
+[0.275333] (unitree_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[0.275360] (unitree_legged_control) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[0.275402] (unitree_legged_control) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.275430] (unitree_legged_control) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[0.275457] (unitree_legged_control) StderrLine: {'line': b'  CMake did not find one.\n'}
+[0.275483] (unitree_legged_control) StderrLine: {'line': b'\n'}
+[0.275510] (unitree_legged_control) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[0.275537] (unitree_legged_control) StderrLine: {'line': b'  of the following names:\n'}
+[0.275563] (unitree_legged_control) StderrLine: {'line': b'\n'}
+[0.275590] (unitree_legged_control) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[0.275616] (unitree_legged_control) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[0.275643] (unitree_legged_control) StderrLine: {'line': b'\n'}
+[0.275669] (unitree_legged_control) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[0.275696] (unitree_legged_control) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[0.275740] (unitree_legged_control) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[0.275766] (unitree_legged_control) StderrLine: {'line': b'  installed.\n'}
+[0.275793] (unitree_legged_control) StderrLine: {'line': b'\n'}
+[0.275820] (unitree_legged_control) StderrLine: {'line': b'\x1b[0m\n'}
+[0.275846] (z1_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.277210] (go2_description) JobEnded: {'identifier': 'go2_description', 'rc': 1}
+[0.277955] (unitree_controller) JobEnded: {'identifier': 'unitree_controller', 'rc': 'SIGINT'}
+[0.278209] (unitree_gazebo) JobEnded: {'identifier': 'unitree_gazebo', 'rc': 'SIGINT'}
+[0.278313] (unitree_legged_control) JobEnded: {'identifier': 'unitree_legged_control', 'rc': 'SIGINT'}
+[0.278670] (z1_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.278810] (z1_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.279438] (z1_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.284702] (z1_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:4 (find_package):\n'}
+[0.284793] (z1_description) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.284826] (z1_description) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[0.284855] (z1_description) StderrLine: {'line': b'  CMake did not find one.\n'}
+[0.284888] (z1_description) StderrLine: {'line': b'\n'}
+[0.284916] (z1_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[0.284941] (z1_description) StderrLine: {'line': b'  of the following names:\n'}
+[0.284966] (z1_description) StderrLine: {'line': b'\n'}
+[0.284991] (z1_description) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[0.285016] (z1_description) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[0.285040] (z1_description) StderrLine: {'line': b'\n'}
+[0.285064] (z1_description) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[0.285091] (z1_description) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[0.285116] (z1_description) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[0.285141] (z1_description) StderrLine: {'line': b'  installed.\n'}
+[0.285167] (z1_description) StderrLine: {'line': b'\n'}
+[0.285191] (z1_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.285217] (z1_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.285248] (z1_description) StdoutLine: {'line': b'See also "/home/jason/projects/motion_control_go2/build/z1_description/CMakeFiles/CMakeOutput.log".\n'}
+[0.287420] (z1_description) JobEnded: {'identifier': 'z1_description', 'rc': 'SIGINT'}
+[0.300259] (-) TimerEvent: {}
+[0.335587] (go2_control_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.335711] (stand_go2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.342224] (robot_viz_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.363211] (go2_control_cpp) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.363428] (stand_go2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.374851] (go2_control_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.376256] (robot_viz_cpp) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.379556] (stand_go2) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:30 (find_package):\n'}
+[0.379638] (stand_go2) StderrLine: {'line': b'  By not providing "Findunitree_go.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.379670] (stand_go2) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.379695] (stand_go2) StderrLine: {'line': b'  "unitree_go", but CMake did not find one.\n'}
+[0.379717] (stand_go2) StderrLine: {'line': b'\n'}
+[0.379785] (stand_go2) StderrLine: {'line': b'  Could not find a package configuration file provided by "unitree_go" with\n'}
+[0.379814] (stand_go2) StderrLine: {'line': b'  any of the following names:\n'}
+[0.379837] (stand_go2) StderrLine: {'line': b'\n'}
+[0.379858] (stand_go2) StderrLine: {'line': b'    unitree_goConfig.cmake\n'}
+[0.379881] (stand_go2) StderrLine: {'line': b'    unitree_go-config.cmake\n'}
+[0.379903] (stand_go2) StderrLine: {'line': b'\n'}
+[0.379920] (stand_go2) StderrLine: {'line': b'  Add the installation prefix of "unitree_go" to CMAKE_PREFIX_PATH or set\n'}
+[0.379939] (stand_go2) StderrLine: {'line': b'  "unitree_go_DIR" to a directory containing one of the above files.  If\n'}
+[0.379957] (stand_go2) StderrLine: {'line': b'  "unitree_go" provides a separate development package or SDK, be sure it has\n'}
+[0.379975] (stand_go2) StderrLine: {'line': b'  been installed.\n'}
+[0.379994] (stand_go2) StderrLine: {'line': b'\n'}
+[0.380014] (stand_go2) StderrLine: {'line': b'\x1b[0m\n'}
+[0.380080] (mujoco) StdoutLine: {'line': b'-- Performing Test CAN_BUILD_AVX - Success\n'}
+[0.380313] (mujoco) StdoutLine: {'line': b'-- Performing Test SUPPORTS_LLD\n'}
+[0.380480] (stand_go2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.380512] (stand_go2) StdoutLine: {'line': b'See also "/home/jason/projects/motion_control_go2/build/stand_go2/CMakeFiles/CMakeOutput.log".\n'}
+[0.383186] (stand_go2) JobEnded: {'identifier': 'stand_go2', 'rc': 'SIGINT'}
+[0.389367] (osgQt) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.389681] (osgQt) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.393830] (robot_viz_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.394284] (go2_control_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.396913] (go2_control_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.401435] (-) TimerEvent: {}
+[0.402263] (go2_control_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.407670] (go2_control_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.417336] (go2_control_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.417501] (robot_viz_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.419510] (robot_viz_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.423144] (robot_viz_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.428361] (robot_viz_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.435208] (robot_viz_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.436226] (go2_control_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.437295] (go2_control_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.453037] (robot_viz_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.454196] (robot_viz_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.492793] (mujoco) StdoutLine: {'line': b'-- Performing Test SUPPORTS_LLD - Failed\n'}
+[0.492944] (mujoco) StdoutLine: {'line': b'-- Performing Test SUPPORTS_GOLD\n'}
+[0.501536] (-) TimerEvent: {}
+[0.504077] (go2_control_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.507397] (osgQt) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.508978] (osgQt) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.514207] (osgQt) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindOpenGL.cmake:315 (message):\n'}
+[0.514319] (osgQt) StderrLine: {'line': b'  Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when\n'}
+[0.514352] (osgQt) StderrLine: {'line': b'  available.  Run "cmake --help-policy CMP0072" for policy details.  Use the\n'}
+[0.514380] (osgQt) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[0.514407] (osgQt) StderrLine: {'line': b'\n'}
+[0.514432] (osgQt) StderrLine: {'line': b'  FindOpenGL found both a legacy GL library:\n'}
+[0.514458] (osgQt) StderrLine: {'line': b'\n'}
+[0.514483] (osgQt) StderrLine: {'line': b'    OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so\n'}
+[0.514508] (osgQt) StderrLine: {'line': b'\n'}
+[0.514533] (osgQt) StderrLine: {'line': b'  and GLVND libraries for OpenGL and GLX:\n'}
+[0.514558] (osgQt) StderrLine: {'line': b'\n'}
+[0.514582] (osgQt) StderrLine: {'line': b'    OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so\n'}
+[0.514606] (osgQt) StderrLine: {'line': b'    OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so\n'}
+[0.514630] (osgQt) StderrLine: {'line': b'\n'}
+[0.514654] (osgQt) StderrLine: {'line': b'  OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for\n'}
+[0.514679] (osgQt) StderrLine: {'line': b'  compatibility with CMake 3.10 and below the legacy GL library will be used.\n'}
+[0.514703] (osgQt) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.514727] (osgQt) StderrLine: {'line': b'  CMakeLists.txt:267 (FIND_PACKAGE)\n'}
+[0.514751] (osgQt) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.514775] (osgQt) StderrLine: {'line': b'\x1b[0m\n'}
+[0.515379] (osgQt) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[0.520925] (robot_viz_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.525957] (osgQt) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[0.533424] (go2_control_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.546150] (robot_viz_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.546739] (mujoco) StdoutLine: {'line': b'-- Performing Test SUPPORTS_GOLD - Success\n'}
+[0.546989] (mujoco) StdoutLine: {'line': b'-- Performing Test SUPPORTS_GC_SECTIONS\n'}
+[0.557934] (go2_control_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.558176] (go2_control_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.566926] (osgQt) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[0.567342] (osgQt) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[0.567673] (robot_viz_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.571340] (robot_viz_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.595713] (mujoco) StdoutLine: {'line': b'-- Performing Test SUPPORTS_GC_SECTIONS - Success\n'}
+[0.601605] (-) TimerEvent: {}
+[0.616478] (robot_viz_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.616694] (robot_viz_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.622587] (osgQt) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success\n'}
+[0.622738] (osgQt) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[0.625118] (go2_control_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.625434] (go2_control_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.675532] (go2_control_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.676891] (go2_control_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.685787] (robot_viz_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.687541] (robot_viz_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.688345] (osgQt) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[0.689655] (osgQt) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):\n'}
+[0.689827] (osgQt) StderrLine: {'line': b'  qt5_use_modules is not part of the official API, and might be removed in Qt\n'}
+[0.689862] (osgQt) StderrLine: {'line': b'  6.\n'}
+[0.689897] (osgQt) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.689924] (osgQt) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)\n'}
+[0.689951] (osgQt) StderrLine: {'line': b'  examples/osgviewerQt/CMakeLists.txt:23 (qt5_use_modules)\n'}
+[0.689976] (osgQt) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.690002] (osgQt) StderrLine: {'line': b'\x1b[0m\n'}
+[0.690073] (osgQt) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/Documentation.cmake:30 (message):\n'}
+[0.690150] (osgQt) StderrLine: {'line': b'  Policy CMP0106 is not set: The Documentation module is removed.  Run "cmake\n'}
+[0.690179] (osgQt) StderrLine: {'line': b'  --help-policy CMP0106" for policy details.  Use the cmake_policy command to\n'}
+[0.690205] (osgQt) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[0.690231] (osgQt) StderrLine: {'line': b'\n'}
+[0.690256] (osgQt) StderrLine: {'line': b'  Documentation.cmake is VTK-specific code and should not be used in non-VTK\n'}
+[0.690281] (osgQt) StderrLine: {'line': b'  projects.  This logic in this module is best shipped with the project using\n'}
+[0.690306] (osgQt) StderrLine: {'line': b'  it rather than with CMake.\n'}
+[0.690330] (osgQt) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.690354] (osgQt) StderrLine: {'line': b'  CMakeLists.txt:753 (INCLUDE)\n'}
+[0.690378] (osgQt) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.690403] (osgQt) StderrLine: {'line': b'\x1b[0m\n'}
+[0.690427] (osgQt) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.695239] (osgQt) StdoutLine: {'line': b'-- Generating done\n'}
+[0.696477] (osgQt) StdoutLine: {'line': b'-- Build files have been written to: /home/jason/projects/motion_control_go2/build/osgQt\n'}
+[0.700652] (osgQt) JobEnded: {'identifier': 'osgQt', 'rc': 'SIGINT'}
+[0.701684] (-) TimerEvent: {}
+[0.703888] (go2_control_cpp) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.714208] (robot_viz_cpp) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.719529] (go2_control_cpp) StdoutLine: {'line': b'-- pinocchio_default FOUND. pinocchio_default at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_default.so\n'}
+[0.720574] (go2_control_cpp) StdoutLine: {'line': b'-- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_parsers.so\n'}
+[0.720789] (go2_control_cpp) StdoutLine: {'line': b'-- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so\n'}
+[0.720887] (go2_control_cpp) StdoutLine: {'line': b'-- boost_serialization FOUND. boost_serialization at /lib/x86_64-linux-gnu/libboost_serialization.so\n'}
+[0.720964] (go2_control_cpp) StdoutLine: {'line': b'-- boost_system FOUND. boost_system at /lib/x86_64-linux-gnu/libboost_system.so\n'}
+[0.727942] (robot_viz_cpp) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.743232] (go2_control_cpp) StdoutLine: {'line': b'-- Found Boost: /usr/include (found version "1.74.0") found components: filesystem serialization system \n'}
+[0.743983] (go2_control_cpp) StdoutLine: {'line': b'-- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so\n'}
+[0.769101] (go2_control_cpp) StdoutLine: {'line': b'-- Checking for NumPy\n'}
+[0.772155] (robot_viz_cpp) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.786781] (robot_viz_cpp) StdoutLine: {'line': b'-- pinocchio_default FOUND. pinocchio_default at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_default.so\n'}
+[0.786989] (robot_viz_cpp) StdoutLine: {'line': b'-- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_parsers.so\n'}
+[0.787063] (robot_viz_cpp) StdoutLine: {'line': b'-- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so\n'}
+[0.787122] (robot_viz_cpp) StdoutLine: {'line': b'-- boost_serialization FOUND. boost_serialization at /lib/x86_64-linux-gnu/libboost_serialization.so\n'}
+[0.787176] (robot_viz_cpp) StdoutLine: {'line': b'-- boost_system FOUND. boost_system at /lib/x86_64-linux-gnu/libboost_system.so\n'}
+[0.801746] (-) TimerEvent: {}
+[0.803865] (robot_viz_cpp) StdoutLine: {'line': b'-- Found Boost: /usr/include (found version "1.74.0") found components: filesystem serialization system \n'}
+[0.805749] (robot_viz_cpp) StdoutLine: {'line': b'-- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so\n'}
+[0.837248] (robot_viz_cpp) StdoutLine: {'line': b'-- Checking for NumPy\n'}
+[0.904916] (-) TimerEvent: {}
+[0.917443] (go2_control_cpp) StdoutLine: {'line': b'--   NUMPY_INCLUDE_DIRS=/home/jason/.local/lib/python3.10/site-packages/numpy/_core/include\n'}
+[1.005001] (-) TimerEvent: {}
+[1.010752] (go2_control_cpp) StdoutLine: {'line': b'--   NUMPY_VERSION=2.2.6\n'}
+[1.030172] (robot_viz_cpp) StdoutLine: {'line': b'--   NUMPY_INCLUDE_DIRS=/home/jason/.local/lib/python3.10/site-packages/numpy/_core/include\n'}
+[1.105084] (-) TimerEvent: {}
+[1.113915] (robot_viz_cpp) StdoutLine: {'line': b'--   NUMPY_VERSION=2.2.6\n'}
+[1.205184] (-) TimerEvent: {}
+[1.208388] (go2_control_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development.Module NumPy \n'}
+[1.208828] (go2_control_cpp) StdoutLine: {'line': b'-- PythonLibraryDirs: \n'}
+[1.208885] (go2_control_cpp) StdoutLine: {'line': b'-- PythonLibVersionString: 3.10.12\n'}
+[1.230416] (go2_control_cpp) StdoutLine: {'line': b'-- Python site lib: lib/python3.10/site-packages\n'}
+[1.230463] (go2_control_cpp) StdoutLine: {'line': b'-- Python include dirs: /usr/include/python3.10\n'}
+[1.254400] (go2_control_cpp) StdoutLine: {'line': b'-- Checking for NumPy\n'}
+[1.308913] (-) TimerEvent: {}
+[1.328016] (robot_viz_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development.Module NumPy \n'}
+[1.328111] (robot_viz_cpp) StdoutLine: {'line': b'-- PythonLibraryDirs: \n'}
+[1.328140] (robot_viz_cpp) StdoutLine: {'line': b'-- PythonLibVersionString: 3.10.12\n'}
+[1.347941] (robot_viz_cpp) StdoutLine: {'line': b'-- Python site lib: lib/python3.10/site-packages\n'}
+[1.348068] (robot_viz_cpp) StdoutLine: {'line': b'-- Python include dirs: /usr/include/python3.10\n'}
+[1.352999] (go2_control_cpp) StdoutLine: {'line': b'--   NUMPY_INCLUDE_DIRS=/home/jason/.local/lib/python3.10/site-packages/numpy/_core/include\n'}
+[1.369905] (robot_viz_cpp) StdoutLine: {'line': b'-- Checking for NumPy\n'}
+[1.408971] (-) TimerEvent: {}
+[1.432018] (go2_control_cpp) StdoutLine: {'line': b'--   NUMPY_VERSION=2.2.6\n'}
+[1.432089] (go2_control_cpp) StdoutLine: {'line': b'-- NumPy include dir: /home/jason/.local/lib/python3.10/site-packages/numpy/_core/include\n'}
+[1.437924] (go2_control_cpp) StderrLine: {'line': b'\x1b[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):\n'}
+[1.437967] (go2_control_cpp) StderrLine: {'line': b'  No header defined for python310; skipping header check (note: header-only\n'}
+[1.437992] (go2_control_cpp) StderrLine: {'line': b'  libraries have no designated component)\n'}
+[1.438015] (go2_control_cpp) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.438036] (go2_control_cpp) StderrLine: {'line': b'  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)\n'}
+[1.438056] (go2_control_cpp) StderrLine: {'line': b'  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)\n'}
+[1.438077] (go2_control_cpp) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)\n'}
+[1.438096] (go2_control_cpp) StderrLine: {'line': b'  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)\n'}
+[1.438114] (go2_control_cpp) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[1.438133] (go2_control_cpp) StderrLine: {'line': b'\n'}
+[1.438151] (go2_control_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[1.442788] (go2_control_cpp) StdoutLine: {'line': b'-- Found Boost: /usr/include (found version "1.74.0") found components: python310 \n'}
+[1.452565] (robot_viz_cpp) StdoutLine: {'line': b'--   NUMPY_INCLUDE_DIRS=/home/jason/.local/lib/python3.10/site-packages/numpy/_core/include\n'}
+[1.512919] (-) TimerEvent: {}
+[1.527029] (robot_viz_cpp) StdoutLine: {'line': b'--   NUMPY_VERSION=2.2.6\n'}
+[1.527168] (robot_viz_cpp) StdoutLine: {'line': b'-- NumPy include dir: /home/jason/.local/lib/python3.10/site-packages/numpy/_core/include\n'}
+[1.529913] (robot_viz_cpp) StderrLine: {'line': b'\x1b[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):\n'}
+[1.529975] (robot_viz_cpp) StderrLine: {'line': b'  No header defined for python310; skipping header check (note: header-only\n'}
+[1.529999] (robot_viz_cpp) StderrLine: {'line': b'  libraries have no designated component)\n'}
+[1.530021] (robot_viz_cpp) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.530042] (robot_viz_cpp) StderrLine: {'line': b'  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)\n'}
+[1.530061] (robot_viz_cpp) StderrLine: {'line': b'  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)\n'}
+[1.530081] (robot_viz_cpp) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)\n'}
+[1.530099] (robot_viz_cpp) StderrLine: {'line': b'  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)\n'}
+[1.530118] (robot_viz_cpp) StderrLine: {'line': b'  CMakeLists.txt:16 (find_package)\n'}
+[1.530137] (robot_viz_cpp) StderrLine: {'line': b'\n'}
+[1.530155] (robot_viz_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[1.531777] (robot_viz_cpp) StdoutLine: {'line': b'-- Found Boost: /usr/include (found version "1.74.0") found components: python310 \n'}
+[1.613092] (-) TimerEvent: {}
+[1.645916] (go2_control_cpp) StdoutLine: {'line': b'-- Default C++ standard: 201703\n'}
+[1.646183] (go2_control_cpp) StdoutLine: {'line': b'-- Minimal C++ standard upgraded to 11\n'}
+[1.646281] (go2_control_cpp) StdoutLine: {'line': b'-- C++ standard sufficient: Minimal required 11, currently defined: 17\n'}
+[1.646359] (go2_control_cpp) StdoutLine: {'line': b'-- CMAKE_CXX_STANDARD was not set: automatically set to currently defined standard 17\n'}
+[1.648470] (go2_control_cpp) StdoutLine: {'line': b'-- hpp-fcl FOUND. hpp-fcl at /opt/ros/humble/lib/x86_64-linux-gnu/libhpp-fcl.so\n'}
+[1.662644] (go2_control_cpp) StdoutLine: {'line': b'-- Found Boost: /usr/include (found version "1.74.0") found components: chrono serialization filesystem \n'}
+[1.667993] (go2_control_cpp) StdoutLine: {'line': b'-- C++ standard sufficient: Minimal required 11, currently defined: 17\n'}
+[1.668541] (go2_control_cpp) StdoutLine: {'line': b'-- C++ standard sufficient: Minimal required 11, currently defined: 17\n'}
+[1.670587] (go2_control_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.697509] (robot_viz_cpp) StdoutLine: {'line': b'-- Default C++ standard: 201703\n'}
+[1.697734] (robot_viz_cpp) StdoutLine: {'line': b'-- Minimal C++ standard upgraded to 11\n'}
+[1.697892] (robot_viz_cpp) StdoutLine: {'line': b'-- C++ standard sufficient: Minimal required 11, currently defined: 17\n'}
+[1.697966] (robot_viz_cpp) StdoutLine: {'line': b'-- CMAKE_CXX_STANDARD was not set: automatically set to currently defined standard 17\n'}
+[1.700258] (robot_viz_cpp) StdoutLine: {'line': b'-- hpp-fcl FOUND. hpp-fcl at /opt/ros/humble/lib/x86_64-linux-gnu/libhpp-fcl.so\n'}
+[1.707119] (go2_control_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.707282] (go2_control_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.707371] (go2_control_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.707473] (go2_control_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.707525] (go2_control_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.707573] (go2_control_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.707621] (go2_control_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.708115] (go2_control_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.712281] (go2_control_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[1.713182] (-) TimerEvent: {}
+[1.713696] (robot_viz_cpp) StdoutLine: {'line': b'-- Found Boost: /usr/include (found version "1.74.0") found components: chrono serialization filesystem \n'}
+[1.713866] (go2_control_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/jason/projects/motion_control_go2/build/go2_control_cpp\n'}
+[1.717635] (robot_viz_cpp) StdoutLine: {'line': b'-- C++ standard sufficient: Minimal required 11, currently defined: 17\n'}
+[1.718152] (robot_viz_cpp) StdoutLine: {'line': b'-- C++ standard sufficient: Minimal required 11, currently defined: 17\n'}
+[1.719861] (go2_control_cpp) JobEnded: {'identifier': 'go2_control_cpp', 'rc': 'SIGINT'}
+[1.720652] (robot_viz_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.757576] (robot_viz_cpp) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.758192] (robot_viz_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.758585] (robot_viz_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.759176] (robot_viz_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.760787] (robot_viz_cpp) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (add_executable):\n'}
+[1.760963] (robot_viz_cpp) StderrLine: {'line': b'  Cannot find source file:\n'}
+[1.761059] (robot_viz_cpp) StderrLine: {'line': b'\n'}
+[1.761135] (robot_viz_cpp) StderrLine: {'line': b'    src/go2_explorer.cpp\n'}
+[1.761206] (robot_viz_cpp) StderrLine: {'line': b'\n'}
+[1.761268] (robot_viz_cpp) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[1.761324] (robot_viz_cpp) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[1.761375] (robot_viz_cpp) StderrLine: {'line': b'\n'}
+[1.761423] (robot_viz_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[1.761685] (robot_viz_cpp) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:19 (add_executable):\n'}
+[1.761842] (robot_viz_cpp) StderrLine: {'line': b'  No SOURCES given to target: go2_explorer\n'}
+[1.761944] (robot_viz_cpp) StderrLine: {'line': b'\n'}
+[1.762005] (robot_viz_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[1.762061] (robot_viz_cpp) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[1.768529] (robot_viz_cpp) JobEnded: {'identifier': 'robot_viz_cpp', 'rc': 'SIGINT'}
+[1.813415] (-) TimerEvent: {}
+[1.913856] (-) TimerEvent: {}
+[2.014259] (-) TimerEvent: {}
+[2.114645] (-) TimerEvent: {}
+[2.215025] (-) TimerEvent: {}
+[2.315399] (-) TimerEvent: {}
+[2.416018] (-) TimerEvent: {}
+[2.516461] (-) TimerEvent: {}
+[2.617040] (-) TimerEvent: {}
+[2.717721] (-) TimerEvent: {}
+[2.818250] (-) TimerEvent: {}
+[2.918706] (-) TimerEvent: {}
+[3.019093] (-) TimerEvent: {}
+[3.119464] (-) TimerEvent: {}
+[3.220008] (-) TimerEvent: {}
+[3.295121] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `qhull`\n'}
+[3.295387] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `qhull` - target `qhull` not defined.\n'}
+[3.295455] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `qhull`\n'}
+[3.320127] (-) TimerEvent: {}
+[3.420487] (-) TimerEvent: {}
+[3.520931] (-) TimerEvent: {}
+[3.621306] (-) TimerEvent: {}
+[3.721751] (-) TimerEvent: {}
+[3.822232] (-) TimerEvent: {}
+[3.922856] (-) TimerEvent: {}
+[4.023354] (-) TimerEvent: {}
+[4.124039] (-) TimerEvent: {}
+[4.224629] (-) TimerEvent: {}
+[4.325070] (-) TimerEvent: {}
+[4.425755] (-) TimerEvent: {}
+[4.526263] (-) TimerEvent: {}
+[4.626658] (-) TimerEvent: {}
+[4.727124] (-) TimerEvent: {}
+[4.827755] (-) TimerEvent: {}
+[4.928168] (-) TimerEvent: {}
+[5.028535] (-) TimerEvent: {}
+[5.129153] (-) TimerEvent: {}
+[5.229602] (-) TimerEvent: {}
+[5.330269] (-) TimerEvent: {}
+[5.430967] (-) TimerEvent: {}
+[5.531419] (-) TimerEvent: {}
+[5.631906] (-) TimerEvent: {}
+[5.732360] (-) TimerEvent: {}
+[5.832761] (-) TimerEvent: {}
+[5.933170] (-) TimerEvent: {}
+[6.033521] (-) TimerEvent: {}
+[6.134011] (-) TimerEvent: {}
+[6.234394] (-) TimerEvent: {}
+[6.334834] (-) TimerEvent: {}
+[6.435209] (-) TimerEvent: {}
+[6.454258] (mujoco) StdoutLine: {'line': b'-- Looking for sys/types.h\n'}
+[6.534346] (mujoco) StdoutLine: {'line': b'-- Looking for sys/types.h - found\n'}
+[6.534489] (mujoco) StdoutLine: {'line': b'-- Looking for inttypes.h\n'}
+[6.535268] (-) TimerEvent: {}
+[6.602555] (mujoco) StdoutLine: {'line': b'-- Looking for inttypes.h - found\n'}
+[6.602701] (mujoco) StdoutLine: {'line': b'-- Looking for stddef.h\n'}
+[6.635504] (-) TimerEvent: {}
+[6.727280] (mujoco) StdoutLine: {'line': b'-- Looking for stddef.h - found\n'}
+[6.727509] (mujoco) StdoutLine: {'line': b'-- Looking for stdint.h\n'}
+[6.735595] (-) TimerEvent: {}
+[6.803304] (mujoco) StdoutLine: {'line': b'-- Looking for stdint.h - found\n'}
+[6.803552] (mujoco) StdoutLine: {'line': b'-- Check size of off_t\n'}
+[6.835728] (-) TimerEvent: {}
+[6.933143] (mujoco) StdoutLine: {'line': b'-- Check size of off_t - done\n'}
+[6.933387] (mujoco) StdoutLine: {'line': b'-- Looking for fseeko\n'}
+[6.936082] (-) TimerEvent: {}
+[7.012215] (mujoco) StdoutLine: {'line': b'-- Looking for fseeko - found\n'}
+[7.012459] (mujoco) StdoutLine: {'line': b'-- Looking for ftello\n'}
+[7.036668] (-) TimerEvent: {}
+[7.097059] (mujoco) StdoutLine: {'line': b'-- Looking for ftello - found\n'}
+[7.097560] (mujoco) StdoutLine: {'line': b'-- Looking for PRIdMAX\n'}
+[7.136803] (-) TimerEvent: {}
+[7.172565] (mujoco) StdoutLine: {'line': b'-- Looking for PRIdMAX - found\n'}
+[7.176613] (mujoco) StdoutLine: {'line': b'-- \n'}
+[7.176771] (mujoco) StdoutLine: {'line': b'-- ========== qhull Build Information ==========\n'}
+[7.176853] (mujoco) StdoutLine: {'line': b'-- Build Version:                             8.1-alpha3\n'}
+[7.176929] (mujoco) StdoutLine: {'line': b'-- Install Prefix (CMAKE_INSTALL_PREFIX):     /home/jason/projects/motion_control_go2/install/mujoco\n'}
+[7.176998] (mujoco) StdoutLine: {'line': b'-- Binary Directory (CMAKE_INSTALL_BINDIR):   bin\n'}
+[7.177054] (mujoco) StdoutLine: {'line': b'-- Library Directory (CMAKE_INSTALL_LIBDIR):  lib\n'}
+[7.177119] (mujoco) StdoutLine: {'line': b'-- Include Directory (CMAKE_INSTALL_INCLUDEDIR): include\n'}
+[7.177173] (mujoco) StdoutLine: {'line': b'-- Documentation Directory (CMAKE_INSTALL_DOCDIR): share/doc/mujoco\n'}
+[7.177226] (mujoco) StdoutLine: {'line': b'-- Man Pages Directory (CMAKE_INSTALL_MANDIR): share/man\n'}
+[7.177280] (mujoco) StdoutLine: {'line': b'-- Build Type (CMAKE_BUILD_TYPE):             Release\n'}
+[7.177331] (mujoco) StdoutLine: {'line': b'-- Build static libraries:                    ON\n'}
+[7.177381] (mujoco) StdoutLine: {'line': b'-- Build shared library:                      OFF\n'}
+[7.177430] (mujoco) StdoutLine: {'line': b'-- Use shared library for linking apps:       OFF\n'}
+[7.177479] (mujoco) StdoutLine: {'line': b'-- Build tests:\t\t\t\t   OFF\n'}
+[7.177530] (mujoco) StdoutLine: {'line': b'-- To override these options, add -D{OPTION_NAME}=... to the cmake command\n'}
+[7.177581] (mujoco) StdoutLine: {'line': b'--   Build the debug targets                  -DCMAKE_BUILD_TYPE=Debug\n'}
+[7.177634] (mujoco) StdoutLine: {'line': b'-- \n'}
+[7.177691] (mujoco) StdoutLine: {'line': b'-- To build and install qhull, enter "make" and "make install"\n'}
+[7.177746] (mujoco) StdoutLine: {'line': b'-- To smoketest qhull, enter "ctest"\n'}
+[7.177794] (mujoco) StdoutLine: {'line': b'-- \n'}
+[7.181063] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `qhull` - Done\n'}
+[7.184081] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `tinyxml2`\n'}
+[7.184138] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `tinyxml2` - target `tinyxml2` not defined.\n'}
+[7.184185] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `tinyxml2`\n'}
+[7.236920] (-) TimerEvent: {}
+[7.337450] (-) TimerEvent: {}
+[7.437857] (-) TimerEvent: {}
+[7.538262] (-) TimerEvent: {}
+[7.638752] (-) TimerEvent: {}
+[7.739449] (-) TimerEvent: {}
+[7.839895] (-) TimerEvent: {}
+[7.940281] (-) TimerEvent: {}
+[8.040994] (-) TimerEvent: {}
+[8.141486] (-) TimerEvent: {}
+[8.242083] (-) TimerEvent: {}
+[8.342536] (-) TimerEvent: {}
+[8.442916] (-) TimerEvent: {}
+[8.543327] (-) TimerEvent: {}
+[8.643750] (-) TimerEvent: {}
+[8.744160] (-) TimerEvent: {}
+[8.844533] (-) TimerEvent: {}
+[8.944967] (-) TimerEvent: {}
+[8.985200] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `tinyxml2` - Done\n'}
+[8.986569] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `tinyobjloader`\n'}
+[8.986750] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `tinyobjloader` - target `tinyobjloader` not defined.\n'}
+[8.986818] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `tinyobjloader`\n'}
+[9.045170] (-) TimerEvent: {}
+[9.146774] (-) TimerEvent: {}
+[9.247141] (-) TimerEvent: {}
+[9.347630] (-) TimerEvent: {}
+[9.448070] (-) TimerEvent: {}
+[9.550243] (-) TimerEvent: {}
+[9.650590] (-) TimerEvent: {}
+[9.751186] (-) TimerEvent: {}
+[9.851952] (-) TimerEvent: {}
+[9.952759] (-) TimerEvent: {}
+[10.053250] (-) TimerEvent: {}
+[10.153925] (-) TimerEvent: {}
+[10.254309] (-) TimerEvent: {}
+[10.354765] (-) TimerEvent: {}
+[10.455121] (-) TimerEvent: {}
+[10.555623] (-) TimerEvent: {}
+[10.656151] (-) TimerEvent: {}
+[10.756598] (-) TimerEvent: {}
+[10.857025] (-) TimerEvent: {}
+[10.957389] (-) TimerEvent: {}
+[10.986616] (mujoco) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /home/jason/projects/motion_control_go2/build/mujoco/_deps/tinyobjloader-src/CMakeLists.txt:5 (cmake_minimum_required):\n'}
+[10.986781] (mujoco) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[10.986815] (mujoco) StderrLine: {'line': b'  CMake.\n'}
+[10.986843] (mujoco) StderrLine: {'line': b'\n'}
+[10.986869] (mujoco) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[10.987196] (mujoco) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[10.987306] (mujoco) StderrLine: {'line': b'\n'}
+[10.987376] (mujoco) StderrLine: {'line': b'\x1b[0m\n'}
+[10.991191] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `tinyobjloader` - Done\n'}
+[11.057528] (-) TimerEvent: {}
+[11.157979] (-) TimerEvent: {}
+[11.258439] (-) TimerEvent: {}
+[11.358978] (-) TimerEvent: {}
+[11.459347] (-) TimerEvent: {}
+[11.559727] (-) TimerEvent: {}
+[11.660095] (-) TimerEvent: {}
+[11.760526] (-) TimerEvent: {}
+[11.861178] (-) TimerEvent: {}
+[11.961684] (-) TimerEvent: {}
+[12.062540] (-) TimerEvent: {}
+[12.162963] (-) TimerEvent: {}
+[12.263351] (-) TimerEvent: {}
+[12.364289] (-) TimerEvent: {}
+[12.464690] (-) TimerEvent: {}
+[12.542970] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `ccd`\n'}
+[12.543222] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `ccd` - target `ccd` not defined.\n'}
+[12.543314] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `ccd`\n'}
+[12.564849] (-) TimerEvent: {}
+[12.665186] (-) TimerEvent: {}
+[12.765670] (-) TimerEvent: {}
+[12.866061] (-) TimerEvent: {}
+[12.966483] (-) TimerEvent: {}
+[13.067114] (-) TimerEvent: {}
+[13.167497] (-) TimerEvent: {}
+[13.268098] (-) TimerEvent: {}
+[13.368606] (-) TimerEvent: {}
+[13.469284] (-) TimerEvent: {}
+[13.569782] (-) TimerEvent: {}
+[13.670610] (-) TimerEvent: {}
+[13.771063] (-) TimerEvent: {}
+[13.850380] (mujoco) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /home/jason/projects/motion_control_go2/build/mujoco/_deps/ccd-src/CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[13.850637] (mujoco) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[13.850708] (mujoco) StderrLine: {'line': b'  CMake.\n'}
+[13.850763] (mujoco) StderrLine: {'line': b'\n'}
+[13.850812] (mujoco) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[13.850889] (mujoco) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[13.850941] (mujoco) StderrLine: {'line': b'\n'}
+[13.850987] (mujoco) StderrLine: {'line': b'\x1b[0m\n'}
+[13.851031] (mujoco) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /home/jason/projects/motion_control_go2/build/mujoco/_deps/ccd-src/CMakeLists.txt:9 (project):\n'}
+[13.851077] (mujoco) StderrLine: {'line': b'  Policy CMP0048 is not set: project() command manages VERSION variables.\n'}
+[13.851120] (mujoco) StderrLine: {'line': b'  Run "cmake --help-policy CMP0048" for policy details.  Use the cmake_policy\n'}
+[13.851164] (mujoco) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[13.851207] (mujoco) StderrLine: {'line': b'\n'}
+[13.851250] (mujoco) StderrLine: {'line': b'  The following variable(s) would be set to empty:\n'}
+[13.851292] (mujoco) StderrLine: {'line': b'\n'}
+[13.851334] (mujoco) StderrLine: {'line': b'    PROJECT_VERSION\n'}
+[13.851374] (mujoco) StderrLine: {'line': b'    PROJECT_VERSION_MAJOR\n'}
+[13.851415] (mujoco) StderrLine: {'line': b'    PROJECT_VERSION_MINOR\n'}
+[13.851455] (mujoco) StderrLine: {'line': b'    PROJECT_VERSION_PATCH\n'}
+[13.851495] (mujoco) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[13.851536] (mujoco) StderrLine: {'line': b'\x1b[0m\n'}
+[13.866068] (mujoco) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORTS_VISIBILITY\n'}
+[13.871134] (-) TimerEvent: {}
+[13.952413] (mujoco) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORTS_VISIBILITY - Success\n'}
+[13.954237] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `ccd` - Done\n'}
+[13.956161] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `absl`\n'}
+[13.956356] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `absl` - target `absl::core_headers` not defined.\n'}
+[13.956445] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `abseil-cpp`\n'}
+[13.971233] (-) TimerEvent: {}
+[14.072098] (-) TimerEvent: {}
+[14.172453] (-) TimerEvent: {}
+[14.272770] (-) TimerEvent: {}
+[14.373128] (-) TimerEvent: {}
+[14.473760] (-) TimerEvent: {}
+[14.574356] (-) TimerEvent: {}
+[14.674770] (-) TimerEvent: {}
+[14.775138] (-) TimerEvent: {}
+[14.875590] (-) TimerEvent: {}
+[14.976109] (-) TimerEvent: {}
+[15.076784] (-) TimerEvent: {}
+[15.177149] (-) TimerEvent: {}
+[15.277493] (-) TimerEvent: {}
+[15.377862] (-) TimerEvent: {}
+[15.478229] (-) TimerEvent: {}
+[15.578610] (-) TimerEvent: {}
+[15.678964] (-) TimerEvent: {}
+[15.779328] (-) TimerEvent: {}
+[15.879756] (-) TimerEvent: {}
+[15.980155] (-) TimerEvent: {}
+[16.080542] (-) TimerEvent: {}
+[16.180917] (-) TimerEvent: {}
+[16.281262] (-) TimerEvent: {}
+[16.381709] (-) TimerEvent: {}
+[16.482194] (-) TimerEvent: {}
+[16.582706] (-) TimerEvent: {}
+[16.683401] (-) TimerEvent: {}
+[16.783905] (-) TimerEvent: {}
+[16.884586] (-) TimerEvent: {}
+[16.985246] (-) TimerEvent: {}
+[17.085814] (-) TimerEvent: {}
+[17.186276] (-) TimerEvent: {}
+[17.286660] (-) TimerEvent: {}
+[17.387048] (-) TimerEvent: {}
+[17.487527] (-) TimerEvent: {}
+[17.588199] (-) TimerEvent: {}
+[17.688851] (-) TimerEvent: {}
+[17.789525] (-) TimerEvent: {}
+[17.890195] (-) TimerEvent: {}
+[17.990584] (-) TimerEvent: {}
+[18.091035] (-) TimerEvent: {}
+[18.191395] (-) TimerEvent: {}
+[18.293048] (-) TimerEvent: {}
+[18.393519] (-) TimerEvent: {}
+[18.493967] (-) TimerEvent: {}
+[18.561242] (mujoco) StdoutLine: {'line': b'-- Performing Test ABSL_INTERNAL_AT_LEAST_CXX17\n'}
+[18.594189] (-) TimerEvent: {}
+[18.644221] (mujoco) StdoutLine: {'line': b'-- Performing Test ABSL_INTERNAL_AT_LEAST_CXX17 - Success\n'}
+[18.644468] (mujoco) StdoutLine: {'line': b'-- Performing Test ABSL_INTERNAL_AT_LEAST_CXX20\n'}
+[18.671183] (mujoco) StdoutLine: {'line': b'-- Performing Test ABSL_INTERNAL_AT_LEAST_CXX20 - Failed\n'}
+[18.676137] (mujoco) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[18.694265] (-) TimerEvent: {}
+[18.748010] (mujoco) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[18.748162] (mujoco) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[18.794376] (-) TimerEvent: {}
+[18.811039] (mujoco) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[18.811937] (mujoco) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[18.845420] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `abseil-cpp` - Done\n'}
+[18.846141] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `GTest`\n'}
+[18.846185] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `GTest` - target `gtest` not defined.\n'}
+[18.846213] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `googletest`\n'}
+[18.894484] (-) TimerEvent: {}
+[18.994897] (-) TimerEvent: {}
+[19.095260] (-) TimerEvent: {}
+[19.195611] (-) TimerEvent: {}
+[19.295958] (-) TimerEvent: {}
+[19.397021] (-) TimerEvent: {}
+[19.497432] (-) TimerEvent: {}
+[19.598038] (-) TimerEvent: {}
+[19.698742] (-) TimerEvent: {}
+[19.799287] (-) TimerEvent: {}
+[19.899729] (-) TimerEvent: {}
+[20.000158] (-) TimerEvent: {}
+[20.100574] (-) TimerEvent: {}
+[20.200966] (-) TimerEvent: {}
+[20.301377] (-) TimerEvent: {}
+[20.401769] (-) TimerEvent: {}
+[20.502193] (-) TimerEvent: {}
+[20.602858] (-) TimerEvent: {}
+[20.703562] (-) TimerEvent: {}
+[20.804218] (-) TimerEvent: {}
+[20.904858] (-) TimerEvent: {}
+[21.005556] (-) TimerEvent: {}
+[21.106034] (-) TimerEvent: {}
+[21.206669] (-) TimerEvent: {}
+[21.307373] (-) TimerEvent: {}
+[21.407944] (-) TimerEvent: {}
+[21.508423] (-) TimerEvent: {}
+[21.608923] (-) TimerEvent: {}
+[21.709563] (-) TimerEvent: {}
+[21.810267] (-) TimerEvent: {}
+[21.910973] (-) TimerEvent: {}
+[22.011630] (-) TimerEvent: {}
+[22.112357] (-) TimerEvent: {}
+[22.213033] (-) TimerEvent: {}
+[22.313717] (-) TimerEvent: {}
+[22.414418] (-) TimerEvent: {}
+[22.514860] (-) TimerEvent: {}
+[22.615539] (-) TimerEvent: {}
+[22.716194] (-) TimerEvent: {}
+[22.816859] (-) TimerEvent: {}
+[22.917549] (-) TimerEvent: {}
+[23.018232] (-) TimerEvent: {}
+[23.118866] (-) TimerEvent: {}
+[23.219553] (-) TimerEvent: {}
+[23.319951] (-) TimerEvent: {}
+[23.420323] (-) TimerEvent: {}
+[23.520985] (-) TimerEvent: {}
+[23.621397] (-) TimerEvent: {}
+[23.721784] (-) TimerEvent: {}
+[23.822198] (-) TimerEvent: {}
+[23.922603] (-) TimerEvent: {}
+[24.023253] (-) TimerEvent: {}
+[24.123631] (-) TimerEvent: {}
+[24.224084] (-) TimerEvent: {}
+[24.324728] (-) TimerEvent: {}
+[24.425138] (-) TimerEvent: {}
+[24.525593] (-) TimerEvent: {}
+[24.626219] (-) TimerEvent: {}
+[24.726618] (-) TimerEvent: {}
+[24.827190] (-) TimerEvent: {}
+[24.927575] (-) TimerEvent: {}
+[25.027978] (-) TimerEvent: {}
+[25.128373] (-) TimerEvent: {}
+[25.229537] (-) TimerEvent: {}
+[25.329922] (-) TimerEvent: {}
+[25.430277] (-) TimerEvent: {}
+[25.530607] (-) TimerEvent: {}
+[25.630966] (-) TimerEvent: {}
+[25.731332] (-) TimerEvent: {}
+[25.831824] (-) TimerEvent: {}
+[25.932534] (-) TimerEvent: {}
+[26.032951] (-) TimerEvent: {}
+[26.133310] (-) TimerEvent: {}
+[26.233735] (-) TimerEvent: {}
+[26.334204] (-) TimerEvent: {}
+[26.434571] (-) TimerEvent: {}
+[26.534922] (-) TimerEvent: {}
+[26.635205] (-) TimerEvent: {}
+[26.735475] (-) TimerEvent: {}
+[26.807242] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `googletest` - Done\n'}
+[26.808754] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `benchmark`\n'}
+[26.808810] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: checking for targets in package `benchmark` - target `benchmark::benchmark` not defined.\n'}
+[26.808843] (mujoco) StdoutLine: {'line': b'-- mujoco::FindOrFetch: Using FetchContent to retrieve `benchmark`\n'}
+[26.835665] (-) TimerEvent: {}
+[26.935965] (-) TimerEvent: {}
+[27.036397] (-) TimerEvent: {}
+[27.136856] (-) TimerEvent: {}
+[27.237311] (-) TimerEvent: {}
+[27.337935] (-) TimerEvent: {}
+[27.438582] (-) TimerEvent: {}
+[27.539098] (-) TimerEvent: {}
+[27.639669] (-) TimerEvent: {}
+[27.740451] (-) TimerEvent: {}
+[27.840957] (-) TimerEvent: {}
+[27.941342] (-) TimerEvent: {}
+[28.041731] (-) TimerEvent: {}
+[28.142118] (-) TimerEvent: {}
+[28.145301] (mujoco) JobEnded: {'identifier': 'mujoco', 'rc': 'SIGINT'}
+[28.158521] (unitree_mujoco) JobSkipped: {'identifier': 'unitree_mujoco'}
+[28.158578] (-) EventReactorShutdown: {}

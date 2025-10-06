@@ -1,0 +1,40 @@
+[0.025s] Invoking command in '/home/jason/projects/motion_control_go2/build/unitree_legged_control': /usr/bin/cmake /home/jason/projects/motion_control_go2/src/unitree_ros/unitree_legged_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/unitree_legged_control
+[0.044s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.044s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.044s]   CMake.
+[0.044s] 
+[0.044s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.044s]   CMake that the project does not need compatibility with older versions.
+[0.044s] 
+[0.044s] [0m
+[0.081s] -- The C compiler identification is GNU 11.4.0
+[0.128s] -- The CXX compiler identification is GNU 11.4.0
+[0.133s] -- Detecting C compiler ABI info
+[0.178s] -- Detecting C compiler ABI info - done
+[0.182s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.182s] -- Detecting C compile features
+[0.183s] -- Detecting C compile features - done
+[0.185s] -- Detecting CXX compiler ABI info
+[0.239s] -- Detecting CXX compiler ABI info - done
+[0.244s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.244s] -- Detecting CXX compile features
+[0.245s] -- Detecting CXX compile features - done
+[0.255s] -- Configuring incomplete, errors occurred!
+[0.259s] See also "/home/jason/projects/motion_control_go2/build/unitree_legged_control/CMakeFiles/CMakeOutput.log".
+[0.260s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.260s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.260s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.260s]   CMake did not find one.
+[0.260s] 
+[0.260s]   Could not find a package configuration file provided by "catkin" with any
+[0.260s]   of the following names:
+[0.260s] 
+[0.260s]     catkinConfig.cmake
+[0.260s]     catkin-config.cmake
+[0.260s] 
+[0.260s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.260s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.260s]   provides a separate development package or SDK, be sure it has been
+[0.260s]   installed.
+[0.260s] 
+[0.260s] [0m

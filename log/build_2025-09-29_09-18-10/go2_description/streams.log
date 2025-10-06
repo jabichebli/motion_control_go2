@@ -1,0 +1,29 @@
+[0.033s] Invoking command in '/home/jason/projects/motion_control_go2/build/go2_description': /usr/bin/cmake /home/jason/projects/motion_control_go2/src/unitree_ros/robots/go2_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/go2_description
+[0.059s] -- Configuring incomplete, errors occurred!
+[0.059s] See also "/home/jason/projects/motion_control_go2/build/go2_description/CMakeFiles/CMakeOutput.log".
+[0.059s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.060s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.060s]   CMake.
+[0.060s] 
+[0.060s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.060s]   CMake that the project does not need compatibility with older versions.
+[0.060s] 
+[0.060s] [0m
+[0.060s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[0.061s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.061s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.061s]   CMake did not find one.
+[0.063s] 
+[0.063s]   Could not find a package configuration file provided by "catkin" with any
+[0.064s]   of the following names:
+[0.064s] 
+[0.064s]     catkinConfig.cmake
+[0.064s]     catkin-config.cmake
+[0.064s] 
+[0.064s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.065s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.065s]   provides a separate development package or SDK, be sure it has been
+[0.069s]   installed.
+[0.069s] 
+[0.069s] [0m
+[0.085s] Invoked command in '/home/jason/projects/motion_control_go2/build/go2_description' returned '1': /usr/bin/cmake /home/jason/projects/motion_control_go2/src/unitree_ros/robots/go2_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/go2_description

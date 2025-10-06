@@ -1,1 +1,0 @@
-/home/jason/projects/motion_control_go2/build/unitree_go/rosidl_generator_c/unitree_go/msg/interface_config.h

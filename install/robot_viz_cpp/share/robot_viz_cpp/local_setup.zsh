@@ -1,1 +1,0 @@
-/home/jason/projects/motion_control_go2/build/robot_viz_cpp/ament_cmake_environment_hooks/local_setup.zsh

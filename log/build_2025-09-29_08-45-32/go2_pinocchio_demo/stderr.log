@@ -1,0 +1,45 @@
+[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+  No header defined for python310; skipping header check (note: header-only
+  libraries have no designated component)
+Call Stack (most recent call first):
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+  CMakeLists.txt:13 (find_package)
+
+[0m
+[01m[K/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo/src/fk_ik_id_example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo/src/fk_ik_id_example.cpp:61:25:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KcomputeFrameJacobian(pinocchio::Model&, pinocchio::Data&, Eigen::VectorXd&, const FrameIndex&, Eigen::MatrixXd&, pinocchio::ReferenceFrame)[m[K’
+   61 |     [01;31m[KcomputeFrameJacobian(model, data, q_ik, fid, J, pinocchio::LOCAL_WORLD_ALIGNED)[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/algorithm/frames.hpp:599[m[K,
+                 from [01m[K/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo/src/fk_ik_id_example.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/algorithm/frames.hxx:183:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Scalar, int Options, template<class, int <anonymous> > class JointCollectionTpl, class ConfigVectorType, class Matrix6xLike> void pinocchio::computeFrameJacobian(const pinocchio::ModelTpl<_Scalar, _Options, JointCollectionTpl>&, pinocchio::DataTpl<Scalar, Options, JointCollectionTpl>&, const Eigen::MatrixBase<Matrix3Like>&, pinocchio::FrameIndex, pinocchio::ReferenceFrame, const Eigen::MatrixBase<MatRet>&)[m[K’
+  183 |   inline void [01;36m[KcomputeFrameJacobian[m[K(
+      |               [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/pinocchio/algorithm/frames.hxx:183:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo/src/fk_ik_id_example.cpp:61:25:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst Eigen::MatrixBase<MatRet>[m[K’ and ‘[01m[Kpinocchio::ReferenceFrame[m[K’
+   61 |     [01;36m[KcomputeFrameJacobian(model, data, q_ik, fid, J, pinocchio::LOCAL_WORLD_ALIGNED)[m[K;
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo/src/fk_ik_id_example.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/algorithm/frames.hpp:476:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Scalar, int Options, template<class, int <anonymous> > class JointCollectionTpl, class ConfigVectorType, class Matrix6xLike> void pinocchio::computeFrameJacobian(const pinocchio::ModelTpl<_Scalar, _Options, JointCollectionTpl>&, pinocchio::DataTpl<Scalar, Options, JointCollectionTpl>&, const Eigen::MatrixBase<Matrix3Like>&, pinocchio::FrameIndex, const Eigen::MatrixBase<MatRet>&)[m[K’
+  476 |   inline void [01;36m[KcomputeFrameJacobian[m[K(
+      |               [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/pinocchio/algorithm/frames.hpp:476:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo/src/fk_ik_id_example.cpp:61:25:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 6 provided
+   61 |     [01;36m[KcomputeFrameJacobian(model, data, q_ik, fid, J, pinocchio::LOCAL_WORLD_ALIGNED)[m[K;
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/pinocchio/parsers/urdf.hpp:351[m[K,
+                 from [01m[K/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo/src/fk_ik_id_example.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/pinocchio/parsers/urdf/model.hxx:[m[K In member function ‘[01m[Kpinocchio::JointIndex pinocchio::urdf::details::UrdfVisitor<Scalar, Options, JointCollectionTpl>::addMimicJoint(const Frame&, const SE3&, const string&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const MimicInfo_&) [with TypeX = pinocchio::JointModelRevoluteTpl<double, 0, 0>; TypeY = pinocchio::JointModelRevoluteTpl<double, 0, 1>; TypeZ = pinocchio::JointModelRevoluteTpl<double, 0, 2>; TypeUnaligned = pinocchio::JointModelRevoluteUnalignedTpl<double>; Scalar = double; int Options = 0; JointCollectionTpl = pinocchio::JointCollectionDefaultTpl][m[K’:
+[01m[K/opt/ros/humble/include/pinocchio/parsers/urdf/model.hxx:543:9:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  543 |         [01;35m[K}[m[K
+      |         [01;35m[K^[m[K
+[01m[K/opt/ros/humble/include/pinocchio/parsers/urdf/model.hxx:[m[K In member function ‘[01m[Kpinocchio::JointIndex pinocchio::urdf::details::UrdfVisitor<Scalar, Options, JointCollectionTpl>::addMimicJoint(const Frame&, const SE3&, const string&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const MimicInfo_&) [with TypeX = pinocchio::JointModelPrismaticTpl<double, 0, 0>; TypeY = pinocchio::JointModelPrismaticTpl<double, 0, 1>; TypeZ = pinocchio::JointModelPrismaticTpl<double, 0, 2>; TypeUnaligned = pinocchio::JointModelPrismaticUnalignedTpl<double>; Scalar = double; int Options = 0; JointCollectionTpl = pinocchio::JointCollectionDefaultTpl][m[K’:
+[01m[K/opt/ros/humble/include/pinocchio/parsers/urdf/model.hxx:543:9:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  543 |         [01;35m[K}[m[K
+      |         [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/fk_ik_id_example.dir/build.make:76: CMakeFiles/fk_ik_id_example.dir/src/fk_ik_id_example.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/fk_ik_id_example.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

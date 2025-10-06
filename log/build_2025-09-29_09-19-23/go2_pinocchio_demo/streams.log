@@ -1,0 +1,82 @@
+[0.006s] Invoking command in '/home/jason/projects/motion_control_go2/build/go2_pinocchio_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jason/projects/motion_control_go2/src/go2_pinocchio_demo -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/go2_pinocchio_demo
+[0.022s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.083s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.131s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.139s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.158s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.159s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.162s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.166s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.170s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.184s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.184s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.231s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.250s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.262s] -- pinocchio_default FOUND. pinocchio_default at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_default.so
+[0.262s] -- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_parsers.so
+[0.263s] -- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so
+[0.263s] -- boost_serialization FOUND. boost_serialization at /lib/x86_64-linux-gnu/libboost_serialization.so
+[0.263s] -- boost_system FOUND. boost_system at /lib/x86_64-linux-gnu/libboost_system.so
+[0.267s] -- Found Boost: /usr/include (found version "1.74.0") found components: filesystem serialization system 
+[0.267s] -- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so
+[0.280s] -- Checking for NumPy
+[0.386s] --   NUMPY_INCLUDE_DIRS=/home/jason/.local/lib/python3.10/site-packages/numpy/_core/include
+[0.427s] --   NUMPY_VERSION=2.2.6
+[0.542s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development.Module NumPy 
+[0.543s] -- PythonLibraryDirs: 
+[0.543s] -- PythonLibVersionString: 3.10.12
+[0.551s] -- Python site lib: lib/python3.10/site-packages
+[0.552s] -- Python include dirs: /usr/include/python3.10
+[0.572s] -- Checking for NumPy
+[0.622s] --   NUMPY_INCLUDE_DIRS=/home/jason/.local/lib/python3.10/site-packages/numpy/_core/include
+[0.663s] --   NUMPY_VERSION=2.2.6
+[0.663s] -- NumPy include dir: /home/jason/.local/lib/python3.10/site-packages/numpy/_core/include
+[0.665s] [33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+[0.666s]   No header defined for python310; skipping header check (note: header-only
+[0.666s]   libraries have no designated component)
+[0.666s] Call Stack (most recent call first):
+[0.666s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)
+[0.666s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)
+[0.666s]   /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+[0.666s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)
+[0.666s]   CMakeLists.txt:13 (find_package)
+[0.666s] 
+[0.666s] [0m
+[0.666s] -- Found Boost: /usr/include (found version "1.74.0") found components: python310 
+[0.826s] -- Default C++ standard: 201703
+[0.826s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.826s] -- CMAKE_CXX_STANDARD was not set: automatically set to currently defined standard 17
+[0.828s] -- hpp-fcl FOUND. hpp-fcl at /opt/ros/humble/lib/x86_64-linux-gnu/libhpp-fcl.so
+[0.832s] -- Found Boost: /usr/include (found version "1.74.0") found components: chrono serialization filesystem 
+[0.832s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.832s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[0.863s] -- Configuring done
+[0.870s] -- Generating done
+[0.871s] -- Build files have been written to: /home/jason/projects/motion_control_go2/build/go2_pinocchio_demo
+[0.878s] Invoked command in '/home/jason/projects/motion_control_go2/build/go2_pinocchio_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jason/projects/motion_control_go2/src/go2_pinocchio_demo -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/go2_pinocchio_demo
+[0.878s] Invoking command in '/home/jason/projects/motion_control_go2/build/go2_pinocchio_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/projects/motion_control_go2/build/go2_pinocchio_demo -- -j16 -l16
+[0.910s] [35m[1mConsolidate compiler generated dependencies of target fk_ik_id_example[0m
+[0.937s] [ 50%] [32m[1mLinking CXX executable fk_ik_id_example[0m
+[2.438s] [100%] Built target fk_ik_id_example
+[2.448s] Invoked command in '/home/jason/projects/motion_control_go2/build/go2_pinocchio_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jason/projects/motion_control_go2/build/go2_pinocchio_demo -- -j16 -l16
+[2.458s] Invoking command in '/home/jason/projects/motion_control_go2/build/go2_pinocchio_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/projects/motion_control_go2/build/go2_pinocchio_demo
+[2.466s] -- Install configuration: ""
+[2.466s] -- Execute custom install script
+[2.467s] -- Symlinking: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/lib/go2_pinocchio_demo/fk_ik_id_example
+[2.477s] -- Symlinking: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/launch/demo.launch.py
+[2.481s] -- Symlinking: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/ament_index/resource_index/package_run_dependencies/go2_pinocchio_demo
+[2.491s] -- Symlinking: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/ament_index/resource_index/parent_prefix_path/go2_pinocchio_demo
+[2.500s] -- Symlinking: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/environment/ament_prefix_path.sh
+[2.505s] -- Symlinking: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/environment/ament_prefix_path.dsv
+[2.512s] -- Symlinking: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/environment/path.sh
+[2.521s] -- Symlinking: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/environment/path.dsv
+[2.531s] -- Symlinking: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/local_setup.bash
+[2.535s] -- Symlinking: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/local_setup.sh
+[2.540s] -- Symlinking: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/local_setup.zsh
+[2.553s] -- Symlinking: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/local_setup.dsv
+[2.558s] -- Symlinking: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/package.dsv
+[2.563s] -- Symlinking: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/ament_index/resource_index/packages/go2_pinocchio_demo
+[2.572s] -- Symlinking: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/cmake/go2_pinocchio_demoConfig.cmake
+[2.581s] -- Symlinking: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/cmake/go2_pinocchio_demoConfig-version.cmake
+[2.586s] -- Symlinking: /home/jason/projects/motion_control_go2/install/go2_pinocchio_demo/share/go2_pinocchio_demo/package.xml
+[2.593s] Invoked command in '/home/jason/projects/motion_control_go2/build/go2_pinocchio_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jason/projects/motion_control_go2/build/go2_pinocchio_demo

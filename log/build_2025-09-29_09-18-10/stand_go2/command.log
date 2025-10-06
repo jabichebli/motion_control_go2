@@ -1,0 +1,1 @@
+Invoking command in '/home/jason/projects/motion_control_go2/build/stand_go2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jason/projects/motion_control_go2/src/unitree_mujoco/example/ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jason/projects/motion_control_go2/install/stand_go2

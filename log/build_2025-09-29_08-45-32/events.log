@@ -1,0 +1,349 @@
+[0.000000] (-) TimerEvent: {}
+[0.000635] (-) JobUnselected: {'identifier': 'go2_description'}
+[0.000734] (-) JobUnselected: {'identifier': 'mujoco'}
+[0.000971] (-) JobUnselected: {'identifier': 'stand_go2'}
+[0.000997] (-) JobUnselected: {'identifier': 'unitree_controller'}
+[0.001017] (-) JobUnselected: {'identifier': 'unitree_gazebo'}
+[0.001037] (-) JobUnselected: {'identifier': 'unitree_legged_control'}
+[0.001053] (-) JobUnselected: {'identifier': 'unitree_mujoco'}
+[0.001070] (-) JobUnselected: {'identifier': 'z1_description'}
+[0.001092] (go2_pinocchio_demo) JobQueued: {'identifier': 'go2_pinocchio_demo', 'dependencies': OrderedDict()}
+[0.001115] (go2_pinocchio_demo) JobStarted: {'identifier': 'go2_pinocchio_demo'}
+[0.004451] (go2_pinocchio_demo) JobProgress: {'identifier': 'go2_pinocchio_demo', 'progress': 'cmake'}
+[0.005075] (go2_pinocchio_demo) JobProgress: {'identifier': 'go2_pinocchio_demo', 'progress': 'build'}
+[0.005590] (go2_pinocchio_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jason/projects/motion_control_go2/build/go2_pinocchio_demo', '--', '-j16', '-l16'], 'cwd': '/home/jason/projects/motion_control_go2/build/go2_pinocchio_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jason'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/unitree_robotics/lib:/home/jason/.mujoco/mujoco-3.2.7/bin:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jason'), ('OLDPWD', '/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1840'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jason/projects/motion_control_go2/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jason'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('MUJOCO_HOME', '/home/jason/.mujoco/mujoco-3.2.7'), ('USERNAME', 'jason'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jason/.mujoco/mujoco-3.2.7/bin:/home/jason/.local/bin:/opt/ros/humble/bin:/home/jason/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jasonabichebli:@/tmp/.ICE-unix/1811,unix/jasonabichebli:/tmp/.ICE-unix/1811'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cf24cf1c_970f_4b69_a688_e9da55233fa2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3JISD3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jason/projects/motion_control_go2/build/go2_pinocchio_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/usr/local::/opt/ros/humble')]), 'shell': False}
+[0.038106] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.082000] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.100111] (-) TimerEvent: {}
+[0.135196] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.156905] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.157207] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.159357] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.163131] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.168005] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.180926] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.181487] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.200244] (-) TimerEvent: {}
+[0.226171] (go2_pinocchio_demo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.246399] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.258097] (go2_pinocchio_demo) StdoutLine: {'line': b'-- pinocchio_default FOUND. pinocchio_default at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_default.so\n'}
+[0.258163] (go2_pinocchio_demo) StdoutLine: {'line': b'-- pinocchio_parsers FOUND. pinocchio_parsers at /opt/ros/humble/lib/x86_64-linux-gnu/libpinocchio_parsers.so\n'}
+[0.258429] (go2_pinocchio_demo) StdoutLine: {'line': b'-- boost_filesystem FOUND. boost_filesystem at /lib/x86_64-linux-gnu/libboost_filesystem.so\n'}
+[0.258671] (go2_pinocchio_demo) StdoutLine: {'line': b'-- boost_serialization FOUND. boost_serialization at /lib/x86_64-linux-gnu/libboost_serialization.so\n'}
+[0.258733] (go2_pinocchio_demo) StdoutLine: {'line': b'-- boost_system FOUND. boost_system at /lib/x86_64-linux-gnu/libboost_system.so\n'}
+[0.262495] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found Boost: /usr/include (found version "1.74.0") found components: filesystem serialization system \n'}
+[0.263013] (go2_pinocchio_demo) StdoutLine: {'line': b'-- eigenpy FOUND. eigenpy at /opt/ros/humble/lib/x86_64-linux-gnu/libeigenpy.so\n'}
+[0.289035] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Checking for NumPy\n'}
+[0.300428] (-) TimerEvent: {}
+[0.400694] (-) TimerEvent: {}
+[0.401437] (go2_pinocchio_demo) StdoutLine: {'line': b'--   NUMPY_INCLUDE_DIRS=/home/jason/.local/lib/python3.10/site-packages/numpy/_core/include\n'}
+[0.450879] (go2_pinocchio_demo) StdoutLine: {'line': b'--   NUMPY_VERSION=2.2.6\n'}
+[0.500797] (-) TimerEvent: {}
+[0.580908] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter Development.Module NumPy \n'}
+[0.581042] (go2_pinocchio_demo) StdoutLine: {'line': b'-- PythonLibraryDirs: \n'}
+[0.581074] (go2_pinocchio_demo) StdoutLine: {'line': b'-- PythonLibVersionString: 3.10.12\n'}
+[0.590166] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Python site lib: lib/python3.10/site-packages\n'}
+[0.590249] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Python include dirs: /usr/include/python3.10\n'}
+[0.600861] (-) TimerEvent: {}
+[0.608751] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Checking for NumPy\n'}
+[0.654850] (go2_pinocchio_demo) StdoutLine: {'line': b'--   NUMPY_INCLUDE_DIRS=/home/jason/.local/lib/python3.10/site-packages/numpy/_core/include\n'}
+[0.697852] (go2_pinocchio_demo) StdoutLine: {'line': b'--   NUMPY_VERSION=2.2.6\n'}
+[0.697968] (go2_pinocchio_demo) StdoutLine: {'line': b'-- NumPy include dir: /home/jason/.local/lib/python3.10/site-packages/numpy/_core/include\n'}
+[0.699926] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):\n'}
+[0.700015] (go2_pinocchio_demo) StderrLine: {'line': b'  No header defined for python310; skipping header check (note: header-only\n'}
+[0.700051] (go2_pinocchio_demo) StderrLine: {'line': b'  libraries have no designated component)\n'}
+[0.700079] (go2_pinocchio_demo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.700105] (go2_pinocchio_demo) StderrLine: {'line': b'  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:148 (find_package)\n'}
+[0.700132] (go2_pinocchio_demo) StderrLine: {'line': b'  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:149 (SEARCH_FOR_BOOST_PYTHON)\n'}
+[0.700159] (go2_pinocchio_demo) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)\n'}
+[0.700184] (go2_pinocchio_demo) StderrLine: {'line': b'  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:161 (find_dependency)\n'}
+[0.700210] (go2_pinocchio_demo) StderrLine: {'line': b'  CMakeLists.txt:13 (find_package)\n'}
+[0.700236] (go2_pinocchio_demo) StderrLine: {'line': b'\n'}
+[0.700262] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[0m\n'}
+[0.700316] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found Boost: /usr/include (found version "1.74.0") found components: python310 \n'}
+[0.700929] (-) TimerEvent: {}
+[0.801176] (-) TimerEvent: {}
+[0.887686] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Default C++ standard: 201703\n'}
+[0.887821] (go2_pinocchio_demo) StdoutLine: {'line': b'-- C++ standard sufficient: Minimal required 11, currently defined: 17\n'}
+[0.887856] (go2_pinocchio_demo) StdoutLine: {'line': b'-- CMAKE_CXX_STANDARD was not set: automatically set to currently defined standard 17\n'}
+[0.888404] (go2_pinocchio_demo) StdoutLine: {'line': b'-- hpp-fcl FOUND. hpp-fcl at /opt/ros/humble/lib/x86_64-linux-gnu/libhpp-fcl.so\n'}
+[0.891711] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Found Boost: /usr/include (found version "1.74.0") found components: chrono serialization filesystem \n'}
+[0.892843] (go2_pinocchio_demo) StdoutLine: {'line': b'-- C++ standard sufficient: Minimal required 11, currently defined: 17\n'}
+[0.893306] (go2_pinocchio_demo) StdoutLine: {'line': b'-- C++ standard sufficient: Minimal required 11, currently defined: 17\n'}
+[0.901682] (-) TimerEvent: {}
+[0.955048] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.966333] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Generating done\n'}
+[0.969966] (go2_pinocchio_demo) StdoutLine: {'line': b'-- Build files have been written to: /home/jason/projects/motion_control_go2/build/go2_pinocchio_demo\n'}
+[1.002944] (-) TimerEvent: {}
+[1.004624] (go2_pinocchio_demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/fk_ik_id_example.dir/src/fk_ik_id_example.cpp.o\x1b[0m\n'}
+[1.103132] (-) TimerEvent: {}
+[1.203624] (-) TimerEvent: {}
+[1.304259] (-) TimerEvent: {}
+[1.404773] (-) TimerEvent: {}
+[1.505218] (-) TimerEvent: {}
+[1.605700] (-) TimerEvent: {}
+[1.706204] (-) TimerEvent: {}
+[1.806708] (-) TimerEvent: {}
+[1.907117] (-) TimerEvent: {}
+[2.007530] (-) TimerEvent: {}
+[2.107911] (-) TimerEvent: {}
+[2.208345] (-) TimerEvent: {}
+[2.308750] (-) TimerEvent: {}
+[2.409107] (-) TimerEvent: {}
+[2.509539] (-) TimerEvent: {}
+[2.609894] (-) TimerEvent: {}
+[2.710908] (-) TimerEvent: {}
+[2.811451] (-) TimerEvent: {}
+[2.911920] (-) TimerEvent: {}
+[3.012329] (-) TimerEvent: {}
+[3.112809] (-) TimerEvent: {}
+[3.213284] (-) TimerEvent: {}
+[3.313698] (-) TimerEvent: {}
+[3.414156] (-) TimerEvent: {}
+[3.514607] (-) TimerEvent: {}
+[3.615088] (-) TimerEvent: {}
+[3.715557] (-) TimerEvent: {}
+[3.816040] (-) TimerEvent: {}
+[3.916470] (-) TimerEvent: {}
+[4.016923] (-) TimerEvent: {}
+[4.117370] (-) TimerEvent: {}
+[4.217821] (-) TimerEvent: {}
+[4.318303] (-) TimerEvent: {}
+[4.418741] (-) TimerEvent: {}
+[4.519188] (-) TimerEvent: {}
+[4.556735] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo/src/fk_ik_id_example.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.556987] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo/src/fk_ik_id_example.cpp:61:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KcomputeFrameJacobian(pinocchio::Model&, pinocchio::Data&, Eigen::VectorXd&, const FrameIndex&, Eigen::MatrixXd&, pinocchio::ReferenceFrame)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.557084] (go2_pinocchio_demo) StderrLine: {'line': b'   61 |     \x1b[01;31m\x1b[KcomputeFrameJacobian(model, data, q_ik, fid, J, pinocchio::LOCAL_WORLD_ALIGNED)\x1b[m\x1b[K;\n'}
+[4.557140] (go2_pinocchio_demo) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.561102] (go2_pinocchio_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/pinocchio/algorithm/frames.hpp:599\x1b[m\x1b[K,\n'}
+[4.561167] (go2_pinocchio_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo/src/fk_ik_id_example.cpp:3\x1b[m\x1b[K:\n'}
+[4.561196] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/pinocchio/algorithm/frames.hxx:183:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Scalar, int Options, template<class, int <anonymous> > class JointCollectionTpl, class ConfigVectorType, class Matrix6xLike> void pinocchio::computeFrameJacobian(const pinocchio::ModelTpl<_Scalar, _Options, JointCollectionTpl>&, pinocchio::DataTpl<Scalar, Options, JointCollectionTpl>&, const Eigen::MatrixBase<Matrix3Like>&, pinocchio::FrameIndex, pinocchio::ReferenceFrame, const Eigen::MatrixBase<MatRet>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.561225] (go2_pinocchio_demo) StderrLine: {'line': b'  183 |   inline void \x1b[01;36m\x1b[KcomputeFrameJacobian\x1b[m\x1b[K(\n'}
+[4.561246] (go2_pinocchio_demo) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.561269] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/pinocchio/algorithm/frames.hxx:183:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.561289] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo/src/fk_ik_id_example.cpp:61:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst Eigen::MatrixBase<MatRet>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kpinocchio::ReferenceFrame\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.561312] (go2_pinocchio_demo) StderrLine: {'line': b'   61 |     \x1b[01;36m\x1b[KcomputeFrameJacobian(model, data, q_ik, fid, J, pinocchio::LOCAL_WORLD_ALIGNED)\x1b[m\x1b[K;\n'}
+[4.561329] (go2_pinocchio_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.561346] (go2_pinocchio_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo/src/fk_ik_id_example.cpp:3\x1b[m\x1b[K:\n'}
+[4.561363] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/pinocchio/algorithm/frames.hpp:476:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class Scalar, int Options, template<class, int <anonymous> > class JointCollectionTpl, class ConfigVectorType, class Matrix6xLike> void pinocchio::computeFrameJacobian(const pinocchio::ModelTpl<_Scalar, _Options, JointCollectionTpl>&, pinocchio::DataTpl<Scalar, Options, JointCollectionTpl>&, const Eigen::MatrixBase<Matrix3Like>&, pinocchio::FrameIndex, const Eigen::MatrixBase<MatRet>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.561385] (go2_pinocchio_demo) StderrLine: {'line': b'  476 |   inline void \x1b[01;36m\x1b[KcomputeFrameJacobian\x1b[m\x1b[K(\n'}
+[4.561403] (go2_pinocchio_demo) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.561420] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/pinocchio/algorithm/frames.hpp:476:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.562835] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo/src/fk_ik_id_example.cpp:61:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 5 arguments, 6 provided\n'}
+[4.562901] (go2_pinocchio_demo) StderrLine: {'line': b'   61 |     \x1b[01;36m\x1b[KcomputeFrameJacobian(model, data, q_ik, fid, J, pinocchio::LOCAL_WORLD_ALIGNED)\x1b[m\x1b[K;\n'}
+[4.562932] (go2_pinocchio_demo) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.619367] (-) TimerEvent: {}
+[4.719737] (-) TimerEvent: {}
+[4.820102] (-) TimerEvent: {}
+[4.920476] (-) TimerEvent: {}
+[5.020845] (-) TimerEvent: {}
+[5.121203] (-) TimerEvent: {}
+[5.221554] (-) TimerEvent: {}
+[5.321921] (-) TimerEvent: {}
+[5.422293] (-) TimerEvent: {}
+[5.522665] (-) TimerEvent: {}
+[5.623217] (-) TimerEvent: {}
+[5.723663] (-) TimerEvent: {}
+[5.824098] (-) TimerEvent: {}
+[5.924539] (-) TimerEvent: {}
+[6.025008] (-) TimerEvent: {}
+[6.126682] (-) TimerEvent: {}
+[6.227095] (-) TimerEvent: {}
+[6.327533] (-) TimerEvent: {}
+[6.428001] (-) TimerEvent: {}
+[6.528469] (-) TimerEvent: {}
+[6.628914] (-) TimerEvent: {}
+[6.729340] (-) TimerEvent: {}
+[6.829750] (-) TimerEvent: {}
+[6.930199] (-) TimerEvent: {}
+[7.030645] (-) TimerEvent: {}
+[7.131085] (-) TimerEvent: {}
+[7.231499] (-) TimerEvent: {}
+[7.331938] (-) TimerEvent: {}
+[7.432366] (-) TimerEvent: {}
+[7.532785] (-) TimerEvent: {}
+[7.633206] (-) TimerEvent: {}
+[7.733624] (-) TimerEvent: {}
+[7.834055] (-) TimerEvent: {}
+[7.934493] (-) TimerEvent: {}
+[8.034920] (-) TimerEvent: {}
+[8.135349] (-) TimerEvent: {}
+[8.235817] (-) TimerEvent: {}
+[8.336259] (-) TimerEvent: {}
+[8.436725] (-) TimerEvent: {}
+[8.537184] (-) TimerEvent: {}
+[8.637637] (-) TimerEvent: {}
+[8.738136] (-) TimerEvent: {}
+[8.838606] (-) TimerEvent: {}
+[8.939073] (-) TimerEvent: {}
+[9.039500] (-) TimerEvent: {}
+[9.139940] (-) TimerEvent: {}
+[9.240436] (-) TimerEvent: {}
+[9.340922] (-) TimerEvent: {}
+[9.441414] (-) TimerEvent: {}
+[9.541916] (-) TimerEvent: {}
+[9.642385] (-) TimerEvent: {}
+[9.742854] (-) TimerEvent: {}
+[9.843323] (-) TimerEvent: {}
+[9.943802] (-) TimerEvent: {}
+[10.044285] (-) TimerEvent: {}
+[10.144768] (-) TimerEvent: {}
+[10.245255] (-) TimerEvent: {}
+[10.345837] (-) TimerEvent: {}
+[10.446273] (-) TimerEvent: {}
+[10.546729] (-) TimerEvent: {}
+[10.647222] (-) TimerEvent: {}
+[10.747640] (-) TimerEvent: {}
+[10.848118] (-) TimerEvent: {}
+[10.948567] (-) TimerEvent: {}
+[11.049025] (-) TimerEvent: {}
+[11.149460] (-) TimerEvent: {}
+[11.249915] (-) TimerEvent: {}
+[11.350332] (-) TimerEvent: {}
+[11.450749] (-) TimerEvent: {}
+[11.551199] (-) TimerEvent: {}
+[11.651614] (-) TimerEvent: {}
+[11.752069] (-) TimerEvent: {}
+[11.852484] (-) TimerEvent: {}
+[11.952934] (-) TimerEvent: {}
+[12.053331] (-) TimerEvent: {}
+[12.153743] (-) TimerEvent: {}
+[12.254172] (-) TimerEvent: {}
+[12.354602] (-) TimerEvent: {}
+[12.455068] (-) TimerEvent: {}
+[12.555523] (-) TimerEvent: {}
+[12.655971] (-) TimerEvent: {}
+[12.756414] (-) TimerEvent: {}
+[12.856913] (-) TimerEvent: {}
+[12.957348] (-) TimerEvent: {}
+[13.057782] (-) TimerEvent: {}
+[13.158140] (-) TimerEvent: {}
+[13.258553] (-) TimerEvent: {}
+[13.358970] (-) TimerEvent: {}
+[13.459431] (-) TimerEvent: {}
+[13.559912] (-) TimerEvent: {}
+[13.660349] (-) TimerEvent: {}
+[13.760779] (-) TimerEvent: {}
+[13.861171] (-) TimerEvent: {}
+[13.961596] (-) TimerEvent: {}
+[14.062048] (-) TimerEvent: {}
+[14.162466] (-) TimerEvent: {}
+[14.262905] (-) TimerEvent: {}
+[14.363308] (-) TimerEvent: {}
+[14.463758] (-) TimerEvent: {}
+[14.564186] (-) TimerEvent: {}
+[14.664613] (-) TimerEvent: {}
+[14.765069] (-) TimerEvent: {}
+[14.865515] (-) TimerEvent: {}
+[14.965992] (-) TimerEvent: {}
+[15.066406] (-) TimerEvent: {}
+[15.166852] (-) TimerEvent: {}
+[15.267287] (-) TimerEvent: {}
+[15.367698] (-) TimerEvent: {}
+[15.468128] (-) TimerEvent: {}
+[15.568555] (-) TimerEvent: {}
+[15.668995] (-) TimerEvent: {}
+[15.769429] (-) TimerEvent: {}
+[15.869878] (-) TimerEvent: {}
+[15.970302] (-) TimerEvent: {}
+[16.070755] (-) TimerEvent: {}
+[16.171199] (-) TimerEvent: {}
+[16.271618] (-) TimerEvent: {}
+[16.372058] (-) TimerEvent: {}
+[16.472516] (-) TimerEvent: {}
+[16.572982] (-) TimerEvent: {}
+[16.673491] (-) TimerEvent: {}
+[16.773893] (-) TimerEvent: {}
+[16.874298] (-) TimerEvent: {}
+[16.974747] (-) TimerEvent: {}
+[17.075200] (-) TimerEvent: {}
+[17.175666] (-) TimerEvent: {}
+[17.276116] (-) TimerEvent: {}
+[17.376539] (-) TimerEvent: {}
+[17.477010] (-) TimerEvent: {}
+[17.577425] (-) TimerEvent: {}
+[17.677886] (-) TimerEvent: {}
+[17.778309] (-) TimerEvent: {}
+[17.878752] (-) TimerEvent: {}
+[17.979201] (-) TimerEvent: {}
+[18.079636] (-) TimerEvent: {}
+[18.180092] (-) TimerEvent: {}
+[18.280519] (-) TimerEvent: {}
+[18.380973] (-) TimerEvent: {}
+[18.481403] (-) TimerEvent: {}
+[18.581879] (-) TimerEvent: {}
+[18.682369] (-) TimerEvent: {}
+[18.782843] (-) TimerEvent: {}
+[18.883270] (-) TimerEvent: {}
+[18.983632] (-) TimerEvent: {}
+[19.083988] (-) TimerEvent: {}
+[19.184458] (-) TimerEvent: {}
+[19.284880] (-) TimerEvent: {}
+[19.385304] (-) TimerEvent: {}
+[19.485798] (-) TimerEvent: {}
+[19.586264] (-) TimerEvent: {}
+[19.686743] (-) TimerEvent: {}
+[19.787216] (-) TimerEvent: {}
+[19.887690] (-) TimerEvent: {}
+[19.988145] (-) TimerEvent: {}
+[20.088605] (-) TimerEvent: {}
+[20.189061] (-) TimerEvent: {}
+[20.289479] (-) TimerEvent: {}
+[20.389926] (-) TimerEvent: {}
+[20.490340] (-) TimerEvent: {}
+[20.590814] (-) TimerEvent: {}
+[20.691263] (-) TimerEvent: {}
+[20.791748] (-) TimerEvent: {}
+[20.892203] (-) TimerEvent: {}
+[20.992689] (-) TimerEvent: {}
+[21.093145] (-) TimerEvent: {}
+[21.193618] (-) TimerEvent: {}
+[21.294057] (-) TimerEvent: {}
+[21.394503] (-) TimerEvent: {}
+[21.494964] (-) TimerEvent: {}
+[21.595399] (-) TimerEvent: {}
+[21.695855] (-) TimerEvent: {}
+[21.796339] (-) TimerEvent: {}
+[21.896829] (-) TimerEvent: {}
+[21.997306] (-) TimerEvent: {}
+[22.097781] (-) TimerEvent: {}
+[22.198229] (-) TimerEvent: {}
+[22.298740] (-) TimerEvent: {}
+[22.399242] (-) TimerEvent: {}
+[22.499712] (-) TimerEvent: {}
+[22.600201] (-) TimerEvent: {}
+[22.700702] (-) TimerEvent: {}
+[22.801173] (-) TimerEvent: {}
+[22.901686] (-) TimerEvent: {}
+[23.002172] (-) TimerEvent: {}
+[23.102529] (-) TimerEvent: {}
+[23.202963] (-) TimerEvent: {}
+[23.303375] (-) TimerEvent: {}
+[23.403835] (-) TimerEvent: {}
+[23.504277] (-) TimerEvent: {}
+[23.604725] (-) TimerEvent: {}
+[23.705149] (-) TimerEvent: {}
+[23.805577] (-) TimerEvent: {}
+[23.860137] (go2_pinocchio_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/pinocchio/parsers/urdf.hpp:351\x1b[m\x1b[K,\n'}
+[23.860360] (go2_pinocchio_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jason/projects/motion_control_go2/src/go2_pinocchio_demo/src/fk_ik_id_example.cpp:2\x1b[m\x1b[K:\n'}
+[23.860431] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/pinocchio/parsers/urdf/model.hxx:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kpinocchio::JointIndex pinocchio::urdf::details::UrdfVisitor<Scalar, Options, JointCollectionTpl>::addMimicJoint(const Frame&, const SE3&, const string&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const MimicInfo_&) [with TypeX = pinocchio::JointModelRevoluteTpl<double, 0, 0>; TypeY = pinocchio::JointModelRevoluteTpl<double, 0, 1>; TypeZ = pinocchio::JointModelRevoluteTpl<double, 0, 2>; TypeUnaligned = pinocchio::JointModelRevoluteUnalignedTpl<double>; Scalar = double; int Options = 0; JointCollectionTpl = pinocchio::JointCollectionDefaultTpl]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.860516] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/pinocchio/parsers/urdf/model.hxx:543:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.860573] (go2_pinocchio_demo) StderrLine: {'line': b'  543 |         \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[23.860625] (go2_pinocchio_demo) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[23.863111] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/pinocchio/parsers/urdf/model.hxx:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kpinocchio::JointIndex pinocchio::urdf::details::UrdfVisitor<Scalar, Options, JointCollectionTpl>::addMimicJoint(const Frame&, const SE3&, const string&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const VectorConstRef&, const MimicInfo_&) [with TypeX = pinocchio::JointModelPrismaticTpl<double, 0, 0>; TypeY = pinocchio::JointModelPrismaticTpl<double, 0, 1>; TypeZ = pinocchio::JointModelPrismaticTpl<double, 0, 2>; TypeUnaligned = pinocchio::JointModelPrismaticUnalignedTpl<double>; Scalar = double; int Options = 0; JointCollectionTpl = pinocchio::JointCollectionDefaultTpl]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[23.863193] (go2_pinocchio_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/pinocchio/parsers/urdf/model.hxx:543:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[23.863258] (go2_pinocchio_demo) StderrLine: {'line': b'  543 |         \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[23.863315] (go2_pinocchio_demo) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[23.905757] (-) TimerEvent: {}
+[24.006168] (-) TimerEvent: {}
+[24.106580] (-) TimerEvent: {}
+[24.207037] (-) TimerEvent: {}
+[24.307461] (-) TimerEvent: {}
+[24.407925] (-) TimerEvent: {}
+[24.508358] (-) TimerEvent: {}
+[24.514700] (go2_pinocchio_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/fk_ik_id_example.dir/build.make:76: CMakeFiles/fk_ik_id_example.dir/src/fk_ik_id_example.cpp.o] Error 1\n'}
+[24.515036] (go2_pinocchio_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/fk_ik_id_example.dir/all] Error 2\n'}
+[24.515420] (go2_pinocchio_demo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[24.518148] (go2_pinocchio_demo) CommandEnded: {'returncode': 2}
+[24.522401] (go2_pinocchio_demo) JobEnded: {'identifier': 'go2_pinocchio_demo', 'rc': 2}
+[24.532747] (-) EventReactorShutdown: {}
