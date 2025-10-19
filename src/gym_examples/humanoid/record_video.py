@@ -8,7 +8,7 @@ import os
 env_id = "Humanoid-v5"
 model_path = "./models/ppo_humanoid_final.zip"
 video_folder = "./videos"
-episodes_to_record = 3
+episodes_to_record = 5
 
 # --- Create output directory ---
 os.makedirs(video_folder, exist_ok=True)

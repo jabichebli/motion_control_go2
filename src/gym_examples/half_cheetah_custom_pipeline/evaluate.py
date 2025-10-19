@@ -3,13 +3,13 @@ from stable_baselines3 import PPO
 import gymnasium as gym
 
 # --- Load environment ---
-env = gym.make("Humanoid-v5", render_mode="human")
+env = gym.make("HalfCheetah-v5", render_mode="human")
 
 # --- Load trained model ---
-model = PPO.load("./models/ppo_humanoid_final.zip")
+model = PPO.load("./models/ppo_HalfCheetah_final.zip")
 
 # --- Run for a few episodes ---
-for episode in range(5): #[100000, 200000, 300000]
+for episode in range(5):
     obs, info = env.reset()
     done = False
     total_reward = 0
