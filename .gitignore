@@ -12,6 +12,9 @@
 **/wtw2_env/
 **/doxygen_output/
 
+# Ignore Doxygen generated files
+docs/html/
+
 # Ignore cache files and other temporary files
 *.pyc
 *.pyo
@@ -21,3 +24,14 @@ __pycache__/
 # Ignore Mac and Windows system files
 .DS_Store
 Thumbs.db
+
+# Site-packages or any local installs
+**/site-packages/
+
+# ROS/Colcon/MuJoCo/build system output
+build/
+install/
+log/
+src/build/
+src/install/
+src/log/
