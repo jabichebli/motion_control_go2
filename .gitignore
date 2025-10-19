@@ -1,0 +1,23 @@
+# Ignore large model checkpoint zip files
+**/models/*.zip
+
+# Ignore video files (assuming they are large)
+**/videos/*.mp4
+
+# Ignore other common large files
+**/logs/*
+**/tb_logs/*
+
+# Ignore Python virtual environment and Doxygen output (if any)
+**/wtw2_env/
+**/doxygen_output/
+
+# Ignore cache files and other temporary files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore Mac and Windows system files
+.DS_Store
+Thumbs.db
