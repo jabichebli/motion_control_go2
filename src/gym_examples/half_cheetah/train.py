@@ -34,7 +34,7 @@ checkpoint_callback = CheckpointCallback(
 )
 
 # --- Train model ---
-model.learn(total_timesteps=3_000_000, callback=checkpoint_callback)
+model.learn(total_timesteps=3_000_000_000, callback=checkpoint_callback)
 
 # --- Save final model ---
 model.save(f"{model_dir}/ppo_HalfCheetah_final.zip")

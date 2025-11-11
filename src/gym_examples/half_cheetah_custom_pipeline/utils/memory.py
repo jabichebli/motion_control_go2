@@ -40,7 +40,7 @@ class RolloutBuffer:
 
     def finish_path(self, last_value=0):
         """
-        Compute advantages and returns for the trajectory using GAE.
+        Compute advantages and returns for the trajectory using GAE (Generalized Advantage Estimation).
         """
         path_slice = slice(self.path_start_idx, self.ptr)
         rewards = np.append(self.rewards[path_slice], last_value)
